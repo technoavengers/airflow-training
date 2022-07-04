@@ -3236,3 +3236,24 @@ IndentationError: unindent does not match any outer indentation level
 [2022-07-04 16:54:36,400] {logging_mixin.py:115} INFO - [2022-07-04 16:54:36,399] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-04 16:54:36,430] {logging_mixin.py:115} INFO - [2022-07-04 16:54:36,430] {dag.py:2931} INFO - Setting next_dagrun for first_dag to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
 [2022-07-04 16:54:36,443] {processor.py:161} INFO - Processing /opt/airflow/dags/first_dag.py took 1.096 seconds
+[2022-07-04 16:55:06,510] {processor.py:153} INFO - Started process (PID=8223) to work on /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:06,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-07-04 16:55:06,518] {logging_mixin.py:115} INFO - [2022-07-04 16:55:06,518] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:07,036] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:07,074] {logging_mixin.py:115} INFO - [2022-07-04 16:55:07,074] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-04 16:55:07,099] {logging_mixin.py:115} INFO - [2022-07-04 16:55:07,099] {dag.py:2931} INFO - Setting next_dagrun for first_dag to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-04 16:55:07,111] {processor.py:161} INFO - Processing /opt/airflow/dags/first_dag.py took 0.604 seconds
+[2022-07-04 16:55:38,592] {processor.py:153} INFO - Started process (PID=8286) to work on /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:38,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-07-04 16:55:38,600] {logging_mixin.py:115} INFO - [2022-07-04 16:55:38,600] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:39,447] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:55:39,486] {logging_mixin.py:115} INFO - [2022-07-04 16:55:39,486] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-04 16:55:39,512] {logging_mixin.py:115} INFO - [2022-07-04 16:55:39,512] {dag.py:2931} INFO - Setting next_dagrun for first_dag to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-04 16:55:39,524] {processor.py:161} INFO - Processing /opt/airflow/dags/first_dag.py took 0.947 seconds
+[2022-07-04 16:56:09,552] {processor.py:153} INFO - Started process (PID=8345) to work on /opt/airflow/dags/first_dag.py
+[2022-07-04 16:56:09,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-07-04 16:56:09,554] {logging_mixin.py:115} INFO - [2022-07-04 16:56:09,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:56:09,972] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-07-04 16:56:10,007] {logging_mixin.py:115} INFO - [2022-07-04 16:56:10,007] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-04 16:56:10,030] {logging_mixin.py:115} INFO - [2022-07-04 16:56:10,030] {dag.py:2931} INFO - Setting next_dagrun for first_dag to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-04 16:56:10,043] {processor.py:161} INFO - Processing /opt/airflow/dags/first_dag.py took 0.495 seconds
