@@ -1,0 +1,20 @@
+Machine - t2.large (2 cpu/8 Gi)
+
+############# Install Docker-Compose #######################
+
+wget https://github.com/docker/compose/releases/download/v2.6.1/docker-compose-linux-x86_64
+mv docker-compose-linux-x86_64 docker-compose
+chmod +x docker-compose
+sudo mv docker-compose /usr/local/bin
+docker-compose --version
+
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.2/docker-compose.yaml'
+
+
+############## Install Airflow using Docker-Compose ########
+mkdir -p ./dags ./logs ./plugins
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+
+docker-compose up airflow-init
+
+docker-compose -f docker-compose.yaml up -d
