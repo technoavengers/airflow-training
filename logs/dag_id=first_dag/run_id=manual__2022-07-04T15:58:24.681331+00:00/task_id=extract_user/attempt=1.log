@@ -1,0 +1,26 @@
+[2022-07-04 15:58:25,960] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.extract_user manual__2022-07-04T15:58:24.681331+00:00 [queued]>
+[2022-07-04 15:58:25,968] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.extract_user manual__2022-07-04T15:58:24.681331+00:00 [queued]>
+[2022-07-04 15:58:25,968] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 15:58:25,969] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-04 15:58:25,969] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 15:58:25,997] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-04 15:58:24.681331+00:00
+[2022-07-04 15:58:26,002] {standard_task_runner.py:52} INFO - Started process 646 to run task
+[2022-07-04 15:58:26,015] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'first_dag', 'extract_user', 'manual__2022-07-04T15:58:24.681331+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpah00ahk8', '--error-file', '/tmp/tmp18mi1zh2']
+[2022-07-04 15:58:26,015] {standard_task_runner.py:80} INFO - Job 24: Subtask extract_user
+[2022-07-04 15:58:26,104] {task_command.py:370} INFO - Running <TaskInstance: first_dag.extract_user manual__2022-07-04T15:58:24.681331+00:00 [running]> on host b631230cc7b5
+[2022-07-04 15:58:26,208] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T15:58:24.681331+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-04T15:58:24.681331+00:00
+[2022-07-04 15:58:26,210] {http.py:102} INFO - Calling HTTP method
+[2022-07-04 15:58:26,241] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-04 15:58:26,242] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-04 15:58:26,292] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Bartolomeu Perestrelo","last":"Moura"},"location":{"street":{"number":5755,"name":"Rua Dezesseis de Maio"},"city":"Umuarama","state":"Minas Gerais","country":"Brazil","postcode":54115,"coordinates":{"latitude":"-75.2035","longitude":"-35.3163"},"timezone":{"offset":"-1:00","description":"Azores, Cape Verde Islands"}},"email":"bartolomeuperestrelo.moura@example.com","login":{"uuid":"2a694f77-a9b4-4621-8a3b-780ccfda3d25","username":"bluepanda513","password":"pauline","salt":"NMQrAjga","md5":"e997a6dacee0991c11e99a18223bc853","sha1":"a05c6ad7a7ab17bc069fd7da845e3f7f56ced9d8","sha256":"0e639f074fc9822498be552df6372d815cf0f1e9516ee026e9aefbeb21109e15"},"dob":{"date":"1972-07-29T09:15:03.420Z","age":50},"registered":{"date":"2002-07-30T04:45:31.009Z","age":20},"phone":"(79) 8628-1318","cell":"(22) 7232-9393","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/77.jpg","medium":"https://randomuser.me/api/portraits/med/men/77.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/77.jpg"},"nat":"BR"}],"info":{"seed":"788e97be8450d4b5","results":1,"page":1,"version":"1.3"}}
+[2022-07-04 15:58:26,332] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=extract_user, execution_date=20220704T155824, start_date=20220704T155825, end_date=20220704T155826
+[2022-07-04 15:58:26,396] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-04 15:58:26,443] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

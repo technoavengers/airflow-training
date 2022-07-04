@@ -1,0 +1,26 @@
+[2022-07-04 16:06:48,329] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.extract_user manual__2022-07-04T16:06:44.457684+00:00 [queued]>
+[2022-07-04 16:06:48,340] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.extract_user manual__2022-07-04T16:06:44.457684+00:00 [queued]>
+[2022-07-04 16:06:48,340] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 16:06:48,341] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-04 16:06:48,341] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-04 16:06:48,355] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-04 16:06:44.457684+00:00
+[2022-07-04 16:06:48,360] {standard_task_runner.py:52} INFO - Started process 1070 to run task
+[2022-07-04 16:06:48,364] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'first_dag', 'extract_user', 'manual__2022-07-04T16:06:44.457684+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpd3mnb_1f', '--error-file', '/tmp/tmpj40foss9']
+[2022-07-04 16:06:48,365] {standard_task_runner.py:80} INFO - Job 28: Subtask extract_user
+[2022-07-04 16:06:48,422] {task_command.py:370} INFO - Running <TaskInstance: first_dag.extract_user manual__2022-07-04T16:06:44.457684+00:00 [running]> on host b631230cc7b5
+[2022-07-04 16:06:48,497] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T16:06:44.457684+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-04T16:06:44.457684+00:00
+[2022-07-04 16:06:48,499] {http.py:102} INFO - Calling HTTP method
+[2022-07-04 16:06:48,508] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-04 16:06:48,510] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-04 16:06:48,593] {http.py:106} INFO - {"results":[{"gender":"female","name":{"title":"Mrs","first":"Ülkü","last":"Balaban"},"location":{"street":{"number":7741,"name":"Mevlana Cd"},"city":"Kayseri","state":"Bitlis","country":"Turkey","postcode":57149,"coordinates":{"latitude":"77.5412","longitude":"63.7703"},"timezone":{"offset":"+1:00","description":"Brussels, Copenhagen, Madrid, Paris"}},"email":"ulku.balaban@example.com","login":{"uuid":"e397ce72-8c8f-433d-8379-75e6e9c298a0","username":"organickoala436","password":"holmes","salt":"XG0pn1sp","md5":"5582e5fb1b5cfefcab459b311c4ea14f","sha1":"6f7f8eea92e72a63dbccc48d91d73553d03ffc77","sha256":"9879ab04e99f38ab2bc758c2abcf83fec97bccbe3300ec5aed445e7d0ef7f9e3"},"dob":{"date":"1993-07-09T08:12:32.643Z","age":29},"registered":{"date":"2009-03-04T23:17:27.450Z","age":13},"phone":"(581)-656-0447","cell":"(615)-394-7616","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/85.jpg","medium":"https://randomuser.me/api/portraits/med/women/85.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/85.jpg"},"nat":"TR"}],"info":{"seed":"106ad30118e83855","results":1,"page":1,"version":"1.3"}}
+[2022-07-04 16:06:48,624] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=extract_user, execution_date=20220704T160644, start_date=20220704T160648, end_date=20220704T160648
+[2022-07-04 16:06:48,656] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-04 16:06:48,702] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
