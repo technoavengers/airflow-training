@@ -9161,3 +9161,21 @@ File Path                                    PID    Runtime      # DAGs    # Err
 /opt/airflow/dags/triggers_rules.py                                   1           0  0.27s           2022-07-05T10:37:17
 /opt/airflow/dags/trigger_rules2.py                                   1           0  0.30s           2022-07-05T10:37:31
 ================================================================================
+[2022-07-05 10:38:01,552] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.19s           2022-07-05T10:37:39
+/opt/airflow/dags/first_dag.py                                        1           0  1.31s           2022-07-05T10:37:50
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.33s           2022-07-05T10:37:33
+/opt/airflow/dags/task_group.py                                       1           0  0.33s           2022-07-05T10:37:33
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.36s           2022-07-05T10:37:49
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.09s           2022-07-05T10:37:41
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.28s           2022-07-05T10:37:59
+/opt/airflow/dags/sql_branch_operator.py      4894  0.01s             1           0  0.29s           2022-07-05T10:37:31
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.32s           2022-07-05T10:37:59
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.23s           2022-07-05T10:37:48
+/opt/airflow/dags/trigger_rules2.py           4893  0.01s             1           0  0.30s           2022-07-05T10:37:31
+================================================================================

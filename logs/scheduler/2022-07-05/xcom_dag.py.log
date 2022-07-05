@@ -2531,3 +2531,10 @@ IndentationError: unindent does not match any outer indentation level
 [2022-07-05 10:37:17,584] {logging_mixin.py:115} INFO - [2022-07-05 10:37:17,584] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:37:17,633] {logging_mixin.py:115} INFO - [2022-07-05 10:37:17,633] {dag.py:2931} INFO - Setting next_dagrun for xcom_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:37:17,663] {processor.py:161} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.939 seconds
+[2022-07-05 10:37:48,557] {processor.py:153} INFO - Started process (PID=4878) to work on /opt/airflow/dags/xcom_dag.py
+[2022-07-05 10:37:48,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2022-07-05 10:37:48,566] {logging_mixin.py:115} INFO - [2022-07-05 10:37:48,565] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2022-07-05 10:37:49,718] {processor.py:651} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2022-07-05 10:37:49,771] {logging_mixin.py:115} INFO - [2022-07-05 10:37:49,770] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:37:49,836] {logging_mixin.py:115} INFO - [2022-07-05 10:37:49,835] {dag.py:2931} INFO - Setting next_dagrun for xcom_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:37:49,868] {processor.py:161} INFO - Processing /opt/airflow/dags/xcom_dag.py took 1.315 seconds

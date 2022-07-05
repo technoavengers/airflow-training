@@ -2445,3 +2445,10 @@ AttributeError: type object 'DAG' has no attribute 'default_args'
 [2022-07-05 10:37:41,554] {logging_mixin.py:115} INFO - [2022-07-05 10:37:41,554] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:37:41,579] {logging_mixin.py:115} INFO - [2022-07-05 10:37:41,579] {dag.py:2931} INFO - Setting next_dagrun for xcom_dag_basic to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:37:41,592] {processor.py:161} INFO - Processing /opt/airflow/dags/xcom_dag_basic.py took 0.076 seconds
+[2022-07-05 10:38:11,622] {processor.py:153} INFO - Started process (PID=4908) to work on /opt/airflow/dags/xcom_dag_basic.py
+[2022-07-05 10:38:11,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/xcom_dag_basic.py for tasks to queue
+[2022-07-05 10:38:11,634] {logging_mixin.py:115} INFO - [2022-07-05 10:38:11,633] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag_basic.py
+[2022-07-05 10:38:11,653] {processor.py:651} INFO - DAG(s) dict_keys(['xcom_dag_basic']) retrieved from /opt/airflow/dags/xcom_dag_basic.py
+[2022-07-05 10:38:11,713] {logging_mixin.py:115} INFO - [2022-07-05 10:38:11,713] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:38:11,769] {logging_mixin.py:115} INFO - [2022-07-05 10:38:11,769] {dag.py:2931} INFO - Setting next_dagrun for xcom_dag_basic to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:38:11,805] {processor.py:161} INFO - Processing /opt/airflow/dags/xcom_dag_basic.py took 0.187 seconds

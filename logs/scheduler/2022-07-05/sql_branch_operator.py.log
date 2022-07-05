@@ -1962,3 +1962,10 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'create_table' has already been
 [2022-07-05 10:37:31,147] {logging_mixin.py:115} INFO - [2022-07-05 10:37:31,147] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:37:31,232] {logging_mixin.py:115} INFO - [2022-07-05 10:37:31,232] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:37:31,298] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.243 seconds
+[2022-07-05 10:38:01,560] {processor.py:153} INFO - Started process (PID=4894) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:01,562] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:38:01,562] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,562] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:01,585] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:01,661] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,661] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:38:01,731] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,731] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:38:01,743] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.187 seconds

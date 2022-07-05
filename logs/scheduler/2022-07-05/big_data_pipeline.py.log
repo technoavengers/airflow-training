@@ -7774,3 +7774,19 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.providers.apache'
 [2022-07-05 10:37:39,585] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/big_data_pipeline.py
 [2022-07-05 10:37:39,664] {processor.py:161} INFO - Processing /opt/airflow/dags/big_data_pipeline.py took 0.153 seconds
+[2022-07-05 10:38:10,596] {processor.py:153} INFO - Started process (PID=4907) to work on /opt/airflow/dags/big_data_pipeline.py
+[2022-07-05 10:38:10,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/big_data_pipeline.py for tasks to queue
+[2022-07-05 10:38:10,606] {logging_mixin.py:115} INFO - [2022-07-05 10:38:10,606] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/big_data_pipeline.py
+[2022-07-05 10:38:10,623] {logging_mixin.py:115} INFO - [2022-07-05 10:38:10,623] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/big_data_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/big_data_pipeline.py", line 7, in <module>
+    from airflow.operators.hive_operator import HiveOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/hive_operator.py", line 22, in <module>
+    from airflow.providers.apache.hive.operators.hive import HiveOperator  # noqa
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2022-07-05 10:38:10,626] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/big_data_pipeline.py
+[2022-07-05 10:38:10,674] {processor.py:161} INFO - Processing /opt/airflow/dags/big_data_pipeline.py took 0.082 seconds

@@ -2932,3 +2932,10 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'download_files.Download_file1'
 [2022-07-05 10:37:33,342] {logging_mixin.py:115} INFO - [2022-07-05 10:37:33,342] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:37:33,410] {logging_mixin.py:115} INFO - [2022-07-05 10:37:33,410] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:37:33,449] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group.py took 0.294 seconds
+[2022-07-05 10:38:03,816] {processor.py:153} INFO - Started process (PID=4903) to work on /opt/airflow/dags/task_group.py
+[2022-07-05 10:38:03,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group.py for tasks to queue
+[2022-07-05 10:38:03,842] {logging_mixin.py:115} INFO - [2022-07-05 10:38:03,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group.py
+[2022-07-05 10:38:03,884] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group.py
+[2022-07-05 10:38:04,149] {logging_mixin.py:115} INFO - [2022-07-05 10:38:04,149] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:38:04,397] {logging_mixin.py:115} INFO - [2022-07-05 10:38:04,397] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:38:04,494] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group.py took 0.696 seconds

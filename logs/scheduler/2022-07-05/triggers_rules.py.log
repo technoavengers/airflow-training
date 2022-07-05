@@ -635,3 +635,10 @@ SyntaxError: invalid syntax
 [2022-07-05 10:37:17,820] {logging_mixin.py:115} INFO - [2022-07-05 10:37:17,820] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:37:17,903] {logging_mixin.py:115} INFO - [2022-07-05 10:37:17,903] {dag.py:2931} INFO - Setting next_dagrun for trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:37:17,959] {processor.py:161} INFO - Processing /opt/airflow/dags/triggers_rules.py took 0.230 seconds
+[2022-07-05 10:37:48,547] {processor.py:153} INFO - Started process (PID=4877) to work on /opt/airflow/dags/triggers_rules.py
+[2022-07-05 10:37:48,560] {processor.py:641} INFO - Processing file /opt/airflow/dags/triggers_rules.py for tasks to queue
+[2022-07-05 10:37:48,561] {logging_mixin.py:115} INFO - [2022-07-05 10:37:48,561] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/triggers_rules.py
+[2022-07-05 10:37:48,578] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rules']) retrieved from /opt/airflow/dags/triggers_rules.py
+[2022-07-05 10:37:48,632] {logging_mixin.py:115} INFO - [2022-07-05 10:37:48,632] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:37:48,698] {logging_mixin.py:115} INFO - [2022-07-05 10:37:48,698] {dag.py:2931} INFO - Setting next_dagrun for trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:37:48,739] {processor.py:161} INFO - Processing /opt/airflow/dags/triggers_rules.py took 0.196 seconds
