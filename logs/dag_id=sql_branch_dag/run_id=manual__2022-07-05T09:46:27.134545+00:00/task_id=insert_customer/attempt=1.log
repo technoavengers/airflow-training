@@ -1,0 +1,27 @@
+[2022-07-05 09:46:31,327] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: sql_branch_dag.insert_customer manual__2022-07-05T09:46:27.134545+00:00 [queued]>
+[2022-07-05 09:46:31,385] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: sql_branch_dag.insert_customer manual__2022-07-05T09:46:27.134545+00:00 [queued]>
+[2022-07-05 09:46:31,387] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 09:46:31,388] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 09:46:31,389] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 09:46:31,509] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): insert_customer> on 2022-07-05 09:46:27.134545+00:00
+[2022-07-05 09:46:31,519] {standard_task_runner.py:52} INFO - Started process 1140 to run task
+[2022-07-05 09:46:31,542] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sql_branch_dag', 'insert_customer', 'manual__2022-07-05T09:46:27.134545+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/sql_branch_operator.py', '--cfg-path', '/tmp/tmp56huu3fc', '--error-file', '/tmp/tmptw3tsnh9']
+[2022-07-05 09:46:31,543] {standard_task_runner.py:80} INFO - Job 135: Subtask insert_customer
+[2022-07-05 09:46:31,674] {task_command.py:370} INFO - Running <TaskInstance: sql_branch_dag.insert_customer manual__2022-07-05T09:46:27.134545+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 09:46:31,907] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=sql_branch_dag
+AIRFLOW_CTX_TASK_ID=insert_customer
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-05T09:46:27.134545+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-05T09:46:27.134545+00:00
+[2022-07-05 09:46:31,926] {base.py:68} INFO - Using connection ID 'postgres_con' for task execution.
+[2022-07-05 09:46:31,939] {dbapi.py:213} INFO - Running statement: 
+            INSERT INTO customer (firstname,lastname,country)
+            values('Jim','Scandel','US');, parameters: None
+[2022-07-05 09:46:31,943] {dbapi.py:221} INFO - Rows affected: 1
+[2022-07-05 09:46:31,974] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=sql_branch_dag, task_id=insert_customer, execution_date=20220705T094627, start_date=20220705T094631, end_date=20220705T094631
+[2022-07-05 09:46:32,046] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 09:46:32,128] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

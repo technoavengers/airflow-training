@@ -1,0 +1,17 @@
+[2022-07-05 05:23:58,992] {processor.py:153} INFO - Started process (PID=2009) to work on /opt/airflow/dags/.~c9_invoke_sqX7BB.py
+[2022-07-05 05:23:59,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/.~c9_invoke_sqX7BB.py for tasks to queue
+[2022-07-05 05:23:59,040] {logging_mixin.py:115} INFO - [2022-07-05 05:23:59,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.~c9_invoke_sqX7BB.py
+[2022-07-05 05:23:59,042] {logging_mixin.py:115} INFO - [2022-07-05 05:23:59,042] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.~c9_invoke_sqX7BB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.~c9_invoke_sqX7BB.py", line 3
+    from airflow.
+                ^
+SyntaxError: invalid syntax
+[2022-07-05 05:23:59,043] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.~c9_invoke_sqX7BB.py
+[2022-07-05 05:23:59,243] {processor.py:161} INFO - Processing /opt/airflow/dags/.~c9_invoke_sqX7BB.py took 0.259 seconds

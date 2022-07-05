@@ -1,0 +1,27 @@
+[2022-07-05 05:32:17,161] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: task_group.Check_files scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 05:32:17,183] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: task_group.Check_files scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 05:32:17,183] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 05:32:17,184] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 05:32:17,184] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 05:32:17,221] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Check_files> on 2022-07-04 00:00:00+00:00
+[2022-07-05 05:32:17,227] {standard_task_runner.py:52} INFO - Started process 2379 to run task
+[2022-07-05 05:32:17,241] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'task_group', 'Check_files', 'scheduled__2022-07-04T00:00:00+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/task_group.py', '--cfg-path', '/tmp/tmp03avv747', '--error-file', '/tmp/tmpefjxt5v0']
+[2022-07-05 05:32:17,241] {standard_task_runner.py:80} INFO - Job 106: Subtask Check_files
+[2022-07-05 05:32:17,369] {task_command.py:370} INFO - Running <TaskInstance: task_group.Check_files scheduled__2022-07-04T00:00:00+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 05:32:17,749] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=task_group
+AIRFLOW_CTX_TASK_ID=Check_files
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T00:00:00+00:00
+[2022-07-05 05:32:17,750] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-05 05:32:17,751] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2022-07-05 05:32:17,772] {subprocess.py:85} INFO - Output:
+[2022-07-05 05:32:18,778] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-05 05:32:18,811] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=task_group, task_id=Check_files, execution_date=20220704T000000, start_date=20220705T053217, end_date=20220705T053218
+[2022-07-05 05:32:18,833] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 05:32:18,875] {local_task_job.py:273} INFO - 2 downstream tasks scheduled from follow-on schedule check

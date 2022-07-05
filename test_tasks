@@ -1,10 +1,16 @@
-docker exec -it environment-airflow-scheduler-1 sh
+docker exec -it airflow-training-airflow-scheduler-1 sh
 airflow tasks test first_dag create_table 2022-01-01
 airflow tasks test first_dag is_api_available 2022-01-01
 airflow tasks test first_dag extract_user 2022-01-01
 airflow tasks test first_dag process_user 2022-01-01
 
 ############# check out if data is stored in postgress? ############
-docker exec -it  environment-postgres-1 sh
+docker exec -it  airflow-training-postgres-1 sh
 psql -Uairflow
 SELECT * from users;
+
+############## Postgres Connection ###################################
+host - postgres
+login - airflow
+password - airflow
+port - 5432

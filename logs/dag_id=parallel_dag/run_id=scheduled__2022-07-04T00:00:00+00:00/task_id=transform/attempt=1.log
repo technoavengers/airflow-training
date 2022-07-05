@@ -1,0 +1,81 @@
+[2022-07-05 04:50:40,737] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:50:40,749] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:50:40,750] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:50:40,750] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 04:50:40,750] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:50:40,768] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): transform> on 2022-07-04 00:00:00+00:00
+[2022-07-05 04:50:40,773] {standard_task_runner.py:52} INFO - Started process 155 to run task
+[2022-07-05 04:50:40,778] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parallel_dag', 'transform', 'scheduled__2022-07-04T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp6rhzgc2s', '--error-file', '/tmp/tmp3dsnhv3s']
+[2022-07-05 04:50:40,778] {standard_task_runner.py:80} INFO - Job 7: Subtask transform
+[2022-07-05 04:50:40,835] {task_command.py:370} INFO - Running <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 04:50:40,921] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T00:00:00+00:00
+[2022-07-05 04:50:40,923] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-05 04:50:40,923] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2022-07-05 04:50:40,933] {subprocess.py:85} INFO - Output:
+[2022-07-05 04:50:41,937] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-05 04:50:42,010] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=transform, execution_date=20220704T000000, start_date=20220705T045040, end_date=20220705T045042
+[2022-07-05 04:50:42,048] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 04:50:42,137] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-05 04:51:35,199] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:51:35,215] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:51:35,216] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:51:35,216] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 04:51:35,216] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:51:35,244] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): transform> on 2022-07-04 00:00:00+00:00
+[2022-07-05 04:51:35,250] {standard_task_runner.py:52} INFO - Started process 225 to run task
+[2022-07-05 04:51:35,256] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parallel_dag', 'transform', 'scheduled__2022-07-04T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp1vwdn399', '--error-file', '/tmp/tmpqk4m9llc']
+[2022-07-05 04:51:35,258] {standard_task_runner.py:80} INFO - Job 17: Subtask transform
+[2022-07-05 04:51:35,338] {task_command.py:370} INFO - Running <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 04:51:35,461] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T00:00:00+00:00
+[2022-07-05 04:51:35,462] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-05 04:51:35,462] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2022-07-05 04:51:35,477] {subprocess.py:85} INFO - Output:
+[2022-07-05 04:51:36,482] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-05 04:51:36,550] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=transform, execution_date=20220704T000000, start_date=20220705T045135, end_date=20220705T045136
+[2022-07-05 04:51:36,610] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 04:51:36,675] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-05 04:58:11,404] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:58:11,419] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 04:58:11,419] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:58:11,419] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 04:58:11,419] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 04:58:11,443] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): transform> on 2022-07-04 00:00:00+00:00
+[2022-07-05 04:58:11,450] {standard_task_runner.py:52} INFO - Started process 765 to run task
+[2022-07-05 04:58:11,457] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parallel_dag', 'transform', 'scheduled__2022-07-04T00:00:00+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp9f7vfso2', '--error-file', '/tmp/tmpt8jiphgq']
+[2022-07-05 04:58:11,457] {standard_task_runner.py:80} INFO - Job 103: Subtask transform
+[2022-07-05 04:58:11,527] {task_command.py:370} INFO - Running <TaskInstance: parallel_dag.transform scheduled__2022-07-04T00:00:00+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 04:58:11,627] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T00:00:00+00:00
+[2022-07-05 04:58:11,630] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-05 04:58:11,631] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2022-07-05 04:58:11,642] {subprocess.py:85} INFO - Output:
+[2022-07-05 04:58:12,648] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-07-05 04:58:12,726] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=transform, execution_date=20220704T000000, start_date=20220705T045811, end_date=20220705T045812
+[2022-07-05 04:58:12,796] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 04:58:12,852] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

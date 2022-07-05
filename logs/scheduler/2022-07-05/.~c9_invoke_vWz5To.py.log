@@ -1,0 +1,17 @@
+[2022-07-05 05:54:01,707] {processor.py:153} INFO - Started process (PID=3643) to work on /opt/airflow/dags/.~c9_invoke_vWz5To.py
+[2022-07-05 05:54:01,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/.~c9_invoke_vWz5To.py for tasks to queue
+[2022-07-05 05:54:01,716] {logging_mixin.py:115} INFO - [2022-07-05 05:54:01,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.~c9_invoke_vWz5To.py
+[2022-07-05 05:54:01,719] {logging_mixin.py:115} INFO - [2022-07-05 05:54:01,718] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.~c9_invoke_vWz5To.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.~c9_invoke_vWz5To.py", line 73
+    is_api_available >> extract_user >> process_user
+                                                   ^
+IndentationError: unindent does not match any outer indentation level
+[2022-07-05 05:54:01,729] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.~c9_invoke_vWz5To.py
+[2022-07-05 05:54:01,811] {processor.py:161} INFO - Processing /opt/airflow/dags/.~c9_invoke_vWz5To.py took 0.123 seconds

@@ -1,0 +1,199 @@
+[2022-07-05 06:39:04,463] {processor.py:153} INFO - Started process (PID=6410) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:04,463] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:39:04,464] {logging_mixin.py:115} INFO - [2022-07-05 06:39:04,464] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:04,478] {logging_mixin.py:115} INFO - [2022-07-05 06:39:04,477] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/conditional_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/conditional_dag.py", line 27, in <module>
+    run_this_first >> branching >> Label(option) >> t
+NameError: name 'Label' is not defined
+[2022-07-05 06:39:04,478] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:04,503] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.045 seconds
+[2022-07-05 06:39:20,275] {processor.py:153} INFO - Started process (PID=6424) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:20,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:39:20,280] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:20,336] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:20,859] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,859] {manager.py:508} INFO - Created Permission View: can delete on DAG:branch_operator
+[2022-07-05 06:39:20,891] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,890] {manager.py:508} INFO - Created Permission View: can edit on DAG:branch_operator
+[2022-07-05 06:39:20,912] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,912] {manager.py:508} INFO - Created Permission View: can read on DAG:branch_operator
+[2022-07-05 06:39:20,918] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:39:20,932] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,932] {dag.py:2398} INFO - Creating ORM DAG for branch_operator
+[2022-07-05 06:39:20,946] {logging_mixin.py:115} INFO - [2022-07-05 06:39:20,946] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 06:39:20,959] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.725 seconds
+[2022-07-05 06:39:51,460] {processor.py:153} INFO - Started process (PID=6452) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:51,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:39:51,470] {logging_mixin.py:115} INFO - [2022-07-05 06:39:51,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:51,513] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:39:51,596] {logging_mixin.py:115} INFO - [2022-07-05 06:39:51,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:39:52,749] {logging_mixin.py:115} INFO - [2022-07-05 06:39:52,749] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 06:39:52,779] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 1.323 seconds
+[2022-07-05 06:40:22,865] {processor.py:153} INFO - Started process (PID=6487) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:22,866] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:40:22,867] {logging_mixin.py:115} INFO - [2022-07-05 06:40:22,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:22,880] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:22,907] {logging_mixin.py:115} INFO - [2022-07-05 06:40:22,907] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:40:23,140] {logging_mixin.py:115} INFO - [2022-07-05 06:40:23,139] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 06:40:23,158] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.296 seconds
+[2022-07-05 06:40:53,279] {processor.py:153} INFO - Started process (PID=6513) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:53,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:40:53,292] {logging_mixin.py:115} INFO - [2022-07-05 06:40:53,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:53,323] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:40:53,412] {logging_mixin.py:115} INFO - [2022-07-05 06:40:53,411] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:40:54,284] {logging_mixin.py:115} INFO - [2022-07-05 06:40:54,284] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 06:40:54,370] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 1.095 seconds
+[2022-07-05 06:41:14,800] {processor.py:153} INFO - Started process (PID=6537) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:14,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:41:14,802] {logging_mixin.py:115} INFO - [2022-07-05 06:41:14,801] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:14,825] {logging_mixin.py:115} INFO - [2022-07-05 06:41:14,823] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/conditional_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/conditional_dag.py", line 28, in <module>
+    task_id='branch_a',
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 45, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'branch_a' has already been added to the DAG
+[2022-07-05 06:41:14,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:14,870] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.073 seconds
+[2022-07-05 06:41:25,492] {processor.py:153} INFO - Started process (PID=6541) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:25,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:41:25,499] {logging_mixin.py:115} INFO - [2022-07-05 06:41:25,498] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:25,547] {logging_mixin.py:115} INFO - [2022-07-05 06:41:25,545] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/conditional_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/conditional_dag.py", line 28, in <module>
+    task_id='branch_a',
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 45, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'branch_a' has already been added to the DAG
+[2022-07-05 06:41:25,549] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:25,574] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.091 seconds
+[2022-07-05 06:41:31,518] {processor.py:153} INFO - Started process (PID=6552) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:31,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:41:31,524] {logging_mixin.py:115} INFO - [2022-07-05 06:41:31,524] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:31,549] {logging_mixin.py:115} INFO - [2022-07-05 06:41:31,547] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/conditional_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/conditional_dag.py", line 28, in <module>
+    task_id='branch_a',
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 45, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'branch_a' has already been added to the DAG
+[2022-07-05 06:41:31,551] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:41:31,577] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.063 seconds
+[2022-07-05 06:42:01,840] {processor.py:153} INFO - Started process (PID=6585) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:01,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:42:01,841] {logging_mixin.py:115} INFO - [2022-07-05 06:42:01,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:01,853] {logging_mixin.py:115} INFO - [2022-07-05 06:42:01,852] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/conditional_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/conditional_dag.py", line 28, in <module>
+    task_id='branch_a',
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 45, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 196, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'branch_a' has already been added to the DAG
+[2022-07-05 06:42:01,853] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:01,877] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.041 seconds
+[2022-07-05 06:42:28,506] {processor.py:153} INFO - Started process (PID=6611) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:28,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:42:28,509] {logging_mixin.py:115} INFO - [2022-07-05 06:42:28,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:28,530] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:28,845] {logging_mixin.py:115} INFO - [2022-07-05 06:42:28,845] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:42:28,877] {logging_mixin.py:115} INFO - [2022-07-05 06:42:28,877] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 06:42:28,915] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.412 seconds
+[2022-07-05 06:42:59,170] {processor.py:153} INFO - Started process (PID=6645) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:59,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:42:59,176] {logging_mixin.py:115} INFO - [2022-07-05 06:42:59,175] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:59,190] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:42:59,230] {logging_mixin.py:115} INFO - [2022-07-05 06:42:59,230] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:42:59,609] {logging_mixin.py:115} INFO - [2022-07-05 06:42:59,609] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:42:59,635] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.470 seconds
+[2022-07-05 06:43:29,993] {processor.py:153} INFO - Started process (PID=6675) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:43:29,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:43:29,995] {logging_mixin.py:115} INFO - [2022-07-05 06:43:29,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:43:30,007] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:43:30,043] {logging_mixin.py:115} INFO - [2022-07-05 06:43:30,043] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:43:30,281] {logging_mixin.py:115} INFO - [2022-07-05 06:43:30,281] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:43:30,297] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.307 seconds
+[2022-07-05 06:44:00,519] {processor.py:153} INFO - Started process (PID=6704) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:00,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:44:00,520] {logging_mixin.py:115} INFO - [2022-07-05 06:44:00,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:00,531] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:00,572] {logging_mixin.py:115} INFO - [2022-07-05 06:44:00,572] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:44:00,777] {logging_mixin.py:115} INFO - [2022-07-05 06:44:00,777] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:44:00,790] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.275 seconds
+[2022-07-05 06:44:31,299] {processor.py:153} INFO - Started process (PID=6745) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:31,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:44:31,306] {logging_mixin.py:115} INFO - [2022-07-05 06:44:31,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:31,334] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:44:31,396] {logging_mixin.py:115} INFO - [2022-07-05 06:44:31,396] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:44:31,646] {logging_mixin.py:115} INFO - [2022-07-05 06:44:31,646] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:44:31,660] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.367 seconds
+[2022-07-05 06:45:01,728] {processor.py:153} INFO - Started process (PID=6780) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:01,729] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:45:01,730] {logging_mixin.py:115} INFO - [2022-07-05 06:45:01,730] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:01,767] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:01,838] {logging_mixin.py:115} INFO - [2022-07-05 06:45:01,837] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:45:02,303] {logging_mixin.py:115} INFO - [2022-07-05 06:45:02,303] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:45:02,324] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.609 seconds
+[2022-07-05 06:45:32,924] {processor.py:153} INFO - Started process (PID=6810) to work on /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:32,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/conditional_dag.py for tasks to queue
+[2022-07-05 06:45:32,934] {logging_mixin.py:115} INFO - [2022-07-05 06:45:32,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:32,958] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator']) retrieved from /opt/airflow/dags/conditional_dag.py
+[2022-07-05 06:45:33,015] {logging_mixin.py:115} INFO - [2022-07-05 06:45:33,015] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 06:45:33,236] {logging_mixin.py:115} INFO - [2022-07-05 06:45:33,236] {dag.py:2931} INFO - Setting next_dagrun for branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 06:45:33,260] {processor.py:161} INFO - Processing /opt/airflow/dags/conditional_dag.py took 0.339 seconds

@@ -1,0 +1,25 @@
+[2022-07-05 10:21:57,692] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_operator_trigger_rules.branching scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 10:21:57,702] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_operator_trigger_rules.branching scheduled__2022-07-04T00:00:00+00:00 [queued]>
+[2022-07-05 10:21:57,702] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 10:21:57,703] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-05 10:21:57,703] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 10:21:57,720] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): branching> on 2022-07-04 00:00:00+00:00
+[2022-07-05 10:21:57,725] {standard_task_runner.py:52} INFO - Started process 2638 to run task
+[2022-07-05 10:21:57,729] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'branch_operator_trigger_rules', 'branching', 'scheduled__2022-07-04T00:00:00+00:00', '--job-id', '153', '--raw', '--subdir', 'DAGS_FOLDER/trigger_rules2.py', '--cfg-path', '/tmp/tmpbhzx4nxf', '--error-file', '/tmp/tmp2uw9asz4']
+[2022-07-05 10:21:57,730] {standard_task_runner.py:80} INFO - Job 153: Subtask branching
+[2022-07-05 10:21:57,780] {task_command.py:370} INFO - Running <TaskInstance: branch_operator_trigger_rules.branching scheduled__2022-07-04T00:00:00+00:00 [running]> on host dfb99dfc9d64
+[2022-07-05 10:21:57,853] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=branch_operator_trigger_rules
+AIRFLOW_CTX_TASK_ID=branching
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-04T00:00:00+00:00
+[2022-07-05 10:21:57,855] {python.py:173} INFO - Done. Returned value was: branch_c
+[2022-07-05 10:21:57,855] {skipmixin.py:140} INFO - Following branch branch_c
+[2022-07-05 10:21:57,855] {skipmixin.py:175} INFO - Skipping tasks ['branch_a', 'branch_b']
+[2022-07-05 10:21:57,904] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=branch_operator_trigger_rules, task_id=branching, execution_date=20220704T000000, start_date=20220705T102157, end_date=20220705T102157
+[2022-07-05 10:21:57,942] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-05 10:21:57,999] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

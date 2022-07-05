@@ -1,0 +1,645 @@
+[2022-07-05 09:51:33,327] {processor.py:153} INFO - Started process (PID=1881) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:33,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:51:33,335] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:33,355] {processor.py:651} INFO - DAG(s) dict_keys(['branch_week_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:33,470] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,470] {manager.py:508} INFO - Created Permission View: can delete on DAG:branch_week_operator
+[2022-07-05 09:51:33,497] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,497] {manager.py:508} INFO - Created Permission View: can edit on DAG:branch_week_operator
+[2022-07-05 09:51:33,533] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,532] {manager.py:508} INFO - Created Permission View: can read on DAG:branch_week_operator
+[2022-07-05 09:51:33,536] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:51:33,805] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,805] {dag.py:2398} INFO - Creating ORM DAG for branch_week_operator
+[2022-07-05 09:51:33,829] {logging_mixin.py:115} INFO - [2022-07-05 09:51:33,829] {dag.py:2931} INFO - Setting next_dagrun for branch_week_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 09:51:33,849] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.526 seconds
+[2022-07-05 09:51:58,676] {processor.py:153} INFO - Started process (PID=1909) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:58,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:51:58,690] {logging_mixin.py:115} INFO - [2022-07-05 09:51:58,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:58,738] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:51:59,170] {logging_mixin.py:115} INFO - [2022-07-05 09:51:59,169] {manager.py:508} INFO - Created Permission View: can delete on DAG:week_branch_operator
+[2022-07-05 09:51:59,200] {logging_mixin.py:115} INFO - [2022-07-05 09:51:59,199] {manager.py:508} INFO - Created Permission View: can edit on DAG:week_branch_operator
+[2022-07-05 09:51:59,227] {logging_mixin.py:115} INFO - [2022-07-05 09:51:59,227] {manager.py:508} INFO - Created Permission View: can read on DAG:week_branch_operator
+[2022-07-05 09:51:59,227] {logging_mixin.py:115} INFO - [2022-07-05 09:51:59,227] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:51:59,867] {logging_mixin.py:115} INFO - [2022-07-05 09:51:59,866] {dag.py:2398} INFO - Creating ORM DAG for week_branch_operator
+[2022-07-05 09:52:00,132] {logging_mixin.py:115} INFO - [2022-07-05 09:52:00,132] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 09:52:00,462] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 1.790 seconds
+[2022-07-05 09:52:31,437] {processor.py:153} INFO - Started process (PID=1954) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:31,438] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:52:31,439] {logging_mixin.py:115} INFO - [2022-07-05 09:52:31,439] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:31,450] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:31,483] {logging_mixin.py:115} INFO - [2022-07-05 09:52:31,483] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:52:31,518] {logging_mixin.py:115} INFO - [2022-07-05 09:52:31,518] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 09:52:31,534] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.101 seconds
+[2022-07-05 09:52:48,495] {processor.py:153} INFO - Started process (PID=1970) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:48,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:52:48,501] {logging_mixin.py:115} INFO - [2022-07-05 09:52:48,501] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:48,524] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:52:48,634] {logging_mixin.py:115} INFO - [2022-07-05 09:52:48,633] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:52:48,704] {logging_mixin.py:115} INFO - [2022-07-05 09:52:48,704] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-05 09:52:48,961] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.470 seconds
+[2022-07-05 09:53:19,638] {processor.py:153} INFO - Started process (PID=1999) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:19,651] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:53:19,654] {logging_mixin.py:115} INFO - [2022-07-05 09:53:19,654] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:19,681] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:19,757] {logging_mixin.py:115} INFO - [2022-07-05 09:53:19,757] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:53:19,834] {logging_mixin.py:115} INFO - [2022-07-05 09:53:19,833] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:53:19,865] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.234 seconds
+[2022-07-05 09:53:50,620] {processor.py:153} INFO - Started process (PID=2042) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:50,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:53:50,640] {logging_mixin.py:115} INFO - [2022-07-05 09:53:50,640] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:50,662] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:53:50,707] {logging_mixin.py:115} INFO - [2022-07-05 09:53:50,707] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:53:50,765] {logging_mixin.py:115} INFO - [2022-07-05 09:53:50,765] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:53:50,779] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.163 seconds
+[2022-07-05 09:54:21,267] {processor.py:153} INFO - Started process (PID=2075) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:21,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:54:21,269] {logging_mixin.py:115} INFO - [2022-07-05 09:54:21,269] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:21,287] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:21,364] {logging_mixin.py:115} INFO - [2022-07-05 09:54:21,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:54:21,425] {logging_mixin.py:115} INFO - [2022-07-05 09:54:21,425] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:54:21,446] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.190 seconds
+[2022-07-05 09:54:52,109] {processor.py:153} INFO - Started process (PID=2112) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:52,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:54:52,131] {logging_mixin.py:115} INFO - [2022-07-05 09:54:52,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:52,183] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:54:52,265] {logging_mixin.py:115} INFO - [2022-07-05 09:54:52,265] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:54:52,305] {logging_mixin.py:115} INFO - [2022-07-05 09:54:52,305] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:54:52,326] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.222 seconds
+[2022-07-05 09:55:22,682] {processor.py:153} INFO - Started process (PID=2145) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:22,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:55:22,686] {logging_mixin.py:115} INFO - [2022-07-05 09:55:22,685] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:22,758] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:23,017] {logging_mixin.py:115} INFO - [2022-07-05 09:55:23,017] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:55:23,121] {logging_mixin.py:115} INFO - [2022-07-05 09:55:23,121] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:55:23,185] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.528 seconds
+[2022-07-05 09:55:54,029] {processor.py:153} INFO - Started process (PID=2175) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:54,029] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:55:54,030] {logging_mixin.py:115} INFO - [2022-07-05 09:55:54,030] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:54,041] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:55:54,073] {logging_mixin.py:115} INFO - [2022-07-05 09:55:54,073] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:55:54,103] {logging_mixin.py:115} INFO - [2022-07-05 09:55:54,103] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:55:54,118] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.093 seconds
+[2022-07-05 09:56:24,347] {processor.py:153} INFO - Started process (PID=2204) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:24,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:56:24,354] {logging_mixin.py:115} INFO - [2022-07-05 09:56:24,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:24,366] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:24,398] {logging_mixin.py:115} INFO - [2022-07-05 09:56:24,398] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:56:24,437] {logging_mixin.py:115} INFO - [2022-07-05 09:56:24,436] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:56:24,453] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.110 seconds
+[2022-07-05 09:56:54,529] {processor.py:153} INFO - Started process (PID=2236) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:54,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:56:54,531] {logging_mixin.py:115} INFO - [2022-07-05 09:56:54,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:54,542] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:56:54,574] {logging_mixin.py:115} INFO - [2022-07-05 09:56:54,574] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:56:54,615] {logging_mixin.py:115} INFO - [2022-07-05 09:56:54,615] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:56:54,638] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.113 seconds
+[2022-07-05 09:57:24,857] {processor.py:153} INFO - Started process (PID=2264) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:24,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:57:24,859] {logging_mixin.py:115} INFO - [2022-07-05 09:57:24,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:24,868] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:24,892] {logging_mixin.py:115} INFO - [2022-07-05 09:57:24,892] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:57:24,916] {logging_mixin.py:115} INFO - [2022-07-05 09:57:24,916] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:57:24,929] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.075 seconds
+[2022-07-05 09:57:55,230] {processor.py:153} INFO - Started process (PID=2293) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:55,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:57:55,231] {logging_mixin.py:115} INFO - [2022-07-05 09:57:55,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:55,241] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:57:55,267] {logging_mixin.py:115} INFO - [2022-07-05 09:57:55,267] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:57:55,292] {logging_mixin.py:115} INFO - [2022-07-05 09:57:55,292] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:57:55,309] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.082 seconds
+[2022-07-05 09:58:25,794] {processor.py:153} INFO - Started process (PID=2324) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:25,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:58:25,811] {logging_mixin.py:115} INFO - [2022-07-05 09:58:25,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:25,835] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:25,917] {logging_mixin.py:115} INFO - [2022-07-05 09:58:25,917] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:58:26,006] {logging_mixin.py:115} INFO - [2022-07-05 09:58:26,006] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:58:26,038] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.258 seconds
+[2022-07-05 09:58:56,420] {processor.py:153} INFO - Started process (PID=2358) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:56,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:58:56,428] {logging_mixin.py:115} INFO - [2022-07-05 09:58:56,428] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:56,470] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:58:56,529] {logging_mixin.py:115} INFO - [2022-07-05 09:58:56,529] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:58:56,580] {logging_mixin.py:115} INFO - [2022-07-05 09:58:56,579] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:58:56,605] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.191 seconds
+[2022-07-05 09:59:27,565] {processor.py:153} INFO - Started process (PID=2395) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:27,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:59:27,570] {logging_mixin.py:115} INFO - [2022-07-05 09:59:27,570] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:27,607] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:27,685] {logging_mixin.py:115} INFO - [2022-07-05 09:59:27,685] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:59:27,811] {logging_mixin.py:115} INFO - [2022-07-05 09:59:27,811] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:59:27,913] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.364 seconds
+[2022-07-05 09:59:58,757] {processor.py:153} INFO - Started process (PID=2426) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:58,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 09:59:58,772] {logging_mixin.py:115} INFO - [2022-07-05 09:59:58,772] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:58,796] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 09:59:58,835] {logging_mixin.py:115} INFO - [2022-07-05 09:59:58,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 09:59:58,873] {logging_mixin.py:115} INFO - [2022-07-05 09:59:58,873] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 09:59:58,890] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.136 seconds
+[2022-07-05 10:00:29,136] {processor.py:153} INFO - Started process (PID=2467) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:00:29,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:00:29,163] {logging_mixin.py:115} INFO - [2022-07-05 10:00:29,163] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:00:29,284] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:00:29,521] {logging_mixin.py:115} INFO - [2022-07-05 10:00:29,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:00:29,832] {logging_mixin.py:115} INFO - [2022-07-05 10:00:29,832] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:00:29,991] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.884 seconds
+[2022-07-05 10:01:00,385] {processor.py:153} INFO - Started process (PID=2497) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:00,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:01:00,386] {logging_mixin.py:115} INFO - [2022-07-05 10:01:00,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:00,419] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:00,576] {logging_mixin.py:115} INFO - [2022-07-05 10:01:00,576] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:01:00,612] {logging_mixin.py:115} INFO - [2022-07-05 10:01:00,612] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:01:00,681] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.312 seconds
+[2022-07-05 10:01:31,552] {processor.py:153} INFO - Started process (PID=2517) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:31,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:01:31,558] {logging_mixin.py:115} INFO - [2022-07-05 10:01:31,558] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:31,583] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:01:31,657] {logging_mixin.py:115} INFO - [2022-07-05 10:01:31,657] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:01:31,755] {logging_mixin.py:115} INFO - [2022-07-05 10:01:31,755] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:01:31,797] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.249 seconds
+[2022-07-05 10:02:02,230] {processor.py:153} INFO - Started process (PID=2546) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:02,234] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:02:02,238] {logging_mixin.py:115} INFO - [2022-07-05 10:02:02,238] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:02,256] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:02,301] {logging_mixin.py:115} INFO - [2022-07-05 10:02:02,301] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:02:02,341] {logging_mixin.py:115} INFO - [2022-07-05 10:02:02,341] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:02:02,360] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.134 seconds
+[2022-07-05 10:02:32,741] {processor.py:153} INFO - Started process (PID=2577) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:32,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:02:32,747] {logging_mixin.py:115} INFO - [2022-07-05 10:02:32,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:32,767] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:02:32,807] {logging_mixin.py:115} INFO - [2022-07-05 10:02:32,807] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:02:32,846] {logging_mixin.py:115} INFO - [2022-07-05 10:02:32,846] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:02:32,869] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.133 seconds
+[2022-07-05 10:03:03,627] {processor.py:153} INFO - Started process (PID=2610) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:03,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:03:03,628] {logging_mixin.py:115} INFO - [2022-07-05 10:03:03,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:03,739] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:03,973] {logging_mixin.py:115} INFO - [2022-07-05 10:03:03,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:03:04,198] {logging_mixin.py:115} INFO - [2022-07-05 10:03:04,197] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:03:04,322] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.725 seconds
+[2022-07-05 10:03:34,921] {processor.py:153} INFO - Started process (PID=2639) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:34,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:03:34,936] {logging_mixin.py:115} INFO - [2022-07-05 10:03:34,936] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:35,026] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:03:35,217] {logging_mixin.py:115} INFO - [2022-07-05 10:03:35,217] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:03:35,548] {logging_mixin.py:115} INFO - [2022-07-05 10:03:35,548] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:03:35,664] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.767 seconds
+[2022-07-05 10:04:06,104] {processor.py:153} INFO - Started process (PID=2669) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:06,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:04:06,164] {logging_mixin.py:115} INFO - [2022-07-05 10:04:06,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:06,396] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:06,838] {logging_mixin.py:115} INFO - [2022-07-05 10:04:06,838] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:04:07,440] {logging_mixin.py:115} INFO - [2022-07-05 10:04:07,440] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:04:07,725] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 1.695 seconds
+[2022-07-05 10:04:38,147] {processor.py:153} INFO - Started process (PID=2705) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:38,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:04:38,164] {logging_mixin.py:115} INFO - [2022-07-05 10:04:38,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:38,200] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:04:38,269] {logging_mixin.py:115} INFO - [2022-07-05 10:04:38,269] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:04:38,356] {logging_mixin.py:115} INFO - [2022-07-05 10:04:38,356] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:04:38,384] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.245 seconds
+[2022-07-05 10:05:08,552] {processor.py:153} INFO - Started process (PID=2736) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:08,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:05:08,567] {logging_mixin.py:115} INFO - [2022-07-05 10:05:08,566] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:08,586] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:08,631] {logging_mixin.py:115} INFO - [2022-07-05 10:05:08,631] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:05:08,713] {logging_mixin.py:115} INFO - [2022-07-05 10:05:08,713] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:05:08,758] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.211 seconds
+[2022-07-05 10:05:39,505] {processor.py:153} INFO - Started process (PID=2765) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:39,508] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:05:39,509] {logging_mixin.py:115} INFO - [2022-07-05 10:05:39,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:39,532] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:05:39,649] {logging_mixin.py:115} INFO - [2022-07-05 10:05:39,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:05:39,821] {logging_mixin.py:115} INFO - [2022-07-05 10:05:39,821] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:05:39,950] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.450 seconds
+[2022-07-05 10:06:10,272] {processor.py:153} INFO - Started process (PID=2795) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:10,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:06:10,283] {logging_mixin.py:115} INFO - [2022-07-05 10:06:10,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:10,312] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:10,393] {logging_mixin.py:115} INFO - [2022-07-05 10:06:10,393] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:06:10,455] {logging_mixin.py:115} INFO - [2022-07-05 10:06:10,455] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:06:10,470] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.202 seconds
+[2022-07-05 10:06:40,821] {processor.py:153} INFO - Started process (PID=2826) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:40,821] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:06:40,844] {logging_mixin.py:115} INFO - [2022-07-05 10:06:40,844] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:40,871] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:06:40,961] {logging_mixin.py:115} INFO - [2022-07-05 10:06:40,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:06:41,058] {logging_mixin.py:115} INFO - [2022-07-05 10:06:41,057] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:06:41,110] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.293 seconds
+[2022-07-05 10:07:11,178] {processor.py:153} INFO - Started process (PID=2858) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:11,189] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:07:11,190] {logging_mixin.py:115} INFO - [2022-07-05 10:07:11,190] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:11,202] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:11,272] {logging_mixin.py:115} INFO - [2022-07-05 10:07:11,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:07:11,347] {logging_mixin.py:115} INFO - [2022-07-05 10:07:11,347] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:07:11,371] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.197 seconds
+[2022-07-05 10:07:41,808] {processor.py:153} INFO - Started process (PID=2889) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:41,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:07:41,810] {logging_mixin.py:115} INFO - [2022-07-05 10:07:41,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:41,821] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:07:41,865] {logging_mixin.py:115} INFO - [2022-07-05 10:07:41,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:07:41,920] {logging_mixin.py:115} INFO - [2022-07-05 10:07:41,920] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:07:41,935] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.131 seconds
+[2022-07-05 10:08:12,156] {processor.py:153} INFO - Started process (PID=2919) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:12,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:08:12,180] {logging_mixin.py:115} INFO - [2022-07-05 10:08:12,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:12,217] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:12,325] {logging_mixin.py:115} INFO - [2022-07-05 10:08:12,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:08:12,466] {logging_mixin.py:115} INFO - [2022-07-05 10:08:12,465] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:08:12,531] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.383 seconds
+[2022-07-05 10:08:43,611] {processor.py:153} INFO - Started process (PID=2958) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:43,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:08:43,621] {logging_mixin.py:115} INFO - [2022-07-05 10:08:43,621] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:43,661] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:08:43,762] {logging_mixin.py:115} INFO - [2022-07-05 10:08:43,762] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:08:43,868] {logging_mixin.py:115} INFO - [2022-07-05 10:08:43,868] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:08:43,897] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.313 seconds
+[2022-07-05 10:09:14,847] {processor.py:153} INFO - Started process (PID=2988) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:14,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:09:14,853] {logging_mixin.py:115} INFO - [2022-07-05 10:09:14,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:14,866] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:14,909] {logging_mixin.py:115} INFO - [2022-07-05 10:09:14,909] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:09:14,950] {logging_mixin.py:115} INFO - [2022-07-05 10:09:14,950] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:09:14,980] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.137 seconds
+[2022-07-05 10:09:45,605] {processor.py:153} INFO - Started process (PID=3018) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:45,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:09:45,607] {logging_mixin.py:115} INFO - [2022-07-05 10:09:45,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:45,648] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:09:46,061] {logging_mixin.py:115} INFO - [2022-07-05 10:09:46,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:09:46,482] {logging_mixin.py:115} INFO - [2022-07-05 10:09:46,482] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:09:46,515] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.926 seconds
+[2022-07-05 10:10:16,885] {processor.py:153} INFO - Started process (PID=3058) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:16,886] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:10:16,886] {logging_mixin.py:115} INFO - [2022-07-05 10:10:16,886] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:16,944] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:17,081] {logging_mixin.py:115} INFO - [2022-07-05 10:10:17,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:10:17,188] {logging_mixin.py:115} INFO - [2022-07-05 10:10:17,188] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:10:17,252] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.392 seconds
+[2022-07-05 10:10:47,952] {processor.py:153} INFO - Started process (PID=3090) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:47,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:10:47,954] {logging_mixin.py:115} INFO - [2022-07-05 10:10:47,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:47,979] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:10:48,101] {logging_mixin.py:115} INFO - [2022-07-05 10:10:48,101] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:10:48,232] {logging_mixin.py:115} INFO - [2022-07-05 10:10:48,231] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:10:48,342] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.411 seconds
+[2022-07-05 10:11:18,553] {processor.py:153} INFO - Started process (PID=3115) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:18,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:11:18,554] {logging_mixin.py:115} INFO - [2022-07-05 10:11:18,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:18,596] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:18,686] {logging_mixin.py:115} INFO - [2022-07-05 10:11:18,686] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:11:18,752] {logging_mixin.py:115} INFO - [2022-07-05 10:11:18,752] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:11:18,796] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.247 seconds
+[2022-07-05 10:11:49,167] {processor.py:153} INFO - Started process (PID=3144) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:49,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:11:49,169] {logging_mixin.py:115} INFO - [2022-07-05 10:11:49,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:49,187] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:11:49,248] {logging_mixin.py:115} INFO - [2022-07-05 10:11:49,248] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:11:49,321] {logging_mixin.py:115} INFO - [2022-07-05 10:11:49,321] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:11:49,337] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.177 seconds
+[2022-07-05 10:12:19,473] {processor.py:153} INFO - Started process (PID=3173) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:19,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:12:19,479] {logging_mixin.py:115} INFO - [2022-07-05 10:12:19,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:19,499] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:19,535] {logging_mixin.py:115} INFO - [2022-07-05 10:12:19,535] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:12:19,578] {logging_mixin.py:115} INFO - [2022-07-05 10:12:19,578] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:12:19,597] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.128 seconds
+[2022-07-05 10:12:50,087] {processor.py:153} INFO - Started process (PID=3205) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:50,088] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:12:50,097] {logging_mixin.py:115} INFO - [2022-07-05 10:12:50,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:50,108] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:12:50,185] {logging_mixin.py:115} INFO - [2022-07-05 10:12:50,185] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:12:50,258] {logging_mixin.py:115} INFO - [2022-07-05 10:12:50,257] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:12:50,305] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.221 seconds
+[2022-07-05 10:13:20,711] {processor.py:153} INFO - Started process (PID=3232) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:20,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:13:20,712] {logging_mixin.py:115} INFO - [2022-07-05 10:13:20,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:20,725] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:20,779] {logging_mixin.py:115} INFO - [2022-07-05 10:13:20,779] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:13:20,878] {logging_mixin.py:115} INFO - [2022-07-05 10:13:20,878] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:13:20,941] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.234 seconds
+[2022-07-05 10:13:51,611] {processor.py:153} INFO - Started process (PID=3269) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:51,617] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:13:51,617] {logging_mixin.py:115} INFO - [2022-07-05 10:13:51,617] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:51,644] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:13:51,735] {logging_mixin.py:115} INFO - [2022-07-05 10:13:51,735] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:13:51,784] {logging_mixin.py:115} INFO - [2022-07-05 10:13:51,784] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:13:51,820] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.213 seconds
+[2022-07-05 10:14:22,123] {processor.py:153} INFO - Started process (PID=3302) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:22,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:14:22,128] {logging_mixin.py:115} INFO - [2022-07-05 10:14:22,128] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:22,161] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:22,237] {logging_mixin.py:115} INFO - [2022-07-05 10:14:22,237] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:14:22,279] {logging_mixin.py:115} INFO - [2022-07-05 10:14:22,278] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:14:22,316] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.197 seconds
+[2022-07-05 10:14:52,909] {processor.py:153} INFO - Started process (PID=3334) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:52,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:14:52,927] {logging_mixin.py:115} INFO - [2022-07-05 10:14:52,927] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:52,979] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:14:53,101] {logging_mixin.py:115} INFO - [2022-07-05 10:14:53,101] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:14:53,214] {logging_mixin.py:115} INFO - [2022-07-05 10:14:53,214] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:14:53,326] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.430 seconds
+[2022-07-05 10:15:23,953] {processor.py:153} INFO - Started process (PID=3372) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:23,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:15:23,965] {logging_mixin.py:115} INFO - [2022-07-05 10:15:23,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:24,048] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:24,275] {logging_mixin.py:115} INFO - [2022-07-05 10:15:24,275] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:15:24,547] {logging_mixin.py:115} INFO - [2022-07-05 10:15:24,546] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:15:24,678] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.750 seconds
+[2022-07-05 10:15:55,745] {processor.py:153} INFO - Started process (PID=3403) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:55,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:15:55,762] {logging_mixin.py:115} INFO - [2022-07-05 10:15:55,762] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:55,935] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:15:56,313] {logging_mixin.py:115} INFO - [2022-07-05 10:15:56,313] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:15:56,600] {logging_mixin.py:115} INFO - [2022-07-05 10:15:56,600] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:15:56,723] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 1.111 seconds
+[2022-07-05 10:16:26,828] {processor.py:153} INFO - Started process (PID=3441) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:26,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:16:26,830] {logging_mixin.py:115} INFO - [2022-07-05 10:16:26,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:26,841] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:26,890] {logging_mixin.py:115} INFO - [2022-07-05 10:16:26,890] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:16:26,932] {logging_mixin.py:115} INFO - [2022-07-05 10:16:26,932] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:16:26,955] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.130 seconds
+[2022-07-05 10:16:57,696] {processor.py:153} INFO - Started process (PID=3477) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:57,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:16:57,707] {logging_mixin.py:115} INFO - [2022-07-05 10:16:57,707] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:57,750] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:16:57,869] {logging_mixin.py:115} INFO - [2022-07-05 10:16:57,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:16:57,997] {logging_mixin.py:115} INFO - [2022-07-05 10:16:57,997] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:16:58,056] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.363 seconds
+[2022-07-05 10:17:28,145] {processor.py:153} INFO - Started process (PID=3509) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:28,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:17:28,153] {logging_mixin.py:115} INFO - [2022-07-05 10:17:28,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:28,167] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:28,206] {logging_mixin.py:115} INFO - [2022-07-05 10:17:28,206] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:17:28,243] {logging_mixin.py:115} INFO - [2022-07-05 10:17:28,242] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:17:28,289] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.151 seconds
+[2022-07-05 10:17:59,078] {processor.py:153} INFO - Started process (PID=3547) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:59,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:17:59,103] {logging_mixin.py:115} INFO - [2022-07-05 10:17:59,103] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:59,164] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:17:59,323] {logging_mixin.py:115} INFO - [2022-07-05 10:17:59,323] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:17:59,517] {logging_mixin.py:115} INFO - [2022-07-05 10:17:59,517] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:17:59,777] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.704 seconds
+[2022-07-05 10:18:30,632] {processor.py:153} INFO - Started process (PID=3579) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:18:30,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:18:30,650] {logging_mixin.py:115} INFO - [2022-07-05 10:18:30,650] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:18:30,676] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:18:30,744] {logging_mixin.py:115} INFO - [2022-07-05 10:18:30,744] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:18:30,781] {logging_mixin.py:115} INFO - [2022-07-05 10:18:30,780] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:18:30,808] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.180 seconds
+[2022-07-05 10:19:01,254] {processor.py:153} INFO - Started process (PID=3615) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:01,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:19:01,261] {logging_mixin.py:115} INFO - [2022-07-05 10:19:01,261] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:01,317] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:01,392] {logging_mixin.py:115} INFO - [2022-07-05 10:19:01,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:19:01,510] {logging_mixin.py:115} INFO - [2022-07-05 10:19:01,510] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:19:01,553] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.338 seconds
+[2022-07-05 10:19:32,392] {processor.py:153} INFO - Started process (PID=3648) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:32,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:19:32,413] {logging_mixin.py:115} INFO - [2022-07-05 10:19:32,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:32,502] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:19:32,654] {logging_mixin.py:115} INFO - [2022-07-05 10:19:32,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:19:32,826] {logging_mixin.py:115} INFO - [2022-07-05 10:19:32,816] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:19:32,893] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.513 seconds
+[2022-07-05 10:20:03,048] {processor.py:153} INFO - Started process (PID=3692) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:03,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:20:03,072] {logging_mixin.py:115} INFO - [2022-07-05 10:20:03,072] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:03,114] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:03,271] {logging_mixin.py:115} INFO - [2022-07-05 10:20:03,270] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:20:03,404] {logging_mixin.py:115} INFO - [2022-07-05 10:20:03,404] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:20:03,505] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.473 seconds
+[2022-07-05 10:20:34,104] {processor.py:153} INFO - Started process (PID=3722) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:34,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:20:34,106] {logging_mixin.py:115} INFO - [2022-07-05 10:20:34,105] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:34,124] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:20:34,209] {logging_mixin.py:115} INFO - [2022-07-05 10:20:34,209] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:20:34,256] {logging_mixin.py:115} INFO - [2022-07-05 10:20:34,256] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:20:34,271] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.172 seconds
+[2022-07-05 10:21:04,415] {processor.py:153} INFO - Started process (PID=3754) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:04,417] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:21:04,417] {logging_mixin.py:115} INFO - [2022-07-05 10:21:04,417] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:04,429] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:04,477] {logging_mixin.py:115} INFO - [2022-07-05 10:21:04,477] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:21:04,527] {logging_mixin.py:115} INFO - [2022-07-05 10:21:04,527] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:21:04,553] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.143 seconds
+[2022-07-05 10:21:34,845] {processor.py:153} INFO - Started process (PID=3786) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:34,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:21:34,862] {logging_mixin.py:115} INFO - [2022-07-05 10:21:34,861] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:34,906] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:21:35,095] {logging_mixin.py:115} INFO - [2022-07-05 10:21:35,094] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:21:35,276] {logging_mixin.py:115} INFO - [2022-07-05 10:21:35,276] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:21:35,381] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.557 seconds
+[2022-07-05 10:22:05,757] {processor.py:153} INFO - Started process (PID=3819) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:05,759] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:22:05,760] {logging_mixin.py:115} INFO - [2022-07-05 10:22:05,760] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:05,783] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:05,821] {logging_mixin.py:115} INFO - [2022-07-05 10:22:05,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:22:05,860] {logging_mixin.py:115} INFO - [2022-07-05 10:22:05,860] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:22:05,873] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.124 seconds
+[2022-07-05 10:22:35,950] {processor.py:153} INFO - Started process (PID=3851) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:35,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:22:35,951] {logging_mixin.py:115} INFO - [2022-07-05 10:22:35,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:36,022] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:22:36,201] {logging_mixin.py:115} INFO - [2022-07-05 10:22:36,201] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:22:36,303] {logging_mixin.py:115} INFO - [2022-07-05 10:22:36,303] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:22:36,333] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.400 seconds
+[2022-07-05 10:23:07,024] {processor.py:153} INFO - Started process (PID=3894) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:07,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:23:07,028] {logging_mixin.py:115} INFO - [2022-07-05 10:23:07,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:07,068] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:07,208] {logging_mixin.py:115} INFO - [2022-07-05 10:23:07,208] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:23:07,296] {logging_mixin.py:115} INFO - [2022-07-05 10:23:07,296] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:23:07,341] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.321 seconds
+[2022-07-05 10:23:37,880] {processor.py:153} INFO - Started process (PID=3926) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:37,894] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:23:37,895] {logging_mixin.py:115} INFO - [2022-07-05 10:23:37,895] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:37,927] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:23:38,034] {logging_mixin.py:115} INFO - [2022-07-05 10:23:38,034] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:23:38,134] {logging_mixin.py:115} INFO - [2022-07-05 10:23:38,133] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:23:38,185] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.317 seconds
+[2022-07-05 10:24:08,631] {processor.py:153} INFO - Started process (PID=3970) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:08,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:24:08,632] {logging_mixin.py:115} INFO - [2022-07-05 10:24:08,632] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:08,655] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:08,733] {logging_mixin.py:115} INFO - [2022-07-05 10:24:08,732] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:24:08,774] {logging_mixin.py:115} INFO - [2022-07-05 10:24:08,774] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:24:08,792] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.165 seconds
+[2022-07-05 10:24:39,256] {processor.py:153} INFO - Started process (PID=4005) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:39,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:24:39,274] {logging_mixin.py:115} INFO - [2022-07-05 10:24:39,274] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:39,296] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:24:39,364] {logging_mixin.py:115} INFO - [2022-07-05 10:24:39,364] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:24:39,474] {logging_mixin.py:115} INFO - [2022-07-05 10:24:39,474] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:24:39,518] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.266 seconds
+[2022-07-05 10:25:10,199] {processor.py:153} INFO - Started process (PID=4048) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:10,202] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:25:10,206] {logging_mixin.py:115} INFO - [2022-07-05 10:25:10,206] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:10,228] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:10,292] {logging_mixin.py:115} INFO - [2022-07-05 10:25:10,292] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:25:10,350] {logging_mixin.py:115} INFO - [2022-07-05 10:25:10,350] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:25:10,375] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.194 seconds
+[2022-07-05 10:25:41,012] {processor.py:153} INFO - Started process (PID=4078) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:41,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:25:41,014] {logging_mixin.py:115} INFO - [2022-07-05 10:25:41,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:41,025] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:25:41,057] {logging_mixin.py:115} INFO - [2022-07-05 10:25:41,057] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:25:41,091] {logging_mixin.py:115} INFO - [2022-07-05 10:25:41,090] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:25:41,106] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.103 seconds
+[2022-07-05 10:26:11,439] {processor.py:153} INFO - Started process (PID=4110) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:11,446] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:26:11,450] {logging_mixin.py:115} INFO - [2022-07-05 10:26:11,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:11,492] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:11,594] {logging_mixin.py:115} INFO - [2022-07-05 10:26:11,594] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:26:11,656] {logging_mixin.py:115} INFO - [2022-07-05 10:26:11,655] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:26:11,699] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.266 seconds
+[2022-07-05 10:26:42,565] {processor.py:153} INFO - Started process (PID=4152) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:42,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:26:42,575] {logging_mixin.py:115} INFO - [2022-07-05 10:26:42,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:42,625] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:26:42,744] {logging_mixin.py:115} INFO - [2022-07-05 10:26:42,744] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:26:42,987] {logging_mixin.py:115} INFO - [2022-07-05 10:26:42,987] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:26:43,048] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.495 seconds
+[2022-07-05 10:27:14,306] {processor.py:153} INFO - Started process (PID=4185) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:14,313] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:27:14,314] {logging_mixin.py:115} INFO - [2022-07-05 10:27:14,314] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:14,335] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:14,510] {logging_mixin.py:115} INFO - [2022-07-05 10:27:14,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:27:14,664] {logging_mixin.py:115} INFO - [2022-07-05 10:27:14,664] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:27:14,725] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.429 seconds
+[2022-07-05 10:27:45,261] {processor.py:153} INFO - Started process (PID=4217) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:45,265] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:27:45,265] {logging_mixin.py:115} INFO - [2022-07-05 10:27:45,265] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:45,279] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:27:45,315] {logging_mixin.py:115} INFO - [2022-07-05 10:27:45,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:27:45,340] {logging_mixin.py:115} INFO - [2022-07-05 10:27:45,340] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:27:45,353] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.104 seconds
+[2022-07-05 10:28:17,592] {processor.py:153} INFO - Started process (PID=4258) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:17,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:28:17,607] {logging_mixin.py:115} INFO - [2022-07-05 10:28:17,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:17,647] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:17,865] {logging_mixin.py:115} INFO - [2022-07-05 10:28:17,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:28:18,024] {logging_mixin.py:115} INFO - [2022-07-05 10:28:18,024] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:28:18,109] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.520 seconds
+[2022-07-05 10:28:48,365] {processor.py:153} INFO - Started process (PID=4290) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:48,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:28:48,368] {logging_mixin.py:115} INFO - [2022-07-05 10:28:48,367] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:48,405] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:28:48,489] {logging_mixin.py:115} INFO - [2022-07-05 10:28:48,489] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:28:48,552] {logging_mixin.py:115} INFO - [2022-07-05 10:28:48,552] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:28:48,583] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.234 seconds
+[2022-07-05 10:29:18,803] {processor.py:153} INFO - Started process (PID=4337) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:18,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:29:18,806] {logging_mixin.py:115} INFO - [2022-07-05 10:29:18,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:18,832] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:18,893] {logging_mixin.py:115} INFO - [2022-07-05 10:29:18,892] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:29:18,988] {logging_mixin.py:115} INFO - [2022-07-05 10:29:18,988] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:29:19,023] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.230 seconds
+[2022-07-05 10:29:49,246] {processor.py:153} INFO - Started process (PID=4366) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:49,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:29:49,259] {logging_mixin.py:115} INFO - [2022-07-05 10:29:49,259] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:49,316] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:29:49,439] {logging_mixin.py:115} INFO - [2022-07-05 10:29:49,439] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:29:49,567] {logging_mixin.py:115} INFO - [2022-07-05 10:29:49,567] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:29:49,641] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.416 seconds
+[2022-07-05 10:30:19,852] {processor.py:153} INFO - Started process (PID=4409) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:19,869] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:30:19,872] {logging_mixin.py:115} INFO - [2022-07-05 10:30:19,872] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:19,894] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:19,956] {logging_mixin.py:115} INFO - [2022-07-05 10:30:19,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:30:19,996] {logging_mixin.py:115} INFO - [2022-07-05 10:30:19,996] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:30:20,013] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.165 seconds
+[2022-07-05 10:30:50,453] {processor.py:153} INFO - Started process (PID=4440) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:50,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:30:50,458] {logging_mixin.py:115} INFO - [2022-07-05 10:30:50,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:50,473] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:30:50,521] {logging_mixin.py:115} INFO - [2022-07-05 10:30:50,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:30:50,560] {logging_mixin.py:115} INFO - [2022-07-05 10:30:50,560] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:30:50,572] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.126 seconds
+[2022-07-05 10:31:20,896] {processor.py:153} INFO - Started process (PID=4471) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:20,900] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:31:20,906] {logging_mixin.py:115} INFO - [2022-07-05 10:31:20,906] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:20,932] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:20,997] {logging_mixin.py:115} INFO - [2022-07-05 10:31:20,997] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:31:21,078] {logging_mixin.py:115} INFO - [2022-07-05 10:31:21,077] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:31:21,130] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.243 seconds
+[2022-07-05 10:31:51,413] {processor.py:153} INFO - Started process (PID=4507) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:51,417] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:31:51,425] {logging_mixin.py:115} INFO - [2022-07-05 10:31:51,425] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:51,497] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:31:51,613] {logging_mixin.py:115} INFO - [2022-07-05 10:31:51,613] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:31:51,716] {logging_mixin.py:115} INFO - [2022-07-05 10:31:51,716] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:31:51,779] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.386 seconds
+[2022-07-05 10:32:22,555] {processor.py:153} INFO - Started process (PID=4538) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:22,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:32:22,564] {logging_mixin.py:115} INFO - [2022-07-05 10:32:22,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:22,577] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:22,626] {logging_mixin.py:115} INFO - [2022-07-05 10:32:22,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:32:22,660] {logging_mixin.py:115} INFO - [2022-07-05 10:32:22,659] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:32:22,672] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.122 seconds
+[2022-07-05 10:32:52,881] {processor.py:153} INFO - Started process (PID=4571) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:52,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:32:52,890] {logging_mixin.py:115} INFO - [2022-07-05 10:32:52,890] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:52,903] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:32:52,970] {logging_mixin.py:115} INFO - [2022-07-05 10:32:52,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:32:53,011] {logging_mixin.py:115} INFO - [2022-07-05 10:32:53,011] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:32:53,022] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.146 seconds
+[2022-07-05 10:33:23,475] {processor.py:153} INFO - Started process (PID=4602) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:23,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:33:23,477] {logging_mixin.py:115} INFO - [2022-07-05 10:33:23,477] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:23,501] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:23,551] {logging_mixin.py:115} INFO - [2022-07-05 10:33:23,551] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:33:23,595] {logging_mixin.py:115} INFO - [2022-07-05 10:33:23,595] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:33:23,627] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.167 seconds
+[2022-07-05 10:33:54,041] {processor.py:153} INFO - Started process (PID=4632) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:54,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:33:54,046] {logging_mixin.py:115} INFO - [2022-07-05 10:33:54,046] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:54,058] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:33:54,091] {logging_mixin.py:115} INFO - [2022-07-05 10:33:54,091] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:33:54,126] {logging_mixin.py:115} INFO - [2022-07-05 10:33:54,126] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:33:54,146] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.111 seconds
+[2022-07-05 10:34:24,806] {processor.py:153} INFO - Started process (PID=4663) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:24,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:34:24,809] {logging_mixin.py:115} INFO - [2022-07-05 10:34:24,808] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:24,854] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:25,004] {logging_mixin.py:115} INFO - [2022-07-05 10:34:25,004] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:34:25,147] {logging_mixin.py:115} INFO - [2022-07-05 10:34:25,147] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:34:25,167] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.378 seconds
+[2022-07-05 10:34:55,333] {processor.py:153} INFO - Started process (PID=4693) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:55,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:34:55,335] {logging_mixin.py:115} INFO - [2022-07-05 10:34:55,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:55,350] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:34:55,396] {logging_mixin.py:115} INFO - [2022-07-05 10:34:55,396] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:34:55,436] {logging_mixin.py:115} INFO - [2022-07-05 10:34:55,436] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:34:55,452] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.126 seconds
+[2022-07-05 10:35:26,259] {processor.py:153} INFO - Started process (PID=4724) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:26,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:35:26,263] {logging_mixin.py:115} INFO - [2022-07-05 10:35:26,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:26,283] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:26,367] {logging_mixin.py:115} INFO - [2022-07-05 10:35:26,367] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:35:26,444] {logging_mixin.py:115} INFO - [2022-07-05 10:35:26,444] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:35:26,471] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.223 seconds
+[2022-07-05 10:35:57,012] {processor.py:153} INFO - Started process (PID=4762) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:57,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:35:57,026] {logging_mixin.py:115} INFO - [2022-07-05 10:35:57,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:57,091] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:35:57,179] {logging_mixin.py:115} INFO - [2022-07-05 10:35:57,179] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:35:57,250] {logging_mixin.py:115} INFO - [2022-07-05 10:35:57,250] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:35:57,278] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.298 seconds
+[2022-07-05 10:36:27,584] {processor.py:153} INFO - Started process (PID=4796) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:27,590] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:36:27,591] {logging_mixin.py:115} INFO - [2022-07-05 10:36:27,591] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:27,615] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:27,681] {logging_mixin.py:115} INFO - [2022-07-05 10:36:27,681] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:36:27,752] {logging_mixin.py:115} INFO - [2022-07-05 10:36:27,752] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:36:27,789] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.208 seconds
+[2022-07-05 10:36:58,040] {processor.py:153} INFO - Started process (PID=4829) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:58,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:36:58,045] {logging_mixin.py:115} INFO - [2022-07-05 10:36:58,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:58,089] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:36:58,165] {logging_mixin.py:115} INFO - [2022-07-05 10:36:58,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:36:58,344] {logging_mixin.py:115} INFO - [2022-07-05 10:36:58,344] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:36:58,405] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.377 seconds
+[2022-07-05 10:37:29,036] {processor.py:153} INFO - Started process (PID=4861) to work on /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:37:29,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/branch_week_operator.py for tasks to queue
+[2022-07-05 10:37:29,038] {logging_mixin.py:115} INFO - [2022-07-05 10:37:29,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:37:29,049] {processor.py:651} INFO - DAG(s) dict_keys(['week_branch_operator']) retrieved from /opt/airflow/dags/branch_week_operator.py
+[2022-07-05 10:37:29,078] {logging_mixin.py:115} INFO - [2022-07-05 10:37:29,078] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:37:29,107] {logging_mixin.py:115} INFO - [2022-07-05 10:37:29,107] {dag.py:2931} INFO - Setting next_dagrun for week_branch_operator to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:37:29,121] {processor.py:161} INFO - Processing /opt/airflow/dags/branch_week_operator.py took 0.089 seconds
