@@ -1,0 +1,35 @@
+1. Create Kubernetes cluster
+
+############################################################
+
+2. Install Helm
+
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+chmod 700 get_helm.sh
+./get_helm.sh
+
+############################################################
+
+kubectl create namespace airflow
+helm repo add apache-airflow https://airflow.apache.org
+helm install airflow apache-airflow/airflow --namespace airflow --debug --timeout 10m0s
+kubectl edit svc airflow-webserver -n airflow (change Type -> LoadBalancer)
+Get Loadbalancer External IP and hit on port 8080
+Username - admin and password - admin
+
+Change the few configuration 
+Open values.yaml and change below values
+
+webserverConfig: ~
+    service:
+        type: LoadBalancer
+
+executor: "KubernetesExecutor"
+
+ gitSync:
+    repo: https://github.com/technoavengers/airflow-training.git
+    branch: master
+    enabled: true
+    subPath: "dags"
+
+helm upgrade --install airflow apache-airflow/airflow -n airflow -f values.yaml --debug

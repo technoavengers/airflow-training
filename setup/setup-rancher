@@ -1,0 +1,10 @@
+launch t2.small EC2 instance
+In Security group, Add HTTP and HTTPS rules
+sudo yum update -y
+sudo amazon-linux-extras install docker 
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+close the window and connect to ec2 again
+docker run -d --restart=unless-stopped --name rancher --hostname rancher -p 80:80 -p 443:443 --privileged rancher/rancher:latest
+Open the ec2 public dns in browser
+Create a user with appropriate role and keys to be put in rancher while creating EKS cluster

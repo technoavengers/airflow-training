@@ -10,7 +10,7 @@ psql -Uairflow
 SELECT * from users;
 
 ############## Postgres Connection ###################################
-host - postgres
+host - postgres (in case postgres is running in kubernetes pods, use the service name exposing postgres pod)
 login - airflow
 password - airflow
 port - 5432

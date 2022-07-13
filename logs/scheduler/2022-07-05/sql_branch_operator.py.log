@@ -1969,3 +1969,1053 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'create_table' has already been
 [2022-07-05 10:38:01,661] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,661] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:38:01,731] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,731] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:38:01,743] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.187 seconds
+[2022-07-05 10:38:31,959] {processor.py:153} INFO - Started process (PID=4928) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:31,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:38:31,960] {logging_mixin.py:115} INFO - [2022-07-05 10:38:31,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:32,085] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:38:32,186] {logging_mixin.py:115} INFO - [2022-07-05 10:38:32,186] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:38:32,278] {logging_mixin.py:115} INFO - [2022-07-05 10:38:32,278] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:38:32,338] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.389 seconds
+[2022-07-05 10:39:02,567] {processor.py:153} INFO - Started process (PID=4959) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:02,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:39:02,575] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:02,606] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:02,665] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,665] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:39:02,696] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,696] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:39:02,709] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.155 seconds
+[2022-07-05 10:39:33,639] {processor.py:153} INFO - Started process (PID=5008) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:33,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:39:33,642] {logging_mixin.py:115} INFO - [2022-07-05 10:39:33,642] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:33,812] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:39:34,181] {logging_mixin.py:115} INFO - [2022-07-05 10:39:34,181] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:39:34,487] {logging_mixin.py:115} INFO - [2022-07-05 10:39:34,487] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:39:34,617] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.984 seconds
+[2022-07-05 10:40:05,534] {processor.py:153} INFO - Started process (PID=5041) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:05,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:40:05,561] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,561] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:05,674] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:05,829] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:40:05,984] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,984] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:40:06,024] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.513 seconds
+[2022-07-05 10:40:36,225] {processor.py:153} INFO - Started process (PID=5071) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:36,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:40:36,226] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:36,243] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:40:36,276] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,276] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:40:36,310] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,310] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:40:36,327] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.107 seconds
+[2022-07-05 10:41:06,972] {processor.py:153} INFO - Started process (PID=5111) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:06,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:41:06,991] {logging_mixin.py:115} INFO - [2022-07-05 10:41:06,991] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:07,047] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:07,164] {logging_mixin.py:115} INFO - [2022-07-05 10:41:07,161] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:41:07,274] {logging_mixin.py:115} INFO - [2022-07-05 10:41:07,274] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:41:07,380] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.412 seconds
+[2022-07-05 10:41:37,572] {processor.py:153} INFO - Started process (PID=5141) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:37,573] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:41:37,574] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,574] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:37,629] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:41:37,790] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,790] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:41:37,941] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,940] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:41:38,016] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.457 seconds
+[2022-07-05 10:42:08,098] {processor.py:153} INFO - Started process (PID=5178) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:08,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:42:08,100] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:08,125] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:08,159] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,159] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:42:08,202] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,201] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:42:08,226] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.132 seconds
+[2022-07-05 10:42:38,383] {processor.py:153} INFO - Started process (PID=5212) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:38,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:42:38,386] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,386] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:38,434] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:42:38,521] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:42:38,560] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,559] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:42:38,577] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.207 seconds
+[2022-07-05 10:43:09,094] {processor.py:153} INFO - Started process (PID=5243) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:09,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:43:09,100] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:09,133] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:09,207] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,207] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:43:09,280] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,280] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:43:09,316] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.235 seconds
+[2022-07-05 10:43:40,259] {processor.py:153} INFO - Started process (PID=5273) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:40,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:43:40,261] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,261] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:40,290] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:43:40,369] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,369] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:43:40,438] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,438] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:43:40,464] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.214 seconds
+[2022-07-05 10:44:11,436] {processor.py:153} INFO - Started process (PID=5310) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:11,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:44:11,447] {logging_mixin.py:115} INFO - [2022-07-05 10:44:11,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:11,549] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:11,671] {logging_mixin.py:115} INFO - [2022-07-05 10:44:11,671] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:44:11,856] {logging_mixin.py:115} INFO - [2022-07-05 10:44:11,856] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:44:11,964] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.555 seconds
+[2022-07-05 10:44:42,375] {processor.py:153} INFO - Started process (PID=5341) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:42,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:44:42,398] {logging_mixin.py:115} INFO - [2022-07-05 10:44:42,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:42,492] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:44:42,671] {logging_mixin.py:115} INFO - [2022-07-05 10:44:42,670] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:44:42,860] {logging_mixin.py:115} INFO - [2022-07-05 10:44:42,860] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:44:42,965] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.618 seconds
+[2022-07-05 10:45:13,083] {processor.py:153} INFO - Started process (PID=5375) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:13,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:45:13,084] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,084] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:13,114] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:13,138] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,138] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:45:13,162] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,162] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:45:13,174] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.095 seconds
+[2022-07-05 10:45:43,626] {processor.py:153} INFO - Started process (PID=5407) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:43,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:45:43,633] {logging_mixin.py:115} INFO - [2022-07-05 10:45:43,633] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:43,688] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:45:43,961] {logging_mixin.py:115} INFO - [2022-07-05 10:45:43,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:45:44,086] {logging_mixin.py:115} INFO - [2022-07-05 10:45:44,086] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:45:44,141] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.538 seconds
+[2022-07-05 10:46:14,219] {processor.py:153} INFO - Started process (PID=5448) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:14,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:46:14,229] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:14,265] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:14,329] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,329] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:46:14,399] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,399] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:46:14,418] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.208 seconds
+[2022-07-05 10:46:44,837] {processor.py:153} INFO - Started process (PID=5484) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:44,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:46:44,840] {logging_mixin.py:115} INFO - [2022-07-05 10:46:44,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:44,872] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:46:44,952] {logging_mixin.py:115} INFO - [2022-07-05 10:46:44,952] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:46:45,042] {logging_mixin.py:115} INFO - [2022-07-05 10:46:45,041] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:46:45,072] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.239 seconds
+[2022-07-05 10:47:15,528] {processor.py:153} INFO - Started process (PID=5525) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:15,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:47:15,534] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,534] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:15,568] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:15,619] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,619] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:47:15,653] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,653] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:47:15,677] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.156 seconds
+[2022-07-05 10:47:46,497] {processor.py:153} INFO - Started process (PID=5558) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:46,504] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:47:46,532] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:46,600] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:47:46,772] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,772] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:47:46,967] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,967] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:47:47,037] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.555 seconds
+[2022-07-05 10:48:17,460] {processor.py:153} INFO - Started process (PID=5595) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:17,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:48:17,483] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:17,517] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:17,581] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,581] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:48:17,643] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,642] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:48:17,678] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.228 seconds
+[2022-07-05 10:48:48,160] {processor.py:153} INFO - Started process (PID=5636) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:48,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:48:48,172] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:48,188] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:48:48,220] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,220] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:48:48,254] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,254] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:48:48,269] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.113 seconds
+[2022-07-05 10:49:18,520] {processor.py:153} INFO - Started process (PID=5667) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:18,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:49:18,550] {logging_mixin.py:115} INFO - [2022-07-05 10:49:18,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:18,667] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:18,875] {logging_mixin.py:115} INFO - [2022-07-05 10:49:18,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:49:19,110] {logging_mixin.py:115} INFO - [2022-07-05 10:49:19,109] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:49:19,181] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.681 seconds
+[2022-07-05 10:49:50,090] {processor.py:153} INFO - Started process (PID=5709) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:50,101] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:49:50,106] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:50,174] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:49:50,335] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,335] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:49:50,479] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,479] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:49:50,562] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.482 seconds
+[2022-07-05 10:50:21,500] {processor.py:153} INFO - Started process (PID=5744) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:21,504] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:50:21,519] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,519] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:21,540] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:21,578] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,577] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:50:21,616] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,616] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:50:21,628] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.132 seconds
+[2022-07-05 10:50:52,630] {processor.py:153} INFO - Started process (PID=5780) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:52,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:50:52,645] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,645] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:52,724] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:50:52,854] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,853] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:50:52,945] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,945] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:50:53,037] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.424 seconds
+[2022-07-05 10:51:23,761] {processor.py:153} INFO - Started process (PID=5810) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:23,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:51:23,773] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:23,792] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:23,829] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:51:23,863] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,863] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:51:23,879] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.122 seconds
+[2022-07-05 10:51:54,750] {processor.py:153} INFO - Started process (PID=5841) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:54,755] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:51:54,760] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:54,791] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:51:54,854] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,853] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:51:54,897] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,897] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:51:54,915] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.170 seconds
+[2022-07-05 10:52:25,750] {processor.py:153} INFO - Started process (PID=5871) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:25,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:52:25,753] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:25,789] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:25,834] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:52:25,877] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,877] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:52:25,896] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.150 seconds
+[2022-07-05 10:52:56,683] {processor.py:153} INFO - Started process (PID=5901) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:56,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:52:56,693] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,693] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:56,721] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:52:56,758] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,758] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:52:56,801] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,800] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:52:56,824] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.145 seconds
+[2022-07-05 10:53:27,614] {processor.py:153} INFO - Started process (PID=5932) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:27,625] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:53:27,629] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:27,675] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:27,762] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,762] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:53:27,829] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,828] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:53:27,870] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.271 seconds
+[2022-07-05 10:53:58,684] {processor.py:153} INFO - Started process (PID=5963) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:58,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:53:58,690] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:58,723] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:53:58,781] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,781] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:53:58,847] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,847] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:53:58,880] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.201 seconds
+[2022-07-05 10:54:29,365] {processor.py:153} INFO - Started process (PID=5996) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:54:29,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:54:29,374] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,374] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:54:29,437] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:54:29,541] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,541] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:54:29,633] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,633] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:54:29,684] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.349 seconds
+[2022-07-05 10:55:00,204] {processor.py:153} INFO - Started process (PID=6036) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:00,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:55:00,211] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:00,297] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:00,505] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,505] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:55:00,655] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,654] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:55:00,782] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.582 seconds
+[2022-07-05 10:55:31,213] {processor.py:153} INFO - Started process (PID=6073) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:31,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:55:31,214] {logging_mixin.py:115} INFO - [2022-07-05 10:55:31,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:31,263] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:55:31,388] {logging_mixin.py:115} INFO - [2022-07-05 10:55:31,387] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:55:31,484] {logging_mixin.py:115} INFO - [2022-07-05 10:55:31,484] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:55:31,537] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.340 seconds
+[2022-07-05 10:56:01,670] {processor.py:153} INFO - Started process (PID=6102) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:01,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:56:01,690] {logging_mixin.py:115} INFO - [2022-07-05 10:56:01,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:01,761] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:01,893] {logging_mixin.py:115} INFO - [2022-07-05 10:56:01,893] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:56:02,066] {logging_mixin.py:115} INFO - [2022-07-05 10:56:02,066] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:56:02,177] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.519 seconds
+[2022-07-05 10:56:32,375] {processor.py:153} INFO - Started process (PID=6136) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:32,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:56:32,376] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,376] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:32,408] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:56:32,482] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,481] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:56:32,570] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,570] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:56:32,625] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.257 seconds
+[2022-07-05 10:57:03,373] {processor.py:153} INFO - Started process (PID=6168) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:03,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:57:03,374] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,374] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:03,392] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:03,431] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,431] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:57:03,468] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,468] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:57:03,483] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.115 seconds
+[2022-07-05 10:57:34,314] {processor.py:153} INFO - Started process (PID=6203) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:34,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:57:34,316] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,315] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:34,365] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:57:34,440] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:57:34,500] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,500] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:57:34,525] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.222 seconds
+[2022-07-05 10:58:05,324] {processor.py:153} INFO - Started process (PID=6233) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:05,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:58:05,327] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:05,358] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:05,470] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,470] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:58:05,584] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,583] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:58:05,647] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.337 seconds
+[2022-07-05 10:58:35,925] {processor.py:153} INFO - Started process (PID=6263) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:35,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:58:35,926] {logging_mixin.py:115} INFO - [2022-07-05 10:58:35,926] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:35,980] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:58:36,022] {logging_mixin.py:115} INFO - [2022-07-05 10:58:36,022] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:58:36,065] {logging_mixin.py:115} INFO - [2022-07-05 10:58:36,064] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:58:36,106] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.185 seconds
+[2022-07-05 10:59:06,626] {processor.py:153} INFO - Started process (PID=6294) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:06,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:59:06,628] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:06,645] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:06,697] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:59:06,759] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,759] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:59:06,798] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.176 seconds
+[2022-07-05 10:59:37,712] {processor.py:153} INFO - Started process (PID=6339) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:37,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 10:59:37,729] {logging_mixin.py:115} INFO - [2022-07-05 10:59:37,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:37,810] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 10:59:37,995] {logging_mixin.py:115} INFO - [2022-07-05 10:59:37,995] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:59:38,191] {logging_mixin.py:115} INFO - [2022-07-05 10:59:38,191] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:59:38,282] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.590 seconds
+[2022-07-05 11:00:08,850] {processor.py:153} INFO - Started process (PID=6373) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:08,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:00:08,851] {logging_mixin.py:115} INFO - [2022-07-05 11:00:08,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:08,910] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:09,029] {logging_mixin.py:115} INFO - [2022-07-05 11:00:09,029] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:00:09,124] {logging_mixin.py:115} INFO - [2022-07-05 11:00:09,124] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:00:09,168] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.330 seconds
+[2022-07-05 11:00:39,659] {processor.py:153} INFO - Started process (PID=6405) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:39,664] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:00:39,667] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,665] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:39,777] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:00:39,886] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:00:39,962] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,962] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:00:40,000] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.383 seconds
+[2022-07-05 11:01:10,789] {processor.py:153} INFO - Started process (PID=6452) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:10,790] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:01:10,790] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,790] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:10,835] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:10,910] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,910] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:01:10,952] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,952] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:01:10,985] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.200 seconds
+[2022-07-05 11:01:41,979] {processor.py:153} INFO - Started process (PID=6484) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:41,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:01:41,989] {logging_mixin.py:115} INFO - [2022-07-05 11:01:41,989] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:42,038] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:01:42,185] {logging_mixin.py:115} INFO - [2022-07-05 11:01:42,185] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:01:42,284] {logging_mixin.py:115} INFO - [2022-07-05 11:01:42,284] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:01:42,353] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.390 seconds
+[2022-07-05 11:02:12,605] {processor.py:153} INFO - Started process (PID=6516) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:12,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:02:12,613] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:12,644] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:12,705] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,705] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:02:12,775] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,774] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:02:12,810] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.213 seconds
+[2022-07-05 11:02:42,884] {processor.py:153} INFO - Started process (PID=6557) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:42,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:02:42,889] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:42,915] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:02:42,956] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:02:42,991] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,991] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:02:43,007] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.135 seconds
+[2022-07-05 11:03:13,948] {processor.py:153} INFO - Started process (PID=6589) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:13,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:03:13,953] {logging_mixin.py:115} INFO - [2022-07-05 11:03:13,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:14,004] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:14,154] {logging_mixin.py:115} INFO - [2022-07-05 11:03:14,154] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:03:14,270] {logging_mixin.py:115} INFO - [2022-07-05 11:03:14,270] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:03:14,326] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.391 seconds
+[2022-07-05 11:03:45,012] {processor.py:153} INFO - Started process (PID=6629) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:45,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:03:45,014] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:45,062] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:03:45,106] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,106] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:03:45,141] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,141] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:03:45,165] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.165 seconds
+[2022-07-05 11:04:15,942] {processor.py:153} INFO - Started process (PID=6663) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:15,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:04:15,957] {logging_mixin.py:115} INFO - [2022-07-05 11:04:15,957] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:16,057] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:16,225] {logging_mixin.py:115} INFO - [2022-07-05 11:04:16,225] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:04:16,343] {logging_mixin.py:115} INFO - [2022-07-05 11:04:16,342] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:04:16,410] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.487 seconds
+[2022-07-05 11:04:46,824] {processor.py:153} INFO - Started process (PID=6696) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:46,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:04:46,838] {logging_mixin.py:115} INFO - [2022-07-05 11:04:46,838] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:46,914] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:04:46,983] {logging_mixin.py:115} INFO - [2022-07-05 11:04:46,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:04:47,048] {logging_mixin.py:115} INFO - [2022-07-05 11:04:47,047] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:04:47,121] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.300 seconds
+[2022-07-05 11:05:17,281] {processor.py:153} INFO - Started process (PID=6736) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:17,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:05:17,285] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:17,321] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:17,386] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,386] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:05:17,435] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,435] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:05:17,478] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.206 seconds
+[2022-07-05 11:05:47,705] {processor.py:153} INFO - Started process (PID=6766) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:47,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:05:47,706] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,706] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:47,741] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:05:47,827] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,826] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:05:47,875] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,874] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:05:47,909] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.208 seconds
+[2022-07-05 11:06:18,124] {processor.py:153} INFO - Started process (PID=6809) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:18,133] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:06:18,133] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,133] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:18,177] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:18,249] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,249] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:06:18,322] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,322] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:06:18,367] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.247 seconds
+[2022-07-05 11:06:49,005] {processor.py:153} INFO - Started process (PID=6843) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:49,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:06:49,006] {logging_mixin.py:115} INFO - [2022-07-05 11:06:49,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:49,033] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:06:49,072] {logging_mixin.py:115} INFO - [2022-07-05 11:06:49,072] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:06:49,111] {logging_mixin.py:115} INFO - [2022-07-05 11:06:49,110] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:06:49,128] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.129 seconds
+[2022-07-05 11:07:19,693] {processor.py:153} INFO - Started process (PID=6878) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:19,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:07:19,704] {logging_mixin.py:115} INFO - [2022-07-05 11:07:19,704] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:19,790] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:19,970] {logging_mixin.py:115} INFO - [2022-07-05 11:07:19,970] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:07:20,137] {logging_mixin.py:115} INFO - [2022-07-05 11:07:20,136] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:07:20,185] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.521 seconds
+[2022-07-05 11:07:50,839] {processor.py:153} INFO - Started process (PID=6914) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:50,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:07:50,840] {logging_mixin.py:115} INFO - [2022-07-05 11:07:50,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:50,921] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:07:51,001] {logging_mixin.py:115} INFO - [2022-07-05 11:07:51,001] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:07:51,103] {logging_mixin.py:115} INFO - [2022-07-05 11:07:51,102] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:07:51,174] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.362 seconds
+[2022-07-05 11:08:22,709] {processor.py:153} INFO - Started process (PID=6949) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:22,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:08:22,718] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,717] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:22,736] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:22,769] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,769] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:08:22,803] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,803] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:08:22,843] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.151 seconds
+[2022-07-05 11:08:52,909] {processor.py:153} INFO - Started process (PID=6980) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:52,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:08:52,910] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:52,926] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:08:52,961] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:08:52,997] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,997] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:08:53,014] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.109 seconds
+[2022-07-05 11:09:23,744] {processor.py:153} INFO - Started process (PID=7010) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:23,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:09:23,746] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,746] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:23,762] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:23,794] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:09:23,828] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,828] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:09:23,844] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.104 seconds
+[2022-07-05 11:09:53,931] {processor.py:153} INFO - Started process (PID=7041) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:53,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:09:53,932] {logging_mixin.py:115} INFO - [2022-07-05 11:09:53,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:53,946] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:09:53,978] {logging_mixin.py:115} INFO - [2022-07-05 11:09:53,978] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:09:54,012] {logging_mixin.py:115} INFO - [2022-07-05 11:09:54,011] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:09:54,030] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.104 seconds
+[2022-07-05 11:10:24,760] {processor.py:153} INFO - Started process (PID=7073) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:24,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:10:24,762] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,761] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:24,776] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:24,815] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,814] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:10:24,855] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,855] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:10:24,878] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.125 seconds
+[2022-07-05 11:10:55,264] {processor.py:153} INFO - Started process (PID=7103) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:55,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:10:55,277] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:55,337] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:10:55,485] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,485] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:10:55,686] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,686] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:10:55,777] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.530 seconds
+[2022-07-05 11:11:26,233] {processor.py:153} INFO - Started process (PID=7142) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:26,234] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:11:26,235] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:26,262] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:26,325] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:11:26,411] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,411] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:11:26,441] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.217 seconds
+[2022-07-05 11:11:56,759] {processor.py:153} INFO - Started process (PID=7173) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:56,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:11:56,769] {logging_mixin.py:115} INFO - [2022-07-05 11:11:56,769] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:56,812] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:11:56,913] {logging_mixin.py:115} INFO - [2022-07-05 11:11:56,913] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:11:57,148] {logging_mixin.py:115} INFO - [2022-07-05 11:11:57,147] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:11:57,229] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.486 seconds
+[2022-07-05 11:12:28,133] {processor.py:153} INFO - Started process (PID=7205) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:28,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:12:28,134] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,134] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:28,190] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:28,309] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,309] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:12:28,438] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,437] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:12:28,478] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.357 seconds
+[2022-07-05 11:12:59,433] {processor.py:153} INFO - Started process (PID=7244) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:59,434] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:12:59,435] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,435] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:59,449] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:12:59,481] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,481] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:12:59,527] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,527] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:12:59,542] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.113 seconds
+[2022-07-05 11:13:30,045] {processor.py:153} INFO - Started process (PID=7275) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:13:30,045] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:13:30,046] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,046] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:13:30,062] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:13:30,095] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,095] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:13:30,158] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,157] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:13:30,199] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.159 seconds
+[2022-07-05 11:14:00,612] {processor.py:153} INFO - Started process (PID=7309) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:00,617] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:14:00,617] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,617] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:00,644] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:00,730] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,730] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:14:00,826] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,825] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:14:00,865] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.261 seconds
+[2022-07-05 11:14:31,618] {processor.py:153} INFO - Started process (PID=7350) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:31,625] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:14:31,625] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,625] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:31,682] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:14:31,764] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:14:31,804] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,804] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:14:31,821] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.209 seconds
+[2022-07-05 11:15:01,897] {processor.py:153} INFO - Started process (PID=7385) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:01,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:15:01,898] {logging_mixin.py:115} INFO - [2022-07-05 11:15:01,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:01,941] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:02,009] {logging_mixin.py:115} INFO - [2022-07-05 11:15:02,009] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:15:02,083] {logging_mixin.py:115} INFO - [2022-07-05 11:15:02,083] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:15:02,147] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.254 seconds
+[2022-07-05 11:15:32,529] {processor.py:153} INFO - Started process (PID=7431) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:32,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:15:32,531] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:32,568] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:15:32,655] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:15:32,738] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,738] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:15:32,756] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.235 seconds
+[2022-07-05 11:16:03,056] {processor.py:153} INFO - Started process (PID=7463) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:03,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:16:03,058] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,058] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:03,076] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:03,109] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,109] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:16:03,145] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,145] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:16:03,158] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.108 seconds
+[2022-07-05 11:16:33,638] {processor.py:153} INFO - Started process (PID=7495) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:33,640] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:16:33,640] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,640] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:33,693] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:16:33,750] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,750] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:16:33,790] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,790] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:16:33,821] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.204 seconds
+[2022-07-05 11:17:04,742] {processor.py:153} INFO - Started process (PID=7536) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:04,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:17:04,743] {logging_mixin.py:115} INFO - [2022-07-05 11:17:04,743] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:04,835] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:04,992] {logging_mixin.py:115} INFO - [2022-07-05 11:17:04,992] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:17:05,134] {logging_mixin.py:115} INFO - [2022-07-05 11:17:05,134] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:17:05,168] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.446 seconds
+[2022-07-05 11:17:35,574] {processor.py:153} INFO - Started process (PID=7570) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:35,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:17:35,578] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:35,613] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:17:35,654] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:17:35,695] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,695] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:17:35,714] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.145 seconds
+[2022-07-05 11:18:05,914] {processor.py:153} INFO - Started process (PID=7612) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:05,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:18:05,916] {logging_mixin.py:115} INFO - [2022-07-05 11:18:05,916] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:05,934] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:05,973] {logging_mixin.py:115} INFO - [2022-07-05 11:18:05,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:18:06,023] {logging_mixin.py:115} INFO - [2022-07-05 11:18:06,023] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:18:06,066] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.157 seconds
+[2022-07-05 11:18:36,175] {processor.py:153} INFO - Started process (PID=7650) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:36,185] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:18:36,185] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,185] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:36,265] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:18:36,413] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,413] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:18:36,634] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,634] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:18:36,738] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.578 seconds
+[2022-07-05 11:19:07,432] {processor.py:153} INFO - Started process (PID=7690) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:07,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:19:07,441] {logging_mixin.py:115} INFO - [2022-07-05 11:19:07,441] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:07,538] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:07,737] {logging_mixin.py:115} INFO - [2022-07-05 11:19:07,737] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:19:08,004] {logging_mixin.py:115} INFO - [2022-07-05 11:19:08,004] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:19:08,079] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.677 seconds
+[2022-07-05 11:19:38,228] {processor.py:153} INFO - Started process (PID=7723) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:38,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:19:38,241] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,241] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:38,267] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:19:38,341] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:19:38,416] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,415] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:19:38,438] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.214 seconds
+[2022-07-05 11:20:08,655] {processor.py:153} INFO - Started process (PID=7754) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:08,662] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:20:08,663] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,662] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:08,692] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:08,733] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,733] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:20:08,784] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,783] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:20:08,810] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.159 seconds
+[2022-07-05 11:20:38,998] {processor.py:153} INFO - Started process (PID=7785) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:38,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:20:38,999] {logging_mixin.py:115} INFO - [2022-07-05 11:20:38,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:39,035] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:20:39,082] {logging_mixin.py:115} INFO - [2022-07-05 11:20:39,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:20:39,135] {logging_mixin.py:115} INFO - [2022-07-05 11:20:39,135] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:20:39,170] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.179 seconds
+[2022-07-05 11:21:09,960] {processor.py:153} INFO - Started process (PID=7827) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:09,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:21:09,965] {logging_mixin.py:115} INFO - [2022-07-05 11:21:09,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:10,022] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:10,157] {logging_mixin.py:115} INFO - [2022-07-05 11:21:10,157] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:21:10,349] {logging_mixin.py:115} INFO - [2022-07-05 11:21:10,349] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:21:10,458] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.516 seconds
+[2022-07-05 11:21:41,100] {processor.py:153} INFO - Started process (PID=7858) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:41,101] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:21:41,111] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:41,167] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:21:41,258] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,258] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:21:41,372] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,372] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:21:41,429] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.361 seconds
+[2022-07-05 11:22:12,180] {processor.py:153} INFO - Started process (PID=7894) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:12,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:22:12,190] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,190] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:12,226] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:12,289] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,289] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:22:12,358] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,358] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:22:12,425] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.249 seconds
+[2022-07-05 11:22:42,518] {processor.py:153} INFO - Started process (PID=7928) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:42,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:22:42,519] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,519] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:42,534] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:22:42,569] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,569] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:22:42,605] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,604] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:22:42,618] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.106 seconds
+[2022-07-05 11:23:12,901] {processor.py:153} INFO - Started process (PID=7976) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:12,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:23:12,902] {logging_mixin.py:115} INFO - [2022-07-05 11:23:12,902] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:12,941] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:13,014] {logging_mixin.py:115} INFO - [2022-07-05 11:23:13,013] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:23:13,184] {logging_mixin.py:115} INFO - [2022-07-05 11:23:13,184] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:23:13,278] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.396 seconds
+[2022-07-05 11:23:43,864] {processor.py:153} INFO - Started process (PID=8010) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:43,877] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:23:43,877] {logging_mixin.py:115} INFO - [2022-07-05 11:23:43,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:43,903] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:23:43,981] {logging_mixin.py:115} INFO - [2022-07-05 11:23:43,981] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:23:44,037] {logging_mixin.py:115} INFO - [2022-07-05 11:23:44,037] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:23:44,052] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.192 seconds
+[2022-07-05 11:24:14,436] {processor.py:153} INFO - Started process (PID=8052) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:14,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:24:14,437] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,437] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:14,487] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:14,604] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,604] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:24:14,703] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,703] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:24:14,732] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.299 seconds
+[2022-07-05 11:24:45,080] {processor.py:153} INFO - Started process (PID=8085) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:45,086] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:24:45,087] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:45,176] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:24:45,328] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,328] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:24:45,469] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,469] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:24:45,547] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.483 seconds
+[2022-07-05 11:25:16,455] {processor.py:153} INFO - Started process (PID=8118) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:16,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:25:16,456] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,456] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:16,472] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:16,509] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:25:16,544] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,544] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:25:16,559] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.108 seconds
+[2022-07-05 11:25:46,717] {processor.py:153} INFO - Started process (PID=8163) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:46,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 11:25:46,722] {logging_mixin.py:115} INFO - [2022-07-05 11:25:46,722] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:46,761] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 11:25:46,873] {logging_mixin.py:115} INFO - [2022-07-05 11:25:46,873] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:25:47,019] {logging_mixin.py:115} INFO - [2022-07-05 11:25:47,008] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:25:47,114] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.418 seconds
+[2022-07-05 12:13:15,777] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:15,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:13:15,792] {logging_mixin.py:115} INFO - [2022-07-05 12:13:15,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:15,839] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:15,944] {logging_mixin.py:115} INFO - [2022-07-05 12:13:15,943] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:13:16,046] {logging_mixin.py:115} INFO - [2022-07-05 12:13:16,045] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:13:16,088] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.314 seconds
+[2022-07-05 12:13:47,052] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:47,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:13:47,054] {logging_mixin.py:115} INFO - [2022-07-05 12:13:47,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:47,070] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:13:47,104] {logging_mixin.py:115} INFO - [2022-07-05 12:13:47,104] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:13:47,140] {logging_mixin.py:115} INFO - [2022-07-05 12:13:47,140] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:13:47,155] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.106 seconds
+[2022-07-05 12:14:17,865] {processor.py:153} INFO - Started process (PID=122) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:17,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:14:17,868] {logging_mixin.py:115} INFO - [2022-07-05 12:14:17,868] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:17,908] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:17,984] {logging_mixin.py:115} INFO - [2022-07-05 12:14:17,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:14:18,048] {logging_mixin.py:115} INFO - [2022-07-05 12:14:18,048] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:14:18,083] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.222 seconds
+[2022-07-05 12:14:48,587] {processor.py:153} INFO - Started process (PID=156) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:48,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:14:48,589] {logging_mixin.py:115} INFO - [2022-07-05 12:14:48,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:48,624] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:14:48,703] {logging_mixin.py:115} INFO - [2022-07-05 12:14:48,703] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:14:48,766] {logging_mixin.py:115} INFO - [2022-07-05 12:14:48,766] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:14:48,818] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.234 seconds
+[2022-07-05 12:15:19,010] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:19,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:15:19,028] {logging_mixin.py:115} INFO - [2022-07-05 12:15:19,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:19,114] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:19,196] {logging_mixin.py:115} INFO - [2022-07-05 12:15:19,196] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:15:19,346] {logging_mixin.py:115} INFO - [2022-07-05 12:15:19,336] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:15:19,497] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.529 seconds
+[2022-07-05 12:15:50,141] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:50,141] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:15:50,142] {logging_mixin.py:115} INFO - [2022-07-05 12:15:50,142] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:50,197] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:15:50,263] {logging_mixin.py:115} INFO - [2022-07-05 12:15:50,263] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:15:50,333] {logging_mixin.py:115} INFO - [2022-07-05 12:15:50,333] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:15:50,355] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.218 seconds
+[2022-07-05 12:16:21,291] {processor.py:153} INFO - Started process (PID=247) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:21,292] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:16:21,293] {logging_mixin.py:115} INFO - [2022-07-05 12:16:21,293] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:21,337] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:21,437] {logging_mixin.py:115} INFO - [2022-07-05 12:16:21,436] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:16:21,541] {logging_mixin.py:115} INFO - [2022-07-05 12:16:21,541] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:16:21,595] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.320 seconds
+[2022-07-05 12:16:51,976] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:51,977] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:16:51,977] {logging_mixin.py:115} INFO - [2022-07-05 12:16:51,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:51,991] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:16:52,088] {logging_mixin.py:115} INFO - [2022-07-05 12:16:52,088] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:16:52,136] {logging_mixin.py:115} INFO - [2022-07-05 12:16:52,136] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:16:52,187] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.214 seconds
+[2022-07-05 12:17:22,975] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:22,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:17:22,980] {logging_mixin.py:115} INFO - [2022-07-05 12:17:22,980] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:23,053] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:23,236] {logging_mixin.py:115} INFO - [2022-07-05 12:17:23,236] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:17:23,439] {logging_mixin.py:115} INFO - [2022-07-05 12:17:23,438] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:17:23,559] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.605 seconds
+[2022-07-05 12:17:53,647] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:53,652] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:17:53,653] {logging_mixin.py:115} INFO - [2022-07-05 12:17:53,653] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:53,689] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:17:53,756] {logging_mixin.py:115} INFO - [2022-07-05 12:17:53,755] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:17:53,800] {logging_mixin.py:115} INFO - [2022-07-05 12:17:53,800] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:17:53,813] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.178 seconds
+[2022-07-05 12:18:23,940] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:23,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:18:23,952] {logging_mixin.py:115} INFO - [2022-07-05 12:18:23,952] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:23,983] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:24,049] {logging_mixin.py:115} INFO - [2022-07-05 12:18:24,048] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:18:24,131] {logging_mixin.py:115} INFO - [2022-07-05 12:18:24,130] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:18:24,146] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.210 seconds
+[2022-07-05 12:18:55,017] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:55,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:18:55,054] {logging_mixin.py:115} INFO - [2022-07-05 12:18:55,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:55,212] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:18:55,428] {logging_mixin.py:115} INFO - [2022-07-05 12:18:55,427] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:18:55,659] {logging_mixin.py:115} INFO - [2022-07-05 12:18:55,658] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:18:55,766] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.803 seconds
+[2022-07-05 12:19:26,475] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:26,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:19:26,494] {logging_mixin.py:115} INFO - [2022-07-05 12:19:26,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:26,570] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:26,726] {logging_mixin.py:115} INFO - [2022-07-05 12:19:26,726] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:19:26,867] {logging_mixin.py:115} INFO - [2022-07-05 12:19:26,867] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:19:26,899] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.440 seconds
+[2022-07-05 12:19:57,657] {processor.py:153} INFO - Started process (PID=484) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:57,658] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:19:57,659] {logging_mixin.py:115} INFO - [2022-07-05 12:19:57,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:57,679] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:19:57,719] {logging_mixin.py:115} INFO - [2022-07-05 12:19:57,718] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:19:57,764] {logging_mixin.py:115} INFO - [2022-07-05 12:19:57,763] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:19:57,783] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.140 seconds
+[2022-07-05 12:20:28,307] {processor.py:153} INFO - Started process (PID=515) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:28,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:20:28,308] {logging_mixin.py:115} INFO - [2022-07-05 12:20:28,308] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:28,324] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:28,358] {logging_mixin.py:115} INFO - [2022-07-05 12:20:28,358] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:20:28,394] {logging_mixin.py:115} INFO - [2022-07-05 12:20:28,394] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:20:28,434] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.131 seconds
+[2022-07-05 12:20:58,684] {processor.py:153} INFO - Started process (PID=544) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:58,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:20:58,691] {logging_mixin.py:115} INFO - [2022-07-05 12:20:58,691] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:58,740] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:20:58,949] {logging_mixin.py:115} INFO - [2022-07-05 12:20:58,949] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:20:58,994] {logging_mixin.py:115} INFO - [2022-07-05 12:20:58,994] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:20:59,055] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.392 seconds
+[2022-07-05 12:21:29,931] {processor.py:153} INFO - Started process (PID=575) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:21:29,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:21:29,932] {logging_mixin.py:115} INFO - [2022-07-05 12:21:29,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:21:29,949] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:21:29,994] {logging_mixin.py:115} INFO - [2022-07-05 12:21:29,989] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:21:30,030] {logging_mixin.py:115} INFO - [2022-07-05 12:21:30,030] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:21:30,052] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.127 seconds
+[2022-07-05 12:22:01,115] {processor.py:153} INFO - Started process (PID=619) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:01,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:22:01,160] {logging_mixin.py:115} INFO - [2022-07-05 12:22:01,159] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:01,235] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:01,522] {logging_mixin.py:115} INFO - [2022-07-05 12:22:01,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:22:01,782] {logging_mixin.py:115} INFO - [2022-07-05 12:22:01,782] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:22:01,856] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.764 seconds
+[2022-07-05 12:22:32,356] {processor.py:153} INFO - Started process (PID=650) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:32,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:22:32,357] {logging_mixin.py:115} INFO - [2022-07-05 12:22:32,357] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:32,389] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:22:32,429] {logging_mixin.py:115} INFO - [2022-07-05 12:22:32,429] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:22:32,467] {logging_mixin.py:115} INFO - [2022-07-05 12:22:32,467] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:22:32,479] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.127 seconds
+[2022-07-05 12:23:03,137] {processor.py:153} INFO - Started process (PID=685) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:03,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:23:03,139] {logging_mixin.py:115} INFO - [2022-07-05 12:23:03,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:03,155] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:03,207] {logging_mixin.py:115} INFO - [2022-07-05 12:23:03,207] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:23:03,289] {logging_mixin.py:115} INFO - [2022-07-05 12:23:03,288] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:23:03,306] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.173 seconds
+[2022-07-05 12:23:34,199] {processor.py:153} INFO - Started process (PID=715) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:34,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:23:34,201] {logging_mixin.py:115} INFO - [2022-07-05 12:23:34,200] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:34,252] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:23:34,288] {logging_mixin.py:115} INFO - [2022-07-05 12:23:34,288] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:23:34,324] {logging_mixin.py:115} INFO - [2022-07-05 12:23:34,324] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:23:34,363] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.170 seconds
+[2022-07-05 12:24:05,307] {processor.py:153} INFO - Started process (PID=754) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:05,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:24:05,313] {logging_mixin.py:115} INFO - [2022-07-05 12:24:05,313] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:05,388] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:05,494] {logging_mixin.py:115} INFO - [2022-07-05 12:24:05,494] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:24:05,567] {logging_mixin.py:115} INFO - [2022-07-05 12:24:05,567] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:24:05,599] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.296 seconds
+[2022-07-05 12:24:35,959] {processor.py:153} INFO - Started process (PID=785) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:35,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:24:35,965] {logging_mixin.py:115} INFO - [2022-07-05 12:24:35,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:36,014] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:24:36,107] {logging_mixin.py:115} INFO - [2022-07-05 12:24:36,107] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:24:36,143] {logging_mixin.py:115} INFO - [2022-07-05 12:24:36,143] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:24:36,166] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.216 seconds
+[2022-07-05 12:25:06,524] {processor.py:153} INFO - Started process (PID=832) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:06,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:25:06,526] {logging_mixin.py:115} INFO - [2022-07-05 12:25:06,526] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:06,583] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:06,713] {logging_mixin.py:115} INFO - [2022-07-05 12:25:06,713] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:25:06,823] {logging_mixin.py:115} INFO - [2022-07-05 12:25:06,823] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:25:06,888] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.376 seconds
+[2022-07-05 12:25:37,254] {processor.py:153} INFO - Started process (PID=866) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:37,255] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:25:37,255] {logging_mixin.py:115} INFO - [2022-07-05 12:25:37,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:37,272] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:25:37,307] {logging_mixin.py:115} INFO - [2022-07-05 12:25:37,307] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:25:37,360] {logging_mixin.py:115} INFO - [2022-07-05 12:25:37,359] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:25:37,390] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.140 seconds
+[2022-07-05 12:26:08,365] {processor.py:153} INFO - Started process (PID=907) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:08,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:26:08,372] {logging_mixin.py:115} INFO - [2022-07-05 12:26:08,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:08,423] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:08,497] {logging_mixin.py:115} INFO - [2022-07-05 12:26:08,496] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:26:08,567] {logging_mixin.py:115} INFO - [2022-07-05 12:26:08,567] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:26:08,597] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.247 seconds
+[2022-07-05 12:26:38,971] {processor.py:153} INFO - Started process (PID=939) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:38,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:26:38,979] {logging_mixin.py:115} INFO - [2022-07-05 12:26:38,979] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:39,031] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:26:39,112] {logging_mixin.py:115} INFO - [2022-07-05 12:26:39,111] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:26:39,191] {logging_mixin.py:115} INFO - [2022-07-05 12:26:39,191] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:26:39,228] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.270 seconds
+[2022-07-05 12:27:09,993] {processor.py:153} INFO - Started process (PID=982) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:09,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:27:09,995] {logging_mixin.py:115} INFO - [2022-07-05 12:27:09,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:10,034] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:10,104] {logging_mixin.py:115} INFO - [2022-07-05 12:27:10,104] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:27:10,182] {logging_mixin.py:115} INFO - [2022-07-05 12:27:10,182] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:27:10,229] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.243 seconds
+[2022-07-05 12:27:40,291] {processor.py:153} INFO - Started process (PID=1028) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:40,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:27:40,335] {logging_mixin.py:115} INFO - [2022-07-05 12:27:40,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:40,385] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:27:40,592] {logging_mixin.py:115} INFO - [2022-07-05 12:27:40,592] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:27:40,691] {logging_mixin.py:115} INFO - [2022-07-05 12:27:40,691] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:27:40,732] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.445 seconds
+[2022-07-05 12:28:10,790] {processor.py:153} INFO - Started process (PID=1061) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:10,790] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:28:10,791] {logging_mixin.py:115} INFO - [2022-07-05 12:28:10,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:10,818] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:10,850] {logging_mixin.py:115} INFO - [2022-07-05 12:28:10,850] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:28:10,883] {logging_mixin.py:115} INFO - [2022-07-05 12:28:10,883] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:28:10,894] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.108 seconds
+[2022-07-05 12:28:40,964] {processor.py:153} INFO - Started process (PID=1092) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:40,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:28:40,969] {logging_mixin.py:115} INFO - [2022-07-05 12:28:40,969] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:40,990] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:28:41,024] {logging_mixin.py:115} INFO - [2022-07-05 12:28:41,023] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:28:41,063] {logging_mixin.py:115} INFO - [2022-07-05 12:28:41,062] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:28:41,090] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.130 seconds
+[2022-07-05 12:29:11,735] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:11,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:29:11,742] {logging_mixin.py:115} INFO - [2022-07-05 12:29:11,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:11,833] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:11,900] {logging_mixin.py:115} INFO - [2022-07-05 12:29:11,900] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:29:11,974] {logging_mixin.py:115} INFO - [2022-07-05 12:29:11,974] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:29:12,009] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.286 seconds
+[2022-07-05 12:29:42,478] {processor.py:153} INFO - Started process (PID=1170) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:42,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:29:42,489] {logging_mixin.py:115} INFO - [2022-07-05 12:29:42,489] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:42,561] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:29:42,708] {logging_mixin.py:115} INFO - [2022-07-05 12:29:42,708] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:29:42,912] {logging_mixin.py:115} INFO - [2022-07-05 12:29:42,911] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:29:42,984] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.522 seconds
+[2022-07-05 12:30:13,101] {processor.py:153} INFO - Started process (PID=1218) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:13,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:30:13,104] {logging_mixin.py:115} INFO - [2022-07-05 12:30:13,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:13,140] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:13,244] {logging_mixin.py:115} INFO - [2022-07-05 12:30:13,244] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:30:13,359] {logging_mixin.py:115} INFO - [2022-07-05 12:30:13,358] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:30:13,407] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.316 seconds
+[2022-07-05 12:30:43,841] {processor.py:153} INFO - Started process (PID=1249) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:43,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:30:43,842] {logging_mixin.py:115} INFO - [2022-07-05 12:30:43,842] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:43,892] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:30:43,987] {logging_mixin.py:115} INFO - [2022-07-05 12:30:43,987] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:30:44,075] {logging_mixin.py:115} INFO - [2022-07-05 12:30:44,075] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:30:44,107] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.275 seconds
+[2022-07-05 12:31:14,563] {processor.py:153} INFO - Started process (PID=1282) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:14,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:31:14,572] {logging_mixin.py:115} INFO - [2022-07-05 12:31:14,572] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:14,601] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:14,700] {logging_mixin.py:115} INFO - [2022-07-05 12:31:14,700] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:31:14,756] {logging_mixin.py:115} INFO - [2022-07-05 12:31:14,756] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:31:14,805] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.256 seconds
+[2022-07-05 12:31:44,995] {processor.py:153} INFO - Started process (PID=1312) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:44,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:31:44,996] {logging_mixin.py:115} INFO - [2022-07-05 12:31:44,996] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:45,061] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:31:45,204] {logging_mixin.py:115} INFO - [2022-07-05 12:31:45,204] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:31:45,391] {logging_mixin.py:115} INFO - [2022-07-05 12:31:45,391] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:31:45,492] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.513 seconds
+[2022-07-05 12:32:16,055] {processor.py:153} INFO - Started process (PID=1355) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:16,073] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:32:16,074] {logging_mixin.py:115} INFO - [2022-07-05 12:32:16,074] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:16,175] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:16,416] {logging_mixin.py:115} INFO - [2022-07-05 12:32:16,416] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:32:16,631] {logging_mixin.py:115} INFO - [2022-07-05 12:32:16,631] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:32:16,720] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.695 seconds
+[2022-07-05 12:32:47,511] {processor.py:153} INFO - Started process (PID=1391) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:47,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:32:47,512] {logging_mixin.py:115} INFO - [2022-07-05 12:32:47,512] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:47,528] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:32:47,562] {logging_mixin.py:115} INFO - [2022-07-05 12:32:47,561] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:32:47,597] {logging_mixin.py:115} INFO - [2022-07-05 12:32:47,597] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:32:47,614] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.107 seconds
+[2022-07-05 12:33:17,888] {processor.py:153} INFO - Started process (PID=1424) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:17,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:33:17,890] {logging_mixin.py:115} INFO - [2022-07-05 12:33:17,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:17,947] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:18,054] {logging_mixin.py:115} INFO - [2022-07-05 12:33:18,054] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:33:18,183] {logging_mixin.py:115} INFO - [2022-07-05 12:33:18,182] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:33:18,272] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.388 seconds
+[2022-07-05 12:33:48,968] {processor.py:153} INFO - Started process (PID=1461) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:48,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:33:48,970] {logging_mixin.py:115} INFO - [2022-07-05 12:33:48,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:49,012] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:33:49,174] {logging_mixin.py:115} INFO - [2022-07-05 12:33:49,173] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:33:49,397] {logging_mixin.py:115} INFO - [2022-07-05 12:33:49,397] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:33:49,511] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.569 seconds
+[2022-07-05 12:34:20,026] {processor.py:153} INFO - Started process (PID=1491) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:20,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:34:20,036] {logging_mixin.py:115} INFO - [2022-07-05 12:34:20,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:20,064] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:20,132] {logging_mixin.py:115} INFO - [2022-07-05 12:34:20,132] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:34:20,211] {logging_mixin.py:115} INFO - [2022-07-05 12:34:20,211] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:34:20,273] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.252 seconds
+[2022-07-05 12:34:50,328] {processor.py:153} INFO - Started process (PID=1529) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:50,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:34:50,336] {logging_mixin.py:115} INFO - [2022-07-05 12:34:50,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:50,369] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:34:50,433] {logging_mixin.py:115} INFO - [2022-07-05 12:34:50,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:34:50,499] {logging_mixin.py:115} INFO - [2022-07-05 12:34:50,499] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:34:50,537] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.213 seconds
+[2022-07-05 12:35:20,582] {processor.py:153} INFO - Started process (PID=1570) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:20,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:35:20,584] {logging_mixin.py:115} INFO - [2022-07-05 12:35:20,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:20,645] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:20,812] {logging_mixin.py:115} INFO - [2022-07-05 12:35:20,812] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:35:21,030] {logging_mixin.py:115} INFO - [2022-07-05 12:35:21,030] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:35:21,157] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.586 seconds
+[2022-07-05 12:35:51,657] {processor.py:153} INFO - Started process (PID=1601) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:51,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:35:51,662] {logging_mixin.py:115} INFO - [2022-07-05 12:35:51,661] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:51,714] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:35:51,792] {logging_mixin.py:115} INFO - [2022-07-05 12:35:51,791] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:35:51,888] {logging_mixin.py:115} INFO - [2022-07-05 12:35:51,888] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:35:51,955] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.314 seconds
+[2022-07-05 12:36:22,053] {processor.py:153} INFO - Started process (PID=1633) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:22,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:36:22,054] {logging_mixin.py:115} INFO - [2022-07-05 12:36:22,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:22,162] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:22,269] {logging_mixin.py:115} INFO - [2022-07-05 12:36:22,269] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:36:22,462] {logging_mixin.py:115} INFO - [2022-07-05 12:36:22,462] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:36:22,559] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.529 seconds
+[2022-07-05 12:36:52,671] {processor.py:153} INFO - Started process (PID=1673) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:52,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:36:52,688] {logging_mixin.py:115} INFO - [2022-07-05 12:36:52,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:52,722] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:36:52,788] {logging_mixin.py:115} INFO - [2022-07-05 12:36:52,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:36:52,858] {logging_mixin.py:115} INFO - [2022-07-05 12:36:52,858] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:36:52,892] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.225 seconds
+[2022-07-05 12:37:22,953] {processor.py:153} INFO - Started process (PID=1703) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:22,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:37:22,968] {logging_mixin.py:115} INFO - [2022-07-05 12:37:22,968] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:22,997] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:23,031] {logging_mixin.py:115} INFO - [2022-07-05 12:37:23,031] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:37:23,070] {logging_mixin.py:115} INFO - [2022-07-05 12:37:23,070] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:37:23,085] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.136 seconds
+[2022-07-05 12:37:53,686] {processor.py:153} INFO - Started process (PID=1734) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:53,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:37:53,687] {logging_mixin.py:115} INFO - [2022-07-05 12:37:53,687] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:53,698] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:37:53,722] {logging_mixin.py:115} INFO - [2022-07-05 12:37:53,722] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:37:53,745] {logging_mixin.py:115} INFO - [2022-07-05 12:37:53,745] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:37:53,756] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.073 seconds
+[2022-07-05 12:38:23,969] {processor.py:153} INFO - Started process (PID=1773) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:23,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:38:23,977] {logging_mixin.py:115} INFO - [2022-07-05 12:38:23,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:24,035] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:24,160] {logging_mixin.py:115} INFO - [2022-07-05 12:38:24,160] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:38:24,243] {logging_mixin.py:115} INFO - [2022-07-05 12:38:24,243] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:38:24,300] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.349 seconds
+[2022-07-05 12:38:54,482] {processor.py:153} INFO - Started process (PID=1805) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:54,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:38:54,483] {logging_mixin.py:115} INFO - [2022-07-05 12:38:54,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:54,494] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:38:54,517] {logging_mixin.py:115} INFO - [2022-07-05 12:38:54,517] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:38:54,541] {logging_mixin.py:115} INFO - [2022-07-05 12:38:54,541] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:38:54,552] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.073 seconds
+[2022-07-05 12:39:24,617] {processor.py:153} INFO - Started process (PID=1837) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:24,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:39:24,619] {logging_mixin.py:115} INFO - [2022-07-05 12:39:24,618] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:24,633] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:24,664] {logging_mixin.py:115} INFO - [2022-07-05 12:39:24,664] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:39:24,700] {logging_mixin.py:115} INFO - [2022-07-05 12:39:24,700] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:39:24,715] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.102 seconds
+[2022-07-05 12:39:54,820] {processor.py:153} INFO - Started process (PID=1878) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:54,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:39:54,821] {logging_mixin.py:115} INFO - [2022-07-05 12:39:54,821] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:54,845] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:39:54,906] {logging_mixin.py:115} INFO - [2022-07-05 12:39:54,906] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:39:54,983] {logging_mixin.py:115} INFO - [2022-07-05 12:39:54,982] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:39:55,035] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.219 seconds
+[2022-07-05 12:40:25,568] {processor.py:153} INFO - Started process (PID=1912) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:25,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:40:25,569] {logging_mixin.py:115} INFO - [2022-07-05 12:40:25,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:25,586] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:25,615] {logging_mixin.py:115} INFO - [2022-07-05 12:40:25,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:40:25,640] {logging_mixin.py:115} INFO - [2022-07-05 12:40:25,640] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:40:25,652] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.087 seconds
+[2022-07-05 12:40:56,427] {processor.py:153} INFO - Started process (PID=1944) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:56,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:40:56,430] {logging_mixin.py:115} INFO - [2022-07-05 12:40:56,430] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:56,466] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:40:56,508] {logging_mixin.py:115} INFO - [2022-07-05 12:40:56,508] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:40:56,561] {logging_mixin.py:115} INFO - [2022-07-05 12:40:56,561] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:40:56,580] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.162 seconds
+[2022-07-05 12:41:27,381] {processor.py:153} INFO - Started process (PID=1976) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:27,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:41:27,395] {logging_mixin.py:115} INFO - [2022-07-05 12:41:27,395] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:27,435] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:27,540] {logging_mixin.py:115} INFO - [2022-07-05 12:41:27,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:41:27,679] {logging_mixin.py:115} INFO - [2022-07-05 12:41:27,678] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:41:27,754] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.379 seconds
+[2022-07-05 12:41:58,649] {processor.py:153} INFO - Started process (PID=2008) to work on /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:58,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/sql_branch_operator.py for tasks to queue
+[2022-07-05 12:41:58,663] {logging_mixin.py:115} INFO - [2022-07-05 12:41:58,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:58,689] {processor.py:651} INFO - DAG(s) dict_keys(['sql_branch_dag']) retrieved from /opt/airflow/dags/sql_branch_operator.py
+[2022-07-05 12:41:58,756] {logging_mixin.py:115} INFO - [2022-07-05 12:41:58,756] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:41:58,801] {logging_mixin.py:115} INFO - [2022-07-05 12:41:58,801] {dag.py:2931} INFO - Setting next_dagrun for sql_branch_dag to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:41:58,822] {processor.py:161} INFO - Processing /opt/airflow/dags/sql_branch_operator.py took 0.177 seconds

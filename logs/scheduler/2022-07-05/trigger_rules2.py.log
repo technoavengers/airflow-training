@@ -266,3 +266,1203 @@
 [2022-07-05 10:38:01,643] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,643] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-05 10:38:01,682] {logging_mixin.py:115} INFO - [2022-07-05 10:38:01,682] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
 [2022-07-05 10:38:01,709] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.164 seconds
+[2022-07-05 10:38:31,950] {processor.py:153} INFO - Started process (PID=4927) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:38:31,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:38:31,951] {logging_mixin.py:115} INFO - [2022-07-05 10:38:31,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:38:32,000] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:38:32,001] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:38:32,147] {logging_mixin.py:115} INFO - [2022-07-05 10:38:32,147] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:38:32,307] {logging_mixin.py:115} INFO - [2022-07-05 10:38:32,307] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:38:32,346] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.406 seconds
+[2022-07-05 10:39:02,553] {processor.py:153} INFO - Started process (PID=4958) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:02,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:39:02,556] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:02,576] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:39:02,577] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:02,615] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:39:02,654] {logging_mixin.py:115} INFO - [2022-07-05 10:39:02,653] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:39:02,674] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.128 seconds
+[2022-07-05 10:39:33,710] {processor.py:153} INFO - Started process (PID=5007) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:33,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:39:33,772] {logging_mixin.py:115} INFO - [2022-07-05 10:39:33,769] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:34,048] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:39:34,065] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:39:34,421] {logging_mixin.py:115} INFO - [2022-07-05 10:39:34,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:39:34,664] {logging_mixin.py:115} INFO - [2022-07-05 10:39:34,664] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:39:34,821] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 1.170 seconds
+[2022-07-05 10:40:05,440] {processor.py:153} INFO - Started process (PID=5040) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:05,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:40:05,475] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:05,625] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:40:05,631] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:05,745] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:40:05,895] {logging_mixin.py:115} INFO - [2022-07-05 10:40:05,895] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:40:05,960] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.531 seconds
+[2022-07-05 10:40:36,027] {processor.py:153} INFO - Started process (PID=5070) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:36,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:40:36,035] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:36,086] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:40:36,091] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:40:36,126] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,126] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:40:36,165] {logging_mixin.py:115} INFO - [2022-07-05 10:40:36,165] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:40:36,183] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.164 seconds
+[2022-07-05 10:41:07,004] {processor.py:153} INFO - Started process (PID=5110) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:07,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:41:07,018] {logging_mixin.py:115} INFO - [2022-07-05 10:41:07,017] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:07,096] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:41:07,106] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:07,205] {logging_mixin.py:115} INFO - [2022-07-05 10:41:07,204] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:41:07,359] {logging_mixin.py:115} INFO - [2022-07-05 10:41:07,359] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:41:07,451] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.476 seconds
+[2022-07-05 10:41:37,560] {processor.py:153} INFO - Started process (PID=5140) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:37,564] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:41:37,567] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,567] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:37,634] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:41:37,636] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:41:37,794] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:41:37,948] {logging_mixin.py:115} INFO - [2022-07-05 10:41:37,948] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:41:38,029] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.485 seconds
+[2022-07-05 10:42:08,080] {processor.py:153} INFO - Started process (PID=5177) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:08,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:42:08,088] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:08,155] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:42:08,163] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:08,240] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,239] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:42:08,288] {logging_mixin.py:115} INFO - [2022-07-05 10:42:08,288] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:42:08,314] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.238 seconds
+[2022-07-05 10:42:38,375] {processor.py:153} INFO - Started process (PID=5211) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:38,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:42:38,383] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:38,411] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:42:38,414] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:42:38,452] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,451] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:42:38,488] {logging_mixin.py:115} INFO - [2022-07-05 10:42:38,488] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:42:38,505] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.134 seconds
+[2022-07-05 10:43:09,077] {processor.py:153} INFO - Started process (PID=5242) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:09,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:43:09,087] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:09,139] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:43:09,148] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:09,213] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,213] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:43:09,288] {logging_mixin.py:115} INFO - [2022-07-05 10:43:09,288] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:43:09,326] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.258 seconds
+[2022-07-05 10:43:40,255] {processor.py:153} INFO - Started process (PID=5272) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:40,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:43:40,258] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,258] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:40,314] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:43:40,318] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:43:40,383] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,383] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:43:40,449] {logging_mixin.py:115} INFO - [2022-07-05 10:43:40,449] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:43:40,482] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.231 seconds
+[2022-07-05 10:44:10,941] {processor.py:153} INFO - Started process (PID=5308) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:10,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:44:10,946] {logging_mixin.py:115} INFO - [2022-07-05 10:44:10,946] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:11,012] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:44:11,014] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:11,108] {logging_mixin.py:115} INFO - [2022-07-05 10:44:11,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:44:11,260] {logging_mixin.py:115} INFO - [2022-07-05 10:44:11,259] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:44:11,323] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.397 seconds
+[2022-07-05 10:44:41,719] {processor.py:153} INFO - Started process (PID=5339) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:41,739] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:44:41,739] {logging_mixin.py:115} INFO - [2022-07-05 10:44:41,739] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:41,839] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:44:41,856] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:44:42,002] {logging_mixin.py:115} INFO - [2022-07-05 10:44:42,002] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:44:42,166] {logging_mixin.py:115} INFO - [2022-07-05 10:44:42,166] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:44:42,255] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.563 seconds
+[2022-07-05 10:45:13,003] {processor.py:153} INFO - Started process (PID=5374) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:13,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:45:13,004] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,004] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:13,019] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:45:13,020] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:13,045] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,045] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:45:13,071] {logging_mixin.py:115} INFO - [2022-07-05 10:45:13,070] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:45:13,095] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.096 seconds
+[2022-07-05 10:45:43,642] {processor.py:153} INFO - Started process (PID=5406) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:43,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:45:43,669] {logging_mixin.py:115} INFO - [2022-07-05 10:45:43,669] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:43,719] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:45:43,721] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:45:43,869] {logging_mixin.py:115} INFO - [2022-07-05 10:45:43,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:45:44,026] {logging_mixin.py:115} INFO - [2022-07-05 10:45:44,025] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:45:44,097] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.471 seconds
+[2022-07-05 10:46:14,142] {processor.py:153} INFO - Started process (PID=5447) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:14,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:46:14,150] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:14,188] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:46:14,192] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:14,261] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,261] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:46:14,337] {logging_mixin.py:115} INFO - [2022-07-05 10:46:14,337] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:46:14,376] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.239 seconds
+[2022-07-05 10:46:44,832] {processor.py:153} INFO - Started process (PID=5483) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:44,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:46:44,840] {logging_mixin.py:115} INFO - [2022-07-05 10:46:44,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:44,883] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:46:44,886] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:46:44,983] {logging_mixin.py:115} INFO - [2022-07-05 10:46:44,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:46:45,064] {logging_mixin.py:115} INFO - [2022-07-05 10:46:45,064] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:46:45,096] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.271 seconds
+[2022-07-05 10:47:15,530] {processor.py:153} INFO - Started process (PID=5524) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:15,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:47:15,531] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:15,558] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:47:15,559] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:15,637] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,637] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:47:15,686] {logging_mixin.py:115} INFO - [2022-07-05 10:47:15,686] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:47:15,704] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.180 seconds
+[2022-07-05 10:47:46,497] {processor.py:153} INFO - Started process (PID=5557) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:46,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:47:46,500] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:46,610] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:47:46,617] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:47:46,761] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:47:46,948] {logging_mixin.py:115} INFO - [2022-07-05 10:47:46,948] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:47:47,021] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.555 seconds
+[2022-07-05 10:48:17,457] {processor.py:153} INFO - Started process (PID=5594) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:17,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:48:17,462] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:17,504] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:48:17,508] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:17,571] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,571] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:48:17,635] {logging_mixin.py:115} INFO - [2022-07-05 10:48:17,635] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:48:17,663] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.217 seconds
+[2022-07-05 10:48:48,144] {processor.py:153} INFO - Started process (PID=5635) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:48,145] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:48:48,145] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:48,165] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:48:48,166] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:48:48,206] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,206] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:48:48,247] {logging_mixin.py:115} INFO - [2022-07-05 10:48:48,247] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:48:48,269] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.129 seconds
+[2022-07-05 10:49:18,461] {processor.py:153} INFO - Started process (PID=5666) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:18,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:49:18,473] {logging_mixin.py:115} INFO - [2022-07-05 10:49:18,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:18,579] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:49:18,594] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:18,753] {logging_mixin.py:115} INFO - [2022-07-05 10:49:18,752] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:49:18,995] {logging_mixin.py:115} INFO - [2022-07-05 10:49:18,994] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:49:19,069] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.612 seconds
+[2022-07-05 10:49:50,076] {processor.py:153} INFO - Started process (PID=5708) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:50,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:49:50,093] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:50,186] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:49:50,193] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:49:50,356] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:49:50,496] {logging_mixin.py:115} INFO - [2022-07-05 10:49:50,496] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:49:50,585] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.516 seconds
+[2022-07-05 10:50:21,485] {processor.py:153} INFO - Started process (PID=5743) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:21,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:50:21,487] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,487] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:21,507] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:50:21,509] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:21,549] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,548] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:50:21,584] {logging_mixin.py:115} INFO - [2022-07-05 10:50:21,584] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:50:21,599] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.118 seconds
+[2022-07-05 10:50:52,576] {processor.py:153} INFO - Started process (PID=5779) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:52,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:50:52,593] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,593] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:52,705] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:50:52,707] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:50:52,821] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:50:52,928] {logging_mixin.py:115} INFO - [2022-07-05 10:50:52,927] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:50:52,973] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.413 seconds
+[2022-07-05 10:51:23,746] {processor.py:153} INFO - Started process (PID=5809) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:23,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:51:23,748] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:23,767] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:51:23,769] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:23,820] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:51:23,863] {logging_mixin.py:115} INFO - [2022-07-05 10:51:23,863] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:51:23,887] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.145 seconds
+[2022-07-05 10:51:54,733] {processor.py:153} INFO - Started process (PID=5840) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:54,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:51:54,737] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,737] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:54,760] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:51:54,762] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:51:54,820] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:51:54,877] {logging_mixin.py:115} INFO - [2022-07-05 10:51:54,877] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:51:54,904] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.175 seconds
+[2022-07-05 10:52:25,742] {processor.py:153} INFO - Started process (PID=5870) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:25,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:52:25,748] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,748] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:25,776] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:52:25,777] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:25,821] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:52:25,875] {logging_mixin.py:115} INFO - [2022-07-05 10:52:25,875] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:52:25,901] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.163 seconds
+[2022-07-05 10:52:56,666] {processor.py:153} INFO - Started process (PID=5900) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:56,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:52:56,668] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,668] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:56,693] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:52:56,695] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:52:56,740] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,740] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:52:56,784] {logging_mixin.py:115} INFO - [2022-07-05 10:52:56,784] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:52:56,812] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.150 seconds
+[2022-07-05 10:53:27,604] {processor.py:153} INFO - Started process (PID=5931) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:27,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:53:27,615] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:27,673] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:53:27,686] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:27,768] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,768] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:53:27,836] {logging_mixin.py:115} INFO - [2022-07-05 10:53:27,836] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:53:27,870] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.270 seconds
+[2022-07-05 10:53:58,685] {processor.py:153} INFO - Started process (PID=5962) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:58,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:53:58,687] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,687] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:58,721] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:53:58,730] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:53:58,797] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:53:58,863] {logging_mixin.py:115} INFO - [2022-07-05 10:53:58,863] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:53:58,902] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.229 seconds
+[2022-07-05 10:54:29,332] {processor.py:153} INFO - Started process (PID=5995) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:54:29,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:54:29,352] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:54:29,415] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:54:29,421] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:54:29,495] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,494] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:54:29,610] {logging_mixin.py:115} INFO - [2022-07-05 10:54:29,609] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:54:29,653] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.336 seconds
+[2022-07-05 10:55:00,144] {processor.py:153} INFO - Started process (PID=6035) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:00,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:55:00,159] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,159] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:00,230] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:55:00,236] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:00,421] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:55:00,584] {logging_mixin.py:115} INFO - [2022-07-05 10:55:00,584] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:55:00,662] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.522 seconds
+[2022-07-05 10:55:30,764] {processor.py:153} INFO - Started process (PID=6072) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:30,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:55:30,770] {logging_mixin.py:115} INFO - [2022-07-05 10:55:30,769] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:30,853] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:55:30,855] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:55:30,957] {logging_mixin.py:115} INFO - [2022-07-05 10:55:30,957] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:55:31,092] {logging_mixin.py:115} INFO - [2022-07-05 10:55:31,092] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:55:31,141] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.388 seconds
+[2022-07-05 10:56:01,667] {processor.py:153} INFO - Started process (PID=6101) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:01,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:56:01,674] {logging_mixin.py:115} INFO - [2022-07-05 10:56:01,673] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:01,759] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:56:01,773] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:01,926] {logging_mixin.py:115} INFO - [2022-07-05 10:56:01,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:56:02,134] {logging_mixin.py:115} INFO - [2022-07-05 10:56:02,134] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:56:02,249] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.617 seconds
+[2022-07-05 10:56:32,368] {processor.py:153} INFO - Started process (PID=6135) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:32,369] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:56:32,370] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:32,415] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:56:32,417] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:56:32,472] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,472] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:56:32,564] {logging_mixin.py:115} INFO - [2022-07-05 10:56:32,563] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:56:32,600] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.240 seconds
+[2022-07-05 10:57:03,365] {processor.py:153} INFO - Started process (PID=6167) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:03,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:57:03,367] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,367] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:03,387] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:57:03,388] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:03,424] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:57:03,461] {logging_mixin.py:115} INFO - [2022-07-05 10:57:03,461] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:57:03,476] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.115 seconds
+[2022-07-05 10:57:34,309] {processor.py:153} INFO - Started process (PID=6202) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:34,310] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:57:34,311] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,311] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:34,373] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:57:34,374] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:57:34,453] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,453] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:57:34,496] {logging_mixin.py:115} INFO - [2022-07-05 10:57:34,496] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:57:34,511] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.216 seconds
+[2022-07-05 10:58:05,271] {processor.py:153} INFO - Started process (PID=6232) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:05,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:58:05,280] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:05,333] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:58:05,334] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:05,405] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,405] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:58:05,505] {logging_mixin.py:115} INFO - [2022-07-05 10:58:05,498] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:58:05,549] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.281 seconds
+[2022-07-05 10:58:35,919] {processor.py:153} INFO - Started process (PID=6262) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:35,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:58:35,920] {logging_mixin.py:115} INFO - [2022-07-05 10:58:35,920] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:35,972] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:58:35,974] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:58:36,075] {logging_mixin.py:115} INFO - [2022-07-05 10:58:36,075] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:58:36,115] {logging_mixin.py:115} INFO - [2022-07-05 10:58:36,115] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:58:36,147] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.232 seconds
+[2022-07-05 10:59:06,619] {processor.py:153} INFO - Started process (PID=6293) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:06,625] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:59:06,625] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,625] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:06,674] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:59:06,675] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:06,737] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,737] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:59:06,808] {logging_mixin.py:115} INFO - [2022-07-05 10:59:06,807] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:59:06,829] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.215 seconds
+[2022-07-05 10:59:37,665] {processor.py:153} INFO - Started process (PID=6338) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:37,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 10:59:37,675] {logging_mixin.py:115} INFO - [2022-07-05 10:59:37,675] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:37,715] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 10:59:37,716] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 10:59:37,817] {logging_mixin.py:115} INFO - [2022-07-05 10:59:37,817] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 10:59:37,932] {logging_mixin.py:115} INFO - [2022-07-05 10:59:37,932] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 10:59:38,035] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.380 seconds
+[2022-07-05 11:00:08,784] {processor.py:153} INFO - Started process (PID=6372) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:08,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:00:08,793] {logging_mixin.py:115} INFO - [2022-07-05 11:00:08,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:08,869] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:00:08,870] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:08,985] {logging_mixin.py:115} INFO - [2022-07-05 11:00:08,985] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:00:09,092] {logging_mixin.py:115} INFO - [2022-07-05 11:00:09,092] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:00:09,143] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.363 seconds
+[2022-07-05 11:00:39,622] {processor.py:153} INFO - Started process (PID=6404) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:39,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:00:39,630] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:39,786] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:00:39,790] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:00:39,889] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,889] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:00:39,970] {logging_mixin.py:115} INFO - [2022-07-05 11:00:39,970] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:00:40,006] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.401 seconds
+[2022-07-05 11:01:10,783] {processor.py:153} INFO - Started process (PID=6451) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:10,784] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:01:10,793] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:10,831] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:01:10,840] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:10,880] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:01:10,965] {logging_mixin.py:115} INFO - [2022-07-05 11:01:10,965] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:01:10,989] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.212 seconds
+[2022-07-05 11:01:41,972] {processor.py:153} INFO - Started process (PID=6483) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:41,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:01:41,985] {logging_mixin.py:115} INFO - [2022-07-05 11:01:41,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:42,037] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:01:42,038] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:01:42,174] {logging_mixin.py:115} INFO - [2022-07-05 11:01:42,174] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:01:42,274] {logging_mixin.py:115} INFO - [2022-07-05 11:01:42,274] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:01:42,313] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.357 seconds
+[2022-07-05 11:02:12,601] {processor.py:153} INFO - Started process (PID=6515) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:12,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:02:12,602] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:12,638] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:02:12,640] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:12,714] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,714] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:02:12,789] {logging_mixin.py:115} INFO - [2022-07-05 11:02:12,789] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:02:12,813] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.224 seconds
+[2022-07-05 11:02:42,861] {processor.py:153} INFO - Started process (PID=6556) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:42,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:02:42,863] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:42,899] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:02:42,901] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:02:42,956] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:02:42,991] {logging_mixin.py:115} INFO - [2022-07-05 11:02:42,991] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:02:43,006] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.148 seconds
+[2022-07-05 11:03:13,945] {processor.py:153} INFO - Started process (PID=6588) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:13,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:03:13,946] {logging_mixin.py:115} INFO - [2022-07-05 11:03:13,946] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:14,050] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:03:14,065] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:14,221] {logging_mixin.py:115} INFO - [2022-07-05 11:03:14,220] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:03:14,306] {logging_mixin.py:115} INFO - [2022-07-05 11:03:14,306] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:03:14,415] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.475 seconds
+[2022-07-05 11:03:45,021] {processor.py:153} INFO - Started process (PID=6628) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:45,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:03:45,037] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:45,059] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:03:45,061] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:03:45,103] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,103] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:03:45,163] {logging_mixin.py:115} INFO - [2022-07-05 11:03:45,163] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:03:45,178] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.194 seconds
+[2022-07-05 11:04:15,884] {processor.py:153} INFO - Started process (PID=6662) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:15,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:04:15,888] {logging_mixin.py:115} INFO - [2022-07-05 11:04:15,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:15,917] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:04:15,919] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:15,996] {logging_mixin.py:115} INFO - [2022-07-05 11:04:15,996] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:04:16,161] {logging_mixin.py:115} INFO - [2022-07-05 11:04:16,156] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:04:16,216] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.344 seconds
+[2022-07-05 11:04:46,791] {processor.py:153} INFO - Started process (PID=6695) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:46,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:04:46,806] {logging_mixin.py:115} INFO - [2022-07-05 11:04:46,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:46,844] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:04:46,852] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:04:46,965] {logging_mixin.py:115} INFO - [2022-07-05 11:04:46,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:04:47,032] {logging_mixin.py:115} INFO - [2022-07-05 11:04:47,032] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:04:47,075] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.287 seconds
+[2022-07-05 11:05:17,281] {processor.py:153} INFO - Started process (PID=6735) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:17,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:05:17,283] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:17,326] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:05:17,328] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:17,416] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,416] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:05:17,468] {logging_mixin.py:115} INFO - [2022-07-05 11:05:17,468] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:05:17,518] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.241 seconds
+[2022-07-05 11:05:47,709] {processor.py:153} INFO - Started process (PID=6765) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:47,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:05:47,710] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:47,745] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:05:47,747] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:05:47,782] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,782] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:05:47,817] {logging_mixin.py:115} INFO - [2022-07-05 11:05:47,817] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:05:47,846] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.149 seconds
+[2022-07-05 11:06:18,133] {processor.py:153} INFO - Started process (PID=6808) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:18,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:06:18,135] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,135] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:18,188] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:06:18,190] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:18,309] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,309] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:06:18,407] {logging_mixin.py:115} INFO - [2022-07-05 11:06:18,407] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:06:18,441] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.337 seconds
+[2022-07-05 11:06:48,995] {processor.py:153} INFO - Started process (PID=6842) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:48,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:06:48,997] {logging_mixin.py:115} INFO - [2022-07-05 11:06:48,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:49,020] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:06:49,023] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:06:49,063] {logging_mixin.py:115} INFO - [2022-07-05 11:06:49,062] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:06:49,102] {logging_mixin.py:115} INFO - [2022-07-05 11:06:49,102] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:06:49,118] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.129 seconds
+[2022-07-05 11:07:19,630] {processor.py:153} INFO - Started process (PID=6877) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:19,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:07:19,641] {logging_mixin.py:115} INFO - [2022-07-05 11:07:19,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:19,733] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:07:19,735] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:19,868] {logging_mixin.py:115} INFO - [2022-07-05 11:07:19,867] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:07:20,032] {logging_mixin.py:115} INFO - [2022-07-05 11:07:20,031] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:07:20,121] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.501 seconds
+[2022-07-05 11:07:50,802] {processor.py:153} INFO - Started process (PID=6913) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:50,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:07:50,829] {logging_mixin.py:115} INFO - [2022-07-05 11:07:50,829] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:50,918] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:07:50,920] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:07:51,029] {logging_mixin.py:115} INFO - [2022-07-05 11:07:51,029] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:07:51,131] {logging_mixin.py:115} INFO - [2022-07-05 11:07:51,131] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:07:51,221] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.422 seconds
+[2022-07-05 11:08:22,342] {processor.py:153} INFO - Started process (PID=6948) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:22,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:08:22,343] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:22,397] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:08:22,399] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:22,501] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,501] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:08:22,599] {logging_mixin.py:115} INFO - [2022-07-05 11:08:22,599] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:08:22,652] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.331 seconds
+[2022-07-05 11:08:52,901] {processor.py:153} INFO - Started process (PID=6979) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:52,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:08:52,903] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:52,923] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:08:52,925] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:08:52,961] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:08:52,997] {logging_mixin.py:115} INFO - [2022-07-05 11:08:52,997] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:08:53,017] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.120 seconds
+[2022-07-05 11:09:23,732] {processor.py:153} INFO - Started process (PID=7009) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:23,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:09:23,734] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,734] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:23,752] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:09:23,754] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:23,786] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,786] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:09:23,820] {logging_mixin.py:115} INFO - [2022-07-05 11:09:23,820] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:09:23,835] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.107 seconds
+[2022-07-05 11:09:53,922] {processor.py:153} INFO - Started process (PID=7040) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:53,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:09:53,924] {logging_mixin.py:115} INFO - [2022-07-05 11:09:53,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:53,943] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:09:53,945] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:09:53,978] {logging_mixin.py:115} INFO - [2022-07-05 11:09:53,978] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:09:54,034] {logging_mixin.py:115} INFO - [2022-07-05 11:09:54,034] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:09:54,048] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.129 seconds
+[2022-07-05 11:10:24,750] {processor.py:153} INFO - Started process (PID=7072) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:24,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:10:24,753] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:24,772] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:10:24,773] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:24,812] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,812] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:10:24,853] {logging_mixin.py:115} INFO - [2022-07-05 11:10:24,853] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:10:24,870] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.123 seconds
+[2022-07-05 11:10:55,278] {processor.py:153} INFO - Started process (PID=7102) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:55,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:10:55,291] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,291] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:55,361] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:10:55,363] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:10:55,511] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,511] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:10:55,734] {logging_mixin.py:115} INFO - [2022-07-05 11:10:55,734] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:10:55,805] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.555 seconds
+[2022-07-05 11:11:26,223] {processor.py:153} INFO - Started process (PID=7141) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:26,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:11:26,229] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:26,268] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:11:26,269] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:26,306] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,306] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:11:26,363] {logging_mixin.py:115} INFO - [2022-07-05 11:11:26,363] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:11:26,379] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.159 seconds
+[2022-07-05 11:11:56,757] {processor.py:153} INFO - Started process (PID=7172) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:56,759] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:11:56,763] {logging_mixin.py:115} INFO - [2022-07-05 11:11:56,763] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:56,818] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:11:56,828] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:11:56,961] {logging_mixin.py:115} INFO - [2022-07-05 11:11:56,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:11:57,200] {logging_mixin.py:115} INFO - [2022-07-05 11:11:57,200] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:11:57,265] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.516 seconds
+[2022-07-05 11:12:28,116] {processor.py:153} INFO - Started process (PID=7204) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:28,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:12:28,137] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,137] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:28,228] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:12:28,230] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:28,401] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,401] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:12:28,491] {logging_mixin.py:115} INFO - [2022-07-05 11:12:28,491] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:12:28,539] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.427 seconds
+[2022-07-05 11:12:59,425] {processor.py:153} INFO - Started process (PID=7243) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:59,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:12:59,427] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,426] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:59,446] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:12:59,447] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:12:59,498] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,498] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:12:59,536] {logging_mixin.py:115} INFO - [2022-07-05 11:12:59,536] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:12:59,552] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.131 seconds
+[2022-07-05 11:13:30,035] {processor.py:153} INFO - Started process (PID=7274) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:13:30,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:13:30,036] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:13:30,083] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:13:30,084] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:13:30,126] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,126] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:13:30,161] {logging_mixin.py:115} INFO - [2022-07-05 11:13:30,161] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:13:30,182] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.151 seconds
+[2022-07-05 11:14:00,600] {processor.py:153} INFO - Started process (PID=7308) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:00,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:14:00,605] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,605] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:00,648] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:14:00,650] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:00,697] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:14:00,765] {logging_mixin.py:115} INFO - [2022-07-05 11:14:00,765] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:14:00,815] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.219 seconds
+[2022-07-05 11:14:31,614] {processor.py:153} INFO - Started process (PID=7349) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:31,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:14:31,619] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,619] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:31,672] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:14:31,673] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:14:31,761] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,760] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:14:31,799] {logging_mixin.py:115} INFO - [2022-07-05 11:14:31,799] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:14:31,813] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.207 seconds
+[2022-07-05 11:15:01,890] {processor.py:153} INFO - Started process (PID=7384) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:01,891] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:15:01,891] {logging_mixin.py:115} INFO - [2022-07-05 11:15:01,891] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:01,936] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:15:01,937] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:02,021] {logging_mixin.py:115} INFO - [2022-07-05 11:15:02,021] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:15:02,088] {logging_mixin.py:115} INFO - [2022-07-05 11:15:02,088] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:15:02,169] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.286 seconds
+[2022-07-05 11:15:32,524] {processor.py:153} INFO - Started process (PID=7430) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:32,534] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:15:32,535] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,535] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:32,621] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:15:32,622] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:15:32,726] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,726] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:15:32,795] {logging_mixin.py:115} INFO - [2022-07-05 11:15:32,794] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:15:32,821] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.307 seconds
+[2022-07-05 11:16:03,024] {processor.py:153} INFO - Started process (PID=7462) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:03,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:16:03,028] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:03,056] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:16:03,057] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:03,091] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,090] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:16:03,128] {logging_mixin.py:115} INFO - [2022-07-05 11:16:03,128] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:16:03,143] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.123 seconds
+[2022-07-05 11:16:33,612] {processor.py:153} INFO - Started process (PID=7494) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:33,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:16:33,621] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,621] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:33,688] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:16:33,702] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:16:33,801] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,801] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:16:33,835] {logging_mixin.py:115} INFO - [2022-07-05 11:16:33,834] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:16:33,849] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.241 seconds
+[2022-07-05 11:17:04,688] {processor.py:153} INFO - Started process (PID=7535) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:04,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:17:04,689] {logging_mixin.py:115} INFO - [2022-07-05 11:17:04,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:04,762] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:17:04,763] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:04,896] {logging_mixin.py:115} INFO - [2022-07-05 11:17:04,896] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:17:05,055] {logging_mixin.py:115} INFO - [2022-07-05 11:17:05,055] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:17:05,137] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.457 seconds
+[2022-07-05 11:17:35,571] {processor.py:153} INFO - Started process (PID=7569) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:35,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:17:35,573] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,573] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:35,594] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:17:35,596] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:17:35,637] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,637] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:17:35,678] {logging_mixin.py:115} INFO - [2022-07-05 11:17:35,678] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:17:35,697] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.136 seconds
+[2022-07-05 11:18:05,905] {processor.py:153} INFO - Started process (PID=7611) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:05,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:18:05,907] {logging_mixin.py:115} INFO - [2022-07-05 11:18:05,907] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:05,930] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:18:05,932] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:05,970] {logging_mixin.py:115} INFO - [2022-07-05 11:18:05,970] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:18:06,011] {logging_mixin.py:115} INFO - [2022-07-05 11:18:06,011] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:18:06,028] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.129 seconds
+[2022-07-05 11:18:36,133] {processor.py:153} INFO - Started process (PID=7649) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:36,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:18:36,136] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,136] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:36,247] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:18:36,265] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:18:36,415] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,412] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:18:36,660] {logging_mixin.py:115} INFO - [2022-07-05 11:18:36,648] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:18:36,753] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.637 seconds
+[2022-07-05 11:19:07,322] {processor.py:153} INFO - Started process (PID=7689) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:07,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:19:07,333] {logging_mixin.py:115} INFO - [2022-07-05 11:19:07,333] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:07,532] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:19:07,534] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:07,797] {logging_mixin.py:115} INFO - [2022-07-05 11:19:07,796] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:19:08,052] {logging_mixin.py:115} INFO - [2022-07-05 11:19:08,052] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:19:08,153] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.852 seconds
+[2022-07-05 11:19:38,234] {processor.py:153} INFO - Started process (PID=7722) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:38,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:19:38,235] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,235] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:38,274] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:19:38,275] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:19:38,313] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,313] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:19:38,378] {logging_mixin.py:115} INFO - [2022-07-05 11:19:38,378] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:19:38,408] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.188 seconds
+[2022-07-05 11:20:08,647] {processor.py:153} INFO - Started process (PID=7753) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:08,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:20:08,656] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:08,688] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:20:08,698] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:08,777] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,777] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:20:08,837] {logging_mixin.py:115} INFO - [2022-07-05 11:20:08,836] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:20:08,853] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.210 seconds
+[2022-07-05 11:20:38,994] {processor.py:153} INFO - Started process (PID=7784) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:38,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:20:38,996] {logging_mixin.py:115} INFO - [2022-07-05 11:20:38,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:39,032] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:20:39,041] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:20:39,123] {logging_mixin.py:115} INFO - [2022-07-05 11:20:39,123] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:20:39,186] {logging_mixin.py:115} INFO - [2022-07-05 11:20:39,185] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:20:39,201] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.213 seconds
+[2022-07-05 11:21:09,948] {processor.py:153} INFO - Started process (PID=7826) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:09,961] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:21:09,961] {logging_mixin.py:115} INFO - [2022-07-05 11:21:09,961] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:10,035] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:21:10,053] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:10,179] {logging_mixin.py:115} INFO - [2022-07-05 11:21:10,178] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:21:10,360] {logging_mixin.py:115} INFO - [2022-07-05 11:21:10,360] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:21:10,485] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.545 seconds
+[2022-07-05 11:21:41,056] {processor.py:153} INFO - Started process (PID=7857) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:41,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:21:41,081] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,081] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:41,152] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:21:41,153] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:21:41,255] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,254] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:21:41,360] {logging_mixin.py:115} INFO - [2022-07-05 11:21:41,360] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:21:41,409] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.369 seconds
+[2022-07-05 11:22:12,138] {processor.py:153} INFO - Started process (PID=7893) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:12,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:22:12,149] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,149] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:12,183] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:22:12,185] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:12,242] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,241] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:22:12,309] {logging_mixin.py:115} INFO - [2022-07-05 11:22:12,309] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:22:12,344] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.217 seconds
+[2022-07-05 11:22:42,509] {processor.py:153} INFO - Started process (PID=7927) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:42,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:22:42,510] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,510] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:42,530] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:22:42,532] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:22:42,565] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,565] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:22:42,600] {logging_mixin.py:115} INFO - [2022-07-05 11:22:42,599] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:22:42,615] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.110 seconds
+[2022-07-05 11:23:12,875] {processor.py:153} INFO - Started process (PID=7975) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:12,886] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:23:12,886] {logging_mixin.py:115} INFO - [2022-07-05 11:23:12,886] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:12,964] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:23:12,978] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:13,153] {logging_mixin.py:115} INFO - [2022-07-05 11:23:13,153] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:23:13,294] {logging_mixin.py:115} INFO - [2022-07-05 11:23:13,294] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:23:13,374] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.511 seconds
+[2022-07-05 11:23:43,850] {processor.py:153} INFO - Started process (PID=8009) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:43,853] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:23:43,853] {logging_mixin.py:115} INFO - [2022-07-05 11:23:43,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:43,897] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:23:43,898] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:23:43,939] {logging_mixin.py:115} INFO - [2022-07-05 11:23:43,939] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:23:44,014] {logging_mixin.py:115} INFO - [2022-07-05 11:23:44,014] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:23:44,051] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.204 seconds
+[2022-07-05 11:24:14,458] {processor.py:153} INFO - Started process (PID=8051) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:14,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:24:14,459] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,459] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:14,549] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:24:14,550] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:14,649] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,649] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:24:14,739] {logging_mixin.py:115} INFO - [2022-07-05 11:24:14,738] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:24:14,777] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.340 seconds
+[2022-07-05 11:24:45,060] {processor.py:153} INFO - Started process (PID=8084) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:45,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:24:45,071] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,071] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:45,120] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:24:45,145] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:24:45,270] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,270] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:24:45,417] {logging_mixin.py:115} INFO - [2022-07-05 11:24:45,417] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:24:45,488] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.440 seconds
+[2022-07-05 11:25:16,446] {processor.py:153} INFO - Started process (PID=8117) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:16,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:25:16,447] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:16,467] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:25:16,469] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:16,509] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:25:16,544] {logging_mixin.py:115} INFO - [2022-07-05 11:25:16,543] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:25:16,563] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.120 seconds
+[2022-07-05 11:25:46,680] {processor.py:153} INFO - Started process (PID=8162) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:46,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 11:25:46,689] {logging_mixin.py:115} INFO - [2022-07-05 11:25:46,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:46,753] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 11:25:46,754] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 11:25:46,854] {logging_mixin.py:115} INFO - [2022-07-05 11:25:46,854] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 11:25:46,997] {logging_mixin.py:115} INFO - [2022-07-05 11:25:46,997] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 11:25:47,083] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.407 seconds
+[2022-07-05 12:13:15,037] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:15,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:13:15,045] {logging_mixin.py:115} INFO - [2022-07-05 12:13:15,045] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:15,216] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:13:15,217] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:15,380] {logging_mixin.py:115} INFO - [2022-07-05 12:13:15,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:13:15,513] {logging_mixin.py:115} INFO - [2022-07-05 12:13:15,513] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:13:15,557] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.542 seconds
+[2022-07-05 12:13:45,790] {processor.py:153} INFO - Started process (PID=85) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:45,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:13:45,797] {logging_mixin.py:115} INFO - [2022-07-05 12:13:45,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:45,829] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:13:45,831] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:13:45,864] {logging_mixin.py:115} INFO - [2022-07-05 12:13:45,864] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:13:45,899] {logging_mixin.py:115} INFO - [2022-07-05 12:13:45,899] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:13:45,915] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.133 seconds
+[2022-07-05 12:14:16,332] {processor.py:153} INFO - Started process (PID=118) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:16,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:14:16,340] {logging_mixin.py:115} INFO - [2022-07-05 12:14:16,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:16,409] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:14:16,410] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:16,533] {logging_mixin.py:115} INFO - [2022-07-05 12:14:16,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:14:16,655] {logging_mixin.py:115} INFO - [2022-07-05 12:14:16,654] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:14:16,709] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.395 seconds
+[2022-07-05 12:14:47,311] {processor.py:153} INFO - Started process (PID=152) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:47,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:14:47,313] {logging_mixin.py:115} INFO - [2022-07-05 12:14:47,313] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:47,334] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:14:47,335] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:14:47,379] {logging_mixin.py:115} INFO - [2022-07-05 12:14:47,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:14:47,422] {logging_mixin.py:115} INFO - [2022-07-05 12:14:47,422] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:14:47,437] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.130 seconds
+[2022-07-05 12:15:18,083] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:18,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:15:18,085] {logging_mixin.py:115} INFO - [2022-07-05 12:15:18,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:18,108] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:15:18,111] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:18,218] {logging_mixin.py:115} INFO - [2022-07-05 12:15:18,209] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:15:18,374] {logging_mixin.py:115} INFO - [2022-07-05 12:15:18,374] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:15:18,443] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.366 seconds
+[2022-07-05 12:15:48,817] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:48,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:15:48,818] {logging_mixin.py:115} INFO - [2022-07-05 12:15:48,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:48,840] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:15:48,842] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:15:48,875] {logging_mixin.py:115} INFO - [2022-07-05 12:15:48,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:15:48,939] {logging_mixin.py:115} INFO - [2022-07-05 12:15:48,939] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:15:48,954] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.141 seconds
+[2022-07-05 12:16:19,443] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:19,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:16:19,453] {logging_mixin.py:115} INFO - [2022-07-05 12:16:19,453] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:19,535] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:16:19,542] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:19,614] {logging_mixin.py:115} INFO - [2022-07-05 12:16:19,613] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:16:19,700] {logging_mixin.py:115} INFO - [2022-07-05 12:16:19,700] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:16:19,854] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.416 seconds
+[2022-07-05 12:16:50,202] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:50,204] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:16:50,204] {logging_mixin.py:115} INFO - [2022-07-05 12:16:50,204] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:50,239] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:16:50,242] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:16:50,326] {logging_mixin.py:115} INFO - [2022-07-05 12:16:50,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:16:50,429] {logging_mixin.py:115} INFO - [2022-07-05 12:16:50,427] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:16:50,470] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.273 seconds
+[2022-07-05 12:17:20,566] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:20,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:17:20,568] {logging_mixin.py:115} INFO - [2022-07-05 12:17:20,568] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:20,580] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:17:20,581] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:20,605] {logging_mixin.py:115} INFO - [2022-07-05 12:17:20,605] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:17:20,629] {logging_mixin.py:115} INFO - [2022-07-05 12:17:20,629] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:17:20,639] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.076 seconds
+[2022-07-05 12:17:50,792] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:50,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:17:50,793] {logging_mixin.py:115} INFO - [2022-07-05 12:17:50,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:50,885] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:17:50,896] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:17:51,012] {logging_mixin.py:115} INFO - [2022-07-05 12:17:51,011] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:17:51,195] {logging_mixin.py:115} INFO - [2022-07-05 12:17:51,194] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:17:51,266] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.477 seconds
+[2022-07-05 12:18:21,677] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:21,678] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:18:21,678] {logging_mixin.py:115} INFO - [2022-07-05 12:18:21,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:21,794] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:18:21,828] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:22,046] {logging_mixin.py:115} INFO - [2022-07-05 12:18:22,046] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:18:22,301] {logging_mixin.py:115} INFO - [2022-07-05 12:18:22,300] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:18:22,384] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.723 seconds
+[2022-07-05 12:18:53,151] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:53,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:18:53,176] {logging_mixin.py:115} INFO - [2022-07-05 12:18:53,176] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:53,297] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:18:53,298] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:18:53,478] {logging_mixin.py:115} INFO - [2022-07-05 12:18:53,478] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:18:53,760] {logging_mixin.py:115} INFO - [2022-07-05 12:18:53,760] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:18:53,869] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.746 seconds
+[2022-07-05 12:19:24,151] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:24,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:19:24,167] {logging_mixin.py:115} INFO - [2022-07-05 12:19:24,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:24,323] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:19:24,344] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:24,532] {logging_mixin.py:115} INFO - [2022-07-05 12:19:24,532] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:19:24,795] {logging_mixin.py:115} INFO - [2022-07-05 12:19:24,794] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:19:24,891] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.779 seconds
+[2022-07-05 12:19:55,314] {processor.py:153} INFO - Started process (PID=480) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:55,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:19:55,328] {logging_mixin.py:115} INFO - [2022-07-05 12:19:55,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:55,352] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:19:55,354] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:19:55,418] {logging_mixin.py:115} INFO - [2022-07-05 12:19:55,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:19:55,463] {logging_mixin.py:115} INFO - [2022-07-05 12:19:55,462] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:19:55,491] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.197 seconds
+[2022-07-05 12:20:25,759] {processor.py:153} INFO - Started process (PID=511) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:25,759] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:20:25,760] {logging_mixin.py:115} INFO - [2022-07-05 12:20:25,760] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:25,801] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:20:25,803] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:25,952] {logging_mixin.py:115} INFO - [2022-07-05 12:20:25,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:20:26,098] {logging_mixin.py:115} INFO - [2022-07-05 12:20:26,098] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:20:26,138] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.383 seconds
+[2022-07-05 12:20:56,186] {processor.py:153} INFO - Started process (PID=541) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:56,187] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:20:56,188] {logging_mixin.py:115} INFO - [2022-07-05 12:20:56,188] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:56,200] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:20:56,201] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:20:56,225] {logging_mixin.py:115} INFO - [2022-07-05 12:20:56,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:20:56,248] {logging_mixin.py:115} INFO - [2022-07-05 12:20:56,248] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:20:56,258] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.075 seconds
+[2022-07-05 12:21:26,416] {processor.py:153} INFO - Started process (PID=571) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:26,416] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:21:26,417] {logging_mixin.py:115} INFO - [2022-07-05 12:21:26,417] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:26,441] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:21:26,443] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:26,484] {logging_mixin.py:115} INFO - [2022-07-05 12:21:26,483] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:21:26,527] {logging_mixin.py:115} INFO - [2022-07-05 12:21:26,527] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:21:26,571] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.159 seconds
+[2022-07-05 12:21:57,100] {processor.py:153} INFO - Started process (PID=604) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:57,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:21:57,111] {logging_mixin.py:115} INFO - [2022-07-05 12:21:57,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:57,192] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:21:57,193] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:21:57,299] {logging_mixin.py:115} INFO - [2022-07-05 12:21:57,299] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:21:57,409] {logging_mixin.py:115} INFO - [2022-07-05 12:21:57,409] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:21:57,472] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.397 seconds
+[2022-07-05 12:22:27,767] {processor.py:153} INFO - Started process (PID=637) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:27,773] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:22:27,774] {logging_mixin.py:115} INFO - [2022-07-05 12:22:27,774] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:27,819] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:22:27,827] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:27,921] {logging_mixin.py:115} INFO - [2022-07-05 12:22:27,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:22:28,046] {logging_mixin.py:115} INFO - [2022-07-05 12:22:28,046] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:22:28,102] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.340 seconds
+[2022-07-05 12:22:58,394] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:58,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:22:58,409] {logging_mixin.py:115} INFO - [2022-07-05 12:22:58,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:58,479] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:22:58,495] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:22:58,564] {logging_mixin.py:115} INFO - [2022-07-05 12:22:58,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:22:58,654] {logging_mixin.py:115} INFO - [2022-07-05 12:22:58,654] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:22:58,747] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.357 seconds
+[2022-07-05 12:23:28,865] {processor.py:153} INFO - Started process (PID=711) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:28,866] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:23:28,866] {logging_mixin.py:115} INFO - [2022-07-05 12:23:28,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:28,880] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:23:28,881] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:28,905] {logging_mixin.py:115} INFO - [2022-07-05 12:23:28,905] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:23:28,932] {logging_mixin.py:115} INFO - [2022-07-05 12:23:28,931] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:23:28,948] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.087 seconds
+[2022-07-05 12:23:59,706] {processor.py:153} INFO - Started process (PID=741) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:59,706] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:23:59,707] {logging_mixin.py:115} INFO - [2022-07-05 12:23:59,707] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:59,755] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:23:59,768] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:23:59,889] {logging_mixin.py:115} INFO - [2022-07-05 12:23:59,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:23:59,951] {logging_mixin.py:115} INFO - [2022-07-05 12:23:59,951] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:23:59,977] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.283 seconds
+[2022-07-05 12:24:30,528] {processor.py:153} INFO - Started process (PID=781) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:24:30,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:24:30,529] {logging_mixin.py:115} INFO - [2022-07-05 12:24:30,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:24:30,550] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:24:30,554] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:24:30,650] {logging_mixin.py:115} INFO - [2022-07-05 12:24:30,650] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:24:30,692] {logging_mixin.py:115} INFO - [2022-07-05 12:24:30,692] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:24:30,707] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.191 seconds
+[2022-07-05 12:25:01,252] {processor.py:153} INFO - Started process (PID=812) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:01,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:25:01,260] {logging_mixin.py:115} INFO - [2022-07-05 12:25:01,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:01,299] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:25:01,301] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:01,372] {logging_mixin.py:115} INFO - [2022-07-05 12:25:01,371] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:25:01,434] {logging_mixin.py:115} INFO - [2022-07-05 12:25:01,434] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:25:01,458] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.210 seconds
+[2022-07-05 12:25:31,758] {processor.py:153} INFO - Started process (PID=862) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:31,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:25:31,759] {logging_mixin.py:115} INFO - [2022-07-05 12:25:31,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:31,834] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:25:31,841] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:25:31,960] {logging_mixin.py:115} INFO - [2022-07-05 12:25:31,960] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:25:32,070] {logging_mixin.py:115} INFO - [2022-07-05 12:25:32,070] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:25:32,101] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.354 seconds
+[2022-07-05 12:26:02,380] {processor.py:153} INFO - Started process (PID=894) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:02,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:26:02,382] {logging_mixin.py:115} INFO - [2022-07-05 12:26:02,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:02,406] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:26:02,408] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:02,516] {logging_mixin.py:115} INFO - [2022-07-05 12:26:02,516] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:26:02,762] {logging_mixin.py:115} INFO - [2022-07-05 12:26:02,739] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:26:02,943] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.568 seconds
+[2022-07-05 12:26:33,542] {processor.py:153} INFO - Started process (PID=935) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:33,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:26:33,552] {logging_mixin.py:115} INFO - [2022-07-05 12:26:33,552] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:33,588] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:26:33,589] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:26:33,655] {logging_mixin.py:115} INFO - [2022-07-05 12:26:33,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:26:33,724] {logging_mixin.py:115} INFO - [2022-07-05 12:26:33,724] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:26:33,764] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.234 seconds
+[2022-07-05 12:27:04,430] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:04,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:27:04,431] {logging_mixin.py:115} INFO - [2022-07-05 12:27:04,431] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:04,453] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:27:04,455] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:04,515] {logging_mixin.py:115} INFO - [2022-07-05 12:27:04,515] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:27:04,563] {logging_mixin.py:115} INFO - [2022-07-05 12:27:04,563] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:27:04,575] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.150 seconds
+[2022-07-05 12:27:34,684] {processor.py:153} INFO - Started process (PID=1013) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:34,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:27:34,689] {logging_mixin.py:115} INFO - [2022-07-05 12:27:34,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:34,717] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:27:34,719] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:27:34,764] {logging_mixin.py:115} INFO - [2022-07-05 12:27:34,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:27:34,849] {logging_mixin.py:115} INFO - [2022-07-05 12:27:34,848] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:27:34,868] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.190 seconds
+[2022-07-05 12:28:05,229] {processor.py:153} INFO - Started process (PID=1054) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:05,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:28:05,230] {logging_mixin.py:115} INFO - [2022-07-05 12:28:05,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:05,290] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:28:05,296] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:05,391] {logging_mixin.py:115} INFO - [2022-07-05 12:28:05,391] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:28:05,496] {logging_mixin.py:115} INFO - [2022-07-05 12:28:05,496] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:28:05,551] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.340 seconds
+[2022-07-05 12:28:35,702] {processor.py:153} INFO - Started process (PID=1088) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:35,703] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:28:35,704] {logging_mixin.py:115} INFO - [2022-07-05 12:28:35,704] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:35,724] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:28:35,725] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:28:35,762] {logging_mixin.py:115} INFO - [2022-07-05 12:28:35,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:28:35,796] {logging_mixin.py:115} INFO - [2022-07-05 12:28:35,796] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:28:35,812] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.114 seconds
+[2022-07-05 12:29:06,153] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:06,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:29:06,154] {logging_mixin.py:115} INFO - [2022-07-05 12:29:06,154] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:06,245] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:29:06,246] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:06,324] {logging_mixin.py:115} INFO - [2022-07-05 12:29:06,323] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:29:06,395] {logging_mixin.py:115} INFO - [2022-07-05 12:29:06,394] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:29:06,424] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.275 seconds
+[2022-07-05 12:29:36,698] {processor.py:153} INFO - Started process (PID=1166) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:36,702] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:29:36,702] {logging_mixin.py:115} INFO - [2022-07-05 12:29:36,702] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:36,722] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:29:36,724] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:29:36,757] {logging_mixin.py:115} INFO - [2022-07-05 12:29:36,756] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:29:36,794] {logging_mixin.py:115} INFO - [2022-07-05 12:29:36,794] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:29:36,809] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.127 seconds
+[2022-07-05 12:30:07,357] {processor.py:153} INFO - Started process (PID=1201) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:07,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:30:07,366] {logging_mixin.py:115} INFO - [2022-07-05 12:30:07,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:07,402] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:30:07,403] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:07,456] {logging_mixin.py:115} INFO - [2022-07-05 12:30:07,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:30:07,526] {logging_mixin.py:115} INFO - [2022-07-05 12:30:07,526] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:30:07,554] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.201 seconds
+[2022-07-05 12:30:37,826] {processor.py:153} INFO - Started process (PID=1240) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:37,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:30:37,860] {logging_mixin.py:115} INFO - [2022-07-05 12:30:37,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:37,962] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:30:37,964] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:30:38,127] {logging_mixin.py:115} INFO - [2022-07-05 12:30:38,126] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:30:38,309] {logging_mixin.py:115} INFO - [2022-07-05 12:30:38,309] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:30:38,399] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.577 seconds
+[2022-07-05 12:31:08,528] {processor.py:153} INFO - Started process (PID=1276) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:08,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:31:08,531] {logging_mixin.py:115} INFO - [2022-07-05 12:31:08,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:08,561] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:31:08,572] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:08,649] {logging_mixin.py:115} INFO - [2022-07-05 12:31:08,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:31:08,941] {logging_mixin.py:115} INFO - [2022-07-05 12:31:08,941] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:31:09,093] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.571 seconds
+[2022-07-05 12:31:39,254] {processor.py:153} INFO - Started process (PID=1306) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:39,255] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:31:39,256] {logging_mixin.py:115} INFO - [2022-07-05 12:31:39,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:39,276] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:31:39,278] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:31:39,315] {logging_mixin.py:115} INFO - [2022-07-05 12:31:39,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:31:39,360] {logging_mixin.py:115} INFO - [2022-07-05 12:31:39,359] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:31:39,378] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.127 seconds
+[2022-07-05 12:32:09,926] {processor.py:153} INFO - Started process (PID=1342) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:09,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:32:09,935] {logging_mixin.py:115} INFO - [2022-07-05 12:32:09,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:09,986] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:32:09,988] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:10,077] {logging_mixin.py:115} INFO - [2022-07-05 12:32:10,077] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:32:10,147] {logging_mixin.py:115} INFO - [2022-07-05 12:32:10,147] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:32:10,185] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.263 seconds
+[2022-07-05 12:32:40,476] {processor.py:153} INFO - Started process (PID=1372) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:40,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:32:40,477] {logging_mixin.py:115} INFO - [2022-07-05 12:32:40,477] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:40,533] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:32:40,534] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:32:40,602] {logging_mixin.py:115} INFO - [2022-07-05 12:32:40,602] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:32:40,671] {logging_mixin.py:115} INFO - [2022-07-05 12:32:40,670] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:32:40,705] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.236 seconds
+[2022-07-05 12:33:11,035] {processor.py:153} INFO - Started process (PID=1416) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:11,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:33:11,040] {logging_mixin.py:115} INFO - [2022-07-05 12:33:11,040] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:11,086] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:33:11,101] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:11,251] {logging_mixin.py:115} INFO - [2022-07-05 12:33:11,251] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:33:11,390] {logging_mixin.py:115} INFO - [2022-07-05 12:33:11,390] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:33:11,480] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.448 seconds
+[2022-07-05 12:33:41,611] {processor.py:153} INFO - Started process (PID=1447) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:41,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:33:41,612] {logging_mixin.py:115} INFO - [2022-07-05 12:33:41,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:41,632] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:33:41,634] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:33:41,667] {logging_mixin.py:115} INFO - [2022-07-05 12:33:41,667] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:33:41,702] {logging_mixin.py:115} INFO - [2022-07-05 12:33:41,702] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:33:41,716] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.109 seconds
+[2022-07-05 12:34:12,295] {processor.py:153} INFO - Started process (PID=1477) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:12,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:34:12,300] {logging_mixin.py:115} INFO - [2022-07-05 12:34:12,300] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:12,408] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:34:12,409] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:12,568] {logging_mixin.py:115} INFO - [2022-07-05 12:34:12,568] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:34:12,722] {logging_mixin.py:115} INFO - [2022-07-05 12:34:12,722] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:34:12,786] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.524 seconds
+[2022-07-05 12:34:42,939] {processor.py:153} INFO - Started process (PID=1523) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:42,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:34:42,940] {logging_mixin.py:115} INFO - [2022-07-05 12:34:42,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:43,000] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:34:43,001] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:34:43,110] {logging_mixin.py:115} INFO - [2022-07-05 12:34:43,110] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:34:43,209] {logging_mixin.py:115} INFO - [2022-07-05 12:34:43,209] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:34:43,260] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.325 seconds
+[2022-07-05 12:35:14,048] {processor.py:153} INFO - Started process (PID=1555) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:14,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:35:14,067] {logging_mixin.py:115} INFO - [2022-07-05 12:35:14,067] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:14,151] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:35:14,153] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:14,286] {logging_mixin.py:115} INFO - [2022-07-05 12:35:14,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:35:14,426] {logging_mixin.py:115} INFO - [2022-07-05 12:35:14,426] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:35:14,510] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.466 seconds
+[2022-07-05 12:35:44,708] {processor.py:153} INFO - Started process (PID=1593) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:44,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:35:44,712] {logging_mixin.py:115} INFO - [2022-07-05 12:35:44,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:44,750] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:35:44,752] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:35:44,822] {logging_mixin.py:115} INFO - [2022-07-05 12:35:44,822] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:35:44,879] {logging_mixin.py:115} INFO - [2022-07-05 12:35:44,879] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:35:44,909] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.205 seconds
+[2022-07-05 12:36:15,468] {processor.py:153} INFO - Started process (PID=1627) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:15,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:36:15,469] {logging_mixin.py:115} INFO - [2022-07-05 12:36:15,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:15,518] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:36:15,520] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:15,608] {logging_mixin.py:115} INFO - [2022-07-05 12:36:15,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:36:15,733] {logging_mixin.py:115} INFO - [2022-07-05 12:36:15,733] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:36:15,752] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.289 seconds
+[2022-07-05 12:36:46,084] {processor.py:153} INFO - Started process (PID=1658) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:46,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:36:46,092] {logging_mixin.py:115} INFO - [2022-07-05 12:36:46,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:46,119] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:36:46,120] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:36:46,157] {logging_mixin.py:115} INFO - [2022-07-05 12:36:46,157] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:36:46,192] {logging_mixin.py:115} INFO - [2022-07-05 12:36:46,192] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:36:46,206] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.127 seconds
+[2022-07-05 12:37:16,407] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:16,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:37:16,428] {logging_mixin.py:115} INFO - [2022-07-05 12:37:16,428] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:16,498] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:37:16,511] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:16,616] {logging_mixin.py:115} INFO - [2022-07-05 12:37:16,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:37:16,770] {logging_mixin.py:115} INFO - [2022-07-05 12:37:16,770] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:37:16,814] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.423 seconds
+[2022-07-05 12:37:47,282] {processor.py:153} INFO - Started process (PID=1730) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:47,283] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:37:47,283] {logging_mixin.py:115} INFO - [2022-07-05 12:37:47,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:47,303] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:37:47,305] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:37:47,337] {logging_mixin.py:115} INFO - [2022-07-05 12:37:47,337] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:37:47,374] {logging_mixin.py:115} INFO - [2022-07-05 12:37:47,373] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:37:47,388] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.111 seconds
+[2022-07-05 12:38:18,167] {processor.py:153} INFO - Started process (PID=1762) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:18,167] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:38:18,168] {logging_mixin.py:115} INFO - [2022-07-05 12:38:18,168] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:18,242] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:38:18,243] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:18,340] {logging_mixin.py:115} INFO - [2022-07-05 12:38:18,339] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:38:18,521] {logging_mixin.py:115} INFO - [2022-07-05 12:38:18,521] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:38:18,568] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.412 seconds
+[2022-07-05 12:38:48,772] {processor.py:153} INFO - Started process (PID=1792) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:48,785] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:38:48,786] {logging_mixin.py:115} INFO - [2022-07-05 12:38:48,785] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:48,901] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:38:48,915] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:38:49,156] {logging_mixin.py:115} INFO - [2022-07-05 12:38:49,156] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:38:49,348] {logging_mixin.py:115} INFO - [2022-07-05 12:38:49,348] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:38:49,373] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.609 seconds
+[2022-07-05 12:39:20,165] {processor.py:153} INFO - Started process (PID=1833) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:20,166] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:39:20,167] {logging_mixin.py:115} INFO - [2022-07-05 12:39:20,167] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:20,208] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:39:20,209] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:20,274] {logging_mixin.py:115} INFO - [2022-07-05 12:39:20,274] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:39:20,312] {logging_mixin.py:115} INFO - [2022-07-05 12:39:20,311] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:39:20,336] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.175 seconds
+[2022-07-05 12:39:50,519] {processor.py:153} INFO - Started process (PID=1874) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:50,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:39:50,521] {logging_mixin.py:115} INFO - [2022-07-05 12:39:50,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:50,541] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:39:50,543] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:39:50,578] {logging_mixin.py:115} INFO - [2022-07-05 12:39:50,578] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:39:50,615] {logging_mixin.py:115} INFO - [2022-07-05 12:39:50,615] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:39:50,630] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.115 seconds
+[2022-07-05 12:40:21,160] {processor.py:153} INFO - Started process (PID=1908) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:21,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:40:21,161] {logging_mixin.py:115} INFO - [2022-07-05 12:40:21,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:21,236] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:40:21,237] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:21,317] {logging_mixin.py:115} INFO - [2022-07-05 12:40:21,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:40:21,380] {logging_mixin.py:115} INFO - [2022-07-05 12:40:21,379] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:40:21,405] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.253 seconds
+[2022-07-05 12:40:51,948] {processor.py:153} INFO - Started process (PID=1940) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:51,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:40:51,956] {logging_mixin.py:115} INFO - [2022-07-05 12:40:51,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:51,976] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:40:51,977] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:40:52,018] {logging_mixin.py:115} INFO - [2022-07-05 12:40:52,018] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:40:52,090] {logging_mixin.py:115} INFO - [2022-07-05 12:40:52,090] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:40:52,116] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.171 seconds
+[2022-07-05 12:41:22,495] {processor.py:153} INFO - Started process (PID=1972) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:22,502] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:41:22,506] {logging_mixin.py:115} INFO - [2022-07-05 12:41:22,506] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:22,589] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:41:22,603] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:22,730] {logging_mixin.py:115} INFO - [2022-07-05 12:41:22,729] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:41:22,819] {logging_mixin.py:115} INFO - [2022-07-05 12:41:22,818] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:41:22,860] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.385 seconds
+[2022-07-05 12:41:53,178] {processor.py:153} INFO - Started process (PID=2004) to work on /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:53,189] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rules2.py for tasks to queue
+[2022-07-05 12:41:53,193] {logging_mixin.py:115} INFO - [2022-07-05 12:41:53,193] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:53,263] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-05 12:41:53,272] {processor.py:651} INFO - DAG(s) dict_keys(['branch_operator_trigger_rules']) retrieved from /opt/airflow/dags/trigger_rules2.py
+[2022-07-05 12:41:53,348] {logging_mixin.py:115} INFO - [2022-07-05 12:41:53,347] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-05 12:41:53,425] {logging_mixin.py:115} INFO - [2022-07-05 12:41:53,425] {dag.py:2931} INFO - Setting next_dagrun for branch_operator_trigger_rules to 2022-07-05T00:00:00+00:00, run_after=2022-07-06T00:00:00+00:00
+[2022-07-05 12:41:53,457] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rules2.py took 0.286 seconds

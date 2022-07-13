@@ -1,0 +1,16 @@
+Create a pvc using pvc.yaml file
+Change values.yaml with below configuration
+
+logs:
+  persistence:
+    # Enable persistent volume for storing logs
+    enabled: true
+    # Volume size for logs
+    size: 1Gi
+    # If using a custom storageClass, pass name here
+    storageClassName: kops-csi-1-21
+    ## the name of an existing PVC to use
+    existingClaim: pvc1
+    
+Upgrade airflow chart
+helm upgrade --install airflow apache-airflow/airflow -n airflow -f values.yaml --debug
