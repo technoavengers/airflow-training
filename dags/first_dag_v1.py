@@ -5,7 +5,7 @@ from airflow.operators.python import PythonOperator
 
 
 
-with DAG ('first_dag', start_date=datetime(2022,1,1),
+with DAG ('first_dag_v1', start_date=datetime(2022,1,1),
             schedule_interval='@daily', catchup=False) as dag:
      create_table = PostgresOperator(
         task_id='create_table',
