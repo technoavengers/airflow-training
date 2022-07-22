@@ -11950,3 +11950,549 @@ File Path                                      PID  Runtime      # DAGs    # Err
 /opt/airflow/dags/trigger_rules2.py                                   1           0  0.32s           2022-07-05T12:41:53
 ================================================================================
 [2022-07-05 12:42:22,648] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-22 06:14:18,849] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-22 06:14:18,856] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-22 06:14:18,856] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-22 06:14:18,857] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-22 06:14:18,935] {manager.py:693} INFO - There are 11 files in /opt/airflow/dags
+[2022-07-22 06:14:19,935] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/big_data_pipeline.py                                0           0
+/opt/airflow/dags/first_dag.py                  63  0.41s             0           0
+/opt/airflow/dags/parallel_dag.py                                     0           0
+/opt/airflow/dags/task_group.py                                       0           0
+/opt/airflow/dags/xcom_dag.py                                         0           0
+/opt/airflow/dags/xcom_dag_basic.py                                   0           0
+/opt/airflow/dags/python_branch_operator.py                           0           0
+/opt/airflow/dags/sql_branch_operator.py                              0           0
+/opt/airflow/dags/branch_week_operator.py                             0           0
+/opt/airflow/dags/triggers_rules.py                                   0           0
+/opt/airflow/dags/trigger_rules2.py             64  0.31s             0           0
+================================================================================
+[2022-07-22 06:14:50,615] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           0
+/opt/airflow/dags/first_dag.py                  63  31.10s            0           0
+/opt/airflow/dags/parallel_dag.py                                     0           0
+/opt/airflow/dags/task_group.py                                       0           0
+/opt/airflow/dags/xcom_dag.py                   74  15.97s            0           0
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  2.17s           2022-07-22T06:14:34
+/opt/airflow/dags/python_branch_operator.py                           1           0  2.44s           2022-07-22T06:14:24
+/opt/airflow/dags/sql_branch_operator.py                              1           0  2.15s           2022-07-22T06:14:32
+/opt/airflow/dags/branch_week_operator.py                             1           0  2.28s           2022-07-22T06:14:30
+/opt/airflow/dags/triggers_rules.py                                   1           0  2.95s           2022-07-22T06:14:27
+/opt/airflow/dags/trigger_rules2.py                                   1           0  2.91s           2022-07-22T06:14:22
+================================================================================
+[2022-07-22 06:15:20,442] {manager.py:511} INFO - DAG first_dag is missing and will be deactivated.
+[2022-07-22 06:15:20,533] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-22 06:15:21,651] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.94s           2022-07-22T06:14:56
+/opt/airflow/dags/first_dag.py                 110  0.02s             0           1  31.59s          2022-07-22T06:14:51
+/opt/airflow/dags/parallel_dag.py                                     1           0  1.50s           2022-07-22T06:14:55
+/opt/airflow/dags/task_group.py                                       1           0  2.44s           2022-07-22T06:14:53
+/opt/airflow/dags/xcom_dag.py                                         1           0  22.67s          2022-07-22T06:14:57
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  2.55s           2022-07-22T06:15:07
+/opt/airflow/dags/python_branch_operator.py                           1           0  3.17s           2022-07-22T06:15:00
+/opt/airflow/dags/sql_branch_operator.py                              1           0  3.60s           2022-07-22T06:15:06
+/opt/airflow/dags/branch_week_operator.py                             1           0  2.78s           2022-07-22T06:15:03
+/opt/airflow/dags/triggers_rules.py                                   1           0  2.94s           2022-07-22T06:15:01
+/opt/airflow/dags/trigger_rules2.py                                   1           0  2.84s           2022-07-22T06:14:58
+================================================================================
+[2022-07-22 06:15:51,817] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.69s           2022-07-22T06:15:27
+/opt/airflow/dags/first_dag.py                                        1           0  8.30s           2022-07-22T06:15:29
+/opt/airflow/dags/parallel_dag.py                                     1           0  1.35s           2022-07-22T06:15:26
+/opt/airflow/dags/task_group.py                                       1           0  1.65s           2022-07-22T06:15:25
+/opt/airflow/dags/xcom_dag.py                                         1           0  7.79s           2022-07-22T06:15:35
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  2.38s           2022-07-22T06:15:40
+/opt/airflow/dags/python_branch_operator.py                           1           0  1.05s           2022-07-22T06:15:32
+/opt/airflow/dags/sql_branch_operator.py                              1           0  2.26s           2022-07-22T06:15:39
+/opt/airflow/dags/branch_week_operator.py                             1           0  1.27s           2022-07-22T06:15:35
+/opt/airflow/dags/triggers_rules.py                                   1           0  1.84s           2022-07-22T06:15:33
+/opt/airflow/dags/trigger_rules2.py                                   1           0  1.09s           2022-07-22T06:15:30
+================================================================================
+[2022-07-22 06:16:04,932] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-22 06:19:14,837] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-22 06:19:14,843] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-22 06:19:14,844] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-22 06:19:14,845] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-22 06:19:14,864] {manager.py:693} INFO - There are 11 files in /opt/airflow/dags
+[2022-07-22 06:19:15,127] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/big_data_pipeline.py                                0           0
+/opt/airflow/dags/first_dag.py                  58  0.13s             0           0
+/opt/airflow/dags/parallel_dag.py                                     0           0
+/opt/airflow/dags/task_group.py                                       0           0
+/opt/airflow/dags/xcom_dag.py                                         0           0
+/opt/airflow/dags/xcom_dag_basic.py                                   0           0
+/opt/airflow/dags/python_branch_operator.py                           0           0
+/opt/airflow/dags/sql_branch_operator.py                              0           0
+/opt/airflow/dags/branch_week_operator.py                             0           0
+/opt/airflow/dags/triggers_rules.py                                   0           0
+/opt/airflow/dags/trigger_rules2.py             59  0.11s             0           0
+================================================================================
+[2022-07-22 06:19:45,536] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.31s           2022-07-22T06:19:27
+/opt/airflow/dags/first_dag.py                                        1           0  11.47s          2022-07-22T06:19:26
+/opt/airflow/dags/parallel_dag.py                                     1           0  1.01s           2022-07-22T06:19:27
+/opt/airflow/dags/task_group.py                                       1           0  1.10s           2022-07-22T06:19:27
+/opt/airflow/dags/xcom_dag.py                                         1           0  6.73s           2022-07-22T06:19:26
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.82s           2022-07-22T06:19:19
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.73s           2022-07-22T06:19:16
+/opt/airflow/dags/sql_branch_operator.py                              1           0  1.04s           2022-07-22T06:19:18
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.54s           2022-07-22T06:19:17
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.69s           2022-07-22T06:19:17
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.69s           2022-07-22T06:19:15
+================================================================================
+[2022-07-22 06:20:16,044] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.34s           2022-07-22T06:19:58
+/opt/airflow/dags/first_dag.py                                        1           0  1.78s           2022-07-22T06:19:58
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.52s           2022-07-22T06:19:59
+/opt/airflow/dags/task_group.py                                       1           0  0.43s           2022-07-22T06:19:58
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.38s           2022-07-22T06:19:58
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.09s           2022-07-22T06:19:49
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.40s           2022-07-22T06:19:47
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.12s           2022-07-22T06:19:48
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.37s           2022-07-22T06:19:48
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.60s           2022-07-22T06:19:47
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.56s           2022-07-22T06:19:46
+================================================================================
+[2022-07-22 06:20:16,861] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-22 06:25:16,700] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-22 06:25:16,721] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-22 06:25:16,721] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-22 06:25:16,721] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-22 06:25:16,743] {manager.py:693} INFO - There are 11 files in /opt/airflow/dags
+[2022-07-22 06:25:17,162] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/big_data_pipeline.py                                0           0
+/opt/airflow/dags/first_dag.py                  65  0.16s             0           0
+/opt/airflow/dags/parallel_dag.py                                     0           0
+/opt/airflow/dags/task_group.py                                       0           0
+/opt/airflow/dags/xcom_dag.py                                         0           0
+/opt/airflow/dags/xcom_dag_basic.py                                   0           0
+/opt/airflow/dags/python_branch_operator.py                           0           0
+/opt/airflow/dags/sql_branch_operator.py                              0           0
+/opt/airflow/dags/branch_week_operator.py                             0           0
+/opt/airflow/dags/triggers_rules.py                                   0           0
+/opt/airflow/dags/trigger_rules2.py             66  0.12s             0           0
+================================================================================
+[2022-07-22 06:25:47,414] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.22s           2022-07-22T06:25:28
+/opt/airflow/dags/first_dag.py                                        1           0  10.24s          2022-07-22T06:25:27
+/opt/airflow/dags/parallel_dag.py                                     1           0  1.05s           2022-07-22T06:25:28
+/opt/airflow/dags/task_group.py                                       1           0  1.20s           2022-07-22T06:25:28
+/opt/airflow/dags/xcom_dag.py                                         1           0  6.19s           2022-07-22T06:25:27
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.96s           2022-07-22T06:25:20
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.67s           2022-07-22T06:25:18
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.58s           2022-07-22T06:25:19
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.29s           2022-07-22T06:25:19
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.60s           2022-07-22T06:25:19
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.79s           2022-07-22T06:25:17
+================================================================================
+[2022-07-22 06:26:18,079] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.07s           2022-07-22T06:25:59
+/opt/airflow/dags/first_dag.py                                        1           0  1.26s           2022-07-22T06:25:58
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.18s           2022-07-22T06:25:59
+/opt/airflow/dags/task_group.py                                       1           0  0.27s           2022-07-22T06:25:59
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.16s           2022-07-22T06:25:58
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.15s           2022-07-22T06:25:51
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.49s           2022-07-22T06:25:49
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.29s           2022-07-22T06:25:50
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.62s           2022-07-22T06:25:50
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.44s           2022-07-22T06:25:50
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.42s           2022-07-22T06:25:48
+================================================================================
+[2022-07-22 06:26:48,374] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.09s           2022-07-22T06:26:31
+/opt/airflow/dags/first_dag.py                                        1           0  2.08s           2022-07-22T06:26:31
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.13s           2022-07-22T06:26:31
+/opt/airflow/dags/task_group.py                                       1           0  0.14s           2022-07-22T06:26:31
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.07s           2022-07-22T06:26:31
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.24s           2022-07-22T06:26:22
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.25s           2022-07-22T06:26:19
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.65s           2022-07-22T06:26:21
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.58s           2022-07-22T06:26:21
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.13s           2022-07-22T06:26:20
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.21s           2022-07-22T06:26:19
+================================================================================
+[2022-07-22 06:27:19,126] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.18s           2022-07-22T06:27:04
+/opt/airflow/dags/first_dag.py                                        1           0  2.45s           2022-07-22T06:27:03
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.45s           2022-07-22T06:27:04
+/opt/airflow/dags/task_group.py                                       1           0  0.46s           2022-07-22T06:27:03
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.33s           2022-07-22T06:27:03
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.18s           2022-07-22T06:26:53
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.28s           2022-07-22T06:26:49
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.28s           2022-07-22T06:26:53
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.21s           2022-07-22T06:26:52
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.13s           2022-07-22T06:26:50
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.37s           2022-07-22T06:26:49
+================================================================================
+[2022-07-22 06:27:49,340] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.11s           2022-07-22T06:27:35
+/opt/airflow/dags/first_dag.py                                        1           0  0.81s           2022-07-22T06:27:35
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.22s           2022-07-22T06:27:35
+/opt/airflow/dags/task_group.py                                       1           0  0.17s           2022-07-22T06:27:35
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.75s           2022-07-22T06:27:35
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.11s           2022-07-22T06:27:24
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.65s           2022-07-22T06:27:20
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.44s           2022-07-22T06:27:24
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.42s           2022-07-22T06:27:24
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.16s           2022-07-22T06:27:21
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.65s           2022-07-22T06:27:20
+================================================================================
+[2022-07-22 06:28:19,359] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.18s           2022-07-22T06:28:07
+/opt/airflow/dags/first_dag.py                                        1           0  1.84s           2022-07-22T06:28:07
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.30s           2022-07-22T06:28:07
+/opt/airflow/dags/task_group.py                                       1           0  0.48s           2022-07-22T06:28:07
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.40s           2022-07-22T06:28:06
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.21s           2022-07-22T06:27:55
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.21s           2022-07-22T06:27:51
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.38s           2022-07-22T06:27:55
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.36s           2022-07-22T06:27:55
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.21s           2022-07-22T06:27:52
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.42s           2022-07-22T06:27:51
+================================================================================
+[2022-07-22 06:28:49,449] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.14s           2022-07-22T06:28:39
+/opt/airflow/dags/first_dag.py                                        1           0  2.19s           2022-07-22T06:28:39
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.21s           2022-07-22T06:28:39
+/opt/airflow/dags/task_group.py                                       1           0  0.18s           2022-07-22T06:28:39
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.18s           2022-07-22T06:28:39
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.15s           2022-07-22T06:28:25
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.29s           2022-07-22T06:28:22
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.27s           2022-07-22T06:28:25
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.23s           2022-07-22T06:28:25
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.14s           2022-07-22T06:28:23
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.29s           2022-07-22T06:28:22
+================================================================================
+[2022-07-22 06:29:20,191] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.14s           2022-07-22T06:29:10
+/opt/airflow/dags/first_dag.py                                        1           0  0.71s           2022-07-22T06:29:09
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.19s           2022-07-22T06:29:10
+/opt/airflow/dags/task_group.py                                       1           0  0.27s           2022-07-22T06:29:10
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.67s           2022-07-22T06:29:09
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.26s           2022-07-22T06:28:57
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.14s           2022-07-22T06:28:53
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.36s           2022-07-22T06:28:56
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.29s           2022-07-22T06:28:56
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.14s           2022-07-22T06:28:54
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.16s           2022-07-22T06:28:53
+================================================================================
+[2022-07-22 06:29:50,220] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.25s           2022-07-22T06:29:45
+/opt/airflow/dags/first_dag.py                                        1           0  4.12s           2022-07-22T06:29:44
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.53s           2022-07-22T06:29:45
+/opt/airflow/dags/task_group.py                                       1           0  0.66s           2022-07-22T06:29:45
+/opt/airflow/dags/xcom_dag.py                                         1           0  3.88s           2022-07-22T06:29:44
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.35s           2022-07-22T06:29:28
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.47s           2022-07-22T06:29:24
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.80s           2022-07-22T06:29:28
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.69s           2022-07-22T06:29:28
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.38s           2022-07-22T06:29:25
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.28s           2022-07-22T06:29:24
+================================================================================
+[2022-07-22 06:30:17,347] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-22 06:30:17,351] {manager.py:693} INFO - There are 11 files in /opt/airflow/dags
+[2022-07-22 06:30:20,374] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.15s           2022-07-22T06:30:16
+/opt/airflow/dags/first_dag.py                                        1           0  0.95s           2022-07-22T06:30:16
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.23s           2022-07-22T06:30:16
+/opt/airflow/dags/task_group.py                                       1           0  0.28s           2022-07-22T06:30:16
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.70s           2022-07-22T06:30:15
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.30s           2022-07-22T06:29:59
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.28s           2022-07-22T06:29:55
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.60s           2022-07-22T06:29:59
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.39s           2022-07-22T06:29:58
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.13s           2022-07-22T06:29:56
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.31s           2022-07-22T06:29:55
+================================================================================
+[2022-07-22 06:30:50,395] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.09s           2022-07-22T06:30:47
+/opt/airflow/dags/first_dag.py                                        1           0  1.04s           2022-07-22T06:30:47
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.20s           2022-07-22T06:30:47
+/opt/airflow/dags/task_group.py                                       1           0  0.15s           2022-07-22T06:30:47
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.07s           2022-07-22T06:30:47
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.19s           2022-07-22T06:30:30
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.23s           2022-07-22T06:30:26
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.36s           2022-07-22T06:30:30
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.29s           2022-07-22T06:30:29
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.13s           2022-07-22T06:30:27
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.26s           2022-07-22T06:30:26
+================================================================================
+[2022-07-22 06:31:20,608] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.09s           2022-07-22T06:31:19
+/opt/airflow/dags/first_dag.py                                        1           0  1.50s           2022-07-22T06:31:19
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.12s           2022-07-22T06:31:19
+/opt/airflow/dags/task_group.py                                       1           0  0.14s           2022-07-22T06:31:19
+/opt/airflow/dags/xcom_dag.py                                         1           0  1.39s           2022-07-22T06:31:19
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.17s           2022-07-22T06:31:01
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.20s           2022-07-22T06:30:57
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.27s           2022-07-22T06:31:00
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.23s           2022-07-22T06:31:00
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.12s           2022-07-22T06:30:58
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.22s           2022-07-22T06:30:57
+================================================================================
+[2022-07-22 06:31:51,395] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.09s           2022-07-22T06:31:19
+/opt/airflow/dags/first_dag.py                 500  1.06s             1           0  1.50s           2022-07-22T06:31:19
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.12s           2022-07-22T06:31:19
+/opt/airflow/dags/task_group.py                                       1           0  0.14s           2022-07-22T06:31:19
+/opt/airflow/dags/xcom_dag.py                  501  1.04s             1           0  1.39s           2022-07-22T06:31:19
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.21s           2022-07-22T06:31:31
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.23s           2022-07-22T06:31:27
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.27s           2022-07-22T06:31:31
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.18s           2022-07-22T06:31:31
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.13s           2022-07-22T06:31:28
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.21s           2022-07-22T06:31:27
+================================================================================
+[2022-07-22 06:32:21,733] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.53s           2022-07-22T06:31:55
+/opt/airflow/dags/first_dag.py                                        1           0  3.48s           2022-07-22T06:31:53
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.98s           2022-07-22T06:31:55
+/opt/airflow/dags/task_group.py                                       1           0  0.78s           2022-07-22T06:31:54
+/opt/airflow/dags/xcom_dag.py                                         1           0  3.72s           2022-07-22T06:31:54
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.17s           2022-07-22T06:32:01
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.28s           2022-07-22T06:31:58
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.28s           2022-07-22T06:32:01
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.24s           2022-07-22T06:32:01
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.12s           2022-07-22T06:31:59
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.30s           2022-07-22T06:31:58
+================================================================================
+[2022-07-22 06:32:52,039] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.18s           2022-07-22T06:32:29
+/opt/airflow/dags/first_dag.py                                        1           0  3.91s           2022-07-22T06:32:27
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.69s           2022-07-22T06:32:29
+/opt/airflow/dags/task_group.py                                       1           0  0.70s           2022-07-22T06:32:28
+/opt/airflow/dags/xcom_dag.py                                         1           0  4.42s           2022-07-22T06:32:29
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.12s           2022-07-22T06:32:32
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.30s           2022-07-22T06:32:29
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.17s           2022-07-22T06:32:31
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.17s           2022-07-22T06:32:31
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.18s           2022-07-22T06:32:29
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.33s           2022-07-22T06:32:29
+================================================================================
+[2022-07-22 06:33:22,054] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.07s           2022-07-22T06:33:00
+/opt/airflow/dags/first_dag.py                                        1           0  1.62s           2022-07-22T06:32:59
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.16s           2022-07-22T06:32:59
+/opt/airflow/dags/task_group.py                                       1           0  0.34s           2022-07-22T06:32:59
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.80s           2022-07-22T06:33:00
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.30s           2022-07-22T06:33:03
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.12s           2022-07-22T06:33:00
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.75s           2022-07-22T06:33:03
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.62s           2022-07-22T06:33:02
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.12s           2022-07-22T06:33:00
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.15s           2022-07-22T06:32:59
+================================================================================
+[2022-07-22 06:33:52,914] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.35s           2022-07-22T06:33:33
+/opt/airflow/dags/first_dag.py                                        1           0  3.08s           2022-07-22T06:33:33
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.47s           2022-07-22T06:33:31
+/opt/airflow/dags/task_group.py                                       1           0  0.72s           2022-07-22T06:33:31
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.23s           2022-07-22T06:33:34
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.41s           2022-07-22T06:33:34
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.50s           2022-07-22T06:33:32
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.45s           2022-07-22T06:33:34
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.48s           2022-07-22T06:33:33
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.40s           2022-07-22T06:33:32
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.55s           2022-07-22T06:33:30
+================================================================================
+[2022-07-22 06:34:23,281] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.27s           2022-07-22T06:34:03
+/opt/airflow/dags/first_dag.py                                        1           0  1.07s           2022-07-22T06:34:04
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.16s           2022-07-22T06:34:02
+/opt/airflow/dags/task_group.py                                       1           0  0.17s           2022-07-22T06:34:02
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.78s           2022-07-22T06:34:08
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.71s           2022-07-22T06:34:06
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.18s           2022-07-22T06:34:03
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.26s           2022-07-22T06:34:04
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.23s           2022-07-22T06:34:04
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.25s           2022-07-22T06:34:03
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.14s           2022-07-22T06:34:01
+================================================================================
+[2022-07-22 06:34:54,113] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.26s           2022-07-22T06:34:35
+/opt/airflow/dags/first_dag.py                                        1           0  3.42s           2022-07-22T06:34:38
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.17s           2022-07-22T06:34:32
+/opt/airflow/dags/task_group.py                                       1           0  0.17s           2022-07-22T06:34:32
+/opt/airflow/dags/xcom_dag.py                                         1           0  2.00s           2022-07-22T06:34:41
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.81s           2022-07-22T06:34:37
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.12s           2022-07-22T06:34:33
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.33s           2022-07-22T06:34:35
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.30s           2022-07-22T06:34:34
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.10s           2022-07-22T06:34:33
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.10s           2022-07-22T06:34:31
+================================================================================
+[2022-07-22 06:35:17,710] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-22 06:35:17,715] {manager.py:693} INFO - There are 11 files in /opt/airflow/dags
+[2022-07-22 06:35:24,764] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.28s           2022-07-22T06:35:07
+/opt/airflow/dags/first_dag.py                                        1           0  1.41s           2022-07-22T06:35:09
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.28s           2022-07-22T06:35:03
+/opt/airflow/dags/task_group.py                                       1           0  0.27s           2022-07-22T06:35:03
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.76s           2022-07-22T06:35:12
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.33s           2022-07-22T06:35:08
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.45s           2022-07-22T06:35:04
+/opt/airflow/dags/sql_branch_operator.py                              1           0  1.13s           2022-07-22T06:35:07
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.85s           2022-07-22T06:35:06
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.50s           2022-07-22T06:35:04
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.11s           2022-07-22T06:35:02
+================================================================================
+[2022-07-22 06:35:54,982] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/big_data_pipeline.py                                0           1  0.22s           2022-07-22T06:35:37
+/opt/airflow/dags/first_dag.py                                        1           0  0.85s           2022-07-22T06:35:41
+/opt/airflow/dags/parallel_dag.py                                     1           0  0.70s           2022-07-22T06:35:34
+/opt/airflow/dags/task_group.py                                       1           0  0.73s           2022-07-22T06:35:34
+/opt/airflow/dags/xcom_dag.py                                         1           0  0.50s           2022-07-22T06:35:42
+/opt/airflow/dags/xcom_dag_basic.py                                   1           0  0.10s           2022-07-22T06:35:38
+/opt/airflow/dags/python_branch_operator.py                           1           0  0.58s           2022-07-22T06:35:36
+/opt/airflow/dags/sql_branch_operator.py                              1           0  0.45s           2022-07-22T06:35:37
+/opt/airflow/dags/branch_week_operator.py                             1           0  0.38s           2022-07-22T06:35:37
+/opt/airflow/dags/triggers_rules.py                                   1           0  0.57s           2022-07-22T06:35:36
+/opt/airflow/dags/trigger_rules2.py                                   1           0  0.27s           2022-07-22T06:35:33
+================================================================================
+[2022-07-22 06:35:55,899] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15

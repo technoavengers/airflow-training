@@ -18,6 +18,6 @@ cd airflow-training
 mkdir -p ./dags ./logs ./plugins
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 
-docker-compose -f ./setup/docker-compose.yaml up airflow-init
+docker-compose -f docker-compose.yaml up airflow-init
 
-docker-compose -f ./setup/docker-compose.yaml up -d
+docker-compose -f docker-compose.yaml up -d
