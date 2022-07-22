@@ -1,12 +1,9 @@
-docker exec -it airflow-training-airflow-scheduler-1 sh
-airflow tasks test first_dag create_table 2022-01-01
-airflow tasks test first_dag is_api_available 2022-01-01
-airflow tasks test first_dag extract_user 2022-01-01
-airflow tasks test first_dag process_user 2022-01-01
+
+kubectl get pod -n airflow
 
 ############# check out if data is stored in postgress? ############
-docker exec -it  airflow-training-postgres-1 sh
-psql -Uairflow
+kubectl exec -it <postgres-pod> -n airflow sh
+psql -U postgres
 SELECT * from users;
 
 ############## Postgres Connection ###################################
@@ -14,3 +11,6 @@ host - postgres (in case postgres is running in kubernetes pods, use the service
 login - airflow
 password - airflow
 port - 5432
+
+kubectl exec -it <scheduler-pod> -n airflow sh
+airflow tasks test first_dag_v1 create_table 2022-01-01
