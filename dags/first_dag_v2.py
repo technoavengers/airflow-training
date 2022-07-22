@@ -5,7 +5,7 @@ from airflow.providers.http.sensors.http import HttpSensor
 
 
 with DAG ('first_dag_v2', start_date=datetime(2022,1,1),
-            schedule_interval='@daily', catchup=False) as dag:
+            schedule_interval='@daily', catchup=False, tags=['first_dag']) as dag:
      create_table = PostgresOperator(
         task_id='create_table',
         postgres_conn_id='postgres',
