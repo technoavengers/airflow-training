@@ -15,3 +15,5 @@ port - 5432
 kubectl exec -it <scheduler-pod> -n airflow sh
 airflow tasks test first_dag_v1 create_table 2022-01-01
 airflow dags test first_dag_v3 2022-01-01
+
+kubectl rollout restart deployment  airflow-webserver -n airflow
