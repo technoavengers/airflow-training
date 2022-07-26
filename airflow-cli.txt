@@ -1,0 +1,11 @@
+docker restart airflow-docker_airflow-webserver_1
+docker exec -it airflow-docker_airflow-webserver_1 sh
+airflow dags list
+airflow dags list-import-errors
+
+airflow tasks render templates_rendering task4 2021-01-01
+
+
+docker exec -it airflow-docker_airflow-scheduler_1 sh
+cat airflow.cfg | grep 'parallelism'
+cat airflow.cfg | grep 'max_active_runs_per_dag'

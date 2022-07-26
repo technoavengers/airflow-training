@@ -1,0 +1,11 @@
+Ensure 2-step verification is enabled on email
+https://security.google.com/settings/security/apppasswords
+
+Select type and device and click on generate
+It will prompt a password
+
+    AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
+    AIRFLOW__SMTP__SMTP_USER: yuvaan220161@gmail.com
+    AIRFLOW__SMTP__SMTP_PASSWORD: qofnpvjvepfmronh
+    AIRFLOW__SMTP__SMTP_PORT: 587  
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: yuvaan220161@gmail.com
