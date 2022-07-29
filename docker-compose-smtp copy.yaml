@@ -59,10 +59,11 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
-    #AIRFLOW__CORE__PARALLELISM: 1
-    #AIRFLOW__CORE__PARALLELISM: 3
-    #AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: 2
-    #AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG:1
+    AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
+    AIRFLOW__SMTP__SMTP_USER: yuvaan220161@gmail.com
+    AIRFLOW__SMTP__SMTP_PASSWORD: qofnpvjvepfmronh
+    AIRFLOW__SMTP__SMTP_PORT: 25  
+    AIRFLOW__SMTP__SMTP_MAIL_FROM: yuvaan220161@gmail.com
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs

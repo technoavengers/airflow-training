@@ -63,10 +63,12 @@ x-airflow-common:
     #AIRFLOW__CORE__PARALLELISM: 3
     #AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: 2
     #AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG:1
+    AIRFLOW__SCHEDULER__CATCHUP_BY_DEFAULT: 'false'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ./scripts:/opt/airflow/scripts
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -133,7 +135,7 @@ services:
 
   airflow-worker:
     <<: *airflow-common
-    command: celery worker
+    command: celery worker -q worker_cpu,worker_spark,default
     healthcheck:
       test:
         - "CMD-SHELL"
