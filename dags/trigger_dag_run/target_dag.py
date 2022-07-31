@@ -24,6 +24,8 @@ with DAG(dag_id="trigger_target_dag", default_args=default_args, schedule_interv
 
     bash_task = BashOperator(
         task_id="bash_task",
-        bash_command='echo "Here is the message: $message"',
+        bash_command='echo "Here is the message: $message" && sleep 60',
         env={'message': '{{ dag_run.conf.get("message") }}'},
     )
+
+    bash_task >> run_this

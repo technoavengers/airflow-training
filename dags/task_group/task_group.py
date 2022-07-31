@@ -55,7 +55,9 @@ with DAG('task_group', start_date=datetime(2022, 1, 1),
             task_id='store_file2',
             bash_command='sleep 1'
             )
+
+        store_mysql >> store_cassandra
  
         
  
-    download_files >> check_files >> process_files >> store_files
+    download_files >> check_files >> [process_files,store_files]

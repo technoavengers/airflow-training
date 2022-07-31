@@ -34,6 +34,7 @@ with DAG ('python_branch_operator', start_date=datetime(2022,1,1),
         
     store = DummyOperator(
             task_id='store',
+            trigger_rule='none_failed_or_skipped'
         )
         
         

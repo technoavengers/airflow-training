@@ -11,7 +11,7 @@ with DAG ('sql_branch_operator', start_date=datetime(2022,1,1),
      
      create_table = PostgresOperator(
         task_id='create_table',
-        postgres_conn_id='postgres_con',
+        postgres_conn_id='postgres',
         sql='''
             CREATE TABLE IF NOT EXISTS customer (
                 firstname TEXT NOT NULL,
@@ -22,7 +22,7 @@ with DAG ('sql_branch_operator', start_date=datetime(2022,1,1),
      
      find_customers = BranchSQLOperator(
         task_id="branch_sql",
-        conn_id="postgres_con",
+        conn_id="postgres",
         sql="SELECT count(1) FROM customer",
         follow_task_ids_if_true="customer_exist",
         follow_task_ids_if_false="customer_not_exist",
@@ -39,7 +39,7 @@ with DAG ('sql_branch_operator', start_date=datetime(2022,1,1),
      
      create_dummy_customer = PostgresOperator(
         task_id='insert_customer',
-        postgres_conn_id='postgres_con',
+        postgres_conn_id='postgres',
         sql='''
             INSERT INTO customer (firstname,lastname,country)
             values('Jim','Scandel','US');'''

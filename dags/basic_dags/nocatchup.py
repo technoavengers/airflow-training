@@ -8,9 +8,9 @@ default_args = {
     'owner': 'Airflow'
 }
 
-with DAG(dag_id='catchup_false', schedule_interval="0 * * * *", default_args=default_args, tags=['basic_dags'],catchup=False) as dag:
+with DAG(dag_id='catchup_false', schedule_interval="15 * * * *", default_args=default_args, tags=['basic_dags'],catchup=False) as dag:
     
-    task_1 = DummyOperator(task_id='dummy_task_1')
+    task_1 = DummyOperator(task_id='dummy_task_11234')
     
     task_2 = DummyOperator(task_id='dummy_task_2')
     

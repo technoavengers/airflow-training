@@ -1,0 +1,711 @@
+[2022-07-30 16:25:05,830] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:05,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:25:05,849] {logging_mixin.py:115} INFO - [2022-07-30 16:25:05,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:05,971] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:07,962] {logging_mixin.py:115} INFO - [2022-07-30 16:25:07,961] {manager.py:508} INFO - Created Permission View: can read on DAG:wait_for_downstream
+[2022-07-30 16:25:08,050] {logging_mixin.py:115} INFO - [2022-07-30 16:25:08,050] {manager.py:508} INFO - Created Permission View: can delete on DAG:wait_for_downstream
+[2022-07-30 16:25:08,134] {logging_mixin.py:115} INFO - [2022-07-30 16:25:08,134] {manager.py:508} INFO - Created Permission View: can edit on DAG:wait_for_downstream
+[2022-07-30 16:25:08,134] {logging_mixin.py:115} INFO - [2022-07-30 16:25:08,134] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:25:08,208] {logging_mixin.py:115} INFO - [2022-07-30 16:25:08,208] {dag.py:2398} INFO - Creating ORM DAG for wait_for_downstream
+[2022-07-30 16:25:08,345] {logging_mixin.py:115} INFO - [2022-07-30 16:25:08,345] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:25:08,461] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 2.676 seconds
+[2022-07-30 16:25:39,175] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:39,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:25:39,180] {logging_mixin.py:115} INFO - [2022-07-30 16:25:39,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:39,195] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:25:39,262] {logging_mixin.py:115} INFO - [2022-07-30 16:25:39,261] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:25:39,293] {logging_mixin.py:115} INFO - [2022-07-30 16:25:39,293] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:25:39,304] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.133 seconds
+[2022-07-30 16:26:09,696] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:09,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:26:09,699] {logging_mixin.py:115} INFO - [2022-07-30 16:26:09,698] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:09,713] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:09,776] {logging_mixin.py:115} INFO - [2022-07-30 16:26:09,776] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:26:09,900] {logging_mixin.py:115} INFO - [2022-07-30 16:26:09,899] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:26:09,946] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.255 seconds
+[2022-07-30 16:26:40,171] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:40,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:26:40,172] {logging_mixin.py:115} INFO - [2022-07-30 16:26:40,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:40,201] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:26:40,271] {logging_mixin.py:115} INFO - [2022-07-30 16:26:40,271] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:26:40,336] {logging_mixin.py:115} INFO - [2022-07-30 16:26:40,335] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:26:40,363] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.211 seconds
+[2022-07-30 16:27:11,315] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:11,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:27:11,317] {logging_mixin.py:115} INFO - [2022-07-30 16:27:11,317] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:11,331] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:11,371] {logging_mixin.py:115} INFO - [2022-07-30 16:27:11,371] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:27:11,423] {logging_mixin.py:115} INFO - [2022-07-30 16:27:11,423] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:27:11,470] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.159 seconds
+[2022-07-30 16:27:42,041] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:42,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:27:42,047] {logging_mixin.py:115} INFO - [2022-07-30 16:27:42,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:42,073] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:27:42,115] {logging_mixin.py:115} INFO - [2022-07-30 16:27:42,115] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:27:42,166] {logging_mixin.py:115} INFO - [2022-07-30 16:27:42,165] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:27:42,213] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.184 seconds
+[2022-07-30 16:28:12,587] {processor.py:153} INFO - Started process (PID=363) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:12,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:28:12,594] {logging_mixin.py:115} INFO - [2022-07-30 16:28:12,593] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:12,612] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:12,662] {logging_mixin.py:115} INFO - [2022-07-30 16:28:12,662] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:28:12,703] {logging_mixin.py:115} INFO - [2022-07-30 16:28:12,703] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:28:12,720] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.137 seconds
+[2022-07-30 16:28:43,343] {processor.py:153} INFO - Started process (PID=411) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:43,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:28:43,349] {logging_mixin.py:115} INFO - [2022-07-30 16:28:43,349] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:43,367] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:28:43,402] {logging_mixin.py:115} INFO - [2022-07-30 16:28:43,402] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:28:43,439] {logging_mixin.py:115} INFO - [2022-07-30 16:28:43,439] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:28:43,457] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.118 seconds
+[2022-07-30 16:29:14,269] {processor.py:153} INFO - Started process (PID=475) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:14,270] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:29:14,270] {logging_mixin.py:115} INFO - [2022-07-30 16:29:14,270] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:14,281] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:14,313] {logging_mixin.py:115} INFO - [2022-07-30 16:29:14,313] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:29:14,346] {logging_mixin.py:115} INFO - [2022-07-30 16:29:14,346] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:29:14,361] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.097 seconds
+[2022-07-30 16:29:44,546] {processor.py:153} INFO - Started process (PID=522) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:44,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:29:44,548] {logging_mixin.py:115} INFO - [2022-07-30 16:29:44,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:44,575] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:29:44,679] {logging_mixin.py:115} INFO - [2022-07-30 16:29:44,679] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:29:44,779] {logging_mixin.py:115} INFO - [2022-07-30 16:29:44,779] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:29:44,846] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.320 seconds
+[2022-07-30 16:30:15,250] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:15,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:30:15,251] {logging_mixin.py:115} INFO - [2022-07-30 16:30:15,251] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:15,262] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:15,296] {logging_mixin.py:115} INFO - [2022-07-30 16:30:15,296] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:30:15,335] {logging_mixin.py:115} INFO - [2022-07-30 16:30:15,335] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:30:15,352] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.106 seconds
+[2022-07-30 16:30:45,750] {processor.py:153} INFO - Started process (PID=627) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:45,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:30:45,754] {logging_mixin.py:115} INFO - [2022-07-30 16:30:45,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:45,769] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:30:45,807] {logging_mixin.py:115} INFO - [2022-07-30 16:30:45,806] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:30:45,842] {logging_mixin.py:115} INFO - [2022-07-30 16:30:45,842] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:30:45,857] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.112 seconds
+[2022-07-30 16:31:16,589] {processor.py:153} INFO - Started process (PID=677) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:16,608] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:31:16,611] {logging_mixin.py:115} INFO - [2022-07-30 16:31:16,611] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:16,646] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:16,715] {logging_mixin.py:115} INFO - [2022-07-30 16:31:16,714] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:31:16,773] {logging_mixin.py:115} INFO - [2022-07-30 16:31:16,773] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:31:16,793] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.209 seconds
+[2022-07-30 16:31:47,610] {processor.py:153} INFO - Started process (PID=733) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:47,613] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:31:47,615] {logging_mixin.py:115} INFO - [2022-07-30 16:31:47,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:47,628] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:31:47,660] {logging_mixin.py:115} INFO - [2022-07-30 16:31:47,659] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:31:47,699] {logging_mixin.py:115} INFO - [2022-07-30 16:31:47,698] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:31:47,713] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.107 seconds
+[2022-07-30 16:32:18,178] {processor.py:153} INFO - Started process (PID=781) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:18,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:32:18,180] {logging_mixin.py:115} INFO - [2022-07-30 16:32:18,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:18,190] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:18,280] {logging_mixin.py:115} INFO - [2022-07-30 16:32:18,279] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:32:18,341] {logging_mixin.py:115} INFO - [2022-07-30 16:32:18,341] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:32:18,354] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.187 seconds
+[2022-07-30 16:32:48,765] {processor.py:153} INFO - Started process (PID=838) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:48,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:32:48,773] {logging_mixin.py:115} INFO - [2022-07-30 16:32:48,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:48,808] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:32:48,965] {logging_mixin.py:115} INFO - [2022-07-30 16:32:48,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:32:49,068] {logging_mixin.py:115} INFO - [2022-07-30 16:32:49,067] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:32:49,089] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.335 seconds
+[2022-07-30 16:33:19,427] {processor.py:153} INFO - Started process (PID=888) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:19,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:33:19,432] {logging_mixin.py:115} INFO - [2022-07-30 16:33:19,432] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:19,443] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:19,485] {logging_mixin.py:115} INFO - [2022-07-30 16:33:19,485] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:33:19,536] {logging_mixin.py:115} INFO - [2022-07-30 16:33:19,535] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:33:19,570] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.147 seconds
+[2022-07-30 16:33:50,151] {processor.py:153} INFO - Started process (PID=943) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:50,154] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:33:50,157] {logging_mixin.py:115} INFO - [2022-07-30 16:33:50,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:50,185] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:33:50,246] {logging_mixin.py:115} INFO - [2022-07-30 16:33:50,245] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:33:50,340] {logging_mixin.py:115} INFO - [2022-07-30 16:33:50,333] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:33:50,367] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.224 seconds
+[2022-07-30 16:34:20,707] {processor.py:153} INFO - Started process (PID=994) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:20,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:34:20,709] {logging_mixin.py:115} INFO - [2022-07-30 16:34:20,709] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:20,723] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:20,759] {logging_mixin.py:115} INFO - [2022-07-30 16:34:20,759] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:34:20,799] {logging_mixin.py:115} INFO - [2022-07-30 16:34:20,799] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:34:20,814] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.111 seconds
+[2022-07-30 16:34:51,103] {processor.py:153} INFO - Started process (PID=1058) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:51,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:34:51,107] {logging_mixin.py:115} INFO - [2022-07-30 16:34:51,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:51,120] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:34:51,158] {logging_mixin.py:115} INFO - [2022-07-30 16:34:51,158] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:34:51,212] {logging_mixin.py:115} INFO - [2022-07-30 16:34:51,211] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:34:51,250] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.151 seconds
+[2022-07-30 16:35:21,873] {processor.py:153} INFO - Started process (PID=1104) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:21,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:35:21,878] {logging_mixin.py:115} INFO - [2022-07-30 16:35:21,878] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:21,894] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:21,930] {logging_mixin.py:115} INFO - [2022-07-30 16:35:21,929] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:35:22,034] {logging_mixin.py:115} INFO - [2022-07-30 16:35:22,034] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:35:22,054] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.185 seconds
+[2022-07-30 16:35:52,545] {processor.py:153} INFO - Started process (PID=1159) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:52,549] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:35:52,551] {logging_mixin.py:115} INFO - [2022-07-30 16:35:52,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:52,574] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:35:52,635] {logging_mixin.py:115} INFO - [2022-07-30 16:35:52,635] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:35:52,670] {logging_mixin.py:115} INFO - [2022-07-30 16:35:52,670] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:35:52,702] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.161 seconds
+[2022-07-30 16:36:23,399] {processor.py:153} INFO - Started process (PID=1209) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:23,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:36:23,401] {logging_mixin.py:115} INFO - [2022-07-30 16:36:23,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:23,412] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:23,449] {logging_mixin.py:115} INFO - [2022-07-30 16:36:23,449] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:36:23,487] {logging_mixin.py:115} INFO - [2022-07-30 16:36:23,486] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:36:23,503] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.108 seconds
+[2022-07-30 16:36:55,168] {processor.py:153} INFO - Started process (PID=1264) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:55,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:36:55,173] {logging_mixin.py:115} INFO - [2022-07-30 16:36:55,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:55,218] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:36:55,353] {logging_mixin.py:115} INFO - [2022-07-30 16:36:55,352] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:36:55,518] {logging_mixin.py:115} INFO - [2022-07-30 16:36:55,518] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:36:55,588] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.438 seconds
+[2022-07-30 16:37:25,850] {processor.py:153} INFO - Started process (PID=1310) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:37:25,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:37:25,852] {logging_mixin.py:115} INFO - [2022-07-30 16:37:25,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:37:25,866] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:37:25,943] {logging_mixin.py:115} INFO - [2022-07-30 16:37:25,943] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:37:26,016] {logging_mixin.py:115} INFO - [2022-07-30 16:37:26,015] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2022-07-30 16:37:26,047] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.204 seconds
+[2022-07-30 16:39:47,342] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:39:47,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:39:47,352] {logging_mixin.py:115} INFO - [2022-07-30 16:39:47,352] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:39:47,410] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:39:49,126] {logging_mixin.py:115} INFO - [2022-07-30 16:39:49,126] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:39:49,299] {logging_mixin.py:115} INFO - [2022-07-30 16:39:49,299] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:39:49,379] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 2.068 seconds
+[2022-07-30 16:40:19,855] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:19,856] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:40:19,857] {logging_mixin.py:115} INFO - [2022-07-30 16:40:19,857] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:19,879] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:19,932] {logging_mixin.py:115} INFO - [2022-07-30 16:40:19,932] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:40:20,037] {logging_mixin.py:115} INFO - [2022-07-30 16:40:20,037] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:40:20,089] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.242 seconds
+[2022-07-30 16:40:50,734] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:50,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:40:50,737] {logging_mixin.py:115} INFO - [2022-07-30 16:40:50,737] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:50,751] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:40:50,780] {logging_mixin.py:115} INFO - [2022-07-30 16:40:50,780] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:40:50,809] {logging_mixin.py:115} INFO - [2022-07-30 16:40:50,809] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:40:50,864] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.133 seconds
+[2022-07-30 16:41:21,449] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:21,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:41:21,451] {logging_mixin.py:115} INFO - [2022-07-30 16:41:21,450] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:21,461] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:21,498] {logging_mixin.py:115} INFO - [2022-07-30 16:41:21,498] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:41:21,523] {logging_mixin.py:115} INFO - [2022-07-30 16:41:21,523] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:41:21,543] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.097 seconds
+[2022-07-30 16:41:51,800] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:51,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:41:51,802] {logging_mixin.py:115} INFO - [2022-07-30 16:41:51,802] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:51,811] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:41:51,834] {logging_mixin.py:115} INFO - [2022-07-30 16:41:51,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:41:51,868] {logging_mixin.py:115} INFO - [2022-07-30 16:41:51,868] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:41:51,906] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.109 seconds
+[2022-07-30 16:42:22,067] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:42:22,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:42:22,068] {logging_mixin.py:115} INFO - [2022-07-30 16:42:22,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:42:22,091] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:42:22,161] {logging_mixin.py:115} INFO - [2022-07-30 16:42:22,161] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:42:22,195] {logging_mixin.py:115} INFO - [2022-07-30 16:42:22,195] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:42:22,215] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.157 seconds
+[2022-07-30 16:44:18,880] {processor.py:153} INFO - Started process (PID=85) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:18,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:44:18,885] {logging_mixin.py:115} INFO - [2022-07-30 16:44:18,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:18,911] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:19,015] {logging_mixin.py:115} INFO - [2022-07-30 16:44:19,014] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:44:19,096] {logging_mixin.py:115} INFO - [2022-07-30 16:44:19,096] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:44:19,149] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.302 seconds
+[2022-07-30 16:44:49,888] {processor.py:153} INFO - Started process (PID=162) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:49,888] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:44:49,889] {logging_mixin.py:115} INFO - [2022-07-30 16:44:49,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:49,928] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:44:50,028] {logging_mixin.py:115} INFO - [2022-07-30 16:44:50,028] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:44:50,127] {logging_mixin.py:115} INFO - [2022-07-30 16:44:50,127] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:44:50,207] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.323 seconds
+[2022-07-30 16:45:20,655] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:20,664] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:45:20,664] {logging_mixin.py:115} INFO - [2022-07-30 16:45:20,664] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:20,688] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:20,723] {logging_mixin.py:115} INFO - [2022-07-30 16:45:20,723] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:45:20,756] {logging_mixin.py:115} INFO - [2022-07-30 16:45:20,756] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:45:20,780] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.129 seconds
+[2022-07-30 16:45:51,238] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:51,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:45:51,238] {logging_mixin.py:115} INFO - [2022-07-30 16:45:51,238] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:51,263] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:45:51,324] {logging_mixin.py:115} INFO - [2022-07-30 16:45:51,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:45:51,411] {logging_mixin.py:115} INFO - [2022-07-30 16:45:51,411] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:45:51,427] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.198 seconds
+[2022-07-30 16:46:21,978] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:21,992] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:46:21,992] {logging_mixin.py:115} INFO - [2022-07-30 16:46:21,992] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:22,034] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:22,104] {logging_mixin.py:115} INFO - [2022-07-30 16:46:22,104] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:46:22,203] {logging_mixin.py:115} INFO - [2022-07-30 16:46:22,203] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:46:22,245] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.284 seconds
+[2022-07-30 16:46:52,731] {processor.py:153} INFO - Started process (PID=470) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:52,731] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:46:52,732] {logging_mixin.py:115} INFO - [2022-07-30 16:46:52,732] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:52,742] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:46:52,773] {logging_mixin.py:115} INFO - [2022-07-30 16:46:52,773] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:46:52,805] {logging_mixin.py:115} INFO - [2022-07-30 16:46:52,805] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:46:52,818] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.091 seconds
+[2022-07-30 16:47:24,110] {processor.py:153} INFO - Started process (PID=543) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:24,115] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:47:24,115] {logging_mixin.py:115} INFO - [2022-07-30 16:47:24,115] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:24,151] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:24,245] {logging_mixin.py:115} INFO - [2022-07-30 16:47:24,245] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:47:24,356] {logging_mixin.py:115} INFO - [2022-07-30 16:47:24,355] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:47:24,402] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.311 seconds
+[2022-07-30 16:47:55,193] {processor.py:153} INFO - Started process (PID=626) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:55,193] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:47:55,194] {logging_mixin.py:115} INFO - [2022-07-30 16:47:55,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:55,204] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:47:55,252] {logging_mixin.py:115} INFO - [2022-07-30 16:47:55,251] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:47:55,289] {logging_mixin.py:115} INFO - [2022-07-30 16:47:55,289] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:47:55,305] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.116 seconds
+[2022-07-30 16:48:28,182] {processor.py:153} INFO - Started process (PID=712) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:28,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:48:28,193] {logging_mixin.py:115} INFO - [2022-07-30 16:48:28,192] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:28,225] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:28,267] {logging_mixin.py:115} INFO - [2022-07-30 16:48:28,267] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:48:28,307] {logging_mixin.py:115} INFO - [2022-07-30 16:48:28,307] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:48:28,324] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.154 seconds
+[2022-07-30 16:48:59,088] {processor.py:153} INFO - Started process (PID=784) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:59,089] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:48:59,089] {logging_mixin.py:115} INFO - [2022-07-30 16:48:59,089] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:59,103] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:48:59,163] {logging_mixin.py:115} INFO - [2022-07-30 16:48:59,163] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:48:59,210] {logging_mixin.py:115} INFO - [2022-07-30 16:48:59,210] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:48:59,241] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.158 seconds
+[2022-07-30 16:49:30,693] {processor.py:153} INFO - Started process (PID=869) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:49:30,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:49:30,709] {logging_mixin.py:115} INFO - [2022-07-30 16:49:30,709] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:49:30,768] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:49:30,912] {logging_mixin.py:115} INFO - [2022-07-30 16:49:30,912] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:49:31,082] {logging_mixin.py:115} INFO - [2022-07-30 16:49:31,082] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:49:31,184] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.513 seconds
+[2022-07-30 16:50:01,372] {processor.py:153} INFO - Started process (PID=943) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:01,373] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:50:01,374] {logging_mixin.py:115} INFO - [2022-07-30 16:50:01,373] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:01,404] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:01,452] {logging_mixin.py:115} INFO - [2022-07-30 16:50:01,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:50:01,485] {logging_mixin.py:115} INFO - [2022-07-30 16:50:01,485] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:50:01,500] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.132 seconds
+[2022-07-30 16:50:32,116] {processor.py:153} INFO - Started process (PID=1014) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:32,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:50:32,117] {logging_mixin.py:115} INFO - [2022-07-30 16:50:32,117] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:32,127] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:50:32,154] {logging_mixin.py:115} INFO - [2022-07-30 16:50:32,154] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:50:32,176] {logging_mixin.py:115} INFO - [2022-07-30 16:50:32,175] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:50:32,186] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.074 seconds
+[2022-07-30 16:51:03,744] {processor.py:153} INFO - Started process (PID=1086) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:03,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:51:03,745] {logging_mixin.py:115} INFO - [2022-07-30 16:51:03,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:03,774] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:03,888] {logging_mixin.py:115} INFO - [2022-07-30 16:51:03,887] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:51:04,110] {logging_mixin.py:115} INFO - [2022-07-30 16:51:04,109] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:51:04,188] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.448 seconds
+[2022-07-30 16:51:34,510] {processor.py:153} INFO - Started process (PID=1169) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:34,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:51:34,513] {logging_mixin.py:115} INFO - [2022-07-30 16:51:34,513] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:34,526] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:51:34,581] {logging_mixin.py:115} INFO - [2022-07-30 16:51:34,581] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:51:34,643] {logging_mixin.py:115} INFO - [2022-07-30 16:51:34,643] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:51:34,672] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.165 seconds
+[2022-07-30 16:52:05,377] {processor.py:153} INFO - Started process (PID=1247) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:05,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:52:05,378] {logging_mixin.py:115} INFO - [2022-07-30 16:52:05,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:05,388] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:05,419] {logging_mixin.py:115} INFO - [2022-07-30 16:52:05,419] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:52:05,450] {logging_mixin.py:115} INFO - [2022-07-30 16:52:05,450] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:52:05,464] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.093 seconds
+[2022-07-30 16:52:37,579] {processor.py:153} INFO - Started process (PID=1328) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:37,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:52:37,584] {logging_mixin.py:115} INFO - [2022-07-30 16:52:37,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:37,603] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:52:37,668] {logging_mixin.py:115} INFO - [2022-07-30 16:52:37,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:52:37,720] {logging_mixin.py:115} INFO - [2022-07-30 16:52:37,719] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:52:37,750] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.174 seconds
+[2022-07-30 16:53:08,100] {processor.py:153} INFO - Started process (PID=1406) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:08,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:53:08,101] {logging_mixin.py:115} INFO - [2022-07-30 16:53:08,101] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:08,111] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:08,142] {logging_mixin.py:115} INFO - [2022-07-30 16:53:08,142] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:53:08,176] {logging_mixin.py:115} INFO - [2022-07-30 16:53:08,176] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:53:08,191] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.094 seconds
+[2022-07-30 16:53:38,626] {processor.py:153} INFO - Started process (PID=1476) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:38,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:53:38,638] {logging_mixin.py:115} INFO - [2022-07-30 16:53:38,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:38,666] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:53:38,752] {logging_mixin.py:115} INFO - [2022-07-30 16:53:38,752] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:53:38,790] {logging_mixin.py:115} INFO - [2022-07-30 16:53:38,790] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:53:38,817] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.202 seconds
+[2022-07-30 16:54:09,337] {processor.py:153} INFO - Started process (PID=1564) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:09,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:54:09,338] {logging_mixin.py:115} INFO - [2022-07-30 16:54:09,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:09,361] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:09,414] {logging_mixin.py:115} INFO - [2022-07-30 16:54:09,414] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:54:09,479] {logging_mixin.py:115} INFO - [2022-07-30 16:54:09,478] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:54:09,508] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.176 seconds
+[2022-07-30 16:54:39,907] {processor.py:153} INFO - Started process (PID=1639) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:39,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:54:39,915] {logging_mixin.py:115} INFO - [2022-07-30 16:54:39,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:39,934] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:54:39,991] {logging_mixin.py:115} INFO - [2022-07-30 16:54:39,991] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:54:40,048] {logging_mixin.py:115} INFO - [2022-07-30 16:54:40,048] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:54:40,076] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.173 seconds
+[2022-07-30 16:55:11,019] {processor.py:153} INFO - Started process (PID=1721) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:11,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:55:11,025] {logging_mixin.py:115} INFO - [2022-07-30 16:55:11,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:11,084] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:11,229] {logging_mixin.py:115} INFO - [2022-07-30 16:55:11,229] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:55:11,323] {logging_mixin.py:115} INFO - [2022-07-30 16:55:11,323] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:55:11,337] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.340 seconds
+[2022-07-30 16:55:41,556] {processor.py:153} INFO - Started process (PID=1799) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:41,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:55:41,559] {logging_mixin.py:115} INFO - [2022-07-30 16:55:41,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:41,584] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:55:41,643] {logging_mixin.py:115} INFO - [2022-07-30 16:55:41,643] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:55:41,713] {logging_mixin.py:115} INFO - [2022-07-30 16:55:41,713] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:55:41,744] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.209 seconds
+[2022-07-30 16:56:12,552] {processor.py:153} INFO - Started process (PID=1879) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:12,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:56:12,553] {logging_mixin.py:115} INFO - [2022-07-30 16:56:12,553] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:12,579] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:12,627] {logging_mixin.py:115} INFO - [2022-07-30 16:56:12,627] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:56:12,688] {logging_mixin.py:115} INFO - [2022-07-30 16:56:12,688] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:56:12,702] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.155 seconds
+[2022-07-30 16:56:43,238] {processor.py:153} INFO - Started process (PID=1956) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:43,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:56:43,239] {logging_mixin.py:115} INFO - [2022-07-30 16:56:43,239] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:43,250] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:56:43,282] {logging_mixin.py:115} INFO - [2022-07-30 16:56:43,282] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:56:43,313] {logging_mixin.py:115} INFO - [2022-07-30 16:56:43,313] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:56:43,328] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.094 seconds
+[2022-07-30 16:57:13,569] {processor.py:153} INFO - Started process (PID=2035) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:13,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:57:13,570] {logging_mixin.py:115} INFO - [2022-07-30 16:57:13,570] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:13,601] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:13,649] {logging_mixin.py:115} INFO - [2022-07-30 16:57:13,649] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:57:13,695] {logging_mixin.py:115} INFO - [2022-07-30 16:57:13,695] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:57:13,721] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.156 seconds
+[2022-07-30 16:57:43,975] {processor.py:153} INFO - Started process (PID=2111) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:43,976] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:57:43,976] {logging_mixin.py:115} INFO - [2022-07-30 16:57:43,976] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:44,000] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:57:44,044] {logging_mixin.py:115} INFO - [2022-07-30 16:57:44,044] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:57:44,093] {logging_mixin.py:115} INFO - [2022-07-30 16:57:44,093] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:57:44,112] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.149 seconds
+[2022-07-30 16:58:14,327] {processor.py:153} INFO - Started process (PID=2183) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:14,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:58:14,327] {logging_mixin.py:115} INFO - [2022-07-30 16:58:14,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:14,335] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:14,357] {logging_mixin.py:115} INFO - [2022-07-30 16:58:14,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:58:14,378] {logging_mixin.py:115} INFO - [2022-07-30 16:58:14,378] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:58:14,389] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.066 seconds
+[2022-07-30 16:58:44,410] {processor.py:153} INFO - Started process (PID=2264) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:44,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:58:44,411] {logging_mixin.py:115} INFO - [2022-07-30 16:58:44,411] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:44,422] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:58:44,454] {logging_mixin.py:115} INFO - [2022-07-30 16:58:44,454] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:58:44,489] {logging_mixin.py:115} INFO - [2022-07-30 16:58:44,489] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:58:44,503] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.097 seconds
+[2022-07-30 16:59:14,876] {processor.py:153} INFO - Started process (PID=2339) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:14,877] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:59:14,878] {logging_mixin.py:115} INFO - [2022-07-30 16:59:14,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:14,904] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:14,953] {logging_mixin.py:115} INFO - [2022-07-30 16:59:14,953] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:59:14,992] {logging_mixin.py:115} INFO - [2022-07-30 16:59:14,992] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:59:15,020] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.155 seconds
+[2022-07-30 16:59:45,772] {processor.py:153} INFO - Started process (PID=2427) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:45,773] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 16:59:45,774] {logging_mixin.py:115} INFO - [2022-07-30 16:59:45,774] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:45,789] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 16:59:45,820] {logging_mixin.py:115} INFO - [2022-07-30 16:59:45,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:59:45,856] {logging_mixin.py:115} INFO - [2022-07-30 16:59:45,856] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 16:59:45,870] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.102 seconds
+[2022-07-30 17:00:17,446] {processor.py:153} INFO - Started process (PID=2501) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:17,446] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:00:17,447] {logging_mixin.py:115} INFO - [2022-07-30 17:00:17,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:17,469] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:17,540] {logging_mixin.py:115} INFO - [2022-07-30 17:00:17,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:00:17,580] {logging_mixin.py:115} INFO - [2022-07-30 17:00:17,580] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:00:17,634] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.192 seconds
+[2022-07-30 17:00:49,402] {processor.py:153} INFO - Started process (PID=2589) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:49,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:00:49,405] {logging_mixin.py:115} INFO - [2022-07-30 17:00:49,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:49,422] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:00:49,454] {logging_mixin.py:115} INFO - [2022-07-30 17:00:49,454] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:00:49,488] {logging_mixin.py:115} INFO - [2022-07-30 17:00:49,488] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:00:49,512] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.113 seconds
+[2022-07-30 17:01:19,676] {processor.py:153} INFO - Started process (PID=2660) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:19,676] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:01:19,677] {logging_mixin.py:115} INFO - [2022-07-30 17:01:19,677] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:19,701] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:19,767] {logging_mixin.py:115} INFO - [2022-07-30 17:01:19,767] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:01:19,834] {logging_mixin.py:115} INFO - [2022-07-30 17:01:19,834] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:01:19,864] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.192 seconds
+[2022-07-30 17:01:49,893] {processor.py:153} INFO - Started process (PID=2735) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:49,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:01:49,896] {logging_mixin.py:115} INFO - [2022-07-30 17:01:49,895] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:49,906] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:01:49,937] {logging_mixin.py:115} INFO - [2022-07-30 17:01:49,937] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:01:49,973] {logging_mixin.py:115} INFO - [2022-07-30 17:01:49,972] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:01:49,988] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.099 seconds
+[2022-07-30 17:02:20,410] {processor.py:153} INFO - Started process (PID=2818) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:20,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:02:20,416] {logging_mixin.py:115} INFO - [2022-07-30 17:02:20,416] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:20,444] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:20,528] {logging_mixin.py:115} INFO - [2022-07-30 17:02:20,528] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:02:20,565] {logging_mixin.py:115} INFO - [2022-07-30 17:02:20,564] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:02:20,585] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.187 seconds
+[2022-07-30 17:02:51,443] {processor.py:153} INFO - Started process (PID=2897) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:51,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:02:51,446] {logging_mixin.py:115} INFO - [2022-07-30 17:02:51,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:51,478] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:02:51,545] {logging_mixin.py:115} INFO - [2022-07-30 17:02:51,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:02:51,618] {logging_mixin.py:115} INFO - [2022-07-30 17:02:51,618] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:02:51,677] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.247 seconds
+[2022-07-30 17:03:21,814] {processor.py:153} INFO - Started process (PID=2970) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:21,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:03:21,815] {logging_mixin.py:115} INFO - [2022-07-30 17:03:21,815] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:21,886] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:22,040] {logging_mixin.py:115} INFO - [2022-07-30 17:03:22,040] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:03:22,105] {logging_mixin.py:115} INFO - [2022-07-30 17:03:22,105] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:03:22,146] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.336 seconds
+[2022-07-30 17:03:52,909] {processor.py:153} INFO - Started process (PID=3053) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:52,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:03:52,911] {logging_mixin.py:115} INFO - [2022-07-30 17:03:52,911] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:52,923] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:03:52,954] {logging_mixin.py:115} INFO - [2022-07-30 17:03:52,954] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:03:52,987] {logging_mixin.py:115} INFO - [2022-07-30 17:03:52,987] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:03:53,001] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.096 seconds
+[2022-07-30 17:04:23,170] {processor.py:153} INFO - Started process (PID=3126) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:23,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:04:23,172] {logging_mixin.py:115} INFO - [2022-07-30 17:04:23,171] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:23,181] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:23,233] {logging_mixin.py:115} INFO - [2022-07-30 17:04:23,233] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:04:23,310] {logging_mixin.py:115} INFO - [2022-07-30 17:04:23,310] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:04:23,362] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.195 seconds
+[2022-07-30 17:04:53,545] {processor.py:153} INFO - Started process (PID=3211) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:53,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:04:53,547] {logging_mixin.py:115} INFO - [2022-07-30 17:04:53,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:53,561] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:04:53,637] {logging_mixin.py:115} INFO - [2022-07-30 17:04:53,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:04:53,676] {logging_mixin.py:115} INFO - [2022-07-30 17:04:53,676] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:04:53,693] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.153 seconds
+[2022-07-30 17:05:23,966] {processor.py:153} INFO - Started process (PID=3283) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:23,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:05:23,970] {logging_mixin.py:115} INFO - [2022-07-30 17:05:23,970] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:24,026] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:24,139] {logging_mixin.py:115} INFO - [2022-07-30 17:05:24,139] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:05:24,227] {logging_mixin.py:115} INFO - [2022-07-30 17:05:24,227] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:05:24,266] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.308 seconds
+[2022-07-30 17:05:54,633] {processor.py:153} INFO - Started process (PID=3375) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:54,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:05:54,637] {logging_mixin.py:115} INFO - [2022-07-30 17:05:54,637] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:54,676] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:05:54,768] {logging_mixin.py:115} INFO - [2022-07-30 17:05:54,768] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:05:54,868] {logging_mixin.py:115} INFO - [2022-07-30 17:05:54,868] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:05:54,931] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.302 seconds
+[2022-07-30 17:06:25,611] {processor.py:153} INFO - Started process (PID=3450) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:25,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:06:25,612] {logging_mixin.py:115} INFO - [2022-07-30 17:06:25,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:25,629] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:25,674] {logging_mixin.py:115} INFO - [2022-07-30 17:06:25,674] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:06:25,724] {logging_mixin.py:115} INFO - [2022-07-30 17:06:25,723] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:06:25,745] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.139 seconds
+[2022-07-30 17:06:55,994] {processor.py:153} INFO - Started process (PID=3533) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:55,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:06:55,999] {logging_mixin.py:115} INFO - [2022-07-30 17:06:55,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:56,026] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:06:56,190] {logging_mixin.py:115} INFO - [2022-07-30 17:06:56,190] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:06:56,283] {logging_mixin.py:115} INFO - [2022-07-30 17:06:56,281] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:06:56,310] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.330 seconds
+[2022-07-30 17:07:26,371] {processor.py:153} INFO - Started process (PID=3604) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:26,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:07:26,372] {logging_mixin.py:115} INFO - [2022-07-30 17:07:26,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:26,380] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:26,407] {logging_mixin.py:115} INFO - [2022-07-30 17:07:26,407] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:07:26,439] {logging_mixin.py:115} INFO - [2022-07-30 17:07:26,438] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:07:26,451] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.084 seconds
+[2022-07-30 17:07:57,254] {processor.py:153} INFO - Started process (PID=3687) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:57,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:07:57,256] {logging_mixin.py:115} INFO - [2022-07-30 17:07:57,256] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:57,267] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:07:57,295] {logging_mixin.py:115} INFO - [2022-07-30 17:07:57,295] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:07:57,320] {logging_mixin.py:115} INFO - [2022-07-30 17:07:57,320] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:07:57,338] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.087 seconds
+[2022-07-30 17:08:27,691] {processor.py:153} INFO - Started process (PID=3763) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:27,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:08:27,692] {logging_mixin.py:115} INFO - [2022-07-30 17:08:27,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:27,699] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:27,721] {logging_mixin.py:115} INFO - [2022-07-30 17:08:27,721] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:08:27,744] {logging_mixin.py:115} INFO - [2022-07-30 17:08:27,743] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:08:27,758] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.070 seconds
+[2022-07-30 17:08:58,209] {processor.py:153} INFO - Started process (PID=3849) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:58,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:08:58,210] {logging_mixin.py:115} INFO - [2022-07-30 17:08:58,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:58,217] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:08:58,240] {logging_mixin.py:115} INFO - [2022-07-30 17:08:58,240] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:08:58,262] {logging_mixin.py:115} INFO - [2022-07-30 17:08:58,262] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:08:58,272] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.066 seconds
+[2022-07-30 17:09:28,601] {processor.py:153} INFO - Started process (PID=3921) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:28,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:09:28,602] {logging_mixin.py:115} INFO - [2022-07-30 17:09:28,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:28,611] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:28,642] {logging_mixin.py:115} INFO - [2022-07-30 17:09:28,642] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:09:28,677] {logging_mixin.py:115} INFO - [2022-07-30 17:09:28,676] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:09:28,852] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.255 seconds
+[2022-07-30 17:09:59,330] {processor.py:153} INFO - Started process (PID=4004) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:59,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:09:59,336] {logging_mixin.py:115} INFO - [2022-07-30 17:09:59,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:59,346] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:09:59,377] {logging_mixin.py:115} INFO - [2022-07-30 17:09:59,377] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:09:59,571] {logging_mixin.py:115} INFO - [2022-07-30 17:09:59,571] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:09:59,586] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.259 seconds
+[2022-07-30 17:10:30,867] {processor.py:153} INFO - Started process (PID=4078) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:10:30,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:10:30,877] {logging_mixin.py:115} INFO - [2022-07-30 17:10:30,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:10:30,896] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:10:30,967] {logging_mixin.py:115} INFO - [2022-07-30 17:10:30,967] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:10:31,204] {logging_mixin.py:115} INFO - [2022-07-30 17:10:31,204] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:10:31,228] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.365 seconds
+[2022-07-30 17:11:03,564] {processor.py:153} INFO - Started process (PID=4168) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:03,564] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:11:03,565] {logging_mixin.py:115} INFO - [2022-07-30 17:11:03,565] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:03,576] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:03,626] {logging_mixin.py:115} INFO - [2022-07-30 17:11:03,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:11:04,030] {logging_mixin.py:115} INFO - [2022-07-30 17:11:04,029] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:11:04,062] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.502 seconds
+[2022-07-30 17:11:34,269] {processor.py:153} INFO - Started process (PID=4242) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:34,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:11:34,272] {logging_mixin.py:115} INFO - [2022-07-30 17:11:34,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:34,283] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:11:34,313] {logging_mixin.py:115} INFO - [2022-07-30 17:11:34,313] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:11:34,526] {logging_mixin.py:115} INFO - [2022-07-30 17:11:34,526] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:11:34,558] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.292 seconds
+[2022-07-30 17:12:07,661] {processor.py:153} INFO - Started process (PID=4325) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:07,662] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:12:07,662] {logging_mixin.py:115} INFO - [2022-07-30 17:12:07,662] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:07,681] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:07,732] {logging_mixin.py:115} INFO - [2022-07-30 17:12:07,732] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:12:07,989] {logging_mixin.py:115} INFO - [2022-07-30 17:12:07,989] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:12:08,017] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.370 seconds
+[2022-07-30 17:12:38,197] {processor.py:153} INFO - Started process (PID=4397) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:38,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:12:38,198] {logging_mixin.py:115} INFO - [2022-07-30 17:12:38,198] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:38,218] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:12:38,274] {logging_mixin.py:115} INFO - [2022-07-30 17:12:38,273] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:12:38,495] {logging_mixin.py:115} INFO - [2022-07-30 17:12:38,494] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:12:38,523] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.339 seconds
+[2022-07-30 17:13:09,528] {processor.py:153} INFO - Started process (PID=4471) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:09,540] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:13:09,541] {logging_mixin.py:115} INFO - [2022-07-30 17:13:09,541] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:09,567] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:09,626] {logging_mixin.py:115} INFO - [2022-07-30 17:13:09,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:13:09,983] {logging_mixin.py:115} INFO - [2022-07-30 17:13:09,983] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:13:10,027] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.503 seconds
+[2022-07-30 17:13:41,236] {processor.py:153} INFO - Started process (PID=4550) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:41,236] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:13:41,237] {logging_mixin.py:115} INFO - [2022-07-30 17:13:41,237] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:41,247] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:13:41,306] {logging_mixin.py:115} INFO - [2022-07-30 17:13:41,305] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:13:41,737] {logging_mixin.py:115} INFO - [2022-07-30 17:13:41,737] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:13:41,764] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.532 seconds
+[2022-07-30 17:14:11,878] {processor.py:153} INFO - Started process (PID=4625) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:11,879] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:14:11,880] {logging_mixin.py:115} INFO - [2022-07-30 17:14:11,879] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:11,890] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:11,913] {logging_mixin.py:115} INFO - [2022-07-30 17:14:11,913] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:14:11,935] {logging_mixin.py:115} INFO - [2022-07-30 17:14:11,935] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:14:11,945] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.071 seconds
+[2022-07-30 17:14:42,864] {processor.py:153} INFO - Started process (PID=4697) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:42,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:14:42,864] {logging_mixin.py:115} INFO - [2022-07-30 17:14:42,864] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:42,879] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:14:42,904] {logging_mixin.py:115} INFO - [2022-07-30 17:14:42,904] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:14:42,929] {logging_mixin.py:115} INFO - [2022-07-30 17:14:42,929] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:14:42,950] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.090 seconds
+[2022-07-30 17:15:13,251] {processor.py:153} INFO - Started process (PID=4769) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:13,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:15:13,267] {logging_mixin.py:115} INFO - [2022-07-30 17:15:13,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:13,286] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:13,352] {logging_mixin.py:115} INFO - [2022-07-30 17:15:13,352] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:15:13,412] {logging_mixin.py:115} INFO - [2022-07-30 17:15:13,412] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:15:13,427] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.179 seconds
+[2022-07-30 17:15:44,475] {processor.py:153} INFO - Started process (PID=4855) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:44,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:15:44,484] {logging_mixin.py:115} INFO - [2022-07-30 17:15:44,484] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:44,513] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:15:44,593] {logging_mixin.py:115} INFO - [2022-07-30 17:15:44,593] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:15:44,628] {logging_mixin.py:115} INFO - [2022-07-30 17:15:44,628] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:15:44,642] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.171 seconds
+[2022-07-30 17:16:14,945] {processor.py:153} INFO - Started process (PID=4928) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:14,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:16:14,947] {logging_mixin.py:115} INFO - [2022-07-30 17:16:14,946] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:14,972] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:15,024] {logging_mixin.py:115} INFO - [2022-07-30 17:16:15,024] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:16:15,100] {logging_mixin.py:115} INFO - [2022-07-30 17:16:15,095] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:16:15,128] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.196 seconds
+[2022-07-30 17:16:45,942] {processor.py:153} INFO - Started process (PID=5001) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:45,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:16:45,943] {logging_mixin.py:115} INFO - [2022-07-30 17:16:45,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:45,961] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:16:46,003] {logging_mixin.py:115} INFO - [2022-07-30 17:16:46,003] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:16:46,040] {logging_mixin.py:115} INFO - [2022-07-30 17:16:46,040] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:16:46,060] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.123 seconds
+[2022-07-30 17:17:16,502] {processor.py:153} INFO - Started process (PID=5077) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:16,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:17:16,508] {logging_mixin.py:115} INFO - [2022-07-30 17:17:16,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:16,547] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:16,608] {logging_mixin.py:115} INFO - [2022-07-30 17:17:16,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:17:16,759] {logging_mixin.py:115} INFO - [2022-07-30 17:17:16,759] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:17:16,869] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.379 seconds
+[2022-07-30 17:17:47,611] {processor.py:153} INFO - Started process (PID=5164) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:47,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:17:47,612] {logging_mixin.py:115} INFO - [2022-07-30 17:17:47,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:47,623] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:17:47,654] {logging_mixin.py:115} INFO - [2022-07-30 17:17:47,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:17:47,688] {logging_mixin.py:115} INFO - [2022-07-30 17:17:47,688] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:17:47,702] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.095 seconds
+[2022-07-30 17:18:18,086] {processor.py:153} INFO - Started process (PID=5242) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:18,088] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:18:18,088] {logging_mixin.py:115} INFO - [2022-07-30 17:18:18,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:18,108] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:18,147] {logging_mixin.py:115} INFO - [2022-07-30 17:18:18,146] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:18:18,195] {logging_mixin.py:115} INFO - [2022-07-30 17:18:18,195] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:18:18,234] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.160 seconds
+[2022-07-30 17:18:48,937] {processor.py:153} INFO - Started process (PID=5328) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:48,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:18:48,938] {logging_mixin.py:115} INFO - [2022-07-30 17:18:48,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:48,950] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:18:48,985] {logging_mixin.py:115} INFO - [2022-07-30 17:18:48,985] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:18:49,019] {logging_mixin.py:115} INFO - [2022-07-30 17:18:49,019] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:18:49,033] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.101 seconds
+[2022-07-30 17:19:19,278] {processor.py:153} INFO - Started process (PID=5400) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:19,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:19:19,279] {logging_mixin.py:115} INFO - [2022-07-30 17:19:19,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:19,301] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:19,360] {logging_mixin.py:115} INFO - [2022-07-30 17:19:19,360] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:19:19,418] {logging_mixin.py:115} INFO - [2022-07-30 17:19:19,417] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:19:19,441] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.174 seconds
+[2022-07-30 17:19:49,827] {processor.py:153} INFO - Started process (PID=5487) to work on /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:49,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/wait_for_downstream.py for tasks to queue
+[2022-07-30 17:19:49,832] {logging_mixin.py:115} INFO - [2022-07-30 17:19:49,832] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:49,847] {processor.py:651} INFO - DAG(s) dict_keys(['wait_for_downstream']) retrieved from /opt/airflow/dags/basic_dags/wait_for_downstream.py
+[2022-07-30 17:19:49,905] {logging_mixin.py:115} INFO - [2022-07-30 17:19:49,905] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:19:49,965] {logging_mixin.py:115} INFO - [2022-07-30 17:19:49,965] {dag.py:2931} INFO - Setting next_dagrun for wait_for_downstream to 2022-07-25T00:00:00+00:00, run_after=2022-07-25T01:00:00+00:00
+[2022-07-30 17:19:49,994] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/wait_for_downstream.py took 0.175 seconds

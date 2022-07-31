@@ -1,0 +1,543 @@
+[2022-07-30 16:39:35,268] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:39:35,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:39:35,281] {logging_mixin.py:115} INFO - [2022-07-30 16:39:35,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:39:35,410] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:39:37,605] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,605] {manager.py:508} INFO - Created Permission View: can read on DAG:postgres_dynamic
+[2022-07-30 16:39:37,671] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,671] {manager.py:508} INFO - Created Permission View: can delete on DAG:postgres_dynamic
+[2022-07-30 16:39:37,716] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,716] {manager.py:508} INFO - Created Permission View: can edit on DAG:postgres_dynamic
+[2022-07-30 16:39:37,721] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,721] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:39:37,771] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,771] {dag.py:2398} INFO - Creating ORM DAG for postgres_dynamic
+[2022-07-30 16:39:37,844] {logging_mixin.py:115} INFO - [2022-07-30 16:39:37,844] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:39:37,890] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 2.628 seconds
+[2022-07-30 16:40:08,196] {processor.py:153} INFO - Started process (PID=148) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:08,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:40:08,203] {logging_mixin.py:115} INFO - [2022-07-30 16:40:08,203] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:08,311] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:08,403] {logging_mixin.py:115} INFO - [2022-07-30 16:40:08,403] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:40:08,874] {logging_mixin.py:115} INFO - [2022-07-30 16:40:08,874] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:40:08,902] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.734 seconds
+[2022-07-30 16:40:39,178] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:39,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:40:39,186] {logging_mixin.py:115} INFO - [2022-07-30 16:40:39,185] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:39,253] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:40:39,326] {logging_mixin.py:115} INFO - [2022-07-30 16:40:39,326] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:40:39,606] {logging_mixin.py:115} INFO - [2022-07-30 16:40:39,606] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:40:39,618] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.454 seconds
+[2022-07-30 16:41:10,063] {processor.py:153} INFO - Started process (PID=293) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:10,064] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:41:10,066] {logging_mixin.py:115} INFO - [2022-07-30 16:41:10,065] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:10,097] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:10,128] {logging_mixin.py:115} INFO - [2022-07-30 16:41:10,128] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:41:10,345] {logging_mixin.py:115} INFO - [2022-07-30 16:41:10,344] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:41:10,360] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.302 seconds
+[2022-07-30 16:41:40,868] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:40,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:41:40,870] {logging_mixin.py:115} INFO - [2022-07-30 16:41:40,870] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:40,976] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:41:41,139] {logging_mixin.py:115} INFO - [2022-07-30 16:41:41,139] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:41:41,387] {logging_mixin.py:115} INFO - [2022-07-30 16:41:41,387] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:41:41,403] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.543 seconds
+[2022-07-30 16:42:12,027] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:12,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:42:12,036] {logging_mixin.py:115} INFO - [2022-07-30 16:42:12,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:12,225] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:12,309] {logging_mixin.py:115} INFO - [2022-07-30 16:42:12,308] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:42:12,709] {logging_mixin.py:115} INFO - [2022-07-30 16:42:12,709] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:42:12,725] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.711 seconds
+[2022-07-30 16:42:42,838] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:42,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:42:42,839] {logging_mixin.py:115} INFO - [2022-07-30 16:42:42,839] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:42,872] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:42:42,909] {logging_mixin.py:115} INFO - [2022-07-30 16:42:42,909] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:42:43,215] {logging_mixin.py:115} INFO - [2022-07-30 16:42:43,214] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:42:43,253] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.419 seconds
+[2022-07-30 16:44:14,052] {processor.py:153} INFO - Started process (PID=64) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:14,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:44:14,063] {logging_mixin.py:115} INFO - [2022-07-30 16:44:14,063] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:14,178] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:14,308] {logging_mixin.py:115} INFO - [2022-07-30 16:44:14,308] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:44:14,422] {logging_mixin.py:115} INFO - [2022-07-30 16:44:14,422] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:44:14,504] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.467 seconds
+[2022-07-30 16:44:44,603] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:44,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:44:44,604] {logging_mixin.py:115} INFO - [2022-07-30 16:44:44,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:44,632] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:44:44,666] {logging_mixin.py:115} INFO - [2022-07-30 16:44:44,666] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:44:44,698] {logging_mixin.py:115} INFO - [2022-07-30 16:44:44,698] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:44:44,718] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.120 seconds
+[2022-07-30 16:45:15,769] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:15,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:45:15,772] {logging_mixin.py:115} INFO - [2022-07-30 16:45:15,772] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:15,852] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:15,966] {logging_mixin.py:115} INFO - [2022-07-30 16:45:15,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:45:16,072] {logging_mixin.py:115} INFO - [2022-07-30 16:45:16,062] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:45:16,112] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.358 seconds
+[2022-07-30 16:45:46,791] {processor.py:153} INFO - Started process (PID=293) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:46,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:45:46,793] {logging_mixin.py:115} INFO - [2022-07-30 16:45:46,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:46,821] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:45:46,869] {logging_mixin.py:115} INFO - [2022-07-30 16:45:46,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:45:46,903] {logging_mixin.py:115} INFO - [2022-07-30 16:45:46,903] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:45:46,917] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.129 seconds
+[2022-07-30 16:46:17,804] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:17,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:46:17,805] {logging_mixin.py:115} INFO - [2022-07-30 16:46:17,805] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:17,836] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:17,878] {logging_mixin.py:115} INFO - [2022-07-30 16:46:17,878] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:46:17,911] {logging_mixin.py:115} INFO - [2022-07-30 16:46:17,911] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:46:17,925] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.124 seconds
+[2022-07-30 16:46:50,507] {processor.py:153} INFO - Started process (PID=449) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:50,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:46:50,508] {logging_mixin.py:115} INFO - [2022-07-30 16:46:50,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:50,535] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:46:50,575] {logging_mixin.py:115} INFO - [2022-07-30 16:46:50,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:46:50,608] {logging_mixin.py:115} INFO - [2022-07-30 16:46:50,608] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:46:50,627] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.124 seconds
+[2022-07-30 16:47:21,900] {processor.py:153} INFO - Started process (PID=522) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:21,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:47:21,909] {logging_mixin.py:115} INFO - [2022-07-30 16:47:21,908] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:21,994] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:22,084] {logging_mixin.py:115} INFO - [2022-07-30 16:47:22,084] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:47:22,154] {logging_mixin.py:115} INFO - [2022-07-30 16:47:22,154] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:47:22,187] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.291 seconds
+[2022-07-30 16:47:52,392] {processor.py:153} INFO - Started process (PID=605) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:52,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:47:52,393] {logging_mixin.py:115} INFO - [2022-07-30 16:47:52,393] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:52,454] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:47:52,512] {logging_mixin.py:115} INFO - [2022-07-30 16:47:52,512] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:47:52,567] {logging_mixin.py:115} INFO - [2022-07-30 16:47:52,567] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:47:52,598] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.209 seconds
+[2022-07-30 16:48:23,050] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:23,050] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:48:23,051] {logging_mixin.py:115} INFO - [2022-07-30 16:48:23,051] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:23,140] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:23,354] {logging_mixin.py:115} INFO - [2022-07-30 16:48:23,353] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:48:23,477] {logging_mixin.py:115} INFO - [2022-07-30 16:48:23,451] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:48:23,538] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.498 seconds
+[2022-07-30 16:48:53,772] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:53,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:48:53,773] {logging_mixin.py:115} INFO - [2022-07-30 16:48:53,773] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:53,831] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:48:53,896] {logging_mixin.py:115} INFO - [2022-07-30 16:48:53,896] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:48:53,970] {logging_mixin.py:115} INFO - [2022-07-30 16:48:53,970] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:48:54,004] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.241 seconds
+[2022-07-30 16:49:24,538] {processor.py:153} INFO - Started process (PID=838) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:24,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:49:24,539] {logging_mixin.py:115} INFO - [2022-07-30 16:49:24,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:24,568] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:24,599] {logging_mixin.py:115} INFO - [2022-07-30 16:49:24,599] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:49:24,633] {logging_mixin.py:115} INFO - [2022-07-30 16:49:24,633] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:49:24,649] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.115 seconds
+[2022-07-30 16:49:54,726] {processor.py:153} INFO - Started process (PID=910) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:54,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:49:54,728] {logging_mixin.py:115} INFO - [2022-07-30 16:49:54,728] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:54,763] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:49:54,814] {logging_mixin.py:115} INFO - [2022-07-30 16:49:54,814] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:49:54,863] {logging_mixin.py:115} INFO - [2022-07-30 16:49:54,863] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:49:54,878] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.156 seconds
+[2022-07-30 16:50:25,439] {processor.py:153} INFO - Started process (PID=987) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:25,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:50:25,466] {logging_mixin.py:115} INFO - [2022-07-30 16:50:25,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:25,614] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:25,757] {logging_mixin.py:115} INFO - [2022-07-30 16:50:25,757] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:50:25,908] {logging_mixin.py:115} INFO - [2022-07-30 16:50:25,908] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:50:25,960] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.530 seconds
+[2022-07-30 16:50:56,708] {processor.py:153} INFO - Started process (PID=1061) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:56,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:50:56,710] {logging_mixin.py:115} INFO - [2022-07-30 16:50:56,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:56,742] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:50:56,795] {logging_mixin.py:115} INFO - [2022-07-30 16:50:56,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:50:56,842] {logging_mixin.py:115} INFO - [2022-07-30 16:50:56,842] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:50:56,858] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.154 seconds
+[2022-07-30 16:51:27,463] {processor.py:153} INFO - Started process (PID=1135) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:27,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:51:27,464] {logging_mixin.py:115} INFO - [2022-07-30 16:51:27,464] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:27,523] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:27,595] {logging_mixin.py:115} INFO - [2022-07-30 16:51:27,595] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:51:27,658] {logging_mixin.py:115} INFO - [2022-07-30 16:51:27,658] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:51:27,704] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.244 seconds
+[2022-07-30 16:51:58,006] {processor.py:153} INFO - Started process (PID=1222) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:58,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:51:58,007] {logging_mixin.py:115} INFO - [2022-07-30 16:51:58,007] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:58,069] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:51:58,133] {logging_mixin.py:115} INFO - [2022-07-30 16:51:58,133] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:51:58,197] {logging_mixin.py:115} INFO - [2022-07-30 16:51:58,197] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:51:58,228] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.226 seconds
+[2022-07-30 16:52:28,791] {processor.py:153} INFO - Started process (PID=1294) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:28,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:52:28,795] {logging_mixin.py:115} INFO - [2022-07-30 16:52:28,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:28,885] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:29,047] {logging_mixin.py:115} INFO - [2022-07-30 16:52:29,046] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:52:29,162] {logging_mixin.py:115} INFO - [2022-07-30 16:52:29,162] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:52:29,208] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.427 seconds
+[2022-07-30 16:52:59,630] {processor.py:153} INFO - Started process (PID=1365) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:59,630] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:52:59,631] {logging_mixin.py:115} INFO - [2022-07-30 16:52:59,631] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:59,673] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:52:59,826] {logging_mixin.py:115} INFO - [2022-07-30 16:52:59,826] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:52:59,938] {logging_mixin.py:115} INFO - [2022-07-30 16:52:59,938] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:52:59,973] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.349 seconds
+[2022-07-30 16:53:30,018] {processor.py:153} INFO - Started process (PID=1453) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:53:30,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:53:30,020] {logging_mixin.py:115} INFO - [2022-07-30 16:53:30,019] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:53:30,049] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:53:30,080] {logging_mixin.py:115} INFO - [2022-07-30 16:53:30,080] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:53:30,115] {logging_mixin.py:115} INFO - [2022-07-30 16:53:30,115] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:53:30,130] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.116 seconds
+[2022-07-30 16:54:00,943] {processor.py:153} INFO - Started process (PID=1530) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:00,944] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:54:00,944] {logging_mixin.py:115} INFO - [2022-07-30 16:54:00,944] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:01,000] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:01,069] {logging_mixin.py:115} INFO - [2022-07-30 16:54:01,069] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:54:01,177] {logging_mixin.py:115} INFO - [2022-07-30 16:54:01,177] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:54:01,237] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.298 seconds
+[2022-07-30 16:54:31,299] {processor.py:153} INFO - Started process (PID=1604) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:31,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:54:31,300] {logging_mixin.py:115} INFO - [2022-07-30 16:54:31,300] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:31,336] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:54:31,371] {logging_mixin.py:115} INFO - [2022-07-30 16:54:31,371] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:54:31,594] {logging_mixin.py:115} INFO - [2022-07-30 16:54:31,594] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:54:31,611] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.317 seconds
+[2022-07-30 16:55:01,649] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:01,650] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:55:01,650] {logging_mixin.py:115} INFO - [2022-07-30 16:55:01,650] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:01,673] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:01,699] {logging_mixin.py:115} INFO - [2022-07-30 16:55:01,699] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:55:01,869] {logging_mixin.py:115} INFO - [2022-07-30 16:55:01,869] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:55:01,881] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.235 seconds
+[2022-07-30 16:55:32,025] {processor.py:153} INFO - Started process (PID=1765) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:32,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:55:32,027] {logging_mixin.py:115} INFO - [2022-07-30 16:55:32,027] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:32,083] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:55:32,116] {logging_mixin.py:115} INFO - [2022-07-30 16:55:32,116] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:55:32,345] {logging_mixin.py:115} INFO - [2022-07-30 16:55:32,345] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:55:32,362] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.343 seconds
+[2022-07-30 16:56:02,415] {processor.py:153} INFO - Started process (PID=1850) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:02,416] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:56:02,416] {logging_mixin.py:115} INFO - [2022-07-30 16:56:02,416] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:02,448] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:02,479] {logging_mixin.py:115} INFO - [2022-07-30 16:56:02,478] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:56:02,686] {logging_mixin.py:115} INFO - [2022-07-30 16:56:02,686] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:56:02,700] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.289 seconds
+[2022-07-30 16:56:33,054] {processor.py:153} INFO - Started process (PID=1923) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:33,055] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:56:33,055] {logging_mixin.py:115} INFO - [2022-07-30 16:56:33,055] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:33,159] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:56:33,231] {logging_mixin.py:115} INFO - [2022-07-30 16:56:33,231] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:56:33,682] {logging_mixin.py:115} INFO - [2022-07-30 16:56:33,682] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:56:33,714] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.664 seconds
+[2022-07-30 16:57:04,515] {processor.py:153} INFO - Started process (PID=2007) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:04,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:57:04,517] {logging_mixin.py:115} INFO - [2022-07-30 16:57:04,517] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:04,547] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:04,586] {logging_mixin.py:115} INFO - [2022-07-30 16:57:04,586] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:57:04,787] {logging_mixin.py:115} INFO - [2022-07-30 16:57:04,787] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:57:04,803] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.291 seconds
+[2022-07-30 16:57:35,407] {processor.py:153} INFO - Started process (PID=2079) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:35,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:57:35,408] {logging_mixin.py:115} INFO - [2022-07-30 16:57:35,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:35,472] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:57:35,545] {logging_mixin.py:115} INFO - [2022-07-30 16:57:35,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:57:35,872] {logging_mixin.py:115} INFO - [2022-07-30 16:57:35,872] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:57:35,902] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.498 seconds
+[2022-07-30 16:58:05,972] {processor.py:153} INFO - Started process (PID=2162) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:05,973] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:58:05,974] {logging_mixin.py:115} INFO - [2022-07-30 16:58:05,973] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:06,003] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:06,033] {logging_mixin.py:115} INFO - [2022-07-30 16:58:06,033] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:58:06,235] {logging_mixin.py:115} INFO - [2022-07-30 16:58:06,235] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:58:06,250] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.282 seconds
+[2022-07-30 16:58:36,356] {processor.py:153} INFO - Started process (PID=2235) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:36,356] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:58:36,357] {logging_mixin.py:115} INFO - [2022-07-30 16:58:36,357] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:36,387] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:58:36,417] {logging_mixin.py:115} INFO - [2022-07-30 16:58:36,417] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:58:36,617] {logging_mixin.py:115} INFO - [2022-07-30 16:58:36,617] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:58:36,631] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.279 seconds
+[2022-07-30 16:59:07,096] {processor.py:153} INFO - Started process (PID=2320) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:07,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:59:07,098] {logging_mixin.py:115} INFO - [2022-07-30 16:59:07,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:07,128] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:07,170] {logging_mixin.py:115} INFO - [2022-07-30 16:59:07,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:59:07,373] {logging_mixin.py:115} INFO - [2022-07-30 16:59:07,373] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:59:07,387] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.295 seconds
+[2022-07-30 16:59:38,005] {processor.py:153} INFO - Started process (PID=2396) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:38,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 16:59:38,006] {logging_mixin.py:115} INFO - [2022-07-30 16:59:38,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:38,047] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 16:59:38,088] {logging_mixin.py:115} INFO - [2022-07-30 16:59:38,088] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 16:59:38,485] {logging_mixin.py:115} INFO - [2022-07-30 16:59:38,483] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 16:59:38,531] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.531 seconds
+[2022-07-30 17:00:08,720] {processor.py:153} INFO - Started process (PID=2480) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:08,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:00:08,729] {logging_mixin.py:115} INFO - [2022-07-30 17:00:08,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:08,807] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:08,864] {logging_mixin.py:115} INFO - [2022-07-30 17:00:08,864] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:00:09,256] {logging_mixin.py:115} INFO - [2022-07-30 17:00:09,255] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:00:09,270] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.557 seconds
+[2022-07-30 17:00:39,933] {processor.py:153} INFO - Started process (PID=2554) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:39,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:00:39,934] {logging_mixin.py:115} INFO - [2022-07-30 17:00:39,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:39,998] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:00:40,071] {logging_mixin.py:115} INFO - [2022-07-30 17:00:40,070] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:00:40,413] {logging_mixin.py:115} INFO - [2022-07-30 17:00:40,413] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:00:40,429] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.501 seconds
+[2022-07-30 17:01:11,308] {processor.py:153} INFO - Started process (PID=2630) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:11,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:01:11,310] {logging_mixin.py:115} INFO - [2022-07-30 17:01:11,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:11,340] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:11,372] {logging_mixin.py:115} INFO - [2022-07-30 17:01:11,371] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:01:11,599] {logging_mixin.py:115} INFO - [2022-07-30 17:01:11,599] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:01:11,625] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.321 seconds
+[2022-07-30 17:01:41,737] {processor.py:153} INFO - Started process (PID=2715) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:41,737] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:01:41,738] {logging_mixin.py:115} INFO - [2022-07-30 17:01:41,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:41,767] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:01:41,797] {logging_mixin.py:115} INFO - [2022-07-30 17:01:41,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:01:42,011] {logging_mixin.py:115} INFO - [2022-07-30 17:01:42,011] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:01:42,026] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.293 seconds
+[2022-07-30 17:02:12,209] {processor.py:153} INFO - Started process (PID=2789) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:12,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:02:12,210] {logging_mixin.py:115} INFO - [2022-07-30 17:02:12,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:12,245] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:12,276] {logging_mixin.py:115} INFO - [2022-07-30 17:02:12,276] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:02:12,595] {logging_mixin.py:115} INFO - [2022-07-30 17:02:12,595] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:02:12,672] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.466 seconds
+[2022-07-30 17:02:43,593] {processor.py:153} INFO - Started process (PID=2878) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:43,600] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:02:43,601] {logging_mixin.py:115} INFO - [2022-07-30 17:02:43,600] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:43,714] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:02:43,793] {logging_mixin.py:115} INFO - [2022-07-30 17:02:43,793] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:02:44,354] {logging_mixin.py:115} INFO - [2022-07-30 17:02:44,354] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:02:44,399] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.817 seconds
+[2022-07-30 17:03:14,867] {processor.py:153} INFO - Started process (PID=2951) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:14,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:03:14,868] {logging_mixin.py:115} INFO - [2022-07-30 17:03:14,868] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:14,898] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:14,966] {logging_mixin.py:115} INFO - [2022-07-30 17:03:14,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:03:15,177] {logging_mixin.py:115} INFO - [2022-07-30 17:03:15,177] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:03:15,192] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.329 seconds
+[2022-07-30 17:03:45,306] {processor.py:153} INFO - Started process (PID=3025) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:45,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:03:45,311] {logging_mixin.py:115} INFO - [2022-07-30 17:03:45,311] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:45,409] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:03:45,508] {logging_mixin.py:115} INFO - [2022-07-30 17:03:45,508] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:03:46,038] {logging_mixin.py:115} INFO - [2022-07-30 17:03:46,038] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:03:46,093] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.791 seconds
+[2022-07-30 17:04:16,318] {processor.py:153} INFO - Started process (PID=3109) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:16,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:04:16,320] {logging_mixin.py:115} INFO - [2022-07-30 17:04:16,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:16,392] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:16,432] {logging_mixin.py:115} INFO - [2022-07-30 17:04:16,432] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:04:16,616] {logging_mixin.py:115} INFO - [2022-07-30 17:04:16,616] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:04:16,626] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.313 seconds
+[2022-07-30 17:04:46,657] {processor.py:153} INFO - Started process (PID=3184) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:46,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:04:46,658] {logging_mixin.py:115} INFO - [2022-07-30 17:04:46,658] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:46,680] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:04:46,702] {logging_mixin.py:115} INFO - [2022-07-30 17:04:46,701] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:04:46,848] {logging_mixin.py:115} INFO - [2022-07-30 17:04:46,848] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:04:46,858] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.204 seconds
+[2022-07-30 17:05:17,323] {processor.py:153} INFO - Started process (PID=3266) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:17,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:05:17,326] {logging_mixin.py:115} INFO - [2022-07-30 17:05:17,326] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:17,398] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:17,450] {logging_mixin.py:115} INFO - [2022-07-30 17:05:17,449] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:05:17,684] {logging_mixin.py:115} INFO - [2022-07-30 17:05:17,684] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:05:17,702] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.388 seconds
+[2022-07-30 17:05:47,818] {processor.py:153} INFO - Started process (PID=3342) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:47,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:05:47,821] {logging_mixin.py:115} INFO - [2022-07-30 17:05:47,820] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:47,854] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:05:47,922] {logging_mixin.py:115} INFO - [2022-07-30 17:05:47,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:05:48,155] {logging_mixin.py:115} INFO - [2022-07-30 17:05:48,155] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:05:48,171] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.361 seconds
+[2022-07-30 17:06:18,875] {processor.py:153} INFO - Started process (PID=3431) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:18,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:06:18,877] {logging_mixin.py:115} INFO - [2022-07-30 17:06:18,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:18,917] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:18,995] {logging_mixin.py:115} INFO - [2022-07-30 17:06:18,995] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:06:19,317] {logging_mixin.py:115} INFO - [2022-07-30 17:06:19,317] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:06:19,330] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.462 seconds
+[2022-07-30 17:06:49,516] {processor.py:153} INFO - Started process (PID=3505) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:49,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:06:49,517] {logging_mixin.py:115} INFO - [2022-07-30 17:06:49,517] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:49,548] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:06:49,581] {logging_mixin.py:115} INFO - [2022-07-30 17:06:49,580] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:06:49,805] {logging_mixin.py:115} INFO - [2022-07-30 17:06:49,805] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:06:49,820] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.309 seconds
+[2022-07-30 17:07:20,709] {processor.py:153} INFO - Started process (PID=3587) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:20,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:07:20,710] {logging_mixin.py:115} INFO - [2022-07-30 17:07:20,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:20,760] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:20,794] {logging_mixin.py:115} INFO - [2022-07-30 17:07:20,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:07:21,051] {logging_mixin.py:115} INFO - [2022-07-30 17:07:21,051] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:07:21,065] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.361 seconds
+[2022-07-30 17:07:51,094] {processor.py:153} INFO - Started process (PID=3659) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:51,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:07:51,095] {logging_mixin.py:115} INFO - [2022-07-30 17:07:51,095] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:51,127] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:07:51,167] {logging_mixin.py:115} INFO - [2022-07-30 17:07:51,166] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:07:51,444] {logging_mixin.py:115} INFO - [2022-07-30 17:07:51,444] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:07:51,469] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.379 seconds
+[2022-07-30 17:08:22,255] {processor.py:153} INFO - Started process (PID=3746) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:22,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:08:22,257] {logging_mixin.py:115} INFO - [2022-07-30 17:08:22,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:22,294] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:22,358] {logging_mixin.py:115} INFO - [2022-07-30 17:08:22,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:08:22,574] {logging_mixin.py:115} INFO - [2022-07-30 17:08:22,574] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:08:22,589] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.337 seconds
+[2022-07-30 17:08:53,025] {processor.py:153} INFO - Started process (PID=3822) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:53,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:08:53,027] {logging_mixin.py:115} INFO - [2022-07-30 17:08:53,027] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:53,086] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:08:53,145] {logging_mixin.py:115} INFO - [2022-07-30 17:08:53,144] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:08:53,541] {logging_mixin.py:115} INFO - [2022-07-30 17:08:53,541] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:08:53,567] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.546 seconds
+[2022-07-30 17:09:23,772] {processor.py:153} INFO - Started process (PID=3904) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:23,776] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:09:23,777] {logging_mixin.py:115} INFO - [2022-07-30 17:09:23,777] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:23,875] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:24,009] {logging_mixin.py:115} INFO - [2022-07-30 17:09:24,009] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:09:24,409] {logging_mixin.py:115} INFO - [2022-07-30 17:09:24,409] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:09:24,423] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.664 seconds
+[2022-07-30 17:09:55,407] {processor.py:153} INFO - Started process (PID=3976) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:55,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:09:55,408] {logging_mixin.py:115} INFO - [2022-07-30 17:09:55,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:55,438] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:09:55,468] {logging_mixin.py:115} INFO - [2022-07-30 17:09:55,468] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:09:55,674] {logging_mixin.py:115} INFO - [2022-07-30 17:09:55,673] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:09:55,686] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.283 seconds
+[2022-07-30 17:10:26,541] {processor.py:153} INFO - Started process (PID=4061) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:26,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:10:26,548] {logging_mixin.py:115} INFO - [2022-07-30 17:10:26,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:26,586] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:26,658] {logging_mixin.py:115} INFO - [2022-07-30 17:10:26,658] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:10:27,001] {logging_mixin.py:115} INFO - [2022-07-30 17:10:27,000] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:10:27,029] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.493 seconds
+[2022-07-30 17:10:57,263] {processor.py:153} INFO - Started process (PID=4143) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:57,264] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:10:57,267] {logging_mixin.py:115} INFO - [2022-07-30 17:10:57,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:57,303] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:10:57,375] {logging_mixin.py:115} INFO - [2022-07-30 17:10:57,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:10:57,812] {logging_mixin.py:115} INFO - [2022-07-30 17:10:57,812] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:10:57,866] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.612 seconds
+[2022-07-30 17:11:28,069] {processor.py:153} INFO - Started process (PID=4224) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:28,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:11:28,071] {logging_mixin.py:115} INFO - [2022-07-30 17:11:28,071] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:28,099] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:28,131] {logging_mixin.py:115} INFO - [2022-07-30 17:11:28,131] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:11:28,428] {logging_mixin.py:115} INFO - [2022-07-30 17:11:28,428] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:11:28,447] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.382 seconds
+[2022-07-30 17:11:58,854] {processor.py:153} INFO - Started process (PID=4298) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:58,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:11:58,855] {logging_mixin.py:115} INFO - [2022-07-30 17:11:58,855] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:58,891] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:11:58,926] {logging_mixin.py:115} INFO - [2022-07-30 17:11:58,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:11:59,206] {logging_mixin.py:115} INFO - [2022-07-30 17:11:59,206] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:11:59,224] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.380 seconds
+[2022-07-30 17:12:29,391] {processor.py:153} INFO - Started process (PID=4370) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:12:29,392] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:12:29,394] {logging_mixin.py:115} INFO - [2022-07-30 17:12:29,394] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:12:29,433] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:12:29,476] {logging_mixin.py:115} INFO - [2022-07-30 17:12:29,476] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:12:29,734] {logging_mixin.py:115} INFO - [2022-07-30 17:12:29,734] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:12:29,752] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.366 seconds
+[2022-07-30 17:13:00,187] {processor.py:153} INFO - Started process (PID=4443) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:00,187] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:13:00,188] {logging_mixin.py:115} INFO - [2022-07-30 17:13:00,188] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:00,218] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:00,262] {logging_mixin.py:115} INFO - [2022-07-30 17:13:00,262] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:13:00,466] {logging_mixin.py:115} INFO - [2022-07-30 17:13:00,465] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:13:00,481] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.298 seconds
+[2022-07-30 17:13:30,844] {processor.py:153} INFO - Started process (PID=4525) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:30,845] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:13:30,849] {logging_mixin.py:115} INFO - [2022-07-30 17:13:30,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:30,903] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:13:30,963] {logging_mixin.py:115} INFO - [2022-07-30 17:13:30,963] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:13:31,539] {logging_mixin.py:115} INFO - [2022-07-30 17:13:31,539] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:13:31,575] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.738 seconds
+[2022-07-30 17:14:01,947] {processor.py:153} INFO - Started process (PID=4597) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:01,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:14:01,949] {logging_mixin.py:115} INFO - [2022-07-30 17:14:01,949] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:01,996] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:02,044] {logging_mixin.py:115} INFO - [2022-07-30 17:14:02,044] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:14:02,270] {logging_mixin.py:115} INFO - [2022-07-30 17:14:02,270] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:14:02,285] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.343 seconds
+[2022-07-30 17:14:32,630] {processor.py:153} INFO - Started process (PID=4669) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:32,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:14:32,636] {logging_mixin.py:115} INFO - [2022-07-30 17:14:32,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:32,703] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:14:32,785] {logging_mixin.py:115} INFO - [2022-07-30 17:14:32,783] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:14:32,884] {logging_mixin.py:115} INFO - [2022-07-30 17:14:32,884] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:14:32,928] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.309 seconds
+[2022-07-30 17:15:03,662] {processor.py:153} INFO - Started process (PID=4750) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:03,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:15:03,663] {logging_mixin.py:115} INFO - [2022-07-30 17:15:03,663] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:03,764] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:03,882] {logging_mixin.py:115} INFO - [2022-07-30 17:15:03,882] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:15:03,986] {logging_mixin.py:115} INFO - [2022-07-30 17:15:03,986] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:15:04,036] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.379 seconds
+[2022-07-30 17:15:34,486] {processor.py:153} INFO - Started process (PID=4827) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:34,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:15:34,488] {logging_mixin.py:115} INFO - [2022-07-30 17:15:34,487] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:34,523] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:15:34,560] {logging_mixin.py:115} INFO - [2022-07-30 17:15:34,560] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:15:34,598] {logging_mixin.py:115} INFO - [2022-07-30 17:15:34,598] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:15:34,613] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.132 seconds
+[2022-07-30 17:16:05,118] {processor.py:153} INFO - Started process (PID=4899) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:05,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:16:05,120] {logging_mixin.py:115} INFO - [2022-07-30 17:16:05,120] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:05,170] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:05,214] {logging_mixin.py:115} INFO - [2022-07-30 17:16:05,214] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:16:05,259] {logging_mixin.py:115} INFO - [2022-07-30 17:16:05,259] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:16:05,279] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.167 seconds
+[2022-07-30 17:16:35,346] {processor.py:153} INFO - Started process (PID=4979) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:35,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:16:35,351] {logging_mixin.py:115} INFO - [2022-07-30 17:16:35,351] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:35,501] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:16:35,576] {logging_mixin.py:115} INFO - [2022-07-30 17:16:35,576] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:16:35,666] {logging_mixin.py:115} INFO - [2022-07-30 17:16:35,666] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:16:35,711] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.381 seconds
+[2022-07-30 17:17:06,122] {processor.py:153} INFO - Started process (PID=5058) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:06,122] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:17:06,123] {logging_mixin.py:115} INFO - [2022-07-30 17:17:06,122] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:06,250] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:06,386] {logging_mixin.py:115} INFO - [2022-07-30 17:17:06,386] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:17:06,457] {logging_mixin.py:115} INFO - [2022-07-30 17:17:06,457] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:17:06,500] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.385 seconds
+[2022-07-30 17:17:37,285] {processor.py:153} INFO - Started process (PID=5130) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:37,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:17:37,290] {logging_mixin.py:115} INFO - [2022-07-30 17:17:37,290] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:37,408] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:17:37,583] {logging_mixin.py:115} INFO - [2022-07-30 17:17:37,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:17:37,654] {logging_mixin.py:115} INFO - [2022-07-30 17:17:37,654] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:17:37,721] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.453 seconds
+[2022-07-30 17:18:08,531] {processor.py:153} INFO - Started process (PID=5223) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:08,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:18:08,532] {logging_mixin.py:115} INFO - [2022-07-30 17:18:08,532] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:08,601] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:08,689] {logging_mixin.py:115} INFO - [2022-07-30 17:18:08,689] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:18:08,749] {logging_mixin.py:115} INFO - [2022-07-30 17:18:08,749] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:18:08,807] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.280 seconds
+[2022-07-30 17:18:39,142] {processor.py:153} INFO - Started process (PID=5292) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:39,146] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:18:39,147] {logging_mixin.py:115} INFO - [2022-07-30 17:18:39,147] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:39,235] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:18:39,324] {logging_mixin.py:115} INFO - [2022-07-30 17:18:39,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:18:39,416] {logging_mixin.py:115} INFO - [2022-07-30 17:18:39,416] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:18:39,456] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.322 seconds
+[2022-07-30 17:19:10,302] {processor.py:153} INFO - Started process (PID=5377) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:10,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:19:10,303] {logging_mixin.py:115} INFO - [2022-07-30 17:19:10,303] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:10,382] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:10,441] {logging_mixin.py:115} INFO - [2022-07-30 17:19:10,441] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:19:10,485] {logging_mixin.py:115} INFO - [2022-07-30 17:19:10,485] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:19:10,509] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.213 seconds
+[2022-07-30 17:19:40,549] {processor.py:153} INFO - Started process (PID=5456) to work on /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:40,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/Postgres_Dyanmic.py for tasks to queue
+[2022-07-30 17:19:40,551] {logging_mixin.py:115} INFO - [2022-07-30 17:19:40,551] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:40,585] {processor.py:651} INFO - DAG(s) dict_keys(['postgres_dynamic']) retrieved from /opt/airflow/dags/operators/Postgres_Dyanmic.py
+[2022-07-30 17:19:40,620] {logging_mixin.py:115} INFO - [2022-07-30 17:19:40,620] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-30 17:19:40,657] {logging_mixin.py:115} INFO - [2022-07-30 17:19:40,657] {dag.py:2931} INFO - Setting next_dagrun for postgres_dynamic to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 17:19:40,672] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/Postgres_Dyanmic.py took 0.127 seconds

@@ -32,7 +32,8 @@ with DAG ('xcom_dag', start_date=datetime(2022,1,1),
         endpoint='api/',
         method='GET',
         response_filter=lambda response: json.loads(response.text),
-        log_response=True
+        log_response=True,
+        #do_xcom_push=False
     )
     
      process_user = PythonOperator(

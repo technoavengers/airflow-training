@@ -27,6 +27,21 @@ with DAG(dag_id="templates_rendering", schedule_interval="@daily", default_args=
 
     task4 = BashOperator(
             task_id="task4",
+            bash_command ="env",
+            env ={
+                "s3_bucket" : '{{var.value.s3_bucket}}' 
+            })
+
+    task5 = BashOperator(
+            task_id="task5",
+            bash_command ="env",
+            env ={
+                "s3_password" : '{{var.value.api_key_s3_password}}' 
+                #any key starting with api_key,password,secret,auth will be encrypted by airflow
+            })
+
+    task6 = BashOperator(
+            task_id="task6",
             bash_command="scripts/script.sh")
 
-    task1 >> task2 >> task3 >> task4
+    task1 >> task2 >> task3 >> task4  >> task5 >> task6

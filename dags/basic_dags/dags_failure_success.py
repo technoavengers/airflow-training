@@ -14,7 +14,7 @@ def first_task():
 
 def second_task():
     print('This is second task')
-    #time.sleep(20)
+    time.sleep(50)
 
 def third_task():
     print('This is third task')

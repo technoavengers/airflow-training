@@ -24,13 +24,13 @@ with DAG ('trigger_rules', start_date=datetime(2022,1,1),
     
     task2 = BashOperator(
         task_id='task2',
-        bash_command ='exit 0'
+        bash_command ='exit 99'
     )
     
     task3 = BashOperator(
         task_id='task3',
         bash_command ='exit 0',
-        #trigger_rule= 'one_failed'
+        trigger_rule= 'none_failed_or_skipped'
     )
         
     [task1,task2] >> task3

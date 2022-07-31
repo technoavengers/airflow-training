@@ -17,7 +17,7 @@ def second_task():
 def third_task():
     print('This is third task')
 
-with DAG(dag_id='depends_on_past', schedule_interval= "0 0 * * *", default_args=default_args,tags=['basic_dags']) as dag:
+with DAG(dag_id='depends_on_past', schedule_interval= "0 0 * * *", default_args=default_args,tags=['basic_dags'],catchup=True) as dag:
     
     task_1 = PythonOperator(task_id='task_1', python_callable=first_task)
     
