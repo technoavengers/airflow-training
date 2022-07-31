@@ -103,3 +103,122 @@
 [2022-07-31 04:42:48,232] {logging_mixin.py:115} INFO - [2022-07-31 04:42:48,232] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:48,372] {logging_mixin.py:115} INFO - [2022-07-31 04:42:48,372] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:48,418] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.356 seconds
+[2022-07-31 06:54:51,416] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:54:51,425] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:54:51,429] {logging_mixin.py:115} INFO - [2022-07-31 06:54:51,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:54:51,521] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:54:51,763] {logging_mixin.py:115} INFO - [2022-07-31 06:54:51,762] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:54:52,003] {logging_mixin.py:115} INFO - [2022-07-31 06:54:52,003] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:54:52,125] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.745 seconds
+[2022-07-31 06:55:23,276] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:23,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:55:23,307] {logging_mixin.py:115} INFO - [2022-07-31 06:55:23,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:23,338] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:23,523] {logging_mixin.py:115} INFO - [2022-07-31 06:55:23,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:23,586] {logging_mixin.py:115} INFO - [2022-07-31 06:55:23,585] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:23,699] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.432 seconds
+[2022-07-31 06:55:54,451] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:54,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:55:54,464] {logging_mixin.py:115} INFO - [2022-07-31 06:55:54,464] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:54,492] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:55:54,616] {logging_mixin.py:115} INFO - [2022-07-31 06:55:54,616] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:54,733] {logging_mixin.py:115} INFO - [2022-07-31 06:55:54,733] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:54,799] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.373 seconds
+[2022-07-31 06:56:24,954] {processor.py:153} INFO - Started process (PID=278) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:24,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:56:24,958] {logging_mixin.py:115} INFO - [2022-07-31 06:56:24,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:24,969] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:25,003] {logging_mixin.py:115} INFO - [2022-07-31 06:56:25,003] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:25,037] {logging_mixin.py:115} INFO - [2022-07-31 06:56:25,037] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:25,055] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.105 seconds
+[2022-07-31 06:56:55,162] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:55,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:56:55,167] {logging_mixin.py:115} INFO - [2022-07-31 06:56:55,166] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:55,187] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:56:55,227] {logging_mixin.py:115} INFO - [2022-07-31 06:56:55,226] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:55,264] {logging_mixin.py:115} INFO - [2022-07-31 06:56:55,264] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:55,289] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.141 seconds
+[2022-07-31 06:57:25,587] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:25,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:57:25,591] {logging_mixin.py:115} INFO - [2022-07-31 06:57:25,591] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:25,601] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:25,635] {logging_mixin.py:115} INFO - [2022-07-31 06:57:25,635] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:25,672] {logging_mixin.py:115} INFO - [2022-07-31 06:57:25,671] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:25,697] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.115 seconds
+[2022-07-31 06:57:56,456] {processor.py:153} INFO - Started process (PID=508) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:56,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:57:56,457] {logging_mixin.py:115} INFO - [2022-07-31 06:57:56,457] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:56,468] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:57:56,500] {logging_mixin.py:115} INFO - [2022-07-31 06:57:56,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:56,533] {logging_mixin.py:115} INFO - [2022-07-31 06:57:56,533] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:56,557] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.105 seconds
+[2022-07-31 06:58:27,619] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:27,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:58:27,620] {logging_mixin.py:115} INFO - [2022-07-31 06:58:27,620] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:27,630] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:27,668] {logging_mixin.py:115} INFO - [2022-07-31 06:58:27,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:27,709] {logging_mixin.py:115} INFO - [2022-07-31 06:58:27,709] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:27,733] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.118 seconds
+[2022-07-31 06:58:57,939] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:57,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:58:57,945] {logging_mixin.py:115} INFO - [2022-07-31 06:58:57,945] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:58,001] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:58:58,113] {logging_mixin.py:115} INFO - [2022-07-31 06:58:58,111] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:58,251] {logging_mixin.py:115} INFO - [2022-07-31 06:58:58,251] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:58,343] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.426 seconds
+[2022-07-31 06:59:28,383] {processor.py:153} INFO - Started process (PID=742) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:28,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:59:28,384] {logging_mixin.py:115} INFO - [2022-07-31 06:59:28,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:28,392] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:28,415] {logging_mixin.py:115} INFO - [2022-07-31 06:59:28,415] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:28,437] {logging_mixin.py:115} INFO - [2022-07-31 06:59:28,437] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:28,451] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.071 seconds
+[2022-07-31 06:59:58,870] {processor.py:153} INFO - Started process (PID=818) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:58,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 06:59:58,876] {logging_mixin.py:115} INFO - [2022-07-31 06:59:58,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:58,898] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 06:59:58,953] {logging_mixin.py:115} INFO - [2022-07-31 06:59:58,952] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:59,029] {logging_mixin.py:115} INFO - [2022-07-31 06:59:59,029] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:59,230] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.372 seconds
+[2022-07-31 07:00:29,829] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:00:29,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:00:29,830] {logging_mixin.py:115} INFO - [2022-07-31 07:00:29,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:00:29,840] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:00:29,871] {logging_mixin.py:115} INFO - [2022-07-31 07:00:29,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:29,896] {logging_mixin.py:115} INFO - [2022-07-31 07:00:29,896] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:30,058] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.234 seconds
+[2022-07-31 07:01:00,265] {processor.py:153} INFO - Started process (PID=971) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:00,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:01:00,271] {logging_mixin.py:115} INFO - [2022-07-31 07:01:00,271] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:00,284] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:00,331] {logging_mixin.py:115} INFO - [2022-07-31 07:01:00,331] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:00,419] {logging_mixin.py:115} INFO - [2022-07-31 07:01:00,414] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:00,624] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.363 seconds
+[2022-07-31 07:01:30,832] {processor.py:153} INFO - Started process (PID=1043) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:30,834] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:01:30,834] {logging_mixin.py:115} INFO - [2022-07-31 07:01:30,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:30,851] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:01:30,880] {logging_mixin.py:115} INFO - [2022-07-31 07:01:30,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:30,910] {logging_mixin.py:115} INFO - [2022-07-31 07:01:30,909] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:31,146] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.318 seconds
+[2022-07-31 07:02:02,373] {processor.py:153} INFO - Started process (PID=1118) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:02,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:02:02,381] {logging_mixin.py:115} INFO - [2022-07-31 07:02:02,381] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:02,396] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:02,467] {logging_mixin.py:115} INFO - [2022-07-31 07:02:02,467] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:02,510] {logging_mixin.py:115} INFO - [2022-07-31 07:02:02,510] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:02,805] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.437 seconds
+[2022-07-31 07:02:33,246] {processor.py:153} INFO - Started process (PID=1189) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:33,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:02:33,251] {logging_mixin.py:115} INFO - [2022-07-31 07:02:33,251] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:33,261] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:02:33,295] {logging_mixin.py:115} INFO - [2022-07-31 07:02:33,295] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:33,335] {logging_mixin.py:115} INFO - [2022-07-31 07:02:33,335] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:33,545] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.302 seconds
+[2022-07-31 07:03:03,673] {processor.py:153} INFO - Started process (PID=1270) to work on /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:03:03,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/operators/HttpOperator.py for tasks to queue
+[2022-07-31 07:03:03,675] {logging_mixin.py:115} INFO - [2022-07-31 07:03:03,675] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:03:03,685] {processor.py:651} INFO - DAG(s) dict_keys(['http_operator']) retrieved from /opt/airflow/dags/operators/HttpOperator.py
+[2022-07-31 07:03:03,746] {logging_mixin.py:115} INFO - [2022-07-31 07:03:03,746] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:03:03,788] {logging_mixin.py:115} INFO - [2022-07-31 07:03:03,788] {dag.py:2931} INFO - Setting next_dagrun for http_operator to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:03:04,039] {processor.py:161} INFO - Processing /opt/airflow/dags/operators/HttpOperator.py took 0.382 seconds

@@ -96,3 +96,115 @@
 [2022-07-31 04:42:41,127] {logging_mixin.py:115} INFO - [2022-07-31 04:42:41,127] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:41,160] {logging_mixin.py:115} INFO - [2022-07-31 04:42:41,160] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
 [2022-07-31 04:42:41,176] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.110 seconds
+[2022-07-31 06:55:07,487] {processor.py:153} INFO - Started process (PID=116) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:07,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:55:07,496] {logging_mixin.py:115} INFO - [2022-07-31 06:55:07,496] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:07,611] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:07,843] {logging_mixin.py:115} INFO - [2022-07-31 06:55:07,843] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:08,035] {logging_mixin.py:115} INFO - [2022-07-31 06:55:08,035] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:55:09,037] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 1.574 seconds
+[2022-07-31 06:55:39,710] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:39,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:55:39,730] {logging_mixin.py:115} INFO - [2022-07-31 06:55:39,730] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:39,775] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:55:39,843] {logging_mixin.py:115} INFO - [2022-07-31 06:55:39,843] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:39,908] {logging_mixin.py:115} INFO - [2022-07-31 06:55:39,908] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:55:40,495] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.789 seconds
+[2022-07-31 06:56:10,614] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:10,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:56:10,636] {logging_mixin.py:115} INFO - [2022-07-31 06:56:10,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:10,675] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:10,708] {logging_mixin.py:115} INFO - [2022-07-31 06:56:10,708] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:10,743] {logging_mixin.py:115} INFO - [2022-07-31 06:56:10,742] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:56:11,063] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.452 seconds
+[2022-07-31 06:56:41,339] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:41,339] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:56:41,340] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:41,376] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:56:41,408] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,408] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:41,447] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,447] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:56:41,659] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.328 seconds
+[2022-07-31 06:57:12,867] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:12,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:57:12,877] {logging_mixin.py:115} INFO - [2022-07-31 06:57:12,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:12,946] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:13,065] {logging_mixin.py:115} INFO - [2022-07-31 06:57:13,065] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:13,148] {logging_mixin.py:115} INFO - [2022-07-31 06:57:13,148] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:57:13,842] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.980 seconds
+[2022-07-31 06:57:44,095] {processor.py:153} INFO - Started process (PID=489) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:44,097] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:57:44,098] {logging_mixin.py:115} INFO - [2022-07-31 06:57:44,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:44,136] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:57:44,219] {logging_mixin.py:115} INFO - [2022-07-31 06:57:44,218] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:44,301] {logging_mixin.py:115} INFO - [2022-07-31 06:57:44,301] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:57:45,021] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.943 seconds
+[2022-07-31 06:58:15,060] {processor.py:153} INFO - Started process (PID=560) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:15,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:58:15,061] {logging_mixin.py:115} INFO - [2022-07-31 06:58:15,061] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:15,077] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:15,107] {logging_mixin.py:115} INFO - [2022-07-31 06:58:15,107] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:15,152] {logging_mixin.py:115} INFO - [2022-07-31 06:58:15,152] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:58:15,378] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.322 seconds
+[2022-07-31 06:58:45,478] {processor.py:153} INFO - Started process (PID=633) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:45,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:58:45,488] {logging_mixin.py:115} INFO - [2022-07-31 06:58:45,488] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:45,534] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:58:45,594] {logging_mixin.py:115} INFO - [2022-07-31 06:58:45,594] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:45,698] {logging_mixin.py:115} INFO - [2022-07-31 06:58:45,697] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:58:46,235] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.760 seconds
+[2022-07-31 06:59:17,228] {processor.py:153} INFO - Started process (PID=723) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:17,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:59:17,230] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:17,253] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:17,287] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,287] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:17,344] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,344] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:59:17,589] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.368 seconds
+[2022-07-31 06:59:48,977] {processor.py:153} INFO - Started process (PID=798) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:48,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 06:59:48,981] {logging_mixin.py:115} INFO - [2022-07-31 06:59:48,981] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:49,026] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 06:59:49,083] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:49,380] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,380] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 06:59:49,398] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.428 seconds
+[2022-07-31 07:00:19,843] {processor.py:153} INFO - Started process (PID=881) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:19,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:00:19,855] {logging_mixin.py:115} INFO - [2022-07-31 07:00:19,855] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:19,896] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:19,949] {logging_mixin.py:115} INFO - [2022-07-31 07:00:19,948] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:20,267] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,267] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:00:20,281] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.442 seconds
+[2022-07-31 07:00:50,693] {processor.py:153} INFO - Started process (PID=953) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:50,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:00:50,696] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,696] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:50,717] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:00:50,753] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:50,994] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,994] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:00:51,010] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.322 seconds
+[2022-07-31 07:01:23,740] {processor.py:153} INFO - Started process (PID=1032) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:23,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:01:23,742] {logging_mixin.py:115} INFO - [2022-07-31 07:01:23,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:23,814] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:23,931] {logging_mixin.py:115} INFO - [2022-07-31 07:01:23,931] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:24,453] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,452] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:01:24,479] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.743 seconds
+[2022-07-31 07:01:55,230] {processor.py:153} INFO - Started process (PID=1110) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:55,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:01:55,238] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,237] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:55,279] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:01:55,336] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,336] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:55,653] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,653] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:01:55,670] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.443 seconds
+[2022-07-31 07:02:26,154] {processor.py:153} INFO - Started process (PID=1181) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:26,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:02:26,158] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:26,181] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:26,220] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,220] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:26,448] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,448] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:02:26,463] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.313 seconds
+[2022-07-31 07:02:57,327] {processor.py:153} INFO - Started process (PID=1252) to work on /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:57,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py for tasks to queue
+[2022-07-31 07:02:57,328] {logging_mixin.py:115} INFO - [2022-07-31 07:02:57,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:57,349] {processor.py:651} INFO - DAG(s) dict_keys(['final_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py
+[2022-07-31 07:02:57,381] {logging_mixin.py:115} INFO - [2022-07-31 07:02:57,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:57,747] {logging_mixin.py:115} INFO - [2022-07-31 07:02:57,747] {dag.py:2931} INFO - Setting next_dagrun for final_dag to None, run_after=None
+[2022-07-31 07:02:57,773] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/final_dag.py took 0.451 seconds

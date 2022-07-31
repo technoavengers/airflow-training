@@ -110,3 +110,131 @@
 [2022-07-31 04:42:40,032] {logging_mixin.py:115} INFO - [2022-07-31 04:42:40,032] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:40,057] {logging_mixin.py:115} INFO - [2022-07-31 04:42:40,057] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:40,069] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.081 seconds
+[2022-07-31 06:55:06,802] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:06,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:55:06,823] {logging_mixin.py:115} INFO - [2022-07-31 06:55:06,823] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:06,930] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:55:06,969] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:07,123] {logging_mixin.py:115} INFO - [2022-07-31 06:55:07,123] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:07,294] {logging_mixin.py:115} INFO - [2022-07-31 06:55:07,294] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:07,361] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.579 seconds
+[2022-07-31 06:55:37,705] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:37,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:55:37,709] {logging_mixin.py:115} INFO - [2022-07-31 06:55:37,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:37,753] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:55:37,759] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:55:37,892] {logging_mixin.py:115} INFO - [2022-07-31 06:55:37,892] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:38,030] {logging_mixin.py:115} INFO - [2022-07-31 06:55:38,030] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:38,109] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.417 seconds
+[2022-07-31 06:56:08,627] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:08,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:56:08,632] {logging_mixin.py:115} INFO - [2022-07-31 06:56:08,632] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:08,689] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:56:08,696] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:08,795] {logging_mixin.py:115} INFO - [2022-07-31 06:56:08,795] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:08,875] {logging_mixin.py:115} INFO - [2022-07-31 06:56:08,875] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:08,908] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.306 seconds
+[2022-07-31 06:56:38,953] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:38,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:56:38,954] {logging_mixin.py:115} INFO - [2022-07-31 06:56:38,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:38,974] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:56:38,975] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:56:39,009] {logging_mixin.py:115} INFO - [2022-07-31 06:56:39,009] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:39,047] {logging_mixin.py:115} INFO - [2022-07-31 06:56:39,047] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:39,061] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.113 seconds
+[2022-07-31 06:57:10,213] {processor.py:153} INFO - Started process (PID=405) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:10,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:57:10,214] {logging_mixin.py:115} INFO - [2022-07-31 06:57:10,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:10,233] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:57:10,234] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:10,267] {logging_mixin.py:115} INFO - [2022-07-31 06:57:10,267] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:10,310] {logging_mixin.py:115} INFO - [2022-07-31 06:57:10,310] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:10,322] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.113 seconds
+[2022-07-31 06:57:41,900] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:41,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:57:41,906] {logging_mixin.py:115} INFO - [2022-07-31 06:57:41,906] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:41,937] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:57:41,940] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:57:41,974] {logging_mixin.py:115} INFO - [2022-07-31 06:57:41,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:42,014] {logging_mixin.py:115} INFO - [2022-07-31 06:57:42,014] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:42,030] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.135 seconds
+[2022-07-31 06:58:12,914] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:12,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:58:12,924] {logging_mixin.py:115} INFO - [2022-07-31 06:58:12,923] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:12,942] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:58:12,943] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:12,974] {logging_mixin.py:115} INFO - [2022-07-31 06:58:12,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:13,014] {logging_mixin.py:115} INFO - [2022-07-31 06:58:13,014] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:13,031] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.122 seconds
+[2022-07-31 06:58:43,721] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:43,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:58:43,732] {logging_mixin.py:115} INFO - [2022-07-31 06:58:43,732] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:43,751] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:58:43,754] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:58:43,788] {logging_mixin.py:115} INFO - [2022-07-31 06:58:43,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:43,825] {logging_mixin.py:115} INFO - [2022-07-31 06:58:43,825] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:43,841] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.124 seconds
+[2022-07-31 06:59:14,736] {processor.py:153} INFO - Started process (PID=717) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:14,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:59:14,750] {logging_mixin.py:115} INFO - [2022-07-31 06:59:14,750] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:14,784] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:59:14,786] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:14,818] {logging_mixin.py:115} INFO - [2022-07-31 06:59:14,818] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:14,855] {logging_mixin.py:115} INFO - [2022-07-31 06:59:14,854] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:14,869] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.137 seconds
+[2022-07-31 06:59:45,217] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:45,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 06:59:45,218] {logging_mixin.py:115} INFO - [2022-07-31 06:59:45,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:45,241] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 06:59:45,243] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 06:59:45,267] {logging_mixin.py:115} INFO - [2022-07-31 06:59:45,267] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:45,430] {logging_mixin.py:115} INFO - [2022-07-31 06:59:45,429] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:45,441] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.228 seconds
+[2022-07-31 07:00:16,632] {processor.py:153} INFO - Started process (PID=865) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:16,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:00:16,640] {logging_mixin.py:115} INFO - [2022-07-31 07:00:16,640] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:16,661] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:00:16,666] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:16,730] {logging_mixin.py:115} INFO - [2022-07-31 07:00:16,729] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:17,059] {logging_mixin.py:115} INFO - [2022-07-31 07:00:17,059] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:17,078] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.450 seconds
+[2022-07-31 07:00:47,481] {processor.py:153} INFO - Started process (PID=946) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:47,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:00:47,485] {logging_mixin.py:115} INFO - [2022-07-31 07:00:47,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:47,509] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:00:47,512] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:00:47,550] {logging_mixin.py:115} INFO - [2022-07-31 07:00:47,550] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:47,779] {logging_mixin.py:115} INFO - [2022-07-31 07:00:47,779] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:47,798] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.325 seconds
+[2022-07-31 07:01:18,281] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:18,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:01:18,283] {logging_mixin.py:115} INFO - [2022-07-31 07:01:18,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:18,310] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:01:18,311] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:18,350] {logging_mixin.py:115} INFO - [2022-07-31 07:01:18,350] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:18,586] {logging_mixin.py:115} INFO - [2022-07-31 07:01:18,586] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:18,601] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.324 seconds
+[2022-07-31 07:01:51,249] {processor.py:153} INFO - Started process (PID=1099) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:51,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:01:51,251] {logging_mixin.py:115} INFO - [2022-07-31 07:01:51,251] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:51,369] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:01:51,383] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:01:51,539] {logging_mixin.py:115} INFO - [2022-07-31 07:01:51,539] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:52,425] {logging_mixin.py:115} INFO - [2022-07-31 07:01:52,425] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:52,513] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 1.299 seconds
+[2022-07-31 07:02:22,591] {processor.py:153} INFO - Started process (PID=1173) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:22,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:02:22,592] {logging_mixin.py:115} INFO - [2022-07-31 07:02:22,592] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:22,628] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:02:22,629] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:22,704] {logging_mixin.py:115} INFO - [2022-07-31 07:02:22,704] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:23,060] {logging_mixin.py:115} INFO - [2022-07-31 07:02:23,060] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:23,075] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.493 seconds
+[2022-07-31 07:02:53,390] {processor.py:153} INFO - Started process (PID=1244) to work on /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:53,391] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/branch_operator.py for tasks to queue
+[2022-07-31 07:02:53,391] {logging_mixin.py:115} INFO - [2022-07-31 07:02:53,391] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:53,405] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-07-31 07:02:53,407] {processor.py:651} INFO - DAG(s) dict_keys(['python_branch_operator_assignment']) retrieved from /opt/airflow/dags/assignment_solution/branch_operator.py
+[2022-07-31 07:02:53,431] {logging_mixin.py:115} INFO - [2022-07-31 07:02:53,431] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:53,633] {logging_mixin.py:115} INFO - [2022-07-31 07:02:53,630] {dag.py:2931} INFO - Setting next_dagrun for python_branch_operator_assignment to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:53,659] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/branch_operator.py took 0.273 seconds

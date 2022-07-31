@@ -96,3 +96,115 @@
 [2022-07-31 04:42:45,706] {logging_mixin.py:115} INFO - [2022-07-31 04:42:45,706] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:45,743] {logging_mixin.py:115} INFO - [2022-07-31 04:42:45,743] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:45,758] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.108 seconds
+[2022-07-31 06:55:09,179] {processor.py:153} INFO - Started process (PID=118) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:09,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:55:09,186] {logging_mixin.py:115} INFO - [2022-07-31 06:55:09,186] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:09,235] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:09,475] {logging_mixin.py:115} INFO - [2022-07-31 06:55:09,475] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:09,717] {logging_mixin.py:115} INFO - [2022-07-31 06:55:09,717] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:09,829] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.678 seconds
+[2022-07-31 06:55:40,133] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:40,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:55:40,156] {logging_mixin.py:115} INFO - [2022-07-31 06:55:40,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:40,189] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:55:40,287] {logging_mixin.py:115} INFO - [2022-07-31 06:55:40,287] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:40,377] {logging_mixin.py:115} INFO - [2022-07-31 06:55:40,377] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:40,457] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.345 seconds
+[2022-07-31 06:56:11,116] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:11,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:56:11,130] {logging_mixin.py:115} INFO - [2022-07-31 06:56:11,130] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:11,157] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:11,243] {logging_mixin.py:115} INFO - [2022-07-31 06:56:11,243] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:11,313] {logging_mixin.py:115} INFO - [2022-07-31 06:56:11,313] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:11,378] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.266 seconds
+[2022-07-31 06:56:41,711] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:41,713] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:56:41,713] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:41,730] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:56:41,765] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,765] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:41,804] {logging_mixin.py:115} INFO - [2022-07-31 06:56:41,804] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:41,824] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.124 seconds
+[2022-07-31 06:57:13,865] {processor.py:153} INFO - Started process (PID=410) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:13,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:57:13,886] {logging_mixin.py:115} INFO - [2022-07-31 06:57:13,886] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:13,908] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:14,011] {logging_mixin.py:115} INFO - [2022-07-31 06:57:14,011] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:14,166] {logging_mixin.py:115} INFO - [2022-07-31 06:57:14,166] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:14,267] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.429 seconds
+[2022-07-31 06:57:45,522] {processor.py:153} INFO - Started process (PID=493) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:45,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:57:45,534] {logging_mixin.py:115} INFO - [2022-07-31 06:57:45,534] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:45,547] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:57:45,608] {logging_mixin.py:115} INFO - [2022-07-31 06:57:45,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:45,677] {logging_mixin.py:115} INFO - [2022-07-31 06:57:45,677] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:45,704] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.185 seconds
+[2022-07-31 06:58:16,451] {processor.py:153} INFO - Started process (PID=567) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:16,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:58:16,452] {logging_mixin.py:115} INFO - [2022-07-31 06:58:16,452] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:16,473] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:16,547] {logging_mixin.py:115} INFO - [2022-07-31 06:58:16,547] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:16,593] {logging_mixin.py:115} INFO - [2022-07-31 06:58:16,592] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:16,611] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.168 seconds
+[2022-07-31 06:58:46,706] {processor.py:153} INFO - Started process (PID=644) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:46,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:58:46,710] {logging_mixin.py:115} INFO - [2022-07-31 06:58:46,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:46,731] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:58:46,788] {logging_mixin.py:115} INFO - [2022-07-31 06:58:46,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:46,868] {logging_mixin.py:115} INFO - [2022-07-31 06:58:46,868] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:46,907] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.205 seconds
+[2022-07-31 06:59:17,589] {processor.py:153} INFO - Started process (PID=725) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:17,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:59:17,595] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:17,607] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:17,633] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,633] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:17,657] {logging_mixin.py:115} INFO - [2022-07-31 06:59:17,657] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:17,671] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.086 seconds
+[2022-07-31 06:59:49,244] {processor.py:153} INFO - Started process (PID=799) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:49,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 06:59:49,245] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,245] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:49,254] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 06:59:49,293] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,293] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:49,326] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,326] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:49,537] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.297 seconds
+[2022-07-31 07:00:20,011] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:20,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:00:20,014] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:20,035] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:20,101] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,101] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:20,171] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,171] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:20,380] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.382 seconds
+[2022-07-31 07:00:50,826] {processor.py:153} INFO - Started process (PID=954) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:50,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:00:50,830] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:50,840] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:00:50,871] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,871] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:50,906] {logging_mixin.py:115} INFO - [2022-07-31 07:00:50,906] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:51,120] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.298 seconds
+[2022-07-31 07:01:24,778] {processor.py:153} INFO - Started process (PID=1037) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:24,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:01:24,794] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:24,814] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:24,875] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:24,933] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,933] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:25,191] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.417 seconds
+[2022-07-31 07:01:55,944] {processor.py:153} INFO - Started process (PID=1113) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:55,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:01:55,946] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,946] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:55,955] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:01:55,985] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,985] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:56,022] {logging_mixin.py:115} INFO - [2022-07-31 07:01:56,022] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:56,214] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.274 seconds
+[2022-07-31 07:02:26,854] {processor.py:153} INFO - Started process (PID=1184) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:26,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:02:26,855] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,855] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:26,862] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:26,886] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,886] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:26,911] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,911] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:27,082] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.234 seconds
+[2022-07-31 07:02:58,688] {processor.py:153} INFO - Started process (PID=1255) to work on /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:58,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py for tasks to queue
+[2022-07-31 07:02:58,690] {logging_mixin.py:115} INFO - [2022-07-31 07:02:58,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:58,705] {processor.py:651} INFO - DAG(s) dict_keys(['parent_dag1']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py
+[2022-07-31 07:02:58,765] {logging_mixin.py:115} INFO - [2022-07-31 07:02:58,765] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:58,803] {logging_mixin.py:115} INFO - [2022-07-31 07:02:58,803] {dag.py:2931} INFO - Setting next_dagrun for parent_dag1 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:58,999] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/parent_dag1.py took 0.327 seconds

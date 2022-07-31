@@ -96,3 +96,115 @@
 [2022-07-31 04:42:35,606] {logging_mixin.py:115} INFO - [2022-07-31 04:42:35,606] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:35,674] {logging_mixin.py:115} INFO - [2022-07-31 04:42:35,673] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:35,710] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.221 seconds
+[2022-07-31 06:55:03,356] {processor.py:153} INFO - Started process (PID=101) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:03,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:55:03,362] {logging_mixin.py:115} INFO - [2022-07-31 06:55:03,362] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:03,382] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:03,439] {logging_mixin.py:115} INFO - [2022-07-31 06:55:03,439] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:03,510] {logging_mixin.py:115} INFO - [2022-07-31 06:55:03,510] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:03,548] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.196 seconds
+[2022-07-31 06:55:35,418] {processor.py:153} INFO - Started process (PID=173) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:35,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:55:35,433] {logging_mixin.py:115} INFO - [2022-07-31 06:55:35,432] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:35,455] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:55:35,528] {logging_mixin.py:115} INFO - [2022-07-31 06:55:35,528] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:35,589] {logging_mixin.py:115} INFO - [2022-07-31 06:55:35,589] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:35,608] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.202 seconds
+[2022-07-31 06:56:06,661] {processor.py:153} INFO - Started process (PID=244) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:06,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:56:06,699] {logging_mixin.py:115} INFO - [2022-07-31 06:56:06,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:06,758] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:06,906] {logging_mixin.py:115} INFO - [2022-07-31 06:56:06,906] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:07,012] {logging_mixin.py:115} INFO - [2022-07-31 06:56:07,012] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:07,087] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.453 seconds
+[2022-07-31 06:56:37,201] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:37,207] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:56:37,209] {logging_mixin.py:115} INFO - [2022-07-31 06:56:37,209] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:37,243] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:56:37,295] {logging_mixin.py:115} INFO - [2022-07-31 06:56:37,295] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:37,329] {logging_mixin.py:115} INFO - [2022-07-31 06:56:37,328] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:37,346] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.153 seconds
+[2022-07-31 06:57:07,429] {processor.py:153} INFO - Started process (PID=399) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:07,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:57:07,430] {logging_mixin.py:115} INFO - [2022-07-31 06:57:07,430] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:07,440] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:07,471] {logging_mixin.py:115} INFO - [2022-07-31 06:57:07,471] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:07,544] {logging_mixin.py:115} INFO - [2022-07-31 06:57:07,544] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:07,559] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.134 seconds
+[2022-07-31 06:57:37,998] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:37,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:57:38,000] {logging_mixin.py:115} INFO - [2022-07-31 06:57:37,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:38,010] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:57:38,094] {logging_mixin.py:115} INFO - [2022-07-31 06:57:38,094] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:38,124] {logging_mixin.py:115} INFO - [2022-07-31 06:57:38,124] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:38,139] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.144 seconds
+[2022-07-31 06:58:08,214] {processor.py:153} INFO - Started process (PID=543) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:08,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:58:08,224] {logging_mixin.py:115} INFO - [2022-07-31 06:58:08,223] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:08,237] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:08,300] {logging_mixin.py:115} INFO - [2022-07-31 06:58:08,299] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:08,369] {logging_mixin.py:115} INFO - [2022-07-31 06:58:08,369] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:08,420] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.214 seconds
+[2022-07-31 06:58:38,666] {processor.py:153} INFO - Started process (PID=625) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:38,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:58:38,667] {logging_mixin.py:115} INFO - [2022-07-31 06:58:38,667] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:38,681] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:58:38,717] {logging_mixin.py:115} INFO - [2022-07-31 06:58:38,716] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:38,754] {logging_mixin.py:115} INFO - [2022-07-31 06:58:38,754] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:38,774] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.112 seconds
+[2022-07-31 06:59:09,683] {processor.py:153} INFO - Started process (PID=702) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:09,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:59:09,692] {logging_mixin.py:115} INFO - [2022-07-31 06:59:09,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:09,726] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:09,855] {logging_mixin.py:115} INFO - [2022-07-31 06:59:09,854] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:09,906] {logging_mixin.py:115} INFO - [2022-07-31 06:59:09,906] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:09,944] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.281 seconds
+[2022-07-31 06:59:41,979] {processor.py:153} INFO - Started process (PID=785) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:41,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 06:59:41,980] {logging_mixin.py:115} INFO - [2022-07-31 06:59:41,980] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:41,998] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 06:59:42,065] {logging_mixin.py:115} INFO - [2022-07-31 06:59:42,065] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:42,129] {logging_mixin.py:115} INFO - [2022-07-31 06:59:42,129] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:42,439] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.464 seconds
+[2022-07-31 07:00:13,738] {processor.py:153} INFO - Started process (PID=860) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:13,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:00:13,758] {logging_mixin.py:115} INFO - [2022-07-31 07:00:13,758] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:13,772] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:13,833] {logging_mixin.py:115} INFO - [2022-07-31 07:00:13,832] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:13,905] {logging_mixin.py:115} INFO - [2022-07-31 07:00:13,905] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:14,467] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.732 seconds
+[2022-07-31 07:00:46,498] {processor.py:153} INFO - Started process (PID=941) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:46,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:00:46,508] {logging_mixin.py:115} INFO - [2022-07-31 07:00:46,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:46,525] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:00:46,575] {logging_mixin.py:115} INFO - [2022-07-31 07:00:46,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:46,639] {logging_mixin.py:115} INFO - [2022-07-31 07:00:46,639] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:46,982] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.488 seconds
+[2022-07-31 07:01:17,523] {processor.py:153} INFO - Started process (PID=1013) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:17,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:01:17,526] {logging_mixin.py:115} INFO - [2022-07-31 07:01:17,526] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:17,536] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:17,570] {logging_mixin.py:115} INFO - [2022-07-31 07:01:17,570] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:17,608] {logging_mixin.py:115} INFO - [2022-07-31 07:01:17,608] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:17,862] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.342 seconds
+[2022-07-31 07:01:48,242] {processor.py:153} INFO - Started process (PID=1086) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:48,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:01:48,252] {logging_mixin.py:115} INFO - [2022-07-31 07:01:48,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:48,269] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:01:48,355] {logging_mixin.py:115} INFO - [2022-07-31 07:01:48,355] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:48,465] {logging_mixin.py:115} INFO - [2022-07-31 07:01:48,465] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:49,231] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.993 seconds
+[2022-07-31 07:02:20,995] {processor.py:153} INFO - Started process (PID=1166) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:20,997] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:02:21,000] {logging_mixin.py:115} INFO - [2022-07-31 07:02:21,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:21,032] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:21,119] {logging_mixin.py:115} INFO - [2022-07-31 07:02:21,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:21,237] {logging_mixin.py:115} INFO - [2022-07-31 07:02:21,237] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:21,828] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.845 seconds
+[2022-07-31 07:02:52,036] {processor.py:153} INFO - Started process (PID=1239) to work on /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:52,036] {processor.py:641} INFO - Processing file /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py for tasks to queue
+[2022-07-31 07:02:52,037] {logging_mixin.py:115} INFO - [2022-07-31 07:02:52,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:52,065] {processor.py:651} INFO - DAG(s) dict_keys(['external_sensor_parent_dag_s3']) retrieved from /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py
+[2022-07-31 07:02:52,162] {logging_mixin.py:115} INFO - [2022-07-31 07:02:52,162] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:52,299] {logging_mixin.py:115} INFO - [2022-07-31 07:02:52,299] {dag.py:2931} INFO - Setting next_dagrun for external_sensor_parent_dag_s3 to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:52,680] {processor.py:161} INFO - Processing /opt/airflow/dags/external_task_sensor/external_task_sensor_parent_dag1.py took 0.663 seconds

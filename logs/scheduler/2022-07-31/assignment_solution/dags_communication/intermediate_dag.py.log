@@ -96,3 +96,115 @@
 [2022-07-31 04:42:47,116] {logging_mixin.py:115} INFO - [2022-07-31 04:42:47,116] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:47,150] {logging_mixin.py:115} INFO - [2022-07-31 04:42:47,150] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:47,165] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.141 seconds
+[2022-07-31 06:55:08,831] {processor.py:153} INFO - Started process (PID=117) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:08,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:55:08,840] {logging_mixin.py:115} INFO - [2022-07-31 06:55:08,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:09,028] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:09,327] {logging_mixin.py:115} INFO - [2022-07-31 06:55:09,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:10,450] {logging_mixin.py:115} INFO - [2022-07-31 06:55:10,450] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:10,486] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 1.699 seconds
+[2022-07-31 06:55:41,742] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:41,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:55:41,754] {logging_mixin.py:115} INFO - [2022-07-31 06:55:41,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:41,836] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:55:42,003] {logging_mixin.py:115} INFO - [2022-07-31 06:55:42,003] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:42,458] {logging_mixin.py:115} INFO - [2022-07-31 06:55:42,458] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:42,484] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.757 seconds
+[2022-07-31 06:56:12,994] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:13,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:56:13,003] {logging_mixin.py:115} INFO - [2022-07-31 06:56:13,003] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:13,043] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:13,094] {logging_mixin.py:115} INFO - [2022-07-31 06:56:13,094] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:13,264] {logging_mixin.py:115} INFO - [2022-07-31 06:56:13,264] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:13,275] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.285 seconds
+[2022-07-31 06:56:44,000] {processor.py:153} INFO - Started process (PID=341) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:44,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:56:44,001] {logging_mixin.py:115} INFO - [2022-07-31 06:56:44,001] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:44,023] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:56:44,058] {logging_mixin.py:115} INFO - [2022-07-31 06:56:44,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:44,224] {logging_mixin.py:115} INFO - [2022-07-31 06:56:44,223] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:44,236] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.239 seconds
+[2022-07-31 06:57:15,378] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:15,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:57:15,399] {logging_mixin.py:115} INFO - [2022-07-31 06:57:15,399] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:15,497] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:15,646] {logging_mixin.py:115} INFO - [2022-07-31 06:57:15,646] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:16,160] {logging_mixin.py:115} INFO - [2022-07-31 06:57:16,160] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:16,187] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.841 seconds
+[2022-07-31 06:57:46,952] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:46,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:57:46,953] {logging_mixin.py:115} INFO - [2022-07-31 06:57:46,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:46,978] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:57:47,037] {logging_mixin.py:115} INFO - [2022-07-31 06:57:47,037] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:47,226] {logging_mixin.py:115} INFO - [2022-07-31 06:57:47,225] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:47,238] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.290 seconds
+[2022-07-31 06:58:17,853] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:17,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:58:17,857] {logging_mixin.py:115} INFO - [2022-07-31 06:58:17,857] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:17,905] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:17,958] {logging_mixin.py:115} INFO - [2022-07-31 06:58:17,958] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:18,169] {logging_mixin.py:115} INFO - [2022-07-31 06:58:18,168] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:18,183] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.334 seconds
+[2022-07-31 06:58:48,516] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:48,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:58:48,519] {logging_mixin.py:115} INFO - [2022-07-31 06:58:48,519] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:48,544] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:58:48,597] {logging_mixin.py:115} INFO - [2022-07-31 06:58:48,597] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:48,812] {logging_mixin.py:115} INFO - [2022-07-31 06:58:48,812] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:48,827] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.315 seconds
+[2022-07-31 06:59:19,077] {processor.py:153} INFO - Started process (PID=728) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:19,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:59:19,078] {logging_mixin.py:115} INFO - [2022-07-31 06:59:19,078] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:19,096] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:19,132] {logging_mixin.py:115} INFO - [2022-07-31 06:59:19,132] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:19,295] {logging_mixin.py:115} INFO - [2022-07-31 06:59:19,295] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:19,310] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.236 seconds
+[2022-07-31 06:59:49,563] {processor.py:153} INFO - Started process (PID=801) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:49,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 06:59:49,564] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:49,586] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 06:59:49,637] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,637] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:49,865] {logging_mixin.py:115} INFO - [2022-07-31 06:59:49,865] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:49,887] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.329 seconds
+[2022-07-31 07:00:20,407] {processor.py:153} INFO - Started process (PID=884) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:20,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:00:20,411] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,411] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:20,437] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:20,486] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,486] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:20,697] {logging_mixin.py:115} INFO - [2022-07-31 07:00:20,697] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:20,717] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.314 seconds
+[2022-07-31 07:00:51,149] {processor.py:153} INFO - Started process (PID=956) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:51,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:00:51,150] {logging_mixin.py:115} INFO - [2022-07-31 07:00:51,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:51,172] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:00:51,221] {logging_mixin.py:115} INFO - [2022-07-31 07:00:51,221] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:51,446] {logging_mixin.py:115} INFO - [2022-07-31 07:00:51,446] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:51,461] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.316 seconds
+[2022-07-31 07:01:24,525] {processor.py:153} INFO - Started process (PID=1035) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:24,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:01:24,530] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:24,604] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:24,729] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,729] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:24,996] {logging_mixin.py:115} INFO - [2022-07-31 07:01:24,996] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:25,019] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.505 seconds
+[2022-07-31 07:01:55,696] {processor.py:153} INFO - Started process (PID=1112) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:55,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:01:55,699] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:55,723] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:01:55,778] {logging_mixin.py:115} INFO - [2022-07-31 07:01:55,777] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:56,028] {logging_mixin.py:115} INFO - [2022-07-31 07:01:56,027] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:56,043] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.352 seconds
+[2022-07-31 07:02:26,491] {processor.py:153} INFO - Started process (PID=1183) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:26,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:02:26,495] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:26,519] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:26,576] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,576] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:26,810] {logging_mixin.py:115} INFO - [2022-07-31 07:02:26,809] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:26,824] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.337 seconds
+[2022-07-31 07:02:57,806] {processor.py:153} INFO - Started process (PID=1253) to work on /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:57,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py for tasks to queue
+[2022-07-31 07:02:57,824] {logging_mixin.py:115} INFO - [2022-07-31 07:02:57,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:57,896] {processor.py:651} INFO - DAG(s) dict_keys(['intermediate_dag']) retrieved from /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py
+[2022-07-31 07:02:58,052] {logging_mixin.py:115} INFO - [2022-07-31 07:02:58,052] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:58,583] {logging_mixin.py:115} INFO - [2022-07-31 07:02:58,583] {dag.py:2931} INFO - Setting next_dagrun for intermediate_dag to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:58,623] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/dags_communication/intermediate_dag.py took 0.821 seconds

@@ -103,3 +103,115 @@
 [2022-07-31 04:42:56,440] {logging_mixin.py:115} INFO - [2022-07-31 04:42:56,440] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:56,474] {logging_mixin.py:115} INFO - [2022-07-31 04:42:56,474] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
 [2022-07-31 04:42:56,490] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.105 seconds
+[2022-07-31 06:54:56,261] {processor.py:153} INFO - Started process (PID=81) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:54:56,267] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:54:56,271] {logging_mixin.py:115} INFO - [2022-07-31 06:54:56,271] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:54:56,309] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:54:56,524] {logging_mixin.py:115} INFO - [2022-07-31 06:54:56,524] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:54:56,697] {logging_mixin.py:115} INFO - [2022-07-31 06:54:56,697] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T02:00:00+00:00, run_after=2022-03-01T03:00:00+00:00
+[2022-07-31 06:54:56,815] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.595 seconds
+[2022-07-31 06:55:27,796] {processor.py:153} INFO - Started process (PID=150) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:27,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:55:27,799] {logging_mixin.py:115} INFO - [2022-07-31 06:55:27,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:27,834] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:28,065] {logging_mixin.py:115} INFO - [2022-07-31 06:55:28,065] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:28,227] {logging_mixin.py:115} INFO - [2022-07-31 06:55:28,198] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T02:00:00+00:00, run_after=2022-03-01T03:00:00+00:00
+[2022-07-31 06:55:28,313] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.526 seconds
+[2022-07-31 06:55:59,068] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:59,075] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:55:59,079] {logging_mixin.py:115} INFO - [2022-07-31 06:55:59,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:59,108] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:55:59,324] {logging_mixin.py:115} INFO - [2022-07-31 06:55:59,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:59,523] {logging_mixin.py:115} INFO - [2022-07-31 06:55:59,523] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T02:00:00+00:00, run_after=2022-03-01T03:00:00+00:00
+[2022-07-31 06:55:59,623] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.571 seconds
+[2022-07-31 06:56:30,378] {processor.py:153} INFO - Started process (PID=298) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:56:30,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:56:30,380] {logging_mixin.py:115} INFO - [2022-07-31 06:56:30,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:56:30,389] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:56:30,429] {logging_mixin.py:115} INFO - [2022-07-31 06:56:30,429] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:30,471] {logging_mixin.py:115} INFO - [2022-07-31 06:56:30,470] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T02:00:00+00:00, run_after=2022-03-01T03:00:00+00:00
+[2022-07-31 06:56:30,488] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.114 seconds
+[2022-07-31 06:57:01,059] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:01,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:57:01,072] {logging_mixin.py:115} INFO - [2022-07-31 06:57:01,072] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:01,098] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:01,212] {logging_mixin.py:115} INFO - [2022-07-31 06:57:01,212] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:01,315] {logging_mixin.py:115} INFO - [2022-07-31 06:57:01,315] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:57:01,389] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.353 seconds
+[2022-07-31 06:57:32,258] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:32,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:57:32,267] {logging_mixin.py:115} INFO - [2022-07-31 06:57:32,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:32,279] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:57:32,334] {logging_mixin.py:115} INFO - [2022-07-31 06:57:32,334] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:32,368] {logging_mixin.py:115} INFO - [2022-07-31 06:57:32,368] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:57:32,382] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.132 seconds
+[2022-07-31 06:58:03,160] {processor.py:153} INFO - Started process (PID=523) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:03,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:58:03,166] {logging_mixin.py:115} INFO - [2022-07-31 06:58:03,166] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:03,176] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:03,213] {logging_mixin.py:115} INFO - [2022-07-31 06:58:03,212] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:03,251] {logging_mixin.py:115} INFO - [2022-07-31 06:58:03,251] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:58:03,286] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.130 seconds
+[2022-07-31 06:58:34,902] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:34,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:58:34,917] {logging_mixin.py:115} INFO - [2022-07-31 06:58:34,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:34,934] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:58:34,996] {logging_mixin.py:115} INFO - [2022-07-31 06:58:34,996] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:35,085] {logging_mixin.py:115} INFO - [2022-07-31 06:58:35,085] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:58:35,117] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.221 seconds
+[2022-07-31 06:59:05,385] {processor.py:153} INFO - Started process (PID=683) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:05,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:59:05,400] {logging_mixin.py:115} INFO - [2022-07-31 06:59:05,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:05,422] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:05,483] {logging_mixin.py:115} INFO - [2022-07-31 06:59:05,483] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:05,551] {logging_mixin.py:115} INFO - [2022-07-31 06:59:05,547] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:59:05,572] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.191 seconds
+[2022-07-31 06:59:36,756] {processor.py:153} INFO - Started process (PID=754) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:36,757] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 06:59:36,758] {logging_mixin.py:115} INFO - [2022-07-31 06:59:36,758] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:36,777] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 06:59:36,971] {logging_mixin.py:115} INFO - [2022-07-31 06:59:36,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:37,142] {logging_mixin.py:115} INFO - [2022-07-31 06:59:37,141] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 06:59:37,197] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.458 seconds
+[2022-07-31 07:00:07,511] {processor.py:153} INFO - Started process (PID=839) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:07,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:00:07,518] {logging_mixin.py:115} INFO - [2022-07-31 07:00:07,518] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:07,534] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:07,578] {logging_mixin.py:115} INFO - [2022-07-31 07:00:07,578] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:07,618] {logging_mixin.py:115} INFO - [2022-07-31 07:00:07,618] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:00:07,635] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.132 seconds
+[2022-07-31 07:00:37,826] {processor.py:153} INFO - Started process (PID=909) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:37,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:00:37,841] {logging_mixin.py:115} INFO - [2022-07-31 07:00:37,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:37,868] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:00:37,966] {logging_mixin.py:115} INFO - [2022-07-31 07:00:37,966] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:38,049] {logging_mixin.py:115} INFO - [2022-07-31 07:00:38,049] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:00:38,108] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.287 seconds
+[2022-07-31 07:01:08,992] {processor.py:153} INFO - Started process (PID=980) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:08,997] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:01:09,003] {logging_mixin.py:115} INFO - [2022-07-31 07:01:09,003] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:09,032] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:09,162] {logging_mixin.py:115} INFO - [2022-07-31 07:01:09,161] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:09,329] {logging_mixin.py:115} INFO - [2022-07-31 07:01:09,329] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:01:09,347] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.377 seconds
+[2022-07-31 07:01:39,655] {processor.py:153} INFO - Started process (PID=1062) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:39,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:01:39,656] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:39,678] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:01:39,735] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,735] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:39,774] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,774] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:01:39,799] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.162 seconds
+[2022-07-31 07:02:10,331] {processor.py:153} INFO - Started process (PID=1136) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:10,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:02:10,333] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:10,340] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:10,364] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:10,389] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,388] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:02:10,400] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.074 seconds
+[2022-07-31 07:02:41,065] {processor.py:153} INFO - Started process (PID=1206) to work on /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:41,065] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/catchup.py for tasks to queue
+[2022-07-31 07:02:41,066] {logging_mixin.py:115} INFO - [2022-07-31 07:02:41,066] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:41,074] {processor.py:651} INFO - DAG(s) dict_keys(['catchup_true']) retrieved from /opt/airflow/dags/basic_dags/catchup.py
+[2022-07-31 07:02:41,162] {logging_mixin.py:115} INFO - [2022-07-31 07:02:41,162] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:41,224] {logging_mixin.py:115} INFO - [2022-07-31 07:02:41,224] {dag.py:2931} INFO - Setting next_dagrun for catchup_true to 2022-03-01T01:00:00+00:00, run_after=2022-03-01T02:00:00+00:00
+[2022-07-31 07:02:41,247] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/catchup.py took 0.190 seconds

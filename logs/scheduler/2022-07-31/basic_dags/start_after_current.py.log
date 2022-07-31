@@ -96,3 +96,115 @@
 [2022-07-31 04:42:30,981] {logging_mixin.py:115} INFO - [2022-07-31 04:42:30,981] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:31,095] {logging_mixin.py:115} INFO - [2022-07-31 04:42:31,095] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
 [2022-07-31 04:42:31,124] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.312 seconds
+[2022-07-31 06:54:59,882] {processor.py:153} INFO - Started process (PID=91) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:54:59,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:54:59,923] {logging_mixin.py:115} INFO - [2022-07-31 06:54:59,923] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:54:59,993] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:55:00,234] {logging_mixin.py:115} INFO - [2022-07-31 06:55:00,234] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:00,513] {logging_mixin.py:115} INFO - [2022-07-31 06:55:00,512] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:55:00,655] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.801 seconds
+[2022-07-31 06:55:32,468] {processor.py:153} INFO - Started process (PID=163) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:55:32,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:55:32,480] {logging_mixin.py:115} INFO - [2022-07-31 06:55:32,480] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:55:32,496] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:55:32,619] {logging_mixin.py:115} INFO - [2022-07-31 06:55:32,619] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:32,735] {logging_mixin.py:115} INFO - [2022-07-31 06:55:32,735] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:55:32,788] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.342 seconds
+[2022-07-31 06:56:03,612] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:03,616] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:56:03,617] {logging_mixin.py:115} INFO - [2022-07-31 06:56:03,616] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:03,641] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:03,757] {logging_mixin.py:115} INFO - [2022-07-31 06:56:03,757] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:03,862] {logging_mixin.py:115} INFO - [2022-07-31 06:56:03,862] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:56:03,924] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.327 seconds
+[2022-07-31 06:56:34,055] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:34,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:56:34,057] {logging_mixin.py:115} INFO - [2022-07-31 06:56:34,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:34,065] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:56:34,135] {logging_mixin.py:115} INFO - [2022-07-31 06:56:34,135] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:34,211] {logging_mixin.py:115} INFO - [2022-07-31 06:56:34,211] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:56:34,247] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.196 seconds
+[2022-07-31 06:57:05,244] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:05,260] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:57:05,260] {logging_mixin.py:115} INFO - [2022-07-31 06:57:05,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:05,309] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:05,379] {logging_mixin.py:115} INFO - [2022-07-31 06:57:05,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:05,460] {logging_mixin.py:115} INFO - [2022-07-31 06:57:05,460] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:57:05,507] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.280 seconds
+[2022-07-31 06:57:36,353] {processor.py:153} INFO - Started process (PID=462) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:36,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:57:36,354] {logging_mixin.py:115} INFO - [2022-07-31 06:57:36,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:36,368] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:57:36,441] {logging_mixin.py:115} INFO - [2022-07-31 06:57:36,441] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:36,491] {logging_mixin.py:115} INFO - [2022-07-31 06:57:36,491] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:57:36,515] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.166 seconds
+[2022-07-31 06:58:07,087] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:07,091] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:58:07,093] {logging_mixin.py:115} INFO - [2022-07-31 06:58:07,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:07,105] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:07,185] {logging_mixin.py:115} INFO - [2022-07-31 06:58:07,185] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:07,266] {logging_mixin.py:115} INFO - [2022-07-31 06:58:07,266] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:58:07,299] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.223 seconds
+[2022-07-31 06:58:37,931] {processor.py:153} INFO - Started process (PID=616) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:37,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:58:37,937] {logging_mixin.py:115} INFO - [2022-07-31 06:58:37,937] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:37,947] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:58:37,983] {logging_mixin.py:115} INFO - [2022-07-31 06:58:37,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:38,016] {logging_mixin.py:115} INFO - [2022-07-31 06:58:38,016] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:58:38,032] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.105 seconds
+[2022-07-31 06:59:08,480] {processor.py:153} INFO - Started process (PID=693) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:08,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:59:08,488] {logging_mixin.py:115} INFO - [2022-07-31 06:59:08,488] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:08,502] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:08,566] {logging_mixin.py:115} INFO - [2022-07-31 06:59:08,566] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:08,602] {logging_mixin.py:115} INFO - [2022-07-31 06:59:08,602] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:59:08,617] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.141 seconds
+[2022-07-31 06:59:39,925] {processor.py:153} INFO - Started process (PID=776) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:39,928] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 06:59:39,931] {logging_mixin.py:115} INFO - [2022-07-31 06:59:39,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:39,953] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 06:59:40,020] {logging_mixin.py:115} INFO - [2022-07-31 06:59:40,020] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:40,118] {logging_mixin.py:115} INFO - [2022-07-31 06:59:40,118] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 06:59:40,171] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.250 seconds
+[2022-07-31 07:00:10,236] {processor.py:153} INFO - Started process (PID=850) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:10,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:00:10,238] {logging_mixin.py:115} INFO - [2022-07-31 07:00:10,237] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:10,247] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:10,281] {logging_mixin.py:115} INFO - [2022-07-31 07:00:10,280] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:10,331] {logging_mixin.py:115} INFO - [2022-07-31 07:00:10,331] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:00:10,347] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.114 seconds
+[2022-07-31 07:00:43,683] {processor.py:153} INFO - Started process (PID=929) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:43,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:00:43,685] {logging_mixin.py:115} INFO - [2022-07-31 07:00:43,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:43,706] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:00:43,792] {logging_mixin.py:115} INFO - [2022-07-31 07:00:43,791] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:43,870] {logging_mixin.py:115} INFO - [2022-07-31 07:00:43,870] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:00:43,913] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.242 seconds
+[2022-07-31 07:01:14,313] {processor.py:153} INFO - Started process (PID=1002) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:14,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:01:14,315] {logging_mixin.py:115} INFO - [2022-07-31 07:01:14,315] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:14,324] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:14,366] {logging_mixin.py:115} INFO - [2022-07-31 07:01:14,365] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:14,419] {logging_mixin.py:115} INFO - [2022-07-31 07:01:14,419] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:01:14,441] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.132 seconds
+[2022-07-31 07:01:45,610] {processor.py:153} INFO - Started process (PID=1076) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:45,615] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:01:45,619] {logging_mixin.py:115} INFO - [2022-07-31 07:01:45,619] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:45,631] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:01:45,672] {logging_mixin.py:115} INFO - [2022-07-31 07:01:45,671] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:45,710] {logging_mixin.py:115} INFO - [2022-07-31 07:01:45,710] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:01:45,728] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.124 seconds
+[2022-07-31 07:02:17,019] {processor.py:153} INFO - Started process (PID=1150) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:17,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:02:17,047] {logging_mixin.py:115} INFO - [2022-07-31 07:02:17,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:17,056] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:17,119] {logging_mixin.py:115} INFO - [2022-07-31 07:02:17,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:17,190] {logging_mixin.py:115} INFO - [2022-07-31 07:02:17,190] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:02:17,223] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.226 seconds
+[2022-07-31 07:02:48,315] {processor.py:153} INFO - Started process (PID=1229) to work on /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:48,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/start_after_current.py for tasks to queue
+[2022-07-31 07:02:48,316] {logging_mixin.py:115} INFO - [2022-07-31 07:02:48,316] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:48,327] {processor.py:651} INFO - DAG(s) dict_keys(['start_after_current']) retrieved from /opt/airflow/dags/basic_dags/start_after_current.py
+[2022-07-31 07:02:48,393] {logging_mixin.py:115} INFO - [2022-07-31 07:02:48,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:48,485] {logging_mixin.py:115} INFO - [2022-07-31 07:02:48,485] {dag.py:2931} INFO - Setting next_dagrun for start_after_current to 2022-07-26T08:55:00+00:00, run_after=2022-07-26T09:00:00+00:00
+[2022-07-31 07:02:48,540] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/start_after_current.py took 0.229 seconds

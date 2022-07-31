@@ -103,3 +103,121 @@
 [2022-07-31 04:42:55,175] {logging_mixin.py:115} INFO - [2022-07-31 04:42:55,174] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-07-31 04:42:55,216] {logging_mixin.py:115} INFO - [2022-07-31 04:42:55,216] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 04:42:55,235] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.120 seconds
+[2022-07-31 06:54:55,000] {processor.py:153} INFO - Started process (PID=78) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:54:55,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:54:55,022] {logging_mixin.py:115} INFO - [2022-07-31 06:54:55,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:54:55,136] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:54:55,342] {logging_mixin.py:115} INFO - [2022-07-31 06:54:55,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:54:55,510] {logging_mixin.py:115} INFO - [2022-07-31 06:54:55,509] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:54:55,599] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.631 seconds
+[2022-07-31 06:55:26,331] {processor.py:153} INFO - Started process (PID=147) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:26,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:55:26,333] {logging_mixin.py:115} INFO - [2022-07-31 06:55:26,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:26,392] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:26,547] {logging_mixin.py:115} INFO - [2022-07-31 06:55:26,547] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:26,815] {logging_mixin.py:115} INFO - [2022-07-31 06:55:26,815] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:26,942] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.619 seconds
+[2022-07-31 06:55:57,357] {processor.py:153} INFO - Started process (PID=212) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:57,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:55:57,374] {logging_mixin.py:115} INFO - [2022-07-31 06:55:57,373] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:57,392] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:55:57,451] {logging_mixin.py:115} INFO - [2022-07-31 06:55:57,451] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:55:57,526] {logging_mixin.py:115} INFO - [2022-07-31 06:55:57,526] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:55:57,557] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.205 seconds
+[2022-07-31 06:56:28,037] {processor.py:153} INFO - Started process (PID=295) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:28,040] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:56:28,043] {logging_mixin.py:115} INFO - [2022-07-31 06:56:28,042] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:28,091] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:28,223] {logging_mixin.py:115} INFO - [2022-07-31 06:56:28,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:28,284] {logging_mixin.py:115} INFO - [2022-07-31 06:56:28,284] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:28,321] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.297 seconds
+[2022-07-31 06:56:58,966] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:58,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:56:58,991] {logging_mixin.py:115} INFO - [2022-07-31 06:56:58,991] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:59,040] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:56:59,320] {logging_mixin.py:115} INFO - [2022-07-31 06:56:59,320] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:56:59,430] {logging_mixin.py:115} INFO - [2022-07-31 06:56:59,430] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:56:59,518] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.572 seconds
+[2022-07-31 06:57:30,863] {processor.py:153} INFO - Started process (PID=448) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:57:30,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:57:30,864] {logging_mixin.py:115} INFO - [2022-07-31 06:57:30,864] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:57:30,906] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:57:31,026] {logging_mixin.py:115} INFO - [2022-07-31 06:57:31,026] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:57:31,093] {logging_mixin.py:115} INFO - [2022-07-31 06:57:31,093] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:57:31,158] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.317 seconds
+[2022-07-31 06:58:01,901] {processor.py:153} INFO - Started process (PID=520) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:01,901] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:58:01,902] {logging_mixin.py:115} INFO - [2022-07-31 06:58:01,902] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:01,914] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:01,947] {logging_mixin.py:115} INFO - [2022-07-31 06:58:01,947] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:01,981] {logging_mixin.py:115} INFO - [2022-07-31 06:58:01,981] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:02,000] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.104 seconds
+[2022-07-31 06:58:33,570] {processor.py:153} INFO - Started process (PID=599) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:33,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:58:33,586] {logging_mixin.py:115} INFO - [2022-07-31 06:58:33,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:33,660] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:58:33,827] {logging_mixin.py:115} INFO - [2022-07-31 06:58:33,827] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:58:33,966] {logging_mixin.py:115} INFO - [2022-07-31 06:58:33,966] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:58:34,044] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.497 seconds
+[2022-07-31 06:59:04,623] {processor.py:153} INFO - Started process (PID=678) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:04,625] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:59:04,630] {logging_mixin.py:115} INFO - [2022-07-31 06:59:04,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:04,642] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:04,679] {logging_mixin.py:115} INFO - [2022-07-31 06:59:04,679] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:04,718] {logging_mixin.py:115} INFO - [2022-07-31 06:59:04,718] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:04,742] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.123 seconds
+[2022-07-31 06:59:35,745] {processor.py:153} INFO - Started process (PID=750) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:35,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 06:59:35,753] {logging_mixin.py:115} INFO - [2022-07-31 06:59:35,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:35,781] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 06:59:35,839] {logging_mixin.py:115} INFO - [2022-07-31 06:59:35,839] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 06:59:35,888] {logging_mixin.py:115} INFO - [2022-07-31 06:59:35,888] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 06:59:35,919] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.181 seconds
+[2022-07-31 07:00:06,484] {processor.py:153} INFO - Started process (PID=834) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:06,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:00:06,487] {logging_mixin.py:115} INFO - [2022-07-31 07:00:06,487] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:06,513] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:06,583] {logging_mixin.py:115} INFO - [2022-07-31 07:00:06,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:06,662] {logging_mixin.py:115} INFO - [2022-07-31 07:00:06,662] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:07,073] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.601 seconds
+[2022-07-31 07:00:37,369] {processor.py:153} INFO - Started process (PID=906) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:37,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:00:37,371] {logging_mixin.py:115} INFO - [2022-07-31 07:00:37,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:37,382] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:00:37,443] {logging_mixin.py:115} INFO - [2022-07-31 07:00:37,442] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:00:37,493] {logging_mixin.py:115} INFO - [2022-07-31 07:00:37,493] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:00:37,738] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.374 seconds
+[2022-07-31 07:01:08,093] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:08,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:01:08,098] {logging_mixin.py:115} INFO - [2022-07-31 07:01:08,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:08,146] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:08,252] {logging_mixin.py:115} INFO - [2022-07-31 07:01:08,252] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:08,365] {logging_mixin.py:115} INFO - [2022-07-31 07:01:08,365] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:09,011] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.934 seconds
+[2022-07-31 07:01:39,117] {processor.py:153} INFO - Started process (PID=1060) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:39,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:01:39,118] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:39,151] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:01:39,214] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,214] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:01:39,287] {logging_mixin.py:115} INFO - [2022-07-31 07:01:39,286] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:01:39,639] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.537 seconds
+[2022-07-31 07:02:10,004] {processor.py:153} INFO - Started process (PID=1134) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:10,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:02:10,007] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,007] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:10,021] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:10,058] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:10,100] {logging_mixin.py:115} INFO - [2022-07-31 07:02:10,099] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:10,301] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.301 seconds
+[2022-07-31 07:02:40,700] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:40,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:02:40,701] {logging_mixin.py:115} INFO - [2022-07-31 07:02:40,701] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:40,713] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:02:40,749] {logging_mixin.py:115} INFO - [2022-07-31 07:02:40,748] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:02:40,788] {logging_mixin.py:115} INFO - [2022-07-31 07:02:40,788] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 07:02:41,031] {processor.py:161} INFO - Processing /opt/airflow/dags/task_group/task_group.py took 0.335 seconds
+[2022-07-31 07:03:11,234] {processor.py:153} INFO - Started process (PID=1277) to work on /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:03:11,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/task_group/task_group.py for tasks to queue
+[2022-07-31 07:03:11,240] {logging_mixin.py:115} INFO - [2022-07-31 07:03:11,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:03:11,253] {processor.py:651} INFO - DAG(s) dict_keys(['task_group']) retrieved from /opt/airflow/dags/task_group/task_group.py
+[2022-07-31 07:03:11,370] {logging_mixin.py:115} INFO - [2022-07-31 07:03:11,370] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 07:03:11,564] {logging_mixin.py:115} INFO - [2022-07-31 07:03:11,564] {dag.py:2931} INFO - Setting next_dagrun for task_group to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
