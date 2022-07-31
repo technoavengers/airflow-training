@@ -1,0 +1,105 @@
+[2022-07-31 04:35:48,862] {processor.py:153} INFO - Started process (PID=83) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:35:48,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:35:48,870] {logging_mixin.py:115} INFO - [2022-07-31 04:35:48,870] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:35:48,911] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:35:49,034] {logging_mixin.py:115} INFO - [2022-07-31 04:35:49,034] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:35:49,143] {logging_mixin.py:115} INFO - [2022-07-31 04:35:49,143] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:35:49,192] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.346 seconds
+[2022-07-31 04:36:20,043] {processor.py:153} INFO - Started process (PID=157) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:20,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:36:20,049] {logging_mixin.py:115} INFO - [2022-07-31 04:36:20,049] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:20,084] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:20,121] {logging_mixin.py:115} INFO - [2022-07-31 04:36:20,120] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:36:20,163] {logging_mixin.py:115} INFO - [2022-07-31 04:36:20,163] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:36:20,183] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.154 seconds
+[2022-07-31 04:36:50,253] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:50,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:36:50,273] {logging_mixin.py:115} INFO - [2022-07-31 04:36:50,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:50,415] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:36:50,621] {logging_mixin.py:115} INFO - [2022-07-31 04:36:50,620] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:36:50,767] {logging_mixin.py:115} INFO - [2022-07-31 04:36:50,767] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:36:50,782] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.549 seconds
+[2022-07-31 04:37:21,348] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:21,358] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:37:21,361] {logging_mixin.py:115} INFO - [2022-07-31 04:37:21,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:21,443] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:21,550] {logging_mixin.py:115} INFO - [2022-07-31 04:37:21,550] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:37:21,647] {logging_mixin.py:115} INFO - [2022-07-31 04:37:21,647] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:37:21,701] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.358 seconds
+[2022-07-31 04:37:52,119] {processor.py:153} INFO - Started process (PID=388) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:52,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:37:52,127] {logging_mixin.py:115} INFO - [2022-07-31 04:37:52,126] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:52,146] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:37:52,194] {logging_mixin.py:115} INFO - [2022-07-31 04:37:52,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:37:52,243] {logging_mixin.py:115} INFO - [2022-07-31 04:37:52,242] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:37:52,263] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.149 seconds
+[2022-07-31 04:38:22,348] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:22,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:38:22,350] {logging_mixin.py:115} INFO - [2022-07-31 04:38:22,350] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:22,360] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:22,383] {logging_mixin.py:115} INFO - [2022-07-31 04:38:22,383] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:38:22,406] {logging_mixin.py:115} INFO - [2022-07-31 04:38:22,406] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:38:22,419] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.073 seconds
+[2022-07-31 04:38:52,888] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:52,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:38:52,890] {logging_mixin.py:115} INFO - [2022-07-31 04:38:52,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:52,899] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:38:52,924] {logging_mixin.py:115} INFO - [2022-07-31 04:38:52,923] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:38:52,950] {logging_mixin.py:115} INFO - [2022-07-31 04:38:52,950] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:38:52,962] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.078 seconds
+[2022-07-31 04:39:23,105] {processor.py:153} INFO - Started process (PID=612) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:23,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:39:23,112] {logging_mixin.py:115} INFO - [2022-07-31 04:39:23,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:23,130] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:23,249] {logging_mixin.py:115} INFO - [2022-07-31 04:39:23,248] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:39:23,288] {logging_mixin.py:115} INFO - [2022-07-31 04:39:23,288] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:39:23,310] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.210 seconds
+[2022-07-31 04:39:53,781] {processor.py:153} INFO - Started process (PID=689) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:53,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:39:53,787] {logging_mixin.py:115} INFO - [2022-07-31 04:39:53,787] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:53,820] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:39:53,930] {logging_mixin.py:115} INFO - [2022-07-31 04:39:53,930] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:39:54,043] {logging_mixin.py:115} INFO - [2022-07-31 04:39:54,042] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:39:54,099] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.335 seconds
+[2022-07-31 04:40:24,521] {processor.py:153} INFO - Started process (PID=765) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:24,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:40:24,527] {logging_mixin.py:115} INFO - [2022-07-31 04:40:24,527] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:24,573] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:24,642] {logging_mixin.py:115} INFO - [2022-07-31 04:40:24,642] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:40:24,720] {logging_mixin.py:115} INFO - [2022-07-31 04:40:24,720] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:40:24,755] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.237 seconds
+[2022-07-31 04:40:55,107] {processor.py:153} INFO - Started process (PID=837) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:55,122] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:40:55,123] {logging_mixin.py:115} INFO - [2022-07-31 04:40:55,122] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:55,134] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:40:55,200] {logging_mixin.py:115} INFO - [2022-07-31 04:40:55,199] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:40:55,272] {logging_mixin.py:115} INFO - [2022-07-31 04:40:55,272] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:40:55,302] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.199 seconds
+[2022-07-31 04:41:25,516] {processor.py:153} INFO - Started process (PID=923) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:25,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:41:25,543] {logging_mixin.py:115} INFO - [2022-07-31 04:41:25,543] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:25,585] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:25,671] {logging_mixin.py:115} INFO - [2022-07-31 04:41:25,670] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:41:25,787] {logging_mixin.py:115} INFO - [2022-07-31 04:41:25,773] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:41:25,863] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.350 seconds
+[2022-07-31 04:41:56,789] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:56,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:41:56,796] {logging_mixin.py:115} INFO - [2022-07-31 04:41:56,796] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:56,816] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:41:56,902] {logging_mixin.py:115} INFO - [2022-07-31 04:41:56,902] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:41:56,969] {logging_mixin.py:115} INFO - [2022-07-31 04:41:56,969] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:41:57,020] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.235 seconds
+[2022-07-31 04:42:27,278] {processor.py:153} INFO - Started process (PID=1078) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:27,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:42:27,298] {logging_mixin.py:115} INFO - [2022-07-31 04:42:27,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:27,324] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:27,395] {logging_mixin.py:115} INFO - [2022-07-31 04:42:27,395] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:42:27,444] {logging_mixin.py:115} INFO - [2022-07-31 04:42:27,444] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:42:27,461] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.187 seconds
+[2022-07-31 04:42:57,516] {processor.py:153} INFO - Started process (PID=1152) to work on /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:57,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/dags_failure_success.py for tasks to queue
+[2022-07-31 04:42:57,521] {logging_mixin.py:115} INFO - [2022-07-31 04:42:57,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:57,544] {processor.py:651} INFO - DAG(s) dict_keys(['dags_success_faiure_callback']) retrieved from /opt/airflow/dags/basic_dags/dags_failure_success.py
+[2022-07-31 04:42:57,616] {logging_mixin.py:115} INFO - [2022-07-31 04:42:57,616] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:42:57,690] {logging_mixin.py:115} INFO - [2022-07-31 04:42:57,690] {dag.py:2931} INFO - Setting next_dagrun for dags_success_faiure_callback to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:42:57,711] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/dags_failure_success.py took 0.199 seconds

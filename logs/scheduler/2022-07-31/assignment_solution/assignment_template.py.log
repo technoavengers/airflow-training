@@ -1,0 +1,238 @@
+[2022-07-31 04:36:01,245] {processor.py:153} INFO - Started process (PID=114) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:01,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:36:01,267] {logging_mixin.py:115} INFO - [2022-07-31 04:36:01,267] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:01,294] {logging_mixin.py:115} INFO - [2022-07-31 04:36:01,286] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:36:01,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:01,489] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.264 seconds
+[2022-07-31 04:36:32,072] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:32,073] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:36:32,073] {logging_mixin.py:115} INFO - [2022-07-31 04:36:32,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:32,077] {logging_mixin.py:115} INFO - [2022-07-31 04:36:32,075] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:36:32,078] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:36:32,103] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.035 seconds
+[2022-07-31 04:37:02,196] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:02,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:37:02,198] {logging_mixin.py:115} INFO - [2022-07-31 04:37:02,198] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:02,200] {logging_mixin.py:115} INFO - [2022-07-31 04:37:02,199] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:37:02,200] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:02,223] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.030 seconds
+[2022-07-31 04:37:32,775] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:32,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:37:32,779] {logging_mixin.py:115} INFO - [2022-07-31 04:37:32,779] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:32,782] {logging_mixin.py:115} INFO - [2022-07-31 04:37:32,782] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:37:32,785] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:37:32,812] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.041 seconds
+[2022-07-31 04:38:03,293] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:03,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:38:03,297] {logging_mixin.py:115} INFO - [2022-07-31 04:38:03,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:03,303] {logging_mixin.py:115} INFO - [2022-07-31 04:38:03,302] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:38:03,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:03,338] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.049 seconds
+[2022-07-31 04:38:33,643] {processor.py:153} INFO - Started process (PID=490) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:33,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:38:33,662] {logging_mixin.py:115} INFO - [2022-07-31 04:38:33,662] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:33,687] {logging_mixin.py:115} INFO - [2022-07-31 04:38:33,686] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:38:33,691] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:38:33,738] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.100 seconds
+[2022-07-31 04:39:04,696] {processor.py:153} INFO - Started process (PID=572) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:04,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:39:04,700] {logging_mixin.py:115} INFO - [2022-07-31 04:39:04,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:04,703] {logging_mixin.py:115} INFO - [2022-07-31 04:39:04,703] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:39:04,705] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:04,733] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.042 seconds
+[2022-07-31 04:39:35,216] {processor.py:153} INFO - Started process (PID=643) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:35,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:39:35,244] {logging_mixin.py:115} INFO - [2022-07-31 04:39:35,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:35,271] {logging_mixin.py:115} INFO - [2022-07-31 04:39:35,255] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:39:35,279] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:39:35,387] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.209 seconds
+[2022-07-31 04:40:05,576] {processor.py:153} INFO - Started process (PID=714) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:05,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:40:05,583] {logging_mixin.py:115} INFO - [2022-07-31 04:40:05,583] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:05,587] {logging_mixin.py:115} INFO - [2022-07-31 04:40:05,586] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:40:05,587] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:05,640] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.071 seconds
+[2022-07-31 04:40:36,230] {processor.py:153} INFO - Started process (PID=796) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:36,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:40:36,247] {logging_mixin.py:115} INFO - [2022-07-31 04:40:36,246] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:36,251] {logging_mixin.py:115} INFO - [2022-07-31 04:40:36,250] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:40:36,251] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:40:36,285] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.059 seconds
+[2022-07-31 04:41:07,116] {processor.py:153} INFO - Started process (PID=870) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:07,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:41:07,120] {logging_mixin.py:115} INFO - [2022-07-31 04:41:07,120] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:07,124] {logging_mixin.py:115} INFO - [2022-07-31 04:41:07,123] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:41:07,126] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:07,167] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.068 seconds
+[2022-07-31 04:41:37,338] {processor.py:153} INFO - Started process (PID=955) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:37,344] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:41:37,347] {logging_mixin.py:115} INFO - [2022-07-31 04:41:37,346] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:37,352] {logging_mixin.py:115} INFO - [2022-07-31 04:41:37,351] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:41:37,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:41:37,412] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.078 seconds
+[2022-07-31 04:42:07,859] {processor.py:153} INFO - Started process (PID=1027) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:07,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:42:07,862] {logging_mixin.py:115} INFO - [2022-07-31 04:42:07,862] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:07,868] {logging_mixin.py:115} INFO - [2022-07-31 04:42:07,864] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:42:07,869] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:07,910] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.060 seconds
+[2022-07-31 04:42:38,843] {processor.py:153} INFO - Started process (PID=1109) to work on /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:38,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/assignment_solution/assignment_template.py for tasks to queue
+[2022-07-31 04:42:38,853] {logging_mixin.py:115} INFO - [2022-07-31 04:42:38,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:38,857] {logging_mixin.py:115} INFO - [2022-07-31 04:42:38,856] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/assignment_solution/assignment_template.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/assignment_solution/assignment_template.py", line 50
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-07-31 04:42:38,862] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/assignment_solution/assignment_template.py
+[2022-07-31 04:42:38,947] {processor.py:161} INFO - Processing /opt/airflow/dags/assignment_solution/assignment_template.py took 0.109 seconds

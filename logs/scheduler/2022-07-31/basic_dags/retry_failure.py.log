@@ -1,0 +1,98 @@
+[2022-07-31 04:35:50,407] {processor.py:153} INFO - Started process (PID=88) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:35:50,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:35:50,409] {logging_mixin.py:115} INFO - [2022-07-31 04:35:50,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:35:50,445] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:35:50,609] {logging_mixin.py:115} INFO - [2022-07-31 04:35:50,609] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:35:50,762] {logging_mixin.py:115} INFO - [2022-07-31 04:35:50,762] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:35:50,830] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.435 seconds
+[2022-07-31 04:36:21,478] {processor.py:153} INFO - Started process (PID=162) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:21,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:36:21,479] {logging_mixin.py:115} INFO - [2022-07-31 04:36:21,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:21,489] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:21,558] {logging_mixin.py:115} INFO - [2022-07-31 04:36:21,558] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:36:21,721] {logging_mixin.py:115} INFO - [2022-07-31 04:36:21,721] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:36:21,736] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.271 seconds
+[2022-07-31 04:36:52,416] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:52,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:36:52,430] {logging_mixin.py:115} INFO - [2022-07-31 04:36:52,430] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:52,468] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:36:52,550] {logging_mixin.py:115} INFO - [2022-07-31 04:36:52,550] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:36:52,669] {logging_mixin.py:115} INFO - [2022-07-31 04:36:52,669] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:36:52,714] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.318 seconds
+[2022-07-31 04:37:23,296] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:23,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:37:23,310] {logging_mixin.py:115} INFO - [2022-07-31 04:37:23,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:23,340] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:23,372] {logging_mixin.py:115} INFO - [2022-07-31 04:37:23,372] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:37:23,409] {logging_mixin.py:115} INFO - [2022-07-31 04:37:23,408] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:37:23,428] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.146 seconds
+[2022-07-31 04:37:53,537] {processor.py:153} INFO - Started process (PID=393) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:53,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:37:53,544] {logging_mixin.py:115} INFO - [2022-07-31 04:37:53,544] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:53,556] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:37:53,619] {logging_mixin.py:115} INFO - [2022-07-31 04:37:53,619] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:37:53,780] {logging_mixin.py:115} INFO - [2022-07-31 04:37:53,780] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:37:53,794] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.260 seconds
+[2022-07-31 04:38:23,941] {processor.py:153} INFO - Started process (PID=464) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:23,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:38:23,951] {logging_mixin.py:115} INFO - [2022-07-31 04:38:23,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:23,995] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:24,099] {logging_mixin.py:115} INFO - [2022-07-31 04:38:24,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:38:24,178] {logging_mixin.py:115} INFO - [2022-07-31 04:38:24,178] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:38:24,238] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.304 seconds
+[2022-07-31 04:38:55,192] {processor.py:153} INFO - Started process (PID=545) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:55,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:38:55,199] {logging_mixin.py:115} INFO - [2022-07-31 04:38:55,199] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:55,223] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:38:55,247] {logging_mixin.py:115} INFO - [2022-07-31 04:38:55,247] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:38:55,297] {logging_mixin.py:115} INFO - [2022-07-31 04:38:55,296] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:38:55,331] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.144 seconds
+[2022-07-31 04:39:25,486] {processor.py:153} INFO - Started process (PID=617) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:25,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:39:25,496] {logging_mixin.py:115} INFO - [2022-07-31 04:39:25,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:25,516] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:25,841] {logging_mixin.py:115} INFO - [2022-07-31 04:39:25,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:39:26,665] {logging_mixin.py:115} INFO - [2022-07-31 04:39:26,664] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:39:26,750] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 1.268 seconds
+[2022-07-31 04:39:56,804] {processor.py:153} INFO - Started process (PID=699) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:56,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:39:56,806] {logging_mixin.py:115} INFO - [2022-07-31 04:39:56,806] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:56,819] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:39:56,852] {logging_mixin.py:115} INFO - [2022-07-31 04:39:56,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:39:56,876] {logging_mixin.py:115} INFO - [2022-07-31 04:39:56,876] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:39:56,898] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.097 seconds
+[2022-07-31 04:40:26,940] {processor.py:153} INFO - Started process (PID=770) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:26,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:40:26,941] {logging_mixin.py:115} INFO - [2022-07-31 04:40:26,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:26,953] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:26,975] {logging_mixin.py:115} INFO - [2022-07-31 04:40:26,975] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:40:27,012] {logging_mixin.py:115} INFO - [2022-07-31 04:40:27,012] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:40:27,031] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.095 seconds
+[2022-07-31 04:40:57,548] {processor.py:153} INFO - Started process (PID=842) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:57,549] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:40:57,549] {logging_mixin.py:115} INFO - [2022-07-31 04:40:57,549] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:57,569] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:40:57,809] {logging_mixin.py:115} INFO - [2022-07-31 04:40:57,809] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:40:58,331] {logging_mixin.py:115} INFO - [2022-07-31 04:40:58,331] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:40:58,364] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.828 seconds
+[2022-07-31 04:41:29,094] {processor.py:153} INFO - Started process (PID=929) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:29,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:41:29,104] {logging_mixin.py:115} INFO - [2022-07-31 04:41:29,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:29,139] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:29,269] {logging_mixin.py:115} INFO - [2022-07-31 04:41:29,269] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:41:29,334] {logging_mixin.py:115} INFO - [2022-07-31 04:41:29,332] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:41:29,374] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.284 seconds
+[2022-07-31 04:41:59,676] {processor.py:153} INFO - Started process (PID=1003) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:59,681] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:41:59,684] {logging_mixin.py:115} INFO - [2022-07-31 04:41:59,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:59,716] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:41:59,742] {logging_mixin.py:115} INFO - [2022-07-31 04:41:59,742] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:41:59,816] {logging_mixin.py:115} INFO - [2022-07-31 04:41:59,816] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:41:59,851] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.187 seconds
+[2022-07-31 04:42:30,803] {processor.py:153} INFO - Started process (PID=1084) to work on /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:42:30,812] {processor.py:641} INFO - Processing file /opt/airflow/dags/basic_dags/retry_failure.py for tasks to queue
+[2022-07-31 04:42:30,816] {logging_mixin.py:115} INFO - [2022-07-31 04:42:30,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:42:30,857] {processor.py:651} INFO - DAG(s) dict_keys(['retry_tasks']) retrieved from /opt/airflow/dags/basic_dags/retry_failure.py
+[2022-07-31 04:42:31,031] {logging_mixin.py:115} INFO - [2022-07-31 04:42:31,031] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-31 04:42:31,602] {logging_mixin.py:115} INFO - [2022-07-31 04:42:31,601] {dag.py:2931} INFO - Setting next_dagrun for retry_tasks to 2022-07-24T06:00:00+00:00, run_after=2022-07-24T07:00:00+00:00
+[2022-07-31 04:42:31,670] {processor.py:161} INFO - Processing /opt/airflow/dags/basic_dags/retry_failure.py took 0.875 seconds

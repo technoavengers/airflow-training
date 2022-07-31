@@ -1,1 +1,0 @@
-echo "Today is {{ execution_date.format('dddd') }}"
