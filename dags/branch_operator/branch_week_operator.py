@@ -10,19 +10,23 @@ with DAG ('week_branch_operator', start_date=datetime(2022,1,1),
     
     branch = BranchDayOfWeekOperator(
         task_id="branch_week_choice",
-        follow_task_ids_if_true="branch_friday",
+        follow_task_ids_if_true="branch_tuesday",
         follow_task_ids_if_false="branch_others",
-        week_day="Friday",
+        week_day="Tuesday",
     )
     
     
-    branch_friday = DummyOperator(
-            task_id='branch_friday',
+    branch_tuesday = DummyOperator(
+            task_id='branch_tuesday',
         )
         
     branch_others = DummyOperator(
             task_id='branch_others',
         )
         
+    notify = DummyOperator(
+            task_id='notify_users',
+        )
         
-    branch >> [branch_friday,branch_others]
+        
+    branch >> [branch_tuesday,branch_others] >> notify
