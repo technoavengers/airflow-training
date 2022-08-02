@@ -30,17 +30,17 @@ with DAG(dag_id="postgres_operator", schedule_interval="@daily", default_args=de
         task_id='insert_data',
         postgres_conn_id='postgres',
         sql='''
-            INSERT INTO sample (id) VALUES(%(id)s);''',
-        parameters = {
-            'id': '{{ti.xcom_pull(task_ids=["generate_id"])}}'
-        }
+            INSERT INTO sample123 (id) VALUES(23);'''
+        #parameters = {
+        #    'id': '{{ti.xcom_pull(task_ids=["generate_id"])}}'
+        #}
         )
 
     show_values = PostgresOperator(
         task_id='show_data',
         postgres_conn_id='postgres',
         sql='''
-            SELECT * FROM sample;'''
+            SELECT * FROM sample123;'''
         )
 
-    create_table >> generate_id() >>insert_data >> show_values    
+    create_table >> insert_data >> show_values    
