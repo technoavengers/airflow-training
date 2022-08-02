@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXISTS sample (id varchar(25))
+CREATE TABLE IF NOT EXISTS sample123 (id varchar(25))
