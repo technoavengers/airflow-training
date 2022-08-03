@@ -34,7 +34,8 @@ with DAG(dag_id="postgres_dynamic", schedule_interval="@daily", default_args=def
             INSERT INTO customers (username,email) VALUES(%(username)s,%(email)s);''',
         parameters = {
             'username': '{{var.value.username}}',
-            'email': '{{ti.xcom_pull(task_ids=["process_user"])}}'
+            'email': '{{var.value.email}}'
+            #'email': '{{ti.xcom_pull(task_ids=["process_user"])}}'
         }
         )
 
@@ -42,7 +43,7 @@ with DAG(dag_id="postgres_dynamic", schedule_interval="@daily", default_args=def
         task_id='show_data',
         postgres_conn_id='postgres',
         sql='''
-            SELECT * FROM sample;'''
+            SELECT * FROM customers;'''
         )
 
     create_table >> get_email() >> insert_data >> show_values    
