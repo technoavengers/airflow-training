@@ -10,7 +10,7 @@ default_args = {
             "depends_on_past": False
         }
 
-with DAG(dag_id="bash_operator1", schedule_interval="@daily", default_args=default_args,tags=['operators']) as dag:
+with DAG(dag_id="bash_operator1", schedule_interval="@hourly", default_args=default_args,tags=['operators']) as dag:
 
 
     t1 = BashOperator(
@@ -22,6 +22,6 @@ with DAG(dag_id="bash_operator1", schedule_interval="@daily", default_args=defau
         i = str(i)
         task = BashOperator(
             task_id='runme_'+i,
-            bash_command='echo "{{ task_instance_key_str }}" && sleep 1',
+            bash_command='echo "{{ task_instance_key_str }}" && sleep 15',
             dag=dag)
         task.set_downstream(t1) 
