@@ -1,0 +1,15 @@
+executor: "KubernetesExecutor"
+webserver:
+    replicas: 2
+    service:
+        type: LoadBalancer
+dags:
+    gitSync:
+        enabled: true
+        repo: git@github.com:technoavengers/airflow-training.git
+        branch: main
+        subPath: "dags"
+        sshKeySecret: airflow-git-private
+        
+        
+    

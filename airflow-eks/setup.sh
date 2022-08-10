@@ -1,0 +1,130 @@
+# Download and extract the latest release of eksctl $ setup on local machine
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+sudo mv /tmp/eksctl /usr/local/bin
+eksctl version
+
+
+# Download the latest release of Kubectl & setup on local machine 
+curl -o kubectl https://s3.us-west-2.amazonaws.com/amazon-eks/1.20.4/2021-04-12/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+kubectl version --client
+
+# Install aws packages
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install
+
+
+# Install Helm3 and helm repo
+curl -L https://git.io/get_helm.sh | bash -s -- --version v3.8.2
+helm version --short
+
+
+# Create IAM role with permissions defined at below link
+# https://eksctl.io/usage/minimum-iam-policies/
+# Attach that role with running EC2 & disable temporary credentials
+
+# Create the cluster
+eksctl create cluster -f cluster.yml
+
+
+# Install Airflow on Kubernetehelm repo add apache-airflow https://airflow.apache.org
+kubectl create namespace airflow
+helm repo add apache-airflow https://airflow.apache.org
+helm pull apache-airflow/airflow --untar
+helm upgrade --install airflow apache-airflow/airflow --namespace 
+cd airflow
+helm upgrade --install airflow apache-airflow/airflow --namespace airflow -f custom-values.yaml
+helm uninstall airflow  --namespace airflow
+
+
+# Changing Executor to Kubernetes executor
+executor: "KubernetesExecutor"
+
+# Git-Sync Dags From Public Repo
+
+dags:
+    gitSync:
+        enabled: true
+        repo: https://github.com/technoavengers/airflow-training.git
+        branch: main
+        subPath: "dags"
+        
+# Git-Sync Dags From Private Repo
+    ssh-keygen
+    ## Copy the public key , go to private github repo- settings - deploy keys - add deploy key - add public key here
+    kubectl create secret generic airflow-git-private -n airflow --from-file=gitSshKey=./private-git
+    # modify values.yaml with below
+    dags:
+    gitSync:
+        enabled: true
+        repo: git@github.com:technoavengers/airflow-training.git
+        branch: main
+        subPath: "dags"
+        sshKeySecret: airflow-git-private
+        
+# Exposing WebServer with LoadBalancer Service, running more replicas for higher availability
+
+webserver:
+    replicas: 2
+    service:
+        type: LoadBalancer
+        
+# Enable Remote Logging in Airflow
+env: 
+ - name: "AIRFLOW__CORE__REMOTE_LOGGING"
+   value: "True"
+ - name: "AIRFLOW__CORE__REMOTE_LOG_CONN_ID"
+   value: "airflow_s3_conn"
+ - name: "AIRFLOW__CORE__REMOTE_BASE_LOG_FOLDER"
+   value: "s3://sample-220161"
+ - name: "AIRFLOW_CONN_AIRFLOW_S3_CONN"
+   value: "s3://?aws_access_key_id=AKIAT2A3XQE63DYCF5XN&aws_secret_access_key=/QxqBsLSQjNmYM8f4BGsf3B/kGeHW8XSI/KLUC0e"
+
+
+# Adding a Secrets Backend
+# checkout available backend secrets available at https://github.com/apache/airflow/tree/main/airflow/contrib/secrets
+# Create a user in IAM with permissions to use aws secret backend manager, download credentials
+# Create a Kubernetes secret with above credentials
+kubectl create secret generic airflow-secret-backend -n airflow \
+    --from-literal=aws-default-region='us-east-1' \
+    --from-literal=aws-access-key-id='AKIAT2A3XQE63VYATB7K' \
+    --from-literal=aws-secret-access-key='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'
+
+#Add below environment variable to add secret backend    
+ - name: "AIRFLOW__SECRETS_BACKEND"
+   value: "airflow.contrib.secrets.aws_secret_manager.SecretsManagerBackend"
+ - name: "AIRFLOW__SECRETS_BACKEND_KWARGS"
+   value: "{'connections_prefix': 'airflow/connections'}"
+
+#define secrets to be fetched as environment variables in pod to talk to secret backend
+secret:
+    - envName: "AWS_DEFAULT_REGION"
+      secretName: "airflow-secret-backend"
+      secretKey: "aws-default-region"
+    - envName: "AWS_ACCESS_KEY_ID"
+      secretName: "airflow-secret-backend"
+      secretKey: "aws-access-key-id"
+    - envName: "AWS_SECRET_ACCESS_KEY"
+      secretName: "airflow-secret-backend"
+      secretKey: "aws-secret-access-key"
+      
+# create a connection in AWS Secret manager for below S3 connection that we create earlier
+#  "s3://?aws_access_key_id=AKIAT2A3XQE63DYCF5XN&aws_secret_access_key=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"
+
+# Using connection created in secret backend as remote logging connection to connect to S3
+
+
+
+### Create airflow metadata highly available with AWS RDS, Create RDS in same VPC as EKS
+postgresql:
+    enabled: false
+data:
+    metadataConnection:
+        user: postgres
+        password: postgres
+        host: #define aws rds connection here
+        port: 5432
+        db: ~
+# make security group of RDS same as EKS cluster
+# create admin user, attach to webserver pod & create user with airflow cli
+airflow create_user -r Admin -u admin -e admin@gmail.com -f admin -l admin -p admin

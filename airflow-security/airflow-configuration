@@ -1,0 +1,19 @@
+# Disable Adhoc Query from UI
+
+secure_mode = True
+
+# Define a fernet key
+# Go inside Webserver container
+# Generate Fernet Key with this command python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+# Add the fernet key
+
+fernet_key = UTtEw1lFLm68GRujf3_P1NEx9u_L_1zhn9citneBb_8=
+
+# Rotate fernet key
+# Add New fernet key
+# Go inside Webserver container
+airflow rotate_fernet_key
+
+
+# Hide Sensitive variables
+
