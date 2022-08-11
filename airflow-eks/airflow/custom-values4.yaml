@@ -1,7 +1,7 @@
 executor: "KubernetesExecutor"
 env: 
  - name: "AIRFLOW_CONN_AIRFLOW_S3_CONN"
-   value: "s3://?aws_access_key_id=AKIAT2A3XQE63DYCF5XN&aws_secret_access_key=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"
+   value: "s3://?aws_access_key_id=<access_key>&aws_secret_access_key=<secret_key>"
  - name: "AIRFLOW__CORE__REMOTE_LOGGING"
    value: "True"
  - name: "AIRFLOW__CORE__REMOTE_LOG_CONN_ID"
