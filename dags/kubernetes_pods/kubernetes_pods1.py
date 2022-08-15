@@ -17,11 +17,9 @@ with DAG(
 ) as dag:
 
 
-    testpod = KubernetesPodOperator(
-        task_id='testpod',
-        image="debian",
-        cmds=["bash", "-cx"],
-        arguments=["echo", "10"],
+    testpod1 = KubernetesPodOperator(
+        task_id='testpod1',
+        image="httpd",
         in_cluster=True,
         namespace='airflow',
         name='my_pod',
@@ -29,4 +27,4 @@ with DAG(
         log_events_on_failure=True,
         )
     
-    testpod
+    testpod1
