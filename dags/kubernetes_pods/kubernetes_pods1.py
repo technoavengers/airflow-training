@@ -12,7 +12,8 @@ with DAG(
     start_date=datetime(2022,6,1),
     catchup=False,
     schedule_interval='@daily',
-    dag_id='Kubernetes_pod_example1'
+    dag_id='Kubernetes_pod_example1',
+    tags=['kubernetes']
 ) as dag:
 
 
