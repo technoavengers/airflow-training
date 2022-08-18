@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config-map2
+data:
+  game_default_avatar : "hulk""
+  game_retry : "2"
+

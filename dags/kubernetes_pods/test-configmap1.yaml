@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config-map1
+data:
+  APP_COLOR: pink
+  LOCATION: US
+
