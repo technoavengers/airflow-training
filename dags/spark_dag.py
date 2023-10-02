@@ -20,7 +20,7 @@ spark_task = KubernetesPodOperator(
         '--master', 'k8s://https://127.0.0.1:58019',
         '--deploy-mode', 'cluster',
         '--num-executors', '1',  # Set the desired number of executors
-        '--service-account my-spark-sa',
+        '--service-account', 'my-spark-sa',
         '/opt/spark/app/myspark.jar'
     ],
     name="spark-task",
