@@ -17,11 +17,12 @@ spark_task = KubernetesPodOperator(
     cmds=["spark-submit"],
     arguments=[
         '--class', 'InMemoryDataset',
-        '--master', 'k8s://https://127.0.0.1:58019',
+        '--master', 'k8s://http://127.0.0.1:58019',
         '--deploy-mode', 'cluster',
-        '--num-executors', '1',  # Set the desired number of executors
+        '--conf', 'spark.executor.instances=1',  # Set the desired number of executors
         '--conf', 'spark.kubernetes.authenticate.driver.serviceAccountName=my-spark-sa',
         '--conf', 'spark.kubernetes.driver.container.image=apache/spark:3.4.1',
+        '--conf', 'spark.kubernetes.container.image=apache/spark:3.4.1',
         '--conf','spark.kubernetes.file.upload.path=/opt/spark/temp',
         '/opt/spark/app/myspark.jar'
     ],
