@@ -17,7 +17,9 @@ spark_task = KubernetesPodOperator(
     cmds=["spark-submit"],
     arguments=[
         '--class', 'InMemoryDataset',
-        '--master', 'local[*]',
+        '--master', 'k8s://https://127.0.0.1:58019',
+        '--deploy-mode', 'cluster',
+        '--num-executors', '3',  # Set the desired number of executors
         '/opt/spark/app/myspark.jar'
     ],
     name="spark-task",
