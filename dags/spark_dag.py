@@ -15,7 +15,7 @@ spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
     image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
-    insecure_skip_tls_verify=True,
+    in_cluster=True,
     arguments=[
         '--class', 'InMemoryDataset',
         '--master', 'k8s://https://127.0.0.1:58019',
