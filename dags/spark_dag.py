@@ -15,9 +15,10 @@ spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
     image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
+    insecure_skip_tls_verify=True,
     arguments=[
         '--class', 'InMemoryDataset',
-        '--master', 'k8s://http://127.0.0.1:58019',
+        '--master', 'k8s://https://127.0.0.1:58019',
         '--deploy-mode', 'cluster',
         '--conf', 'spark.executor.instances=1',  # Set the desired number of executors
         '--conf', 'spark.kubernetes.authenticate.driver.serviceAccountName=my-spark-sa',
