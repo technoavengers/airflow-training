@@ -13,7 +13,7 @@ dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=
 
 spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
-    image="technoavengers/myspark_image:1.0",  # Docker image of your Spark application
+    image="technoavengers/myspark_image:2.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
     arguments=[
         '--class', 'InMemoryDataset',
