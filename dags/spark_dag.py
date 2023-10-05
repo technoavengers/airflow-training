@@ -15,13 +15,11 @@ dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=
 
 config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
+
 volume_mounts = [
-    {
-        'name': 'jar-volume',  # Choose a meaningful name
-        'mountPath': '/opt/spark/app',  # Specify the mount path within the pod
-        'subPath': None,  # Use None if you want to mount the entire volume
-    }
+    volume_mount(name='jar-volume', mount_path='/opt/spark/app')
 ]
+
 
 volumes = [
     {
