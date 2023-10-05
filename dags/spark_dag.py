@@ -15,7 +15,7 @@ spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
     image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
-    config_file='C:\\Users\\Navdeep\\.kube\\config',
+    config_file='C:\\Users\\Navdeep\\.minikube\\profiles\\minikube',
     service_account_name='my-spark-sa',
     arguments=[
         '--class', 'InMemoryDataset',
