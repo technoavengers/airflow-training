@@ -16,6 +16,8 @@ spark_task = KubernetesPodOperator(
     image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
     in_cluster=True,
+    config_file='C:\Users\Navdeep\.kube\config',
+    service_account_name='my-spark-sa',
     arguments=[
         '--class', 'InMemoryDataset',
         '--master', 'k8s://https://127.0.0.1:58019',
