@@ -1,6 +1,8 @@
 from airflow import DAG
 from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
 from datetime import datetime
+import os
+
 
 default_args = {
     'owner': 'your_name',
@@ -11,11 +13,13 @@ default_args = {
 
 dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=None)
 
+config_file = os.path.join('C:', 'Users', 'Navdeep', '.kube', 'config')
+
 spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
     image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
-    config_file='C:\\Users\\Navdeep\\.kube\\config',
+    config_file=config_file,
     service_account_name='my-spark-sa',
     arguments=[
         '--class', 'InMemoryDataset',
