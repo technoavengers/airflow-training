@@ -19,12 +19,12 @@ config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
 
 volume_mount = k8s.V1VolumeMount(
-    {"name"="jar-volume", "mount_path"="/opt/spark/app", "sub_path"=None, "read_only"=True}
+    {"name":"jar-volume", "mount_path":"/opt/spark/app", "sub_path":None, "read_only":True}
 )
 
 volume = k8s.V1Volume(
-   {"name"="jar-volume",
-    p"ersistent_volume_claim"=k8s.V1PersistentVolumeClaimVolumeSource(claim_name="my-pvc")}
+   {"name":"jar-volume",
+    "persistent_volume_claim":k8s.V1PersistentVolumeClaimVolumeSource(claim_name="my-pvc")}
 )
 
 
