@@ -34,8 +34,8 @@ spark_task = KubernetesPodOperator(
     image="technoavengers/myspark_image:4.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
     service_account_name='my-spark-sa',
-    volume_mounts=volume_mounts,
-    volumes=volumes,
+    volume_mounts=volume_mount,
+    volumes=volume,
     arguments=[
         '--class', 'InMemoryDataset',
         '--master', 'k8s://https://kubernetes.default.svc:443',
