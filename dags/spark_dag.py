@@ -16,19 +16,14 @@ dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=
 config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
 
-volume_mounts = [
-    volume_mount(name='jar-volume', mount_path='/opt/spark/app')
-]
+volume_mount = k8s.V1VolumeMount(
+    name="jar-volume", mount_path="/opt/spark/app", sub_path=None, read_only=True
+)
 
-
-volumes = [
-    {
-        'name': 'jar-volume',  # Use the same name as in volume_mounts
-        'persistentVolumeClaim': {
-            'claimName': 'my-pvc',  # Name of the PersistentVolumeClaim (PVC)
-        }
-    }
-]
+volume = k8s.V1Volume(
+    name="jar-volume",
+    persistent_volume_claim=k8s.V1PersistentVolumeClaimVolumeSource(claim_name="my-pvc"),
+)
 
 
 
