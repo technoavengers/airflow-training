@@ -13,7 +13,7 @@ default_args = {
 
 dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=None)
 
-config_file = os.path.join('C:', 'Users', 'Navdeep', '.kube', 'config')
+config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
 spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
