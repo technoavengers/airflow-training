@@ -15,11 +15,32 @@ dag = DAG('spark_application_dag', default_args=default_args, schedule_interval=
 
 config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
+volume_mounts = [
+    {
+        'name': 'jar-volume',  # Choose a meaningful name
+        'mountPath': '/opt/spark/app',  # Specify the mount path within the pod
+        'subPath': None,  # Use None if you want to mount the entire volume
+    }
+]
+
+volumes = [
+    {
+        'name': 'jar-volume',  # Use the same name as in volume_mounts
+        'persistentVolumeClaim': {
+            'claimName': 'my-pvc',  # Name of the PersistentVolumeClaim (PVC)
+        }
+    }
+]
+
+
+
 spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
     image="technoavengers/myspark_image:4.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
     service_account_name='my-spark-sa',
+    volume_mounts=volume_mounts,
+    volumes=volumes,
     arguments=[
         '--class', 'InMemoryDataset',
         '--master', 'k8s://https://kubernetes.default.svc:443',
