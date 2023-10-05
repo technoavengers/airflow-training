@@ -17,7 +17,7 @@ config_file = os.path.join('C:', 'Users', 'Navdeep', 'config')
 
 spark_task = KubernetesPodOperator(
     namespace='default',  # Replace with the appropriate namespace
-    image="technoavengers/myspark_image:3.0",  # Docker image of your Spark application
+    image="technoavengers/myspark_image:4.0",  # Docker image of your Spark application
     cmds=["spark-submit"],
     service_account_name='my-spark-sa',
     arguments=[
@@ -26,8 +26,8 @@ spark_task = KubernetesPodOperator(
         '--deploy-mode', 'client',
         '--conf', 'spark.executor.instances=2',  # Set the desired number of executors
         '--conf', 'spark.kubernetes.authenticate.driver.serviceAccountName=my-spark-sa',
-        '--conf', 'spark.kubernetes.driver.container.image=technoavengers/myspark_image:3.0',
-        '--conf', 'spark.kubernetes.container.image=technoavengers/myspark_image:3.0',
+        '--conf', 'spark.kubernetes.driver.container.image=technoavengers/myspark_image:4.0',
+        '--conf', 'spark.kubernetes.container.image=technoavengers/myspark_image:4.0',
         '--conf','spark.kubernetes.file.upload.path=/opt/spark/temp',
         '/opt/spark/app/myspark.jar'
     ],
