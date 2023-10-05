@@ -29,7 +29,7 @@ spark_task = KubernetesPodOperator(
         '--conf', 'spark.kubernetes.driver.container.image=technoavengers/myspark_image:4.0',
         '--conf', 'spark.kubernetes.container.image=technoavengers/myspark_image:4.0',
         '--conf','spark.kubernetes.file.upload.path=/opt/spark/temp',
-        '--files', '/opt/spark/app/myspark.ja',
+        '--files', '/opt/spark/app/myspark.jar',
         '/opt/spark/app/myspark.jar'
     ],
     name="spark-task",
