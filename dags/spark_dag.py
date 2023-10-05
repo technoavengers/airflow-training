@@ -24,7 +24,7 @@ spark_task = KubernetesPodOperator(
         '--class', 'InMemoryDataset',
         '--master', 'k8s://https://kubernetes.default.svc:443',
         '--deploy-mode', 'client',
-        '--conf', 'spark.executor.instances=1',  # Set the desired number of executors
+        '--conf', 'spark.executor.instances=2',  # Set the desired number of executors
         '--conf', 'spark.kubernetes.authenticate.driver.serviceAccountName=my-spark-sa',
         '--conf', 'spark.kubernetes.driver.container.image=technoavengers/myspark_image:3.0',
         '--conf', 'spark.kubernetes.container.image=technoavengers/myspark_image:3.0',
