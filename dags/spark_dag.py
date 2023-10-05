@@ -26,8 +26,8 @@ spark_task = KubernetesPodOperator(
         '--deploy-mode', 'cluster',
         '--conf', 'spark.executor.instances=1',  # Set the desired number of executors
         '--conf', 'spark.kubernetes.authenticate.driver.serviceAccountName=my-spark-sa',
-        '--conf', 'spark.kubernetes.driver.container.image=apache/spark:3.4.1',
-        '--conf', 'spark.kubernetes.container.image=apache/spark:3.4.1',
+        '--conf', 'spark.kubernetes.driver.container.image=technoavengers/myspark_image:3.0',
+        '--conf', 'spark.kubernetes.container.image=technoavengers/myspark_image:3.0',
         '--conf','spark.kubernetes.file.upload.path=/opt/spark/temp',
         '/opt/spark/app/myspark.jar'
     ],
