@@ -1635,7 +1635,7 @@ dags:
 logs:
   persistence:
     # Enable persistent volume for storing logs
-    enabled: false
+    enabled: true
     # Volume size for logs
     size: 10Gi
     # If using a custom storageClass, pass name here
