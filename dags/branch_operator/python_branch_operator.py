@@ -6,8 +6,18 @@ from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.utils.edgemodifier import Label
 
-with DAG ('python_branch_operator', start_date=datetime(2022,1,1),
-            schedule_interval='@daily', catchup=False,tags=['branch_operator']) as dag:
+def choose_branch(execution_date):
+    print(execution_date.weekday())
+    if execution_date.weekday()==0:
+        return 'branch_a'
+    if execution_date.weekday()==1:
+        return 'branch_b'
+    if execution_date.weekday()==4:
+        return 'branch_c'
+
+
+with DAG ('python_branch_operator_assignment', start_date=datetime(2022,1,1),
+            schedule_interval='@daily', catchup=False,tags=['assignment']) as dag:
     first_task = DummyOperator(
         task_id='first_task',
     )
@@ -16,7 +26,7 @@ with DAG ('python_branch_operator', start_date=datetime(2022,1,1),
 
     branching = BranchPythonOperator(
         task_id='branching',
-        python_callable=lambda: random.choice(options),
+        python_callable=choose_branch,
     )
     
     
