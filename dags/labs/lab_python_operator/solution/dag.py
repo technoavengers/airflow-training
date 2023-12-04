@@ -12,10 +12,9 @@ default_args = {
             "depends_on_past": False
         }
 
-def add(x,y):
+def add_fn(x,y):
     return x + y
 
-@task(task_id="multiply")
 def multiply_fn(x,y):
     return x * y
 
@@ -24,8 +23,13 @@ with DAG(dag_id="python_operator_sol", schedule_interval="@daily", default_args=
 
     add_task = PythonOperator(
             task_id="add",
-            python_callable=add,
+            python_callable=add_fn,
+            op_kwargs={"x": 3, "y": 4})
+
+    multiply_task = PythonOperator(
+            task_id="multiply",
+            python_callable=multiply_fn,
             op_kwargs={"x": 3, "y": 4})
 
 
-    add_task >> multiply_fn(3,4)
+    add_task >> multiply_task

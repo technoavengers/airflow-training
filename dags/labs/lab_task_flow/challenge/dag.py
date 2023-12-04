@@ -12,18 +12,16 @@ default_args = {
             "depends_on_past": False
         }
 
+#TODO Add below function as task flow API
 def add_fn(x,y):
     return x + y
 
+#TODO Add below function as task flow API
 def multiply_fn(x,y):
     return x * y
 
 
-with DAG(dag_id="python_operator", schedule_interval="@daily", default_args=default_args,tags=['assignment']) as dag:
-
-    #TODO: Add a python operator task to call "add_fn" function defined above in your pipeline
-
-    #TODO: Add a python operator task to call "multiply_fn" function defined above in your pipeline
+with DAG(dag_id="task_flow_assignment", schedule_interval="@daily", default_args=default_args,tags=['assignment']) as dag:
 
 
-    #TODO: Add dependencies as shown in assignment
+    #TODO Add dependencies
