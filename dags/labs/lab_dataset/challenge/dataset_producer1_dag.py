@@ -4,7 +4,6 @@ from airflow.decorators import task
 from datetime import datetime
 
 #TODO: Create a Dataset for a file /tmp/file1.csv
-file= Dataset("/tmp/file1.csv")
 
 with DAG (
     dag_id="dataset_producer1_sol",
