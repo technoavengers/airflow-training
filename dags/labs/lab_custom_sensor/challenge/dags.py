@@ -1,7 +1,7 @@
 import airflow
 from datetime import datetime, timedelta
 from airflow import DAG
-from labs.lab_custom_sensor.challenge.custom_file_S3_sensor import CustomFileAndS3Sensor
+from labs.lab_custom_sensor.challenge.custom_file_s3_sensor import CustomFileAndS3Sensor
 
 default_args = {
     "owner": "Airflow",

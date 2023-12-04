@@ -2,6 +2,7 @@ import os
 import psycopg2
 from airflow.sensors.base_sensor_operator import BaseSensorOperator
 from airflow.utils.decorators import apply_defaults
+from airflow.hooks.S3_hook import S3Hook
 
 class CustomFileAndS3Sensor(BaseSensorOperator):
     """
@@ -26,8 +27,9 @@ class CustomFileAndS3Sensor(BaseSensorOperator):
             self.log.info(f"File '{self.filepath}' not found.")
             return False
 
-        self.log.info(f'Checking for existence of S3 file {s3_key} in s3 bucket: {self.s3_bucket}')
+        self.log.info(f'Checking for existence of S3 file')
         s3_hook = S3Hook(aws_conn_id = self.s3_conn_id)
-        if(s3_hook.check_for_key(self.s3_bucket,self.s3_key)):
+        print(s3_hook.check_for_key(key=self.s3_key,bucket = self.s3_bucket)
+        if(s3_hook.check_for_key(key=self.s3_key,bucket = self.s3_bucket)):
             return True
         return False
