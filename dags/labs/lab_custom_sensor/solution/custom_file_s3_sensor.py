@@ -29,7 +29,7 @@ class CustomFileAndS3Sensor(BaseSensorOperator):
 
         self.log.info(f'Checking for existence of S3 file')
         s3_hook = S3Hook(aws_conn_id = self.s3_conn_id)
-        print(s3_hook.check_for_key(key=self.s3_key,bucket = self.s3_bucket)
-        if(s3_hook.check_for_key(key=self.s3_key,bucket = self.s3_bucket)):
+        print(s3_hook.check_for_key(key=self.s3_key , bucket_name = self.s3_bucket))
+        if(s3_hook.check_for_key(key=self.s3_key , bucket_name = self.s3_bucket)):
             return True
         return False
