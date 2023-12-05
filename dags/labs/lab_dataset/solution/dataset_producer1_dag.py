@@ -9,7 +9,8 @@ with DAG (
     dag_id="dataset_producer1_sol",
     schedule="@daily",
     start_date=datetime(2023,1,1),
-    catchup=False):
+    catchup=False,
+    tags=['assignment_solution']):
     
     @task(outlets=[file])
     def update_data():
