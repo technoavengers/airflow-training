@@ -16,9 +16,9 @@ def dump_table(postgres_conn,table,file,s3_connection):
      pg_hook.bulk_dump(table, file)
 
      s3_hook = S3Hook(aws_conn_id = s3_connection)
-     s3_hook.create_bucket('nav123488884')
-     s3_hook.load_file(file,"TEST","nav123488884")
+     s3_hook.create_bucket('nav12348888456')
+     s3_hook.load_file(file,"TEST","nav12348888456")
 
 
 with DAG(dag_id='hooks_sol', schedule_interval='@daily',default_args=default_args,tags=['assignment_solution']) as dag:
- dump_table('postgres_conn','dag_run','/tmp/dag_run.csv','s3_connection') 
+ dump_table('postgres','dag_run','/tmp/dag_run.csv','s3_conn') 
